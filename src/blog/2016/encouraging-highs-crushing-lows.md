@@ -61,7 +61,3 @@ I'm in no position to offer much outstanding advice about how to handle your own
 * You're really not alone. So many folks, including those you think are fabulous, have struggles.
 
 I hope we all have a 2016 that defies our expectations, and we encourage each other to be our best selves. Thanks for reading in 2015 and see you soon.
-
----
-
-As always, I encourage you to continue this conversation [via Twitter](https://twitter.com/intent/tweet?screen_name=messypixels).

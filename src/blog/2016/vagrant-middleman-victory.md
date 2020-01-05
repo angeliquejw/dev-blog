@@ -3,6 +3,7 @@ title: Vagrant + Middleman = Victory
 date: 2016-03-08
 location: San Francisco
 tags: [middleman, vagrant, react, ruby, windows]
+comments: I'd love to hear your Vagrant tips or woes.
 ---
 
 I finally conquered a technical challenge that had been stumping me for awhile. This blog runs on Middleman, which requires Ruby and a slew of other things that aren't necessary in my work dev environment (i.e., the laptop I usually take with me when I travel). This is clearly something I didn't think through when starting up this blog—clearly evidenced by the "location" metadata I set up and have filled in with "Baltimore" on all but one blog post. However, if you're reading this post and seeing "San Francisco" as my current location I can now take this show on the road, woo!
@@ -22,7 +23,3 @@ Rough steps of how I've accomplished this:
 7.  Once I was on the Vagrant machine, I switched over to my synced folder by typing `cd /vagrant`. Then I had to `bundle install` to get everything from my project's `Gemfile` up and running on the Vagrant box. After that ran, I typed `middleman s` and was in business!
 
 LiveReload still isn't working as expected, but, overall, I'm thrilled to finally have the capacity to update my blog with Vagrant and grateful to my experiences at Fluent for motivating me to finally tackle this.
-
-* * *
-
-Got Vagrant tips or woes? As always, I encourage you to continue this conversation [via Twitter](https://twitter.com/intent/tweet?screen_name=messypixels).

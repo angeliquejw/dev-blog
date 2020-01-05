@@ -3,6 +3,7 @@ title: Customizing Your Windows Command Prompt
 date: 2015-07-20
 location: Baltimore
 tags: [windows, command line, command prompt, terminal, cmder, solarized]
+comments: I'd love to know what your favorite tips are for improving your command prompt or what aliases you've added!
 ---
 
 I wrote previously about how to [set up your Windows command prompt to work better](/blog/2015/improving-your-windows-command-prompt/) and wanted to add to that ways I've customized my interface of choice ([Cmder](http://gooseberrycreative.com/cmder/) FTW) to make my command line more efficient and enjoyable for me to use.
@@ -53,7 +54,3 @@ You can also use Cmder to run PowerShell (which might be awesome), but it's not 
 You can avoid this behavior by opening up your settings (right click on the window title or type `Win+Alt+P` and specifying a named task under "Startup."
 
 ![Cmder settings](/assets/img/blog/2015/cmder-cmd.png)
-
----
-
-As always, feel free to [send comments to me via Twitter](https://twitter.com/intent/tweet?screen_name=messypixels). I'd love to know what your favorite tips are for improving your command prompt or what aliases you've added!

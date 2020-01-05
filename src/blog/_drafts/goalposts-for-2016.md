@@ -3,8 +3,7 @@ title: Goalposts for 2016
 date: 2016-01-13
 location: Baltimore
 tags: [goals, sassconf, json]
-published: false
-layout: layouts/post.njk
+footer: Let me know about your goals for 2016 (and if I can help you achieve them!) or prod me to update my goals regularly. :)
 ---
 
 As I wrapped up 2015 and meandered into 2016, I had a strong urge toward reflection and planning. While last year, I kept my goals simple<sup id="a1">[1](#f1)</sup>, this year I was inspired to revisit an idea a friend (Tasha over at [Metacookbook](http://metacookbook.com)) and I had attempted in previous years: Setting goals based on my upcoming birthday (so, in this case, 38 goals for my 38th year).
@@ -31,12 +30,6 @@ I feel writing this blog and giving talks last year helped cement my understandi
 The remainder of my goals are not specific to coding, but I know even just the challenge of writing 50 blog posts will keep me inspired in that direction. Also, inspiration comes in funny places; even just the act of setting these goals led me to figure out how to import JSON data into my Middleman site, which is where my list of goals comes from (see [here](https://github.com/angeliquejw/devj/blob/master/data/goals.json)) and could, of course, be fodder for a future blog post. Who knows what else will inspire me this year!
 
 May 2016 be full of inspiration for all of us.
-
----
-
-As always, I encourage you to continue this conversation [via Twitter](https://twitter.com/intent/tweet?screen_name=messypixels). Let me know about your goals for 2016 (and if I can help you achieve them!) or prod me to update my goals regularly. :)
-
----
 
 <ol class="footnotes">
 	<li id="f1">In 2015, I focused on becoming someone who exercises regularly, so, in this instance, I mean that my goals were clear, not necessarily that they were easy to do. <a href="#a1">↩</a></li>
