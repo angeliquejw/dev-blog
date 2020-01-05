@@ -3,7 +3,6 @@ title: Customizing Your Windows Command Prompt
 date: 2015-07-20
 location: Baltimore
 tags: [windows, command line, command prompt, terminal, cmder, solarized]
-layout: layouts/post.njk
 ---
 
 I wrote previously about how to [set up your Windows command prompt to work better](/blog/2015/improving-your-windows-command-prompt/) and wanted to add to that ways I've customized my interface of choice ([Cmder](http://gooseberrycreative.com/cmder/) FTW) to make my command line more efficient and enjoyable for me to use.

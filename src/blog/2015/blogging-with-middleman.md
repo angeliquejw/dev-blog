@@ -3,7 +3,6 @@ title: Blogging with Middleman
 date: 2015-05-16
 tags: [ruby, rails, middleman]
 location: Baltimore
-layout: layouts/post.njk
 ---
 
 True story: I wrote my first lines of Ruby in February and used that wee bit of knowledge that to motivate myself to start this blog using a Ruby-on-Rails-based static site generator ([Middleman](https://middlemanapp.com/) FTW!) and used **that** experience to give a talk to the [Bmore on Rails](http://bmoreonrails.org/) meetup...46 days after I wrote those first few lines of Ruby.

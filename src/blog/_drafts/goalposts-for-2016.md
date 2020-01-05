@@ -32,11 +32,11 @@ The remainder of my goals are not specific to coding, but I know even just the c
 
 May 2016 be full of inspiration for all of us.
 
---- />
+---
 
 As always, I encourage you to continue this conversation [via Twitter](https://twitter.com/intent/tweet?screen_name=messypixels). Let me know about your goals for 2016 (and if I can help you achieve them!) or prod me to update my goals regularly. :)
 
---- />
+---
 
 <ol class="footnotes">
 	<li id="f1">In 2015, I focused on becoming someone who exercises regularly, so, in this instance, I mean that my goals were clear, not necessarily that they were easy to do. <a href="#a1">↩</a></li>

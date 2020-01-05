@@ -3,7 +3,6 @@ title: Works Well With Others
 date: 2017-07-25
 tags: [teams, empathy, safe space, communication, values, culture, tech culture, elm]
 location: Baltimore
-layout: layouts/post.njk
 ---
 
 I've been thinking a lot about teams and, based on my own lucky experiences, what makes them work well. I've been at Fractured Atlas for almost three months now and am legitimately delighted at how quickly and easily I gelled with my new team. The one thing I keep coming back to when trying to describe why I've been able to connect so quickly and accomplish so much is this: Safety.

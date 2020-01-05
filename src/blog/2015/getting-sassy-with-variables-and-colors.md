@@ -3,7 +3,6 @@ title: Getting Sassy with variables and colors
 date: 2015-05-22
 tags: [sass, styles, variables, colors]
 location: Baltimore
-layout: layouts/post.njk
 ---
 
 Back in the days when I was still intimidated by the command line, the lure of variables convinced me to figure out how to start using Sass in my projects. Just like I no longer memorize phone numbers because they're all pre-programmed into my cell phone, I also don't have to memorize the hex values of brand colors or entire web project color palettes due to the awesomeness of Sass.
