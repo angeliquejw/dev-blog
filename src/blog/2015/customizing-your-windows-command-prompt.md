@@ -27,7 +27,7 @@ You'll see the alias above uses shortened names of the directories "Program File
 `dir /x "C:/" `
 This will list all the files in that directory by their shorthand names! To find the shorthand for the Sublime Text directory, you would then type 
 `dir /x "C:/Program Files/" `
-{: .noteCntd}
+{: .note--continued}
 
 Now, when I type `subl newentry.md` in Cmder, Sublime Text opens up with a Markdown file titled "newentry." If `newentry.md` doesn't already exist, this command creates the file (but it's not saved until I save within Sublime Text). Essentially, I can easily open files to edit them *and* combine creating and opening a file into one action.
 

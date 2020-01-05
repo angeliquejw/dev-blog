@@ -51,7 +51,7 @@ I'm assuming you already have Ruby on your system. I think this is generally tru
 {: .note}
 
 Don't know if you have Ruby installed? Type `ruby -v` at the command line. If Ruby is installed in your system, you should get a little message about which version of Ruby you're running.
-{: .noteCntd}
+{: .note--continued}
 
 <div class="embed-container giphy">
     <iframe src="//giphy.com/embed/PuWNMebKGIKNG?html5=true" width="480" height="270" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
@@ -119,7 +119,7 @@ gem 'tzinfo-data', platforms: [:x64_mingw,:mingw, :mswin]
 ```
 
 Then, back at the command line, run `bundle install` to add that gem to the project; boot up `middleman s` again and you should be in business. (If you want to know more about this time zone error, you can read [this GitHub thread about resolving the issue in Middleman Core](https://github.com/middleman/middleman/issues/1097).)
-{: .noteCntd}
+{: .note--continued}
 
 ## That's It!
 

@@ -16,9 +16,7 @@ Thankfully, there's more interesting things to read out there other than the doc
 If you like learning and connecting in person, there's [Camp Sass](http://campsass.com/) in the spring and [SassConf](http://sassconf.com/) in the fall. Some cities (like [DC](https://twitter.com/DCSassMeetup)) have Sass-focused meetups, and you can also look on [Meetup](http://meetup.com) for general web dev/design groups that might feature Sass talks.
 
 [![CampSass](/assets/img/blog/2015/campsass.png)](http://campsass.com/)
-{: .halfWidth}
 [![SassConf](/assets/img/blog/2015/sassconf.png)](http://sassconf.com/)
-{: .halfWidth}
 
 ## Libraries, grids &amp; more
 There's a wealth of resources out there for making your already awesome and efficient Sass even better. I use [Bourbon](http://bourbon.io/), a mixin library, in almost all my projects, as it's lightweight, allows me to avoid handcoding vendor prefixes (`@include display(flex)` and `@include placeholder` FTW) and just allows for simpler, cleaner code (like `@include clearfix` and `#{$all-text-inputs}`).
