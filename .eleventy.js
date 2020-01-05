@@ -43,6 +43,7 @@ module.exports = function (eleventyConfig) {
   const markdownIt = require("markdown-it");
   const markdownItAnchor = require("markdown-it-anchor");
   const markdownItAbbr = require("markdown-it-abbr");
+  const markdownItCodePen = require("markdown-it-code-embed");
 
   let markdownOptions = {
     html: true,
@@ -57,6 +58,9 @@ module.exports = function (eleventyConfig) {
     permalinkSymbol: "#"
   });
   markdownEngine.use(markdownItAbbr);
+  markdownEngine.use(markdownItCodePen, {
+    user: "angeliquejw"
+  });
   eleventyConfig.setLibrary("md", markdownEngine);
 
   // Browsersync Overrides
