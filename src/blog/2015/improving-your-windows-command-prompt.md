@@ -1,8 +1,8 @@
 ---
 title: Improving Your Windows Command Prompt
+tags: [windows, command line, command prompt, terminal, cmder, cygwin, powershell]
 date: 2015-07-16
 location: Baltimore
-tags: [windows, command line, command prompt, terminal, cmder, cygwin, powershell]
 comments: I'd love to know if you use an alternative program for the Windows command prompt and what your favorite tips are for improving your command prompt!
 ---
 

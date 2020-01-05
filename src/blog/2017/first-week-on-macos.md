@@ -1,8 +1,8 @@
 ---
 title: First week on macOS
+tags: [mac, first, apps, software, resources]
 date: 2017-05-21
 location: Baltimore
-tags: [mac, first, apps, software, resources]
 comments: Let me know what Mac apps you love or what customizations/settings make your life easier.
 ---
 

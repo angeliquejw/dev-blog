@@ -1,8 +1,8 @@
 ---
 title: Naming Your Color Variables
+tags: [sass, variables, colors]
 date: 2015-06-02
 location: Detroit
-tags: [sass, variables, colors]
 comments: I hope this has provided some food for thought about how to name your color variables. Got a better solution? I'd love to hear all about it!
 ---
 

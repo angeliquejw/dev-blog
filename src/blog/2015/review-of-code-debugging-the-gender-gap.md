@@ -1,8 +1,8 @@
 ---
 title: "Review of Code: Debugging the Gender Gap"
+tags: [documentary, gender gap, women in tech, diversity, computer science, tech culture]
 date: 2015-07-13
 location: Baltimore
-tags: [documentary, gender gap, women in tech, diversity, computer science, tech culture]
 ---
 
 There's been enough coverage in the last year, that most folks accept tech has a diversity problem. The documentary <strong><em>Code: Debugging the Gender Gap</em></strong> looks at this issue<sup id="return-fn1"><a href="#fn1">1</a></sup>, it's history, causes and impact.

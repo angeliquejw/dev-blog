@@ -1,8 +1,8 @@
 ---
 title: Sass Resources for Web Designers and Front-end Developers
+tags: [sass, links, resources]
 date: 2015-06-16
 location: Baltimore
-tags: [sass, links, resources]
 comments: What Sass resources are most useful to you?
 ---
 
