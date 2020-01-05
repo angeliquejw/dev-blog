@@ -1,5 +1,5 @@
 ---
-layout: layouts/base.njk
+layout: layouts/default.njk
 templateClass: tmpl-post
 ---
 <h1>{{ title }}</h1>
@@ -16,7 +16,7 @@ templateClass: tmpl-post
     <ul>
     {% for tag in tags %}
       {%- if collections.tagList.indexOf(tag) != -1 -%}
-      {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+      {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
       <a href="{{ tagUrl | url }}">{{ tag }}</a>
       {%- endif -%}
     {% endfor %}
@@ -38,3 +38,7 @@ templateClass: tmpl-post
   {% endif %}
   </ol>
 </nav>
+
+<footer>
+  {% include "bio.njk" %}
+</footer>
