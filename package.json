@@ -2,9 +2,13 @@
   "name": "angeliqueweger.com",
   "version": "2.0.0",
   "scripts": {
-    "build": "eleventy",
-    "watch": "eleventy --watch",
-    "serve": "eleventy --serve",
+    "clean": "rm -rf _site && rm -rf .cache && rm -rf _build",
+    "start": "npm-run-all --parallel dev:*",
+    "dev:eleventy": "ELEVENTY_ENV=development eleventy --serve",
+    "dev:parcel": "parcel watch src/assets/img/* src/assets/styles/styles.scss src/assets/scripts/index.js --out-dir _site/assets",
+    "build": "run-s clean prod:*",
+    "prod:eleventy": "ELEVENTY_ENV=production eleventy --output=./_build",
+    "prod:parcel": "parcel build src/assets/img/* src/assets/styles/styles.scss src/assets/scripts/index.js --out-dir _build/assets",
     "debug": "DEBUG=* eleventy"
   },
   "repository": {
@@ -23,6 +27,8 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
     "luxon": "^1.21.3",
     "markdown-it": "^8.4.2",
-    "markdown-it-anchor": "^5.2.5"
+    "markdown-it-anchor": "^5.2.5",
+    "npm-run-all": "^4.1.5",
+    "parcel-bundler": "^1.12.4",
   }
 }
