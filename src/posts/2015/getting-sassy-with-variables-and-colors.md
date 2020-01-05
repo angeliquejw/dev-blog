@@ -56,7 +56,9 @@ $base: #D4E744;
 ```
 
 <div class="embed-container">
-<p data-height="210" data-theme-id="15346" data-slug-hash="BNLrLQ" data-default-tab="result" data-user="angeliquejw" class="codepen">See the Pen <a href='http://codepen.io/angeliquejw/pen/BNLrLQ/'>Color Fun With Sass (2 of 4)</a> by Angelique (<a href='http://codepen.io/angeliquejw'>@angeliquejw</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+
+@[codepen](BNLrLQ)
+
 </div>
 
 You can also use Sass to generate RGB or RGBa values for colors, like so
@@ -72,7 +74,9 @@ background: rgba(212, 231, 68, 0.5);
 ```
 
 <div class="embed-container">
-<p data-height="175" data-theme-id="15346" data-slug-hash="bdwvwq" data-default-tab="result" data-user="angeliquejw" class="codepen">See the Pen <a href='http://codepen.io/angeliquejw/pen/bdwvwq/'>Color Fun With Sass (3 of 4)</a> by Angelique (<a href='http://codepen.io/angeliquejw'>@angeliquejw</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+
+@[codepen](bdwvwq)
+
 </div>
 
 This isn't earth-shattering stuff, but it just simply helps you write more efficiently and with fewer interruptions. Before converting to Sass, if I wanted to use a RGBa color in my stylesheet, I had to either Google for a hex-to-RGB converter or crack open PhotoShop. Sass allows me to stay in my code editor or IDE and just write code. Also, it saves me potential headaches down the road; if I ever need to change the hex value of `$base`, I only have to do so in one place---where I declared the variable. Before Sass, I would have had to run a search and replace on my stylesheet for each instance of `#D4E744` and probably would have missed the RGB version of that same color.
@@ -102,13 +106,17 @@ While these are the color functions I use most often in Sass, they're not the on
 ```
 
 <div class="embed-container">
-<p data-height="360" data-theme-id="15346" data-slug-hash="oXzqXO" data-default-tab="result" data-user="angeliquejw" class="codepen">See the Pen <a href='http://codepen.io/angeliquejw/pen/oXzqXO/'>Color Fun With Sass (1 of 4)</a> by Angelique (<a href='http://codepen.io/angeliquejw'>@angeliquejw</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+
+@[codepen](oXzqXO)
+
 </div>
 
 You can also use Sass to saturate and desaturate colors, as well as generate greyscale and inverted colors:
 
 <div class="embed-container">
-<p data-height="210" data-theme-id="15346" data-slug-hash="QbKmKM" data-default-tab="result" data-user="angeliquejw" class="codepen">See the Pen <a href='http://codepen.io/angeliquejw/pen/QbKmKM/'>Color Fun With Sass (4 of 4)</a> by Angelique (<a href='http://codepen.io/angeliquejw'>@angeliquejw</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+
+@[codepen](QbKmKM)
+
 </div>
 
 ## More complex Sass color functions
@@ -129,7 +137,9 @@ Depending on how much programming experience you have before jumping into Sass, 
 My own recent contribution was re-configuring some code I wrote two years ago to be easier to fork and reuse. My original intent was to create a handy guide to what colors looked like after being lightened or darkened using Sass functions, including when light and dark text became illegible on the resulting colors. While my [original attempt](http://codepen.io/angeliquejw/details/BgrIs/) accomplished this, reusing the code was a fiddly affair. To change a single color in that palette, I had to update seven different values; to change the percent of a tint (say, to lighten and darken colors by 15% instead of 10%), I had to change four values *per color* in the HTML and two in the CSS. In comparison, my new version only requires 5 values to be updated when colors are swapped and 2 *total* values when changing or adding a percent value. (Honestly, I think even those numbers can be improved, so there may yet be a version 3!)
 
 <div class="embed-container">
-<p data-height="710" data-theme-id="15346" data-slug-hash="ZGpORV" data-default-tab="result" data-user="angeliquejw" class="codepen">See the Pen <a href='http://codepen.io/angeliquejw/pen/ZGpORV/'>Palette Viewer and Tint Generator v2.0</a> by Angelique (<a href='http://codepen.io/angeliquejw'>@angeliquejw</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+
+@[codepen](ZGpORV)
+
 </div>
 
 One of the awesome realizations I had in re-configuring this code was how smarter Sass actually also resulted in cleaner markup. My HTML for one row of colors before:
@@ -195,4 +205,4 @@ As always, feel free to [send comments to me via Twitter](https://twitter.com/in
 *[HTML]: Hypertext Markup Language; a basic building block of web pages
 *[IDE]: Integrated Developer Environment; essentially, an all-in-one solution for your code editor, compiler, version control, etc.
 <script src="http://cdn.sassmeister.com/js/embed.js" async></script>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+<script async src="//production-assets.codepen.io/assets/embed/ei.js"></script>
