@@ -41,8 +41,9 @@ module.exports = function (eleventyConfig) {
 
   /* Markdown Overrides */
   const markdownIt = require("markdown-it");
-  const markdownItAnchor = require("markdown-it-anchor");
   const markdownItAbbr = require("markdown-it-abbr");
+  const markdownItAnchor = require("markdown-it-anchor");
+  const markdownItAttr = require("markdown-it-attrs");
   const markdownItCodePen = require("markdown-it-code-embed");
 
   let markdownOptions = {
@@ -52,12 +53,16 @@ module.exports = function (eleventyConfig) {
   }
 
   const markdownEngine = markdownIt(markdownOptions);
+  markdownEngine.use(markdownItAbbr);
   markdownEngine.use(markdownItAnchor, {
     permalink: true,
     permalinkClass: "direct-link",
     permalinkSymbol: "#"
   });
-  markdownEngine.use(markdownItAbbr);
+  markdownEngine.use(markdownItAttr, {
+    // optional, these are default options
+    leftDelimiter: '{:',
+  });
   markdownEngine.use(markdownItCodePen, {
     user: "angeliquejw"
   });
