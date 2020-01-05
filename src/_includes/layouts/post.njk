@@ -24,4 +24,17 @@ templateClass: tmpl-post
   </p>
 </div>
 
-<p><a href="{{ '/' | url }}">← Home</a></p>
+<nav>
+  <ol>
+   {% if nextPost.url %}
+    <li>
+      <a class="next" href="{{ nextPost.url }}">Next Post</a>
+    </li>
+  {% endif %}
+  {% if prevPost.url %}
+    <li>
+      <a class="previous" href="{{ prevPost.url }}">Previous Post</a>
+    </li>
+  {% endif %}
+  </ol>
+</nav>
