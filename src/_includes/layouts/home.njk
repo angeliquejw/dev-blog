@@ -2,4 +2,7 @@
 layout: layouts/base.njk
 templateClass: tmpl-home
 ---
-{{ content | safe }}
+
+<main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
+  {{ content | safe }}
+</main>
