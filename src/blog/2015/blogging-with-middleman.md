@@ -1,8 +1,9 @@
 ---
 title: Blogging with Middleman
 date: 2015-05-16
-tags: [ruby, rails, middleman]
 location: Baltimore
+tags: [ruby, rails, middleman]
+comments: Unless you're just going to hassle me for being a Windows user. <div class="embed-container giphy"><iframe src="//giphy.com/embed/DxGNe8DKWpHz2?html5=true" width="480" height="205" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
 ---
 
 True story: I wrote my first lines of Ruby in February and used that wee bit of knowledge that to motivate myself to start this blog using a Ruby-on-Rails-based static site generator ([Middleman](https://middlemanapp.com/) FTW!) and used **that** experience to give a talk to the [Bmore on Rails](http://bmoreonrails.org/) meetup...46 days after I wrote those first few lines of Ruby.
@@ -146,14 +147,6 @@ To display that data in my article templates is also super easy:
 ```
 
 I'll document more about customizing Middleman as I develop this blog and use it on other projects, but hopefully this is enough to get some folks interested and rolling.
-
----
-
-As always, feel free to [send comments to me via Twitter](https://twitter.com/intent/tweet?screen_name=messypixels). Unless you're just going to hassle me for being a Windows user.
-
-<div class="embed-container giphy">
-    <iframe src="//giphy.com/embed/DxGNe8DKWpHz2?html5=true" width="480" height="205" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-</div>
 
 *[CMS]: Content Management System, like blogging software
 *[CSS]: Cascading Stylesheets

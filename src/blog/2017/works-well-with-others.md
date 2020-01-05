@@ -40,7 +40,4 @@ I'm grateful for this amazing experience and for the team members who have estab
 <iframe src="https://giphy.com/embed/e1BxgoFxAOmbK" width="480" height="392" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/woman-weekend-wonder-e1BxgoFxAOmbK">via GIPHY</a></p>
 </div>
 
-* * *
-
-As always, feel free to [send comments to me via Twitter](https://twitter.com/intent/tweet?screen_name=messypixels) about your experiences with teams and company culture.
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

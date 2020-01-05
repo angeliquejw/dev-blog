@@ -3,7 +3,9 @@ title: Naming Your Color Variables
 date: 2015-06-02
 location: Detroit
 tags: [sass, variables, colors]
+comments: I hope this has provided some food for thought about how to name your color variables. Got a better solution? I'd love to hear all about it!
 ---
+
 Using variables for colors is awesome; naming those variables can be&hellip;complicated. I've worked through a few different methodologies and wanted to share a bit about what I've learned along the way.
 
 <div class="embed-container giphy">
@@ -201,10 +203,6 @@ $color-graydk: $color-greydk;
 ```
 
 Your personal hang up might be forgetting if you named a color purple or violet. Whatever it is, you can build in a variable to CYA (and, of course, do some clean up before going to production with your styles).
-
----
-
-I hope this has provided some food for thought about how to name your color variables. As always, feel free to [send comments to me via Twitter](https://twitter.com/intent/tweet?screen_name=messypixels). Got a better solution? I'd love to hear all about it!
 
 *[CSS]: Cascading Stylesheets
 *[CYA]: Cover Yr Arse

@@ -3,6 +3,7 @@ title: Sass Resources for Web Designers and Front-end Developers
 date: 2015-06-16
 location: Baltimore
 tags: [sass, links, resources]
+comments: What Sass resources are most useful to you?
 ---
 
 If you've decided Sass is snazzy and want to learn more, I've gathered up some links I've found useful and hope you do, too.
@@ -43,7 +44,3 @@ Once you have a neat idea or some code, it's helpful to have a place to play wit
 
 [![Sassmeister](/assets/img/blog/2015/sassmeister.png)](http://sassmeister.com/)
 [![CodePen](/assets/img/blog/2015/codepen.png)](http://codepen.io/)
-
----
-
-As always, feel free to [send comments to me via Twitter](https://twitter.com/intent/tweet?screen_name=messypixels). What Sass resources are most useful to you?

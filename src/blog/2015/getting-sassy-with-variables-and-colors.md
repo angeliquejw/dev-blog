@@ -1,8 +1,9 @@
 ---
 title: Getting Sassy with variables and colors
 date: 2015-05-22
-tags: [sass, styles, variables, colors]
 location: Baltimore
+tags: [sass, styles, variables, colors]
+comments: I'd love to see what awesome Sass stuff you've created!
 ---
 
 Back in the days when I was still intimidated by the command line, the lure of variables convinced me to figure out how to start using Sass in my projects. Just like I no longer memorize phone numbers because they're all pre-programmed into my cell phone, I also don't have to memorize the hex values of brand colors or entire web project color palettes due to the awesomeness of Sass.
@@ -195,10 +196,6 @@ Not all projects require or benefit from complex color functions like these exam
 <div class="embed-container giphy">
   <iframe src="//giphy.com/embed/TfeXX34FFOoSI?html5=true" width="480" height="209" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 </div>
-
----
-
-As always, feel free to [send comments to me via Twitter](https://twitter.com/intent/tweet?screen_name=messypixels). I'd love to see what awesome Sass stuff you've created!
 
 *[CSS]: Cascading Stylesheets
 *[HTML]: Hypertext Markup Language; a basic building block of web pages
