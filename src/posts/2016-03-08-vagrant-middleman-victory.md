@@ -1,8 +1,9 @@
 ---
 title: Vagrant + Middleman = Victory
-date: 2016-03-08 15:00 PST
+date: 2016-03-08
 location: San Francisco
-tags: middleman, vagrant, react, ruby, windows
+tags: [middleman, vagrant, react, ruby, windows]
+layout: layouts/post.njk
 ---
 
 I finally conquered a technical challenge that had been stumping me for awhile. This blog runs on Middleman, which requires Ruby and a slew of other things that aren't necessary in my work dev environment (i.e., the laptop I usually take with me when I travel). This is clearly something I didn't think through when starting up this blog—clearly evidenced by the "location" metadata I set up and have filled in with "Baltimore" on all but one blog post. However, if you're reading this post and seeing "San Francisco" as my current location I can now take this show on the road, woo!

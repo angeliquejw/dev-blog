@@ -1,8 +1,9 @@
 ---
 title: Mission Statement
-date: 2015-05-13 20:03 EST
-tags: first, women in tech
+date: 2015-05-13
+tags: [first, women in tech]
 location: Baltimore
+layout: layouts/post.njk
 ---
 
 I don't follow all the advice I receive via social media and blogs (because, oh, what a surreal life I would lead then!), but a blog by Garann Means found its way to my Twitterstream via [Andy Mangold](https://twitter.com/andymangold/status/378710598433112064), and it is pretty much why this blog exists. Because I have been out here adapting, writing and honing code since my first Geocities (yup!) site in 1996. And I have written many, many, many things online since that time, but I've spent pretty much zero time writing about code or development or design. I knew I would benefit from thinking and writing about code, but&hellip;eh, who has the time? Garann made me see a greater purpose to having a technical blog:

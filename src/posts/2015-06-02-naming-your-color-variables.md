@@ -1,8 +1,9 @@
 ---
 title: Naming Your Color Variables
-date: 2015-06-02 13:43 EST
+date: 2015-06-02
 location: Detroit
-tags: sass, variables, colors
+tags: [sass, variables, colors]
+layout: layouts/post.njk
 ---
 Using variables for colors is awesome; naming those variables can be&hellip;complicated. I've worked through a few different methodologies and wanted to share a bit about what I've learned along the way.
 
@@ -13,17 +14,17 @@ Using variables for colors is awesome; naming those variables can be&hellip;comp
 Need an into to *WHY* colors and Sass are awesome? I wrote about this and gave some examples in [a previous post](http://angeliqueweger.com/journal/2015/05/getting-sassy-with-variables-and-colors/).
 {: .note}
 
-##Why Name Colors
+## Why Name Colors
 Regardless of what system you use, the goal is usually the same: To make it easier to remember and manipulate the main colors in your site's palette. When I was just using straight CSS, that usually meant doing something like this at the top of my stylesheet:
 
-~~~css
+```css
 /*
 =COLOR PALETTE
 - dark grey #333
 - grey #666
 - blue #00c9ff
 */
-~~~
+```
 
 Without a master colors list like this, your color variations can easily get out of hand. This goes extra for if you're just working directly from a mockup and don't have a brand or project file to refer to. I once received a mockup that had 14 different variations on blue and grey; by taking the time to identify and list the colors, I was able to actually cut our palette down to a more reasonable 8 colors. This both makes us more intentional about how we're using color and simplifies our code, which makes me happy.
 
@@ -33,7 +34,7 @@ Without a master colors list like this, your color variations can easily get out
 
 Once you have your palette, whether it has 8, 14 or more colors, you have to figure out how you're going to refer to them.
 
-###The CSS Way
+### The CSS Way
 Here, in general, you don't have a lot of choices. Mainly, you have to decide what kind of color notation you'll use:
 * Hexadecimal <code>#c0c0c0</code>
 * HSL <code>hsl(0, 0%, 75%)</code>
@@ -42,7 +43,7 @@ Here, in general, you don't have a lot of choices. Mainly, you have to decide wh
 
 The rest of my examples will use hexadecimal notation, but HSL and RGB are also valid choices; while using keywords feels easy, the implementation of those colors can vary by browsers and, therefore, isn't recommended beyond "black" or "white."
 
-~~~css
+```css
 .myClass {
     background-color:#00c9ff;
 }
@@ -52,17 +53,17 @@ The rest of my examples will use hexadecimal notation, but HSL and RGB are also 
 .myClass a:hover {
     color:#333;
 }
-~~~
+```
 
 This is familiar and, no doubt, works. However, I found I often had to refer back to my color palette to keep straight which were the light and dark variations.
 
-###The Sass way
+### The Sass way
 Sass allows us to use variables to make these color codes easier to remember and use. There are several common ways of naming these variables.
 
-####Color Names
+#### Color Names
 Using your own creativity or leaning on [Name That Color](http://chir.ag/projects/name-that-color/#00ACF1), you can assign recognizable names to the color variables, like so:
 
-~~~scss
+```scss
 //COLOR PALETTE
 $color-greydk: #333;
 $color-grey: #666;
@@ -77,17 +78,17 @@ $color-blue: #00c9ff;
         }
     }
 }
-~~~
+```
 
 This method can be frustrating when a color needs to be replaced entirely (e.g., the color you've named `$color-bluedk` now needs to be `#ff69b4` and you're stuck with either replacing the hex and having a variable name that now makes no sense (hint: don't do this) or replacing all instances of `$color-bluedk` with a new variable like `$color-hotpink`).
 
 As in the example above, I opt to prefix my color names with `color-` because this makes all my color variables show up in my text editor's autocomplete feature.
 {: .note }
 
-####Functional Names
+#### Functional Names
 One way of avoiding this switcheroo is to instead name things based on the function of the color, like so:
 
-~~~scss
+```scss
 //COLOR PALETTE
 $color-background: #00c9ff;
 $color-link-hover: #333;
@@ -102,11 +103,11 @@ $color-link: #666;
         }
     }
 }
-~~~
+```
 
 While wordy, this feels like a very clear way to organize things and easy for others to pick up on. And, if you have to change any of the colors, the function stays the same&hellip;so, problem solved? Unfortunately, no. The moment you find yourself wanting to use one of these colors in a different situation, you'll see how this system also has its faults:
 
-~~~scss
+```scss
 .myClass {
     background-color:$color-background;
     border-color:$color-link; // WUT IS HAPPENING
@@ -117,14 +118,14 @@ While wordy, this feels like a very clear way to organize things and easy for ot
         }
     }
 }
-~~~
+```
 
 This clear system no longer makes sense. There's gotta be a better way, right?
 
-####The Hybrid Naming System
+#### The Hybrid Naming System
 By combining the color and functional naming systems, you can avoid the problems of both:
 
-~~~scss
+```scss
 //COLOR PALETTE
 $greydk: #333;
 $grey: #666;
@@ -146,7 +147,7 @@ $color-link: $grey;
         }
     }
 }
-~~~
+```
 
 Now, if your blue gets swapped for pink, you only have to create a new variable and update the functional color variables that rely on it. And, when you need to use a color in a new way, you just create a new variable. So&hellip;problem solved?
 
@@ -184,21 +185,21 @@ Personally, I still do this because the second "truth" innit even remarkably tru
 ### When to create a variable
 How do you decide when to hard code a color and when to create a variable? Dan Denney asked this question via Twitter and [posted the responses](http://dandenney.com/posts/front-end-dev/sass-color-variable-pop-quiz), which makes for interesting reading and also provides more info about how different folks name their variables. For me, the answer used to be that I'd create a variable around the second or third use of a color. Today, it's more likely that I'll create a variable on the first use and, if the color happens to only be used in one spot, use that as an excuse to evaluate how necessary that color is. Using variables consistently throughout my project forces me to rely on my palette (or variations thereof) and not make up new colors on the spot, which I also feel is a good practice.
 
-###Plan for sloppiness
+### Plan for sloppiness
 I work on a lot of projects that involve many, many shades of grey (see earlier example), and I remain wildly inconsistent about whether I type gray or grey in any given instance. While this is something I always try to clean up before a major push goes to production, in the regular writing of code, I don't really want to be slowed down because my compiler threw an error because `$color-grey` doesn't exist but `$color-gray` does. Simple solution? Decide on one implementation of the spelling of grey and make variables to cover up my sloppiness:
 
-~~~scss
+```scss
 $color-grey:#bbb;
 $color-greyli:#ddd;
 $color-greydk:#333;
 $color-gray: $color-grey;
 $color-grayli: $color-greyli;
 $color-graydk: $color-greydk;
-~~~
+```
 
 Your personal hang up might be forgetting if you named a color purple or violet. Whatever it is, you can build in a variable to CYA (and, of course, do some clean up before going to production with your styles).
 
-<hr />
+---
 
 I hope this has provided some food for thought about how to name your color variables. As always, feel free to [send comments to me via Twitter](https://twitter.com/intent/tweet?screen_name=messypixels). Got a better solution? I'd love to hear all about it!
 
