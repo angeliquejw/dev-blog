@@ -36,7 +36,7 @@ Something the film drove home for me, specifically, was the actual nuts and bolt
 
 <blockquote>By the year 2020, there are going to be 1 million unfilled computer engineering jobs in the U.S. We can’t fill the spots if we’re only filling from half of the population. It’s a great opportunity for women. We have all these jobs, and we need more people to fill them. It’s the same thing with people of color. There are jobs, let’s go!</blockquote>
 
-![1 million computer science jobs for 400,000 students](/journal/2015-07-13-review-of-code-debugging-the-gender-gap/cs-jobs-vs-students.png)
+![1 million computer science jobs for 400,000 students](/assets/img/blog/2015/cs-jobs-vs-students.png)
 {: .embed-container}
 <cite>Infographic by Code.org; [see full image](https://code.org/stats)</cite>
 

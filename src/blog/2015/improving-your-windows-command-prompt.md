@@ -8,7 +8,7 @@ layout: layouts/post.njk
 
 When I started using Git and later learning Ruby, the command line became a place I hung out regularly. Being a Windows user, there were some early frustrations because many of the commands referred to in tutorials and walkthroughs weren't available to me, e.g. `pwd`, `touch`, `sudo`. Since OSX, the Apple OS has been built on top of Unix, Mac users are able to open up Terminal and use the same commands as Unix users, but the same is not true of a basic Windows install.
 
-![Denied](/journal/2015-07-16-improving-your-windows-command-prompt/no-dice.png)
+![Denied](/assets/img/blog/2015/no-dice.png)
 
 <div class="embed-container giphy">
     <iframe src="//giphy.com/embed/hQY7rPlW3Vc3K?html5=true" width="480" height="281" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
@@ -31,11 +31,11 @@ This will give you [some](http://www.covingtoninnovations.com/mc/winforunix.html
 ## Switch to PowerShell
 Starting with Windows 7, there's a more powerful option to the default command prompt: PowerShell. PowerShell exposes some Windows admin stuff that you can't get to via the command prompt and also includes some of the *nix shell commands, like `pwd` and `ls`.
 
-![PWD works in PowerShell](/journal/2015-07-16-improving-your-windows-command-prompt/ps-pwd-yay.png)
+![PWD works in PowerShell](/assets/img/blog/2015/ps-pwd-yay.png)
 
 Of course, I did say *some*&hellip;
 
-![Touch doesn't work in PowerShell](/journal/2015-07-16-improving-your-windows-command-prompt/ps-touch-boo.png)
+![Touch doesn't work in PowerShell](/assets/img/blog/2015/ps-touch-boo.png)
 
 I actually discovered PowerShell after I already dove into some other solutions, so I haven't spent a lot of time using it. If you think PowerShell may be for you or just want to learn more, How to Geek has a good post outlining [how PowerShell differs from the command prompt](http://www.howtogeek.com/163127/how-powershell-differs-from-the-windows-command-prompt/) and a [GeekSchool series devoted to PowerShell](http://www.howtogeek.com/137803/geek-school-learn-how-to-automate-windows-with-powershell/).
 
@@ -66,7 +66,7 @@ It's worth noting here that I'm sure Cygwin does things Cmder does not; in fact,
 
 Cmder is built on top of [ConEmu](http://conemu.github.io/) and is a quick and painless install (I recommend the full vs the mini install, as it gets you Git, too). Compared to Cygwin, it is much easier to get up and running, with fewer complications and choices. The full version of Cmder gives you all Unix commands, including `pwd` and `touch`.
 
-![Cmder is rad](/journal/2015-07-16-improving-your-windows-command-prompt/cmder-yay.png)
+![Cmder is rad](/assets/img/blog/2015/cmder-yay.png)
 
 After all these changes, you should have a fairly awesome Windows command line that won't frustrate you, won't let you down and will, in fact, empower you to code better.
 
