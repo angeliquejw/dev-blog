@@ -1,8 +1,11 @@
 <footer>
   <a href="#top">Top</a>
+  {%- if templateClass == "tmpl-home" %}
+  Logo
+  {%- endif %}
   <ul>
     <li>v0.2 Build Info</li>
-    <li>&copy; 2015- Ang&eacute;lique Weger</li>
+    <li>&copy; 2015-<script>document.write(new Date().getFullYear());</script> Ang&eacute;lique Weger</li>
     <li>Site powered by <a href="" target="_blank">Eleventy.js</a> [ <a href="" target="_blank">repo</a> ]</li>
     <li>Fonts used: Barlow, IBM Plex Mono, Recursive Sans</li>
     <li><a href="http://madewithloveinbaltimore.org">Made with &hearts; in Baltimore</a></li>
