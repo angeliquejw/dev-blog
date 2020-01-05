@@ -2,7 +2,8 @@
 title: "Review of Code: Debugging the Gender Gap"
 date: 2015-07-13
 location: Baltimore
-tags: documentary, gender gap, women in tech, diversity, computer science, tech culture
+tags: [documentary, gender gap, women in tech, diversity, computer science, tech culture]
+layout: layouts/post.njk
 ---
 
 There's been enough coverage in the last year, that most folks accept tech has a diversity problem. The documentary <strong><em>Code: Debugging the Gender Gap</em></strong> looks at this issue<sup id="return-fn1"><a href="#fn1">1</a></sup>, it's history, causes and impact.
@@ -48,7 +49,7 @@ While some of this info was eye-opening and new to me, the overall themes of <st
 
 Overall, I would recommend the documentary to those interested in an overview about the issues women in tech face. I hope we have an opportunity to have a screening here in Baltimore for the women in tech and Girl Develop It communities. As always, feel free to [send comments to me via Twitter](https://twitter.com/intent/tweet?screen_name=messypixels) about this review or suggestions for new blog posts.
 
-<hr>
+---
 <ol>
     <li id="fn1">The film, obvously, focuses on the lack of gender diversity in tech. Other diversity issues&mdash;ethnic, socio-economic&mdash;are discussed and some of the things that keep women out of tech&mdash;lack of role models, toxic culture&mdash;affect these other groups, too. <a href="#return-fn1">&#x2934;</a></li>
     <li id="fn2">Sources for CS education stats: <a href="https://code.org/stats">https://code.org/stats</a>, <a href="http://www.computinginthecore.org/facts-resources">http://www.computinginthecore.org/facts-resources</a>, <a href="http://www.exploringcs.org/resources/cs-statistics">http://www.exploringcs.org/resources/cs-statistics</a>. <a href="#return-fn2">&#x2934;</a></li>

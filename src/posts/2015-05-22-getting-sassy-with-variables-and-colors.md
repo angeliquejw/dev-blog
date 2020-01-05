@@ -1,24 +1,25 @@
 ---
 title: Getting Sassy with variables and colors
-date: 2015-05-22 05:13 EST
-tags: sass, styles, variables, colors
+date: 2015-05-22
+tags: [sass, styles, variables, colors]
 location: Baltimore
+layout: layouts/post.njk
 ---
 
 Back in the days when I was still intimidated by the command line, the lure of variables convinced me to figure out how to start using Sass in my projects. Just like I no longer memorize phone numbers because they're all pre-programmed into my cell phone, I also don't have to memorize the hex values of brand colors or entire web project color palettes due to the awesomeness of Sass.
 
-##Intro to Sass
+## Intro to Sass
 If you're unfamiliar, Sass is a stylesheet language that is then compiled into standard CSS. As the [project page](http://sass-lang.com/) says, it's CSS with superpowers.
 
 Want to get started using Sass? Check out the [docs](http://sass-lang.com/install). Also, if you're not keen on using the command line, note that there are several apps you can use. Several are included in the docs; I used and had good experiences with [Prepros](https://prepros.io/), which runs on both Windows and Mac OSes.
 {: .note}
 
-##So tell me about variables&hellip;
+## So tell me about variables&hellip;
 In Sass, you declare identify a variable by starting with a `$`, like so:
 
-~~~scss
+```scss
 $lime: #92bd0a;
-~~~
+```
 
 Now, instead of remembering `#92bd0a` throughout my project, I can just use `$lime` and, when the Sass gets compiled into CSS, it will replace the variable with the value I've given it.
 
@@ -36,10 +37,10 @@ While this was enough to make me jump to include Sass in my web development work
   <iframe src="//giphy.com/embed/3o85xEYc436eIWA51K?html5=true" width="480" height="268" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 </div>
 
-##Easy color modifications with Sass
+## Easy color modifications with Sass
 With Sass, not only can you forgo memorizing hex values, sometimes you manage to use colors without *ever* having known the hex value. For example, if I style a button with a background color and want to either lighten or darken that color when that element is hovered over, I can sort that out easily in Sass:
 
-~~~scss
+```scss
 $base: #D4E744;
 .lightDark {
   li {
@@ -52,7 +53,7 @@ $base: #D4E744;
     }
   }
 }
-~~~
+```
 
 <div class="embedWrapper">
 <p data-height="210" data-theme-id="15346" data-slug-hash="BNLrLQ" data-default-tab="result" data-user="angeliquejw" class='codepen'>See the Pen <a href='http://codepen.io/angeliquejw/pen/BNLrLQ/'>Color Fun With Sass (2 of 4)</a> by Angelique (<a href='http://codepen.io/angeliquejw'>@angeliquejw</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
@@ -60,15 +61,15 @@ $base: #D4E744;
 
 You can also use Sass to generate RGB or RGBa values for colors, like so
 
-~~~scss
+```scss
 background: rgba($base,.5);
-~~~
+```
 
 compiles to
 
-~~~css
+```css
 background: rgba(212, 231, 68, 0.5);
-~~~
+```
 
 <div class="embedWrapper">
 <p data-height="175" data-theme-id="15346" data-slug-hash="bdwvwq" data-default-tab="result" data-user="angeliquejw" class='codepen'>See the Pen <a href='http://codepen.io/angeliquejw/pen/bdwvwq/'>Color Fun With Sass (3 of 4)</a> by Angelique (<a href='http://codepen.io/angeliquejw'>@angeliquejw</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
@@ -78,7 +79,7 @@ This isn't earth-shattering stuff, but it just simply helps you write more effic
 
 While these are the color functions I use most often in Sass, they're not the only ones out there. You can also modify a color more dramatically, like to generate complementary or triadic color schemes off a base color:
 
-~~~scss
+```scss
 .complementary {
   li {
     background: $base;
@@ -98,7 +99,7 @@ While these are the color functions I use most often in Sass, they're not the on
     }
   }
 }
-~~~
+```
 
 <div class="embedWrapper">
 <p data-height="360" data-theme-id="15346" data-slug-hash="oXzqXO" data-default-tab="result" data-user="angeliquejw" class='codepen'>See the Pen <a href='http://codepen.io/angeliquejw/pen/oXzqXO/'>Color Fun With Sass (1 of 4)</a> by Angelique (<a href='http://codepen.io/angeliquejw'>@angeliquejw</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
@@ -110,7 +111,7 @@ You can also use Sass to saturate and desaturate colors, as well as generate gre
 <p data-height="210" data-theme-id="15346" data-slug-hash="QbKmKM" data-default-tab="result" data-user="angeliquejw" class='codepen'>See the Pen <a href='http://codepen.io/angeliquejw/pen/QbKmKM/'>Color Fun With Sass (4 of 4)</a> by Angelique (<a href='http://codepen.io/angeliquejw'>@angeliquejw</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 </div>
 
-##More complex Sass color functions
+## More complex Sass color functions
 If you're already using `lighten` and `adjust_hue` in your stylesheets, maybe you're interested in leveling up and trying to write your own color functions using Sass. My example above for generating RGBa values using Sass includes a basic Sass loop:
 
 <div class="embedWrapper">
@@ -133,7 +134,7 @@ My own recent contribution was re-configuring some code I wrote two years ago to
 
 One of the awesome realizations I had in re-configuring this code was how smarter Sass actually also resulted in cleaner markup. My HTML for one row of colors before:
 
-~~~HTML
+```html
 <div class="row melon">
   <div class="lightest">
     <h2>10%</h2>
@@ -164,11 +165,11 @@ One of the awesome realizations I had in re-configuring this code was how smarte
     <h2 class="white">10%</h2>
   </div>
 </div>
-~~~
+```
 
 HTML now:
 
-~~~HTML
+```html
 <ul class="palette melon">
   <li><span></span><span></span></li>
   <li><span></span><span></span></li>
@@ -178,7 +179,7 @@ HTML now:
   <li><span></span><span></span></li>
   <li><span></span><span></span></li>
 </ul>
-~~~
+```
 
 Not all projects require or benefit from complex color functions like these examples, but it's fun to experiment with what's possible and, when you do need to do something complex, Sass lives up to its promise of making you feel like you have superpowers.
 
@@ -186,7 +187,7 @@ Not all projects require or benefit from complex color functions like these exam
   <iframe src="//giphy.com/embed/TfeXX34FFOoSI?html5=true" width="480" height="209" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 </div>
 
-<hr />
+---
 
 As always, feel free to [send comments to me via Twitter](https://twitter.com/intent/tweet?screen_name=messypixels). I'd love to see what awesome Sass stuff you've created!
 
