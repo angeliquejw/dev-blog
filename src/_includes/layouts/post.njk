@@ -11,4 +11,17 @@ templateClass: tmpl-post
   <p>As always, feel free to <a href="https://twitter.com/intent/tweet?screen_name=messypixels" target="_blank">send comments to me via Twitter</a>. {{comments | safe }}</p>
 </footer>
 
+<div>
+  <p>Written in {{ location }} and tagged as:
+    <ul>
+    {% for tag in tags %}
+      {%- if collections.tagList.indexOf(tag) != -1 -%}
+      {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+      <a href="{{ tagUrl | url }}">{{ tag }}</a>
+      {%- endif -%}
+    {% endfor %}
+    </ul>
+  </p>
+</div>
+
 <p><a href="{{ '/' | url }}">← Home</a></p>
