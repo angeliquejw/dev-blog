@@ -7,7 +7,7 @@ layout: layouts/post.njk
 ---
 Using variables for colors is awesome; naming those variables can be&hellip;complicated. I've worked through a few different methodologies and wanted to share a bit about what I've learned along the way.
 
-<div class="embedWrapper giphy">
+<div class="embed-container giphy">
 <iframe src="//giphy.com/embed/LmXk21sZShSa4?html5=true" width="480" height="259" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 </div>
 
@@ -28,8 +28,8 @@ Regardless of what system you use, the goal is usually the same: To make it easi
 
 Without a master colors list like this, your color variations can easily get out of hand. This goes extra for if you're just working directly from a mockup and don't have a brand or project file to refer to. I once received a mockup that had 14 different variations on blue and grey; by taking the time to identify and list the colors, I was able to actually cut our palette down to a more reasonable 8 colors. This both makes us more intentional about how we're using color and simplifies our code, which makes me happy.
 
-<div class="embedWrapper">
-<p data-height="400" data-theme-id="15346" data-slug-hash="wagBMq" data-default-tab="result" data-user="angeliquejw" class='codepen'>See the Pen <a href='http://codepen.io/angeliquejw/pen/wagBMq/'>wagBMq</a> by Angelique (<a href='http://codepen.io/angeliquejw'>@angeliquejw</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<div class="embed-container">
+<p data-height="400" data-theme-id="15346" data-slug-hash="wagBMq" data-default-tab="result" data-user="angeliquejw" class="codepen">See the Pen <a href='http://codepen.io/angeliquejw/pen/wagBMq/'>wagBMq</a> by Angelique (<a href='http://codepen.io/angeliquejw'>@angeliquejw</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 </div>
 
 Once you have your palette, whether it has 8, 14 or more colors, you have to figure out how you're going to refer to them.
@@ -178,8 +178,8 @@ Despite my feeling that variables based on function are an overcomplicated syste
 
 Personally, I still do this because the second "truth" innit even remarkably true for me. I often use shades of black and white in place of the true colors (because they're both a bit unnatural and harsh; [learn more](http://ianstormtaylor.com/design-tip-never-use-black/)). However, I am a bit moved by the semantic argument and have opted to name my variables `$color-offblack` and `$color-offwhite` in the hopes this will make my code and logic clearer to other people working on projects with me (i.e., they won't assume `$color-offblack` means `#000`).
 
-<div class="embedWrapper">
-<p data-height="266" data-theme-id="15346" data-slug-hash="zGNEYv" data-default-tab="result" data-user="angeliquejw" class='codepen'>See the Pen <a href='http://codepen.io/angeliquejw/pen/zGNEYv/'>Palette Viewer & Tint Generator v2.0</a> by Angelique (<a href='http://codepen.io/angeliquejw'>@angeliquejw</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<div class="embed-container">
+<p data-height="266" data-theme-id="15346" data-slug-hash="zGNEYv" data-default-tab="result" data-user="angeliquejw" class="codepen">See the Pen <a href='http://codepen.io/angeliquejw/pen/zGNEYv/'>Palette Viewer & Tint Generator v2.0</a> by Angelique (<a href='http://codepen.io/angeliquejw'>@angeliquejw</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 </div>
 
 ### When to create a variable

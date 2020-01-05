@@ -35,7 +35,7 @@ Of course, if none of the above float your boat or meet your specific needs, you
 
 So many options!
 
-<div class="embedWrapper giphy">
+<div class="embed-container giphy">
     <iframe src="//giphy.com/embed/wG3jhHKvoCCVG?html5=true" width="480" height="367" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 </div>
 

@@ -8,7 +8,7 @@ layout: layouts/post.njk
 
 There's been enough coverage in the last year, that most folks accept tech has a diversity problem. The documentary <strong><em>Code: Debugging the Gender Gap</em></strong> looks at this issue<sup id="return-fn1"><a href="#fn1">1</a></sup>, it's history, causes and impact.
 
-<div class="embedWrapper">
+<div class="embed-container">
     <iframe src="https://player.vimeo.com/video/123004482?color=b0e40c&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
 
@@ -16,7 +16,7 @@ While, honestly, I went into this documentary with the sense that it would be ak
 
 The film covers women's role in computer science history (think Ada Lovelace and Grace Hopper) and how the stereotype and expectation of the young, white and male computer science nerd eventually led to women leaving their studies and the field in the mid-1980s.
 
-<div class="embedWrapper giphy">
+<div class="embed-container giphy">
     <iframe src="//giphy.com/embed/B1QAE2xG9xS2A?html5=true" width="480" height="260" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 </div>
 
@@ -26,7 +26,7 @@ Director Robin Hauser Reynolds interviews people like Megan Smith, CTO of the Un
 - [Tracy Chou](http://www.vogue.com/4537369/pinterest-tracy-chou-silicon-valley) ([@triketora](https://twitter.com/triketora)), the Pinterest engineer who got companies to start sharing actual numbers about their diversity ([read more](http://www.wired.com/2015/04/tracy-chou/)).
 - [Roz Ho](http://www.forbes.com/2010/05/18/microsoft-jobs-computer-science-engineering-math-forbes-woman-leadership-tech.html), the senior vice-president of engineering at Ericsson and a former Microsoft executive who relates how a majority male leadership team ignored focus group results that said Microsoft's animated assistants&mdash;yes, I'm talking about Clippy&mdash;appeared to be leering at users and made female users uncomfortable.
 
-<div class="embedWrapper giphy">
+<div class="embed-container giphy">
     <iframe src="//giphy.com/embed/1S3vm6ISM2gDu?html5=true" width="480" height="421" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 </div>
 
@@ -37,7 +37,7 @@ Something the film drove home for me, specifically, was the actual nuts and bolt
 <blockquote>By the year 2020, there are going to be 1 million unfilled computer engineering jobs in the U.S. We can’t fill the spots if we’re only filling from half of the population. It’s a great opportunity for women. We have all these jobs, and we need more people to fill them. It’s the same thing with people of color. There are jobs, let’s go!</blockquote>
 
 ![1 million computer science jobs for 400,000 students](/journal/2015-07-13-review-of-code-debugging-the-gender-gap/cs-jobs-vs-students.png)
-{: .embedWrapper}
+{: .embed-container}
 <cite>Infographic by Code.org; [see full image](https://code.org/stats)</cite>
 
 For kids in school now, gearing up for those opportunities is not easy. In half of US states, computer science classes don't count toward students' graduation math and science requirements. And things are getting worse for CS at the high school level: Since 2005, introductory secondary school computer science courses have *decreased* in number&mdash;by 17 percent. This lack of exposure has an impact, as 98% of CS majors reported some exposure to CS prior to college (in the form of classes, camps, after-school programs, etc). <sup id="return-fn2"><a href="#fn2">2</a></sup>
@@ -55,5 +55,5 @@ Overall, I would recommend the documentary to those interested in an overview ab
     <li id="fn2">Sources for CS education stats: <a href="https://code.org/stats">https://code.org/stats</a>, <a href="http://www.computinginthecore.org/facts-resources">http://www.computinginthecore.org/facts-resources</a>, <a href="http://www.exploringcs.org/resources/cs-statistics">http://www.exploringcs.org/resources/cs-statistics</a>. <a href="#return-fn2">&#x2934;</a></li>
 </ol>
 
-<blockquote class="embedWrapper instagram-media" data-instgrm-version="4" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></blockquote><p style=" color:#c9c8cd; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://instagram.com/p/4Mky2PrdEe/" style=" color:#c9c8cd; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_top">A photo posted by Angelique (@messypixels)</a> on <time style="font-size:14px; line-height:17px;" datetime="2015-06-21T15:37:30+00:00">Jun 21, 2015 at 8:37am PDT</time></p></div></div>
+<blockquote class="embed-container instagram-media" data-instgrm-version="4" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></blockquote><p style=" color:#c9c8cd; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://instagram.com/p/4Mky2PrdEe/" style=" color:#c9c8cd; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_top">A photo posted by Angelique (@messypixels)</a> on <time style="font-size:14px; line-height:17px;" datetime="2015-06-21T15:37:30+00:00">Jun 21, 2015 at 8:37am PDT</time></p></div></div>
 <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
