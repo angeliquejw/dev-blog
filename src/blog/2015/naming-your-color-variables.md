@@ -3,7 +3,6 @@ title: Naming Your Color Variables
 date: 2015-06-02
 location: Detroit
 tags: [sass, variables, colors]
-layout: layouts/post.njk
 ---
 Using variables for colors is awesome; naming those variables can be&hellip;complicated. I've worked through a few different methodologies and wanted to share a bit about what I've learned along the way.
 

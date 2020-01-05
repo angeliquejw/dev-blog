@@ -3,7 +3,6 @@ title: First week on macOS
 date: 2017-05-21
 tags: [mac, first, apps, software, resources]
 location: Baltimore
-layout: layouts/post.njk
 ---
 
 With the exception of an original iMac I worked on for a couple years after graduation, my personal computers have always been, well, PCs.
@@ -48,6 +47,6 @@ I'll make an attempt to update this one month in (Will I still be attempting to 
 <iframe src="https://giphy.com/embed/kNjoM9UQUX612" width="480" height="263" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 </div>
 
---- />
+---
 
 As always, feel free to [send comments to me via Twitter](https://twitter.com/intent/tweet?screen_name=messypixels). Let me know what Mac apps you love or what customizations/settings make your life easier.

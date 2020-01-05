@@ -2,8 +2,7 @@
 title: Encouraging Highs, Crushing Lows
 date: 2016-01-03
 location: Baltimore
-tags: [girl develop it, baltimore innovation week, sassconf, awards, workshops, presentations, depression, mental health, self care] 
-layout: layouts/post.njk
+tags: [girl develop it, baltimore innovation week, sassconf, awards, workshops, presentations, depression, mental health, self care]
 ---
 
 While this could easily be a commitment to a new year, a reboot for my blog (I know it's been awhile), first I have to look back, to write something that's been in my head since September and shares things beyond even 2015. (Spoiler alert: This post is going to be just a word dump and *sans* technical/code examples.)
@@ -63,6 +62,6 @@ I'm in no position to offer much outstanding advice about how to handle your own
 
 I hope we all have a 2016 that defies our expectations, and we encourage each other to be our best selves. Thanks for reading in 2015 and see you soon.
 
---- />
+---
 
 As always, I encourage you to continue this conversation [via Twitter](https://twitter.com/intent/tweet?screen_name=messypixels).
