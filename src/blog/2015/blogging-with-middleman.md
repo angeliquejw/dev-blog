@@ -1,8 +1,8 @@
 ---
 title: Blogging with Middleman
+tags: [ruby, rails, middleman]
 date: 2015-05-16
 location: Baltimore
-tags: [ruby, rails, middleman]
 comments: Unless you're just going to hassle me for being a Windows user. <div class="embed-container giphy"><iframe src="//giphy.com/embed/DxGNe8DKWpHz2?html5=true" width="480" height="205" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
 ---
 

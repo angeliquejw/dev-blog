@@ -1,8 +1,8 @@
 ---
 title: Getting Sassy with variables and colors
+tags: [sass, styles, variables, colors]
 date: 2015-05-22
 location: Baltimore
-tags: [sass, styles, variables, colors]
 comments: I'd love to see what awesome Sass stuff you've created!
 ---
 

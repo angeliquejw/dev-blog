@@ -1,8 +1,8 @@
 ---
 title: Customizing Your Windows Command Prompt
+tags: [windows, command line, command prompt, terminal, cmder, solarized]
 date: 2015-07-20
 location: Baltimore
-tags: [windows, command line, command prompt, terminal, cmder, solarized]
 comments: I'd love to know what your favorite tips are for improving your command prompt or what aliases you've added!
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: Goalposts for 2016
+tags: [goals, sassconf, json]
 date: 2016-01-13
 location: Baltimore
-tags: [goals, sassconf, json]
 footer: Let me know about your goals for 2016 (and if I can help you achieve them!) or prod me to update my goals regularly. :)
 ---
 

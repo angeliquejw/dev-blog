@@ -1,7 +1,7 @@
 ---
 title: Mission Statement
-date: 2015-05-13
 tags: [first, women in tech]
+date: 2015-05-13
 location: Baltimore
 ---
 

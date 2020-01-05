@@ -1,8 +1,8 @@
 ---
 title: Vagrant + Middleman = Victory
+tags: [middleman, vagrant, react, ruby, windows]
 date: 2016-03-08
 location: San Francisco
-tags: [middleman, vagrant, react, ruby, windows]
 comments: I'd love to hear your Vagrant tips or woes.
 ---
 
