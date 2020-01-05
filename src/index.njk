@@ -1,12 +1,28 @@
 ---
 layout: layouts/home.njk
 eleventyNavigation:
-  key: Home
+  key: About
   order: 1
 ---
+
+<h1>Ang&eacute;lique Weger</h1>
+
+<ul>
+  <li>Coder</li>
+  <li>Designer</li>
+  <li>Teacher</li>
+  <li>Learner</li>
+  <li>Enthusiast</li>
+</ul>
+
+{% include "bio.njk" %}
+
+{% include "social-list.njk" %}
 
 <h2>Blog</h2>
 
 {% set postslist = collections.posts | head(-30) %}
 {% set postslistCounter = collections.posts | length %}
 {% include "posts-list.njk" %}
+
+{% include "site-footer.njk" %}
