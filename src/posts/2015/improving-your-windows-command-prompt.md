@@ -10,7 +10,7 @@ When I started using Git and later learning Ruby, the command line became a plac
 
 ![Denied](/journal/2015-07-16-improving-your-windows-command-prompt/no-dice.png)
 
-<div class="embedWrapper giphy">
+<div class="embed-container giphy">
     <iframe src="//giphy.com/embed/hQY7rPlW3Vc3K?html5=true" width="480" height="281" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 </div>
 
@@ -22,7 +22,7 @@ I'm using and writing about Windows 7, and specifics of this post may or may not
 ## Google that shit
 My first instinct was to ask the Google bot this very obvious question:
 
-<div class="embedWrapper giphy">
+<div class="embed-container giphy">
     <iframe src="//giphy.com/embed/FRRK3vMJ4no52?html5=true" width="480" height="269" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 </div>
 
@@ -42,7 +42,7 @@ I actually discovered PowerShell after I already dove into some other solutions,
 ## Install an alternative command line
 Give up on the Windows default and go rogue with an app like [Cygwin](https://www.cygwin.com/) or [Cmder](http://gooseberrycreative.com/cmder/).
 
-<div class="embedWrapper giphy">
+<div class="embed-container giphy">
     <iframe src="//giphy.com/embed/Aq6GD5Sa6uuuk?html5=true" width="480" height="297" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 </div>
 
@@ -70,7 +70,7 @@ Cmder is built on top of [ConEmu](http://conemu.github.io/) and is a quick and p
 
 After all these changes, you should have a fairly awesome Windows command line that won't frustrate you, won't let you down and will, in fact, empower you to code better.
 
-<div class="embedWrapper giphy">
+<div class="embed-container giphy">
     <iframe src="//giphy.com/embed/137EaR4vAOCn1S?html5=true" width="480" height="270" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 </div>
 

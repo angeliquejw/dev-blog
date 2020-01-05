@@ -33,7 +33,7 @@ Middleman, out of the box, takes ERb or Haml and converts those templates and pa
 For example, when you loaded this page, there were server requests to grab the HTML, CSS, JavaScript and any images. The same page in a WordPress blog would do all of that, and the PHP would *also* issue several other requests for the template header, footer and sidebar and also hit up the database for LOTS of info like the blog name, URL, the post name, content and info. Depending on your Internet connection and the server I'm hosting my content on, this can be a slow process. Static HTML files, in comparison, are zippy. They're also less taxing for your web host and can be used in more basic hosting environments (including quite a few free ones).
 
 ### Fun
-<div class="embedWrapper giphy">
+<div class="embed-container giphy">
     <iframe src="//giphy.com/embed/yODVOeMxWBwBO?html5=true" width="480" height="241" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 </div>
 
@@ -53,7 +53,7 @@ I'm assuming you already have Ruby on your system. I think this is generally tru
 Don't know if you have Ruby installed? Type `ruby -v` at the command line. If Ruby is installed in your system, you should get a little message about which version of Ruby you're running.
 {: .noteCntd}
 
-<div class="embedWrapper giphy">
+<div class="embed-container giphy">
     <iframe src="//giphy.com/embed/PuWNMebKGIKNG?html5=true" width="480" height="270" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 </div>
 
@@ -152,7 +152,7 @@ I'll document more about customizing Middleman as I develop this blog and use it
 
 As always, feel free to [send comments to me via Twitter](https://twitter.com/intent/tweet?screen_name=messypixels). Unless you're just going to hassle me for being a Windows user.
 
-<div class="embedWrapper giphy">
+<div class="embed-container giphy">
     <iframe src="//giphy.com/embed/DxGNe8DKWpHz2?html5=true" width="480" height="205" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 </div>
 

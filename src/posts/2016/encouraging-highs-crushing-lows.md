@@ -12,14 +12,14 @@ Professionally, 2015 was the best year I've ever had, better than any I would ha
 
 During Baltimore Innovation Week, [I was voted Technologist of the Year and our Girl Develop It chapter was named Tech Mission Org of the Year](http://technical.ly/baltimore/2015/10/02/baltimore-innovation-week-awards-2015/). I also presented a 3-hour intro to Sass workshop and a lightning talk with examples of what I've learned about themeing with Sass that was really well received.
 
-<div class="embedWrapper">
+<div class="embed-container">
 	<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/BIW15?src=hash">#BIW15</a> <a href="https://twitter.com/messypixels">@messypixels</a> talking SASS and SMACSS <a href="http://t.co/NchaBC3b0r">pic.twitter.com/NchaBC3b0r</a></p>&mdash; Yet Developers (@YetDevs) <a href="https://twitter.com/YetDevs/status/649311349290303488">September 30, 2015</a></blockquote>
 	<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p lang="en" dir="ltr">.<a href="https://twitter.com/messypixels">@messypixels</a> is giving a great <a href="https://twitter.com/hashtag/sass?src=hash">#sass</a> talk at <a href="https://twitter.com/hashtag/BIW15?src=hash">#BIW15</a>. My first exposure to seeing <a href="https://twitter.com/hashtag/CSS?src=hash">#CSS</a> written this way. Very interesting.</p>&mdash; Alex Viana (@AlexVianaPro) <a href="https://twitter.com/AlexVianaPro/status/649313919438311429">September 30, 2015</a></blockquote>	
 </div>
 
 In November, I was awarded a scholarship to attend the amazing [SassConf](http://sassconf.com/) in Austin, Texas, and also spent a weekend in Philadelphia with 86 Girl Develop It leaders from across the country.
 
-<div class="embedWrapper">
+<div class="embed-container">
 	<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr">Our Chapter Leaders from across the country! <a href="https://twitter.com/hashtag/womenintech?src=hash">#womenintech</a> <a href="https://twitter.com/hashtag/gdisummit15?src=hash">#gdisummit15</a> <a href="https://t.co/Hp2LVqFih9">pic.twitter.com/Hp2LVqFih9</a></p>&mdash; Girl Develop It (@girldevelopit) <a href="https://twitter.com/girldevelopit/status/663396732365963266">November 8, 2015</a></blockquote>
 </div>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

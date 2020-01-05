@@ -13,7 +13,7 @@ I started making notes about what I wanted 2016 to feel like and then got togeth
 
 The first step I toward making my new year look different was to sign up for a creative challenge ([#CBDRAWADAY: 31 Things to Draw with Lisa Congdon](https://www.instagram.com/explore/tags/cbdrawaday/)), one that takes me away from the keyboard and gets me doodling. Part of what was clear about 2015 was that most of my successes were professional ones; as a result, I had spent less time making, less time in the studio and following my other creative/DIY hobbies. I'm glad for those professional successs, the new things I learned whle coding in 2015, but I also appreciate what I learn from making things, creating collages, smooshing paint on canvas or drawing lines on paper. I don't want to give one up for the other.
 
-<figure class="embedWrapper">
+<figure class="embed-container">
 	<iframe src="http://instaembedder.com/gallery-v2.php?username=messypixels&hashtag=cbdrawaday&width=165&cols=4&rows=4&margin=0&color=gray&likes=1&link=1&image_border=8&frame_color=white&" frameborder="0" width="100%" height="380" ></iframe>
 	<figcaption>#CBDrawADay doodles to date</figcaption>
 </figure>

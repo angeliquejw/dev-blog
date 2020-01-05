@@ -8,7 +8,7 @@ layout: layouts/post.njk
 
 I've been thinking a lot about teams and, based on my own lucky experiences, what makes them work well. I've been at Fractured Atlas for almost three months now and am legitimately delighted at how quickly and easily I gelled with my new team. The one thing I keep coming back to when trying to describe why I've been able to connect so quickly and accomplish so much is this: Safety.
 
-<div class="embedWrapper">
+<div class="embed-container">
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I&#39;m so into my new team. My day has been full of awesome collaboration &amp; feedback. <a href="https://t.co/9kWkvs9go0">pic.twitter.com/9kWkvs9go0</a></p>&mdash; angelique🦈🏳️‍🌈🌮 (@messypixels) <a href="https://twitter.com/messypixels/status/870362399412555777">June 1, 2017</a></blockquote>
 </div>
 
@@ -31,13 +31,13 @@ What safety looks like and feels like may vary amongst individuals and teams, bu
 
 4. Team members are invested in what we're building and making it better. In place of competition or us-vs-them dynamics, we're joined by an enthusiasm for what we're doing and how we're all contributing. This feels especially apparent to me in a UX/front-end role, which some developer cultures belittle. There's not even been a hint of that in my experiences to date&mdash;instead, my teammates celebrate my contributions and seek out my expertise (with a `#UXLOVE` tag on Trello cards that need my attention!). This, in particular, has made it frictionless for me to contribute, learn and share with the team.
 
-<div class="embedWrapper">
+<div class="embed-container">
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Today in My Team Is The Best:  Coworker left a comment on my UI changes that ended with &quot;Scrumptious!&quot; <a href="https://t.co/mQ7fi7BYd7">pic.twitter.com/mQ7fi7BYd7</a></p>&mdash; angelique🦈🏳️‍🌈🌮 (@messypixels) <a href="https://twitter.com/messypixels/status/889577201150152705">July 24, 2017</a></blockquote>
 </div>
 
 I'm grateful for this amazing experience and for the team members who have established these working norms that make it possible for a brand new person to swoop in and feel pretty quickly at ease, not just in my area of expertise, but also adapting to new tools and pushing myself to learn new things. I know many teams and companies don't get this stuff right or prioritize it, and I'm grateful to be contributing my energy to a group that does. Doing so does more than let me be my whole self at work, it lets me be my best self.
 
-<div class="embedWrapper giphy">
+<div class="embed-container giphy">
 <iframe src="https://giphy.com/embed/e1BxgoFxAOmbK" width="480" height="392" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/woman-weekend-wonder-e1BxgoFxAOmbK">via GIPHY</a></p>
 </div>
 

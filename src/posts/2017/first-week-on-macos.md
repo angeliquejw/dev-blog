@@ -8,7 +8,7 @@ layout: layouts/post.njk
 
 With the exception of an original iMac I worked on for a couple years after graduation, my personal computers have always been, well, PCs.
 
-<div class="embedWrapper">
+<div class="embed-container">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e9Xd5bbw5aE?rel=0" frameborder="0" allowfullscreen></iframe>
 </div>
 
@@ -16,7 +16,7 @@ I've also had a progression of Android smartphones and tablets, plus a mostly ab
 
 Until last week&mdash;when I unpacked the refurbished MacBook Pro I'm using to type up this blog post.
 
-<div class="embedWrapper giphy">
+<div class="embed-container giphy">
 <iframe src="https://giphy.com/embed/bAIDIZZuChp3a" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 </div>
 
@@ -44,7 +44,7 @@ One week in, my only current major pain point is my Razer keyboard; the Razer so
 
 I'll make an attempt to update this one month in (Will I still be attempting to close windows the Windows way? Tune in!). While there seem to be many blog posts about and for Mac power users, there is not as much discussion around folks making the switch to Mac (for the reverse, devs transitioning to Windows, check out the [#davegoeswindows](http://daverupert.com/tag/davegoeswindows) series by one of the ShopTalk guys). So, hopefully this can be a good resource for other old dogs learning new tricks.
 
-<div class="embedWrapper giphy">
+<div class="embed-container giphy">
 <iframe src="https://giphy.com/embed/kNjoM9UQUX612" width="480" height="263" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 </div>
 
