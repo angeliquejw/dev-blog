@@ -13,7 +13,7 @@ eleventyExcludeFromCollections: true
 	<id>{{ metadata.feed.id }}</id>
 	<author>
 		<name>{{ metadata.author.name }}</name>
-		<email>{{ metadata.author.email }}</email>
+		<email>{{ metadata.author.social.email }}</email>
 	</author>
 	{%- for post in collections.posts %}
 	{% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}

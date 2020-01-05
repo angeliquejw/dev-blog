@@ -10,6 +10,22 @@
   },
   "author": {
     "name": "Angelique Weger",
-    "email": "hello@angeliqueweger.com"
+    "social": [{
+        "type": "github",
+        "url": "https://github.com/angeliquejw"
+      },
+      {
+        "type": "twitter",
+        "url": "https://twitter.com/messypixels"
+      },
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/angeliqueweger"
+      },
+      {
+        "type": "email",
+        "mailto": "hello@angeliqueweger.com"
+      }
+    ]
   }
 }

@@ -1,0 +1,11 @@
+<ul>
+	{%- for item in metadata.author.social %}
+  <li>
+    {%- if item.type == "email" %}
+    <a href="mailto:{{ item.mailto }}" target="_blank">
+    {%- else %}
+    <a href="{{ item.url }}" target="_blank">
+    {%- endif %}
+    {{ item.type }}</a></<li>
+	{%- endfor %}
+</ul>
