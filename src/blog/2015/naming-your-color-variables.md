@@ -11,7 +11,7 @@ Using variables for colors is awesome; naming those variables can be&hellip;comp
 <iframe src="//giphy.com/embed/LmXk21sZShSa4?html5=true" width="480" height="259" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 </div>
 
-Need an into to *WHY* colors and Sass are awesome? I wrote about this and gave some examples in [a previous post](http://angeliqueweger.com/journal/2015/05/getting-sassy-with-variables-and-colors/).
+Need an into to *WHY* colors and Sass are awesome? I wrote about this and gave some examples in [a previous post](/blog/2015/getting-sassy-with-variables-and-colors/).
 {: .note}
 
 ## Why Name Colors

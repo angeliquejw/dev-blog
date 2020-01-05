@@ -83,7 +83,7 @@ $ middleman s
 
 Here, `s` is shorthand for server. This will start up a local server and give you a local URL to enter into your browser. If everything is golden, you should see this:
 
-![Successful Middleman Install](/journal/2015-05-16-blogging-with-middleman/mm-running2.jpg)
+![Successful Middleman Install](/assets/img/blog/2015/mm-running.jpg)
 
 Most of the files you want to muck about with are in the `source` directory; these are the files that will eventually be compiled into your static site. When you're looking at the site in dev using the localhost address, the files are being compiled on the fly (and, if you activate [live reload](https://middlemanapp.com/basics/development_cycle/#livereload), being updated and refreshed as you work on the files). To get to the static site files, first you have to build your project:
 

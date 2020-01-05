@@ -87,6 +87,7 @@ module.exports = function (eleventyConfig) {
       "html",
       "liquid"
     ],
+    passthroughFileCopy: true,
 
     // If your site lives in a different subdirectory, change this.
     // Leading or trailing slashes are all normalized away, so don’t worry about those.
