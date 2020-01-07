@@ -13,7 +13,7 @@ templateClass: tmpl-post
 
 <div>
   <p>Written in {{ location }} and tagged as:
-    <ul>
+    <ul class="u-list-reset">
     {% for tag in tags %}
       {%- if collections.tagList.indexOf(tag) != -1 -%}
       {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
@@ -25,7 +25,7 @@ templateClass: tmpl-post
 </div>
 
 <nav>
-  <ol>
+  <ol class="u-list-reset">
    {% if nextPost.url %}
     <li>
       <a class="next" href="{{ nextPost.url }}">Next Post</a>

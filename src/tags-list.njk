@@ -4,7 +4,7 @@ layout: layouts/default.njk
 ---
 <h1>Tags</h1>
 
-<ul>
+<ul class="u-list-reset">
   {% for tagKey, tagVal in collections.tagCount %}
   {% set tagUrl %}/tags/{{ tagKey | slug }}/{% endset %}
   <li><a href="{{ tagUrl | url }}">{{ tagKey }} {{ tagVal }}</a></li>
