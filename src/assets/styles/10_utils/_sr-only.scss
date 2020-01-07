@@ -1,11 +1,13 @@
 @mixin u-sr-only {
   border: 0;
   clip: rect(0 0 0 0);
-  overflow: hidden;
-  margin: -1px;
-  padding: 0;
-  position: absolute !important;
   height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  /* stylelint-disable declaration-no-important */
+  position: absolute !important;
+  /* stylelint-enable */
   width: 1px;
 }
 
