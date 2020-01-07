@@ -1,0 +1,7 @@
+@mixin u-fit {
+  max-width: 100%;
+}
+
+.u-fit {
+  @include u-fit();
+}
