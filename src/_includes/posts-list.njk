@@ -1,4 +1,4 @@
-<ol>
+<ol class="u-list-reset">
   {% for post in postslist | reverse %}
   <li class="{% if post.url == url %} --active{% endif %}">
     <a href="{{ post.url | url }}">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>

@@ -3,7 +3,7 @@
 
   {% include "social-list.njk" %}
 
-  <ul>
+  <ul class="u-list-reset">
   {%- for entry in collections.all | eleventyNavigation %}
     <li class="{% if entry.url == page.url %} --active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
   {%- endfor %}
