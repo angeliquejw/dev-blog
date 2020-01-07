@@ -16,7 +16,7 @@ First, as with all things&mdash;including this blog!&mdash;I get things displayi
 ## Adding relevant aliases
 Aliases are just bits of shorthand for code I use frequently. By creating aliases, I can make my coding faster. You can find and edit your Cmder alias file in the `config` directory inside your `cmder` directory (for me, this is `C:\cmdr\config`). One of the aliases I've added is
 
-```
+```bash
 subl=C:/PROGRA~1/SUBLIM~1/sublime_text.exe $1
 ```
 
@@ -33,7 +33,7 @@ Now, when I type `subl newentry.md` in Cmder, Sublime Text opens up with a Markd
 
 I also like to make navigating backwards out of directories easier with aliases.
 
-```
+```bash
 ..=cd ..
 ...=cd ../../../
 ....=cd ../../../../

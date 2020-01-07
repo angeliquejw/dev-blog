@@ -60,6 +60,7 @@ module.exports = function (eleventyConfig) {
   const markdownItAnchor = require("markdown-it-anchor");
   const markdownItAttr = require("markdown-it-attrs");
   const markdownItCodePen = require("markdown-it-code-embed");
+  const markdownItPrism = require("markdown-it-prism");
 
   let markdownOptions = {
     html: true,
@@ -76,10 +77,13 @@ module.exports = function (eleventyConfig) {
   });
   markdownEngine.use(markdownItAttr, {
     // optional, these are default options
-    leftDelimiter: '{:',
+    leftDelimiter: "{:",
   });
   markdownEngine.use(markdownItCodePen, {
     user: "angeliquejw"
+  });
+  markdownEngine.use(markdownItPrism, {
+    defaultLanguage: "html"
   });
   eleventyConfig.setLibrary("md", markdownEngine);
 
