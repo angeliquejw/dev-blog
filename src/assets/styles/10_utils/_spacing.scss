@@ -1,6 +1,8 @@
 @mixin u-margin-horizontal-auto {
+  /* stylelint-disable declaration-no-important */
   margin-left: auto !important;
   margin-right: auto !important;
+  /* stylelint-enable */
 }
 
 .u-margin-horizontal-auto {
@@ -8,7 +10,7 @@
 }
 
 // Loop to generate margin and padding clases based on the values set in settings/spacing.scss
-
+/* stylelint-disable indentation, rule-empty-line-before */
 $spacing-directions: (null: null,
   "-top": "-top",
   "-right": "-right",
@@ -45,3 +47,5 @@ $property in $spacing-properties {
     }
   }
 }
+
+/* stylelint-enable */
