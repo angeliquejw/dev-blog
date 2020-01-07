@@ -1,8 +1,10 @@
 <footer>
   <a href="#top">Top</a>
+
   {%- if templateClass == "tmpl-home" %}
-  Logo
+    {% include "site-logo.njk" %}
   {%- endif %}
+
   <ul class="u-list-reset">
     <li>v0.2 Build Info</li>
     <li>&copy; 2015-<script>document.write(new Date().getFullYear());</script> Ang&eacute;lique Weger</li>
