@@ -1,0 +1,31 @@
+.site-name {
+  @include size(52px);
+  background-color: $color-siren;
+  margin: 0;
+  position: relative;
+  text-align: center;
+
+  &::before {
+    @include size(52px);
+    border: 1px solid $color-mulberry;
+    content: "";
+    left: -4px;
+    position: absolute;
+    top: -4px;
+  }
+}
+
+.home-link {
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  position: relative;
+  text-decoration: none;
+  top: -12px;
+}
+
+.site-logo {
+  color: $color-tumeric;
+  font-size: ms(8);
+  font-weight: $font-thin;
+}
