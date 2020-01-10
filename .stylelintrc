@@ -68,7 +68,11 @@
     "no-duplicate-selectors": true,
     "no-empty-first-line": true,
     "no-empty-source": true,
-    "no-eol-whitespace": true,
+    "no-eol-whitespace": [true,
+      {
+        ignore: ["empty-lines"]
+      }
+    ],
     "no-extra-semicolons": true,
     "no-invalid-double-slash-comments": true,
     "no-missing-end-of-source-newline": true,
@@ -115,6 +119,7 @@
     "value-list-comma-space-before": "never",
     "order/properties-alphabetical-order": true,
     "plugin/8-point-grid": {
+      "base": 8,
       "whitelist": ["2px", "1px", "-1px"],
       "ignore": []
     }
