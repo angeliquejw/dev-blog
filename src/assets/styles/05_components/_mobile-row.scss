@@ -1,0 +1,5 @@
+.mobile-row {
+  @include u-display(flex);
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
