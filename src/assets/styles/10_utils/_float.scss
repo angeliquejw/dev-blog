@@ -1,15 +1,7 @@
-@mixin u-left {
-  float: left;
-}
-
-@mixin u-right {
-  float: right;
-}
-
 .u-left {
-  @include u-left();
+  @include u-float(left);
 }
 
 .u-right {
-  @include u-right();
+  @include u-float(right);
 }

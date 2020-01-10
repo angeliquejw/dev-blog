@@ -1,0 +1,12 @@
+@use "sass:list";
+$float-options: left, right;
+
+@mixin u-float($direction) {
+  @if not list.index($float-options, $direction) {
+    @error "#{$direction} is not a supported value for this mixin. Expected one of #{$float-options}.";
+  }
+
+  @else {
+    float: #{$direction};
+  }
+}

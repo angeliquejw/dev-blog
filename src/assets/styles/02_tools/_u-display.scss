@@ -14,15 +14,3 @@ flex;
     display: #{$value};
   }
 }
-
-.u-block {
-  @include u-display(block);
-}
-
-.u-inline-block {
-  @include u-display(inline-block);
-}
-
-.u-flex {
-  @include u-display(flex);
-}
