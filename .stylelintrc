@@ -113,9 +113,10 @@
     "value-keyword-case": "lower",
     "value-list-comma-space-after": "always",
     "value-list-comma-space-before": "never",
+    "order/properties-alphabetical-order": true,
     "plugin/8-point-grid": {
-      "whitelist": ["2px", "1px", "-1px"]
-    },
-    "order/properties-alphabetical-order": true
+      "whitelist": ["2px", "1px", "-1px"],
+      "ignore": []
+    }
   }
 }
