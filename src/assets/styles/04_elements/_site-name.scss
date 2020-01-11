@@ -1,9 +1,11 @@
 .site-name {
   @include size(52px);
   background-color: $color-siren;
+  left: 4px;
   margin: 0;
   position: relative;
   text-align: center;
+  top: 4px;
 
   &::before {
     @include size(52px);
