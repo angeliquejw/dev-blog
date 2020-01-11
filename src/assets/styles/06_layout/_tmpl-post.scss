@@ -1,3 +1,24 @@
 .tmpl-post {
   background-color: $color-grey;
+
+  main p {
+    font-family: $font-barlow;
+  }
+
+  header + p {
+    font-family: $font-plex-sans;
+    font-size: ms(2);
+    font-weight: $font-semibold;
+    line-height: 1.4;
+    margin-top: 0;
+
+    &::first-letter {
+      color: $color-tumeric;
+      float: left;
+      font-size: ms(14);
+      font-weight: $font-extrabold;
+      line-height: 1;
+      padding-right: 4px;
+    }
+  }
 }
