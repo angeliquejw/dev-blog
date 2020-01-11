@@ -1,7 +1,6 @@
 ---
 layout: layouts/page.njk
 title: What I'm Doing Now
-templateClass: tmpl-post
 ---
 
 ## Currently
