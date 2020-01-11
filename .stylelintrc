@@ -120,7 +120,7 @@
     "order/properties-alphabetical-order": true,
     "plugin/8-point-grid": {
       "base": 8,
-      "whitelist": ["4px", "2px", "1px", "-1px"],
+      "whitelist": ["4px", "2px", "1px", "-1px", "-2px", "-4px"],
       "ignore": []
     }
   }
