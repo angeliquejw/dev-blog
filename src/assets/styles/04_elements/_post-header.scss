@@ -25,14 +25,11 @@
 
       background-color: $color-offwhite;
       content: "";
-      height: 10px;
+      height: 10px; /* stylelint-disable-line plugin/8-point-grid */
       left: -($spacing-unit-sm);
       position: absolute;
       top: 2px;
       width: 200px;
     }
-    // margin-left: -($spacing-unit-sm); // overrides padding on main element
-    // padding-left: 24px;
-    // width: 200px;
   }
 }
