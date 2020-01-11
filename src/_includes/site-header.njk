@@ -8,7 +8,7 @@
 
   <nav>
     <ul class="page-list u-list-reset">
-      <li class="u-inline-block{% if (title == "Blog") or ("posts" in tags) %} --active{% endif %}"><a href="/blog" class="u-block">Blog</a></li>
+      <li class="u-inline-block{% if (title == "Blog") or (tags and "posts" in tags) %} --active{% endif %}"><a href="/blog" class="u-block">Blog</a></li>
       <li class="u-inline-block{% if (entry.url == page.url) %} --active{% endif %}"><a href="/" class="u-block">About</a></li>
     </ul>
   </nav>
