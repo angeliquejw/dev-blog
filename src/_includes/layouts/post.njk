@@ -3,8 +3,10 @@ layout: layouts/default.njk
 templateClass: tmpl-post
 ---
 
-<h1>{{ title }}</h1>
- <time datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time>
+<header class="post-header u-flex">
+  <h1>{{ title }}</h1>
+  <time datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time>
+</header>
 
 {{ content | safe }}
 
