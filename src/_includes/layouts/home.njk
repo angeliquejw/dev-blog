@@ -3,6 +3,6 @@ layout: layouts/base.njk
 templateClass: tmpl-home
 ---
 
-<main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
+<main>
   {{ content | safe }}
 </main>
