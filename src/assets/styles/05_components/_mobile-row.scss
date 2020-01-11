@@ -1,5 +1,7 @@
 .mobile-row {
   @include u-display(flex);
-  flex-wrap: wrap;
+  background-color: $color-offblack;
+  height: 40px;
   justify-content: space-between;
+  padding: $spacing-unit-xs;
 }

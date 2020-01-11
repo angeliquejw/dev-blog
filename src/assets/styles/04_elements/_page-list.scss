@@ -3,10 +3,49 @@
   text-transform: uppercase;
 
   li {
+    font-size: ms(2);
+    font-weight: $font-light;
     margin-right: 24px;
+    margin-top: $spacing-unit-xs;
   }
   
   a {
+    color: $color-siren;
+    position: relative;
     text-decoration: none;
+
+    &::before {
+      content: "";
+      height: 1px;
+      left: -12%;
+      position: absolute;
+      top: 50%;
+      transition: width 350ms ease;
+      width: 0;
+    }
+    
+    @include hover-state {
+      color: $color-offwhite;
+
+      &::before {
+        background-color: $color-offwhite;
+        width: 124%;
+      }
+    }
+  }
+
+  .--active {
+
+    a {
+
+      &::before {
+        background-color: $color-siren;
+        width: 124%;
+      }
+
+      @include hover-state {
+        color: $color-siren;
+      }
+    }
   }
 }

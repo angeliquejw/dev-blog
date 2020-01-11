@@ -1,6 +1,29 @@
 .social-list {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  justify-content: center;
 
   li {
+    align-items: center;
+    display: flex;
+    justify-content: center;
     margin-right: 24px;
+
+    &:last-of-type {
+      margin-right: 24px - $spacing-unit-xs;
+    }
+  }
+
+  a {
+    // display: block;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  svg {
+    height: 20px; /* stylelint-disable-line plugin/8-point-grid */
+    width: auto;
   }
 }
