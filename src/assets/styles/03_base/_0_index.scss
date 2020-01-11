@@ -6,5 +6,13 @@
 
 body {
   font-family: $font-plex;
+  margin: 0;
   scroll-behavior: smooth;
+}
+
+a {
+
+  *, *::before, *::after {
+    transition: all 200ms ease;
+  }
 }
