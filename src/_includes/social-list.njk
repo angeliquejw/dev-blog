@@ -1,6 +1,6 @@
 <ul class="social-list u-list-reset">
 	{%- for item in metadata.author.social %}
-  <li class="u-inline-block">
+  <li>
     {%- if item.type == "email" %}
     <a href="mailto:{{ item.mailto }}" target="_blank">
     {% include "../assets/img/icon-email.svg" %}
