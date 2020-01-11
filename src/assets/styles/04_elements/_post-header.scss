@@ -1,0 +1,38 @@
+.post-header {
+  flex-direction: column-reverse;
+  margin-top: $spacing-unit;
+
+  h1 {
+    color: $color-valentino;
+    font-family: $font-plex-sans;
+    font-size: ms(10);
+    font-weight: $font-extrabold;
+    line-height: 1.2;
+    margin-bottom: $spacing-unit-sm;
+    margin-top: $spacing-unit-xs;
+  }
+
+  time {
+    color: $color-siren;
+    font-size: ms(-1);
+    font-weight: $font-light;
+    line-height: 1;
+    padding-left: $spacing-unit-xs;
+    position: relative;
+
+    &::before {
+      @include z-index(bottom);
+
+      background-color: $color-offwhite;
+      content: "";
+      height: 10px;
+      left: -($spacing-unit-sm);
+      position: absolute;
+      top: 2px;
+      width: 200px;
+    }
+    // margin-left: -($spacing-unit-sm); // overrides padding on main element
+    // padding-left: 24px;
+    // width: 200px;
+  }
+}
