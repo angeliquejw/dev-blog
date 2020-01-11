@@ -1,0 +1,41 @@
+.embed-container {
+  margin-left: $spacing-unit-sm;
+  margin-right: $spacing-unit-sm;
+  max-width: calc(100% - #{$spacing-unit});
+  position: relative;
+
+  &::before, &::after {
+    @include z-index(bottom);
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+
+  &::before {
+    background-color: $color-patina;
+    left: 12px;
+    top: 12px;
+  }
+
+  &::after {
+    border: 1px solid $color-valentino;
+    left: -12px;
+    top: -12px;
+  }
+
+  &.giphy {
+
+    iframe {
+      max-width: 100%;
+    }
+
+    .giphy-embed + p {
+      font-family: $font-plex-mono;
+      font-size: ms(-1);
+      font-weight: $font-medium;
+      margin: 0;
+      text-align: right;
+    }
+  }
+}
