@@ -1,0 +1,45 @@
+.blog-post {
+
+  p {
+    font-family: $font-barlow;
+    font-size: ms(1);
+    line-height: 1.4;
+  }
+
+  a {
+    background-image: linear-gradient(rgba(white, 0.15) 0, rgba(white, 0.15) 0);
+    background-repeat: no-repeat;
+    background-size: 0 0;
+    border-bottom: 1px solid $color-mulberry;
+    color: $color-siren;
+    text-decoration: none;
+
+    @include hover-state {
+      animation: 240ms ease 1 forwards background-grow-right;
+      border-color: $color-siren;
+    }
+  }
+
+  header, cite {
+    + p {
+      margin-top: 0;
+    }
+  }
+
+  // Styles for first graph and drop cap
+  header + p {
+    font-family: $font-plex-sans;
+    font-size: ms(2);
+    font-weight: $font-semibold;
+    line-height: 1.4;
+
+    &::first-letter {
+      color: $color-tumeric;
+      float: left;
+      font-size: ms(14);
+      font-weight: $font-extrabold;
+      line-height: 1;
+      padding-right: 4px;
+    }
+  }
+}

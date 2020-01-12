@@ -1,0 +1,25 @@
+blockquote {
+  background-color: $color-offwhite;
+  margin: $spacing-unit-sm (-$spacing-unit-sm) 0;
+  padding: $spacing-unit 24px;
+  position: relative;
+
+  &::before {
+    background-color: $color-tumeric;
+    content: "";
+    height: 4px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 60%;
+  }
+
+  &.twitter-tweet-error { /* stylelint-disable-line selector-no-qualifying-type */
+    margin: 0;
+    padding: $spacing-unit-sm;
+
+    &::before {
+      display: none;
+    }
+  }
+}
