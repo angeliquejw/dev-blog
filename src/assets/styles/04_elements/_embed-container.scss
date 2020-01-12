@@ -32,11 +32,13 @@
     }
 
     .giphy-embed + p { /* stylelint-disable-line selector-max-class */
+      bottom: (-$spacing-unit-xs);
       font-family: $font-plex-mono;
       font-size: ms(-1);
       font-weight: $font-medium;
       margin: 0;
-      text-align: right;
+      position: absolute;
+      right: 0;
     }
 
     a {
