@@ -10,10 +10,10 @@ cite {
   padding: $spacing-unit-xs $spacing-unit-sm $spacing-unit-sm $spacing-unit-xs;
   position: relative;
   text-transform: uppercase;
-  top: (-$spacing-unit-sm);
+  top: (-$spacing-unit);
   width: 60%;
 
-  a {
+  .blog-post & a { // necessary to override blog-post link styles
     animation: unset;
     background-image: unset;
     border-color: $color-valentino;
