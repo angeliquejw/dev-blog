@@ -33,12 +33,12 @@ templateClass: tmpl-post
   <ol class="u-list-reset">
    {% if nextPost.url %}
     <li>
-      <a class="next" href="{{ nextPost.url }}">Next Post</a>
+      <a class="next" href="{{ nextPost.url }}"><em>Newer</em> Post</a>
     </li>
   {% endif %}
   {% if prevPost.url %}
     <li>
-      <a class="previous" href="{{ prevPost.url }}">Previous Post</a>
+      <a class="previous" href="{{ prevPost.url }}"><em>Older</em> Post</a>
     </li>
   {% endif %}
   </ol>
