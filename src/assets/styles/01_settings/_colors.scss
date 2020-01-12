@@ -1,5 +1,6 @@
 $color-valentino: hsl(293, 18%, 19%);
 $color-valentino-lt48: mix(white, $color-valentino, 48%); // mountain mist
+$color-valentino-lt60: mix(white, $color-valentino, 60%); // alto
 $color-siren: hsl(347, 46%, 29%);
 $color-siren-dk36: mix(black, $color-siren, 36%); // bordeaux
 $color-mulberry: hsl(331, 45%, 51%);
@@ -11,4 +12,4 @@ $color-offblack: hsl(288, 17%, 6%); // onyx
 $color-pearl: hsl(46, 56%, 89%);
 $color-offwhite: hsl(46, 59%, 97%); // bianca
 
-$color-grey: $color-valentino-lt48;
+$color-grey: $color-valentino-lt60;
