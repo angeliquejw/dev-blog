@@ -1,11 +1,10 @@
-/* stylelint-disable indentation */
-$z-index: (top : 10,
+$z-index: (
+  top : 10,
   high : 9,
   mid : 5,
   low : 1,
   bottom : -1,
 );
-/* stylelint-enable */
 
 @function z-index($key) {
   @return map-get($z-index, $key);

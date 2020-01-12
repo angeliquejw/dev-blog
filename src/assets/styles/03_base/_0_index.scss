@@ -15,8 +15,7 @@ main {
 }
 
 a {
-
-  *, *::before, *::after {
+  &, &::before, &::after {
     transition: all 200ms ease;
   }
 }
