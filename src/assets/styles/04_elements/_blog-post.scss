@@ -10,13 +10,13 @@
     background-image: linear-gradient(rgba(white, 0.15) 0, rgba(white, 0.15) 0);
     background-repeat: no-repeat;
     background-size: 0 0;
-    border-bottom: 1px solid $color-mulberry;
+    border-bottom: 1px solid rgba($color-mulberry, 0.5);
     color: $color-siren;
     text-decoration: none;
 
     @include hover-state {
       animation: 240ms ease 1 forwards background-grow-right;
-      border-color: $color-siren;
+      border-color: $color-mulberry;
     }
   }
 
