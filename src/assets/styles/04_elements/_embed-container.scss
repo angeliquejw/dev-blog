@@ -1,4 +1,5 @@
 .embed-container {
+  margin-bottom: $spacing-unit;
   margin-left: $spacing-unit-sm;
   margin-right: $spacing-unit-sm;
   max-width: calc(100% - #{$spacing-unit});
@@ -30,12 +31,23 @@
       max-width: 100%;
     }
 
-    .giphy-embed + p {
+    .giphy-embed + p { /* stylelint-disable-line selector-max-class */
       font-family: $font-plex-mono;
       font-size: ms(-1);
       font-weight: $font-medium;
       margin: 0;
       text-align: right;
+    }
+
+    a {
+      animation: unset;
+      background-image: unset;
+      color: $color-offblack;
+      opacity: 0.6;
+
+      @include hover-state {
+        opacity: 1;
+      }
     }
   }
 }

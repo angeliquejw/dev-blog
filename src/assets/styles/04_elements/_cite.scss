@@ -1,0 +1,22 @@
+cite {
+  background-color: $color-grey;
+  border-bottom: 4px solid $color-tumeric;
+  display: block;
+  font-family: $font-plex-mono;
+  font-size: ms(-1);
+  font-style: normal;
+  font-weight: $font-medium;
+  margin-left: calc(40% + #{$spacing-unit-sm});
+  padding: $spacing-unit-xs $spacing-unit-sm $spacing-unit-sm $spacing-unit-xs;
+  position: relative;
+  text-transform: uppercase;
+  top: (-$spacing-unit-sm);
+  width: 60%;
+
+  a {
+    animation: unset;
+    background-image: unset;
+    border-color: $color-valentino;
+    color: $color-offblack;
+  }
+}
