@@ -25,22 +25,11 @@
     top: -12px;
   }
 
+  iframe {
+    max-width: 100%;
+  }
+
   &.giphy {
-
-    iframe {
-      max-width: 100%;
-    }
-
-    .giphy-embed + p { /* stylelint-disable-line selector-max-class */
-      bottom: (-$spacing-unit-xs);
-      font-family: $font-plex-mono;
-      font-size: ms(-1);
-      font-weight: $font-medium;
-      margin: 0;
-      position: absolute;
-      right: 0;
-    }
-
     a {
       animation: unset;
       background-image: unset;
@@ -51,5 +40,15 @@
         opacity: 1;
       }
     }
+  }
+
+  .giphy-embed + p {
+    bottom: (-$spacing-unit-xs);
+    font-family: $font-plex-mono;
+    font-size: ms(-1);
+    font-weight: $font-medium;
+    margin: 0;
+    position: absolute;
+    right: 0;
   }
 }
