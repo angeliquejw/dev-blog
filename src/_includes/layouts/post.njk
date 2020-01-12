@@ -3,16 +3,18 @@ layout: layouts/default.njk
 templateClass: tmpl-post
 ---
 
-<header class="post-header u-flex">
-  <h1>{{ title }}</h1>
-  <time datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time>
-</header>
+<article class="blog-post">
+  <header class="post-header u-flex">
+    <h1>{{ title }}</h1>
+    <time datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time>
+  </header>
 
-{{ content | safe }}
+  {{ content | safe }}
 
-<footer>
-  <p>As always, feel free to <a href="https://twitter.com/intent/tweet?screen_name=messypixels" target="_blank">send comments to me via Twitter</a>. {{comments | safe }}</p>
-</footer>
+  <footer>
+    <p>As always, feel free to <a href="https://twitter.com/intent/tweet?screen_name=messypixels" target="_blank">send comments to me via Twitter</a>. {{comments | safe }}</p>
+  </footer>
+</article>
 
 <div>
   <p>Written in {{ location }} and tagged as:
