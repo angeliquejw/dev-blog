@@ -1,5 +1,10 @@
 blockquote {
   background-color: $color-offwhite;
+  font-family: $font-plex-sans;
+  font-size: ms(1);
+  font-style: italic;
+  font-weight: $font-semibold;
+  line-height: 1.6;
   margin: $spacing-unit-sm (-$spacing-unit-sm) 0;
   padding: $spacing-unit 24px;
   position: relative;
