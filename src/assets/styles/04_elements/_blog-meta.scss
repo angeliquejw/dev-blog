@@ -1,0 +1,42 @@
+.blog-meta {
+  color: $color-siren;
+  margin: $spacing-unit auto $spacing-unit-lg;
+  position: relative;
+  text-align: center;
+  width: 50%;
+  
+  p {
+    font-size: ms(-1);
+    font-style: italic;
+    margin: 0;
+    padding-top: $spacing-unit-xs;
+    text-transform: lowercase;
+  }
+  
+  em {
+    font-style: normal;
+    text-transform: uppercase;
+  }
+
+  a {
+    border-bottom: 1px solid rgba($color-mulberry, 0.5);
+    color: $color-siren;
+    text-decoration: none;
+
+    @include hover-state {
+      border-bottom-color: $color-mulberry;
+    }
+  }
+
+  &::before {
+    background-color: $color-tumeric;
+    content: "";
+    height: 3px; /* stylelint-disable-line plugin/8-point-grid */
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 55%;
+  }
+}
