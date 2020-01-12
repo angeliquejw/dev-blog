@@ -1,15 +1,11 @@
 @use "sass:list";
-/* stylelint-disable indentation */
-$display-options: block,
-inline-block,
-flex;
-/* stylelint-enable */
+
+$display-options: block, inline-block, flex;
 
 @mixin u-display($value) {
   @if not list.index($display-options, $value) {
     @error "#{$value} is not a supported value for this mixin. Expected one of #{$values}.";
   }
-
   @else {
     display: #{$value};
   }
