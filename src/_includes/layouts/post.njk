@@ -16,33 +16,35 @@ templateClass: tmpl-post
   </footer>
 </article>
 
-<div class="blog-meta">
-  <p>Written in <em>{{ location }}</em> and tagged as:
-    <ul class="u-list-reset">
-    {% for tag in tags %}
-      {%- if collections.tagList.indexOf(tag) != -1 -%}
-      {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
-      <li class="u-inline-block"><a href="{{ tagUrl | url }}" class="u-block">{{ tag }}</a></li>
-      {%- endif -%}
-    {% endfor %}
-    </ul>
-  </p>
-</div>
+<div class="meta-wrapper">
+  <div class="blog-meta">
+    <p>Written in <em>{{ location }}</em> and tagged as:
+      <ul class="u-list-reset">
+      {% for tag in tags %}
+        {%- if collections.tagList.indexOf(tag) != -1 -%}
+        {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+        <li class="u-inline-block"><a href="{{ tagUrl | url }}" class="u-block">{{ tag }}</a></li>
+        {%- endif -%}
+      {% endfor %}
+      </ul>
+    </p>
+  </div>
 
-<nav>
-  <ol class="u-list-reset">
-   {% if nextPost.url %}
-    <li>
-      <a class="next" href="{{ nextPost.url }}"><em>Newer</em> Post</a>
-    </li>
-  {% endif %}
-  {% if prevPost.url %}
-    <li>
-      <a class="previous" href="{{ prevPost.url }}"><em>Older</em> Post</a>
-    </li>
-  {% endif %}
-  </ol>
-</nav>
+  <nav class="post-nav">
+    <ol class="u-list-reset u-flex{% if (prevPost.url == null) %} __only-newer{% endif %}">
+    {% if prevPost.url %}
+      <li>
+        <a class="post-nav--link post-nav--link__old u-block" href="{{ prevPost.url }}"><em>Older</em> Post</a>
+      </li>
+    {% endif %}
+    {% if nextPost.url %}
+      <li>
+        <a class="post-nav--link post-nav--link__new u-block" href="{{ nextPost.url }}"><em>Newer</em> Post</a>
+      </li>
+    {% endif %}
+    </ol>
+  </nav>
+</div>
 
 <footer>
   {% include "bio.njk" %}
