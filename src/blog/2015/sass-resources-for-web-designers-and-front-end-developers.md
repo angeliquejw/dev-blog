@@ -17,6 +17,7 @@ If you like learning and connecting in person, there's [Camp Sass](http://campsa
 
 [![CampSass](/assets/img/blog/2015/campsass.png)](http://campsass.com/)
 [![SassConf](/assets/img/blog/2015/sassconf.png)](http://sassconf.com/)
+{: .u-align-center }
 
 ## Libraries, grids & more
 There's a wealth of resources out there for making your already awesome and efficient Sass even better. I use [Bourbon](http://bourbon.io/), a mixin library, in almost all my projects, as it's lightweight, allows me to avoid handcoding vendor prefixes (`@include display(flex)` and `@include placeholder` FTW) and just allows for simpler, cleaner code (like `@include clearfix` and `#{$all-text-inputs}`).
