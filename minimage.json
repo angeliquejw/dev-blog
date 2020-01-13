@@ -83,5 +83,20 @@
         "path": "src/assets/img/blog/2015/solarized.png",
         "hash": "20ad1b3a61956554715d96ca19cbd67d",
         "size": "25.702kb"
+    },
+    {
+        "path": "src/assets/img/ajw-photo2.png",
+        "hash": "51b673d4c85245da936cfb59595e1fde",
+        "size": "11.595kb"
+    },
+    {
+        "path": "src/assets/img/triangle-black.svg",
+        "hash": "7ff8cc0320a9363c2922609c97ade6eb",
+        "size": "0.214kb"
+    },
+    {
+        "path": "src/assets/img/triangle-white.svg",
+        "hash": "878dd90a0fcdc918ce2648d27dfc9741",
+        "size": "0.247kb"
     }
 ]
