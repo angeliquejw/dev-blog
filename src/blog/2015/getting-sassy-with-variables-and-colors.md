@@ -25,7 +25,7 @@ Now, instead of remembering `#92bd0a` throughout my project, I can just use `$li
 
 So, as an example, if you switch between the Sass and CSS tabs below, you can see what the styles for my site header look like in my stylesheet and what it looks like after being compiled into CSS:
 
-<div class="embed-container">
+<div class="code-embed-container">
 <p class="sassmeister" data-gist-id="e8f80c276738c66ecb2f" data-height="480" data-theme="solarized-dark"><a href="http://sassmeister.com/gist/e8f80c276738c66ecb2f">Play with this gist on SassMeister.</a></p>
 </div>
 
@@ -55,7 +55,7 @@ $base: #D4E744;
 }
 ```
 
-<div class="embed-container">
+<div class="code-embed-container">
 
 @[codepen](BNLrLQ)
 
@@ -73,7 +73,7 @@ compiles to
 background: rgba(212, 231, 68, 0.5);
 ```
 
-<div class="embed-container">
+<div class="code-embed-container">
 
 @[codepen](bdwvwq)
 
@@ -105,7 +105,7 @@ While these are the color functions I use most often in Sass, they're not the on
 }
 ```
 
-<div class="embed-container">
+<div class="code-embed-container">
 
 @[codepen](oXzqXO)
 
@@ -113,7 +113,7 @@ While these are the color functions I use most often in Sass, they're not the on
 
 You can also use Sass to saturate and desaturate colors, as well as generate greyscale and inverted colors:
 
-<div class="embed-container">
+<div class="code-embed-container">
 
 @[codepen](QbKmKM)
 
@@ -122,7 +122,7 @@ You can also use Sass to saturate and desaturate colors, as well as generate gre
 ## More complex Sass color functions
 If you're already using `lighten` and `adjust_hue` in your stylesheets, maybe you're interested in leveling up and trying to write your own color functions using Sass. My example above for generating RGBa values using Sass includes a basic Sass loop:
 
-<div class="embed-container">
+<div class="code-embed-container">
 <p class="sassmeister" data-gist-id="9ec6b6d59e3709808a43" data-height="480" data-theme="solarized-dark"><a href="http://sassmeister.com/gist/9ec6b6d59e3709808a43">Play with this gist on SassMeister.</a></p>
 </div>
 
@@ -136,7 +136,7 @@ Depending on how much programming experience you have before jumping into Sass, 
 
 My own recent contribution was re-configuring some code I wrote two years ago to be easier to fork and reuse. My original intent was to create a handy guide to what colors looked like after being lightened or darkened using Sass functions, including when light and dark text became illegible on the resulting colors. While my [original attempt](http://codepen.io/angeliquejw/details/BgrIs/) accomplished this, reusing the code was a fiddly affair. To change a single color in that palette, I had to update seven different values; to change the percent of a tint (say, to lighten and darken colors by 15% instead of 10%), I had to change four values *per color* in the HTML and two in the CSS. In comparison, my new version only requires 5 values to be updated when colors are swapped and 2 *total* values when changing or adding a percent value. (Honestly, I think even those numbers can be improved, so there may yet be a version 3!)
 
-<div class="embed-container">
+<div class="code-embed-container">
 
 @[codepen](ZGpORV)
 
