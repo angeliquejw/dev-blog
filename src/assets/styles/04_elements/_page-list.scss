@@ -39,11 +39,14 @@
     a {
       &::before {
         background-color: $color-siren;
+        transition: background-color 200ms ease;
         width: 124%;
       }
 
       @include hover-state {
-        color: $color-siren;
+        &::before {
+          background-color: $color-offwhite;
+        }
       }
     }
   }
