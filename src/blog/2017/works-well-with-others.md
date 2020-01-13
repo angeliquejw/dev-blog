@@ -15,8 +15,8 @@ I've been thinking a lot about teams and, based on my own lucky experiences, wha
 
 Of course, I'm not saying anything new about the benefits of safety and empathy within teams and what it means to a company. Last year, an article on Google's Project Aristotle was published in The New York Times Magazine and widely shared:
 
-<blockquote>What Project Aristotle has taught people within Google is that no one wants to put on a "work face" when they get to the office. No one wants to leave part of their personality and inner life at home. But to be fully present at work, to feel "psychologically safe," we must know that we can be free enough, sometimes, to share the things that scare us without fear of recriminations. We must be able to talk about what is messy or sad, to have hard conversations with colleagues who are driving us crazy. We can’t be focused just on efficiency.
-</blockquote>
+> What Project Aristotle has taught people within Google is that no one wants to put on a "work face" when they get to the office. No one wants to leave part of their personality and inner life at home. But to be fully present at work, to feel "psychologically safe," we must know that we can be free enough, sometimes, to share the things that scare us without fear of recriminations. We must be able to talk about what is messy or sad, to have hard conversations with colleagues who are driving us crazy. We can’t be focused just on efficiency.
+
 <cite>&mdash;Charles Duhigg in the NYT, <a href="https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html
 ">What Google Learned From Its Quest to Build the Perfect Team</a></cite>
 

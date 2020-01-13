@@ -29,7 +29,7 @@ Regardless of what system you use, the goal is usually the same: To make it easi
 
 Without a master colors list like this, your color variations can easily get out of hand. This goes extra for if you're just working directly from a mockup and don't have a brand or project file to refer to. I once received a mockup that had 14 different variations on blue and grey; by taking the time to identify and list the colors, I was able to actually cut our palette down to a more reasonable 8 colors. This both makes us more intentional about how we're using color and simplifies our code, which makes me happy.
 
-<div class="embed-container">
+<div class="code-embed-container">
 
 @[codepen](wagBMq)
 
@@ -177,11 +177,12 @@ Despite my feeling that variables based on function are an overcomplicated syste
 > 2. There is never a time where you will update the variables $White or $Black to be anything other then #FFF or #000. If you do update these to be anything else, then you clearly are not writing semantic code.
 > 
 > With these two truths being the case, then I see absolutely no reason to define them.
-> <cite>[Jono Herrington](http://createstopbecreative.com/2015/05/06/sass-stop-defining-useless-color-variables/)</cite>
+
+<cite>&mdash;[Jono Herrington](http://createstopbecreative.com/2015/05/06/sass-stop-defining-useless-color-variables/)</cite>
 
 Personally, I still do this because the second "truth" innit even remarkably true for me. I often use shades of black and white in place of the true colors (because they're both a bit unnatural and harsh; [learn more](http://ianstormtaylor.com/design-tip-never-use-black/)). However, I am a bit moved by the semantic argument and have opted to name my variables `$color-offblack` and `$color-offwhite` in the hopes this will make my code and logic clearer to other people working on projects with me (i.e., they won't assume `$color-offblack` means `#000`).
 
-<div class="embed-container">
+<div class="code-embed-container">
 
 @[codepen](zGNEYv)
 

@@ -13,6 +13,9 @@ During Baltimore Innovation Week, [I was voted Technologist of the Year and our 
 
 <div class="embed-container">
 	<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/BIW15?src=hash">#BIW15</a> <a href="https://twitter.com/messypixels">@messypixels</a> talking SASS and SMACSS <a href="http://t.co/NchaBC3b0r">pic.twitter.com/NchaBC3b0r</a></p>&mdash; Yet Developers (@YetDevs) <a href="https://twitter.com/YetDevs/status/649311349290303488">September 30, 2015</a></blockquote>
+</div>
+
+<div class="embed-container">
 	<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p lang="en" dir="ltr">.<a href="https://twitter.com/messypixels">@messypixels</a> is giving a great <a href="https://twitter.com/hashtag/sass?src=hash">#sass</a> talk at <a href="https://twitter.com/hashtag/BIW15?src=hash">#BIW15</a>. My first exposure to seeing <a href="https://twitter.com/hashtag/CSS?src=hash">#CSS</a> written this way. Very interesting.</p>&mdash; Alex Viana (@AlexVianaPro) <a href="https://twitter.com/AlexVianaPro/status/649313919438311429">September 30, 2015</a></blockquote>	
 </div>
 
@@ -43,12 +46,12 @@ But I was also present: I was here to walk across that stage and collect those a
 
 And those moments were gifts. Which, reflecting on 2015, makes my heart swell and makes me hopeful for more good times in the future. And, for me, those good times aren't marked just by what I receive, but also what I give back. Part of what I want to do in this life is help others, to be of use.
 
-<blockquote>&hellip;I love people who harness themselves, an ox to a heavy cart,<br />
-who pull like water buffalo, with massive patience,<br />
-who strain in the mud and the muck to move things forward,<br />
-who do what has to be done, again and again.<br />
+> &hellip;I love people who harness themselves, an ox to a heavy cart,  
+> who pull like water buffalo, with massive patience,  
+> who strain in the mud and the muck to move things forward,  
+> who do what has to be done, again and again.
+
 <cite>&mdash;Marge Piercy, <a href="http://www.poetryfoundation.org/poem/249346">To Be Of Use</a></cite>
-</blockquote>
 
 Which, of course, is a huge part of what I've enjoyed about being part of Girl Develop It. It's also why I'm always eager to help folks navigating the early stages of their freelance careers by offering up examples of my proposals, contracts, etc. I was sorting all that out while still dragging around the concrete block of my depression on a daily basis, so being offer to make any of that easier for the next person (whether depressed or not, whether they're struggling with imposter syndrome or not) is actually a bit of a relief and joy to me.
 
