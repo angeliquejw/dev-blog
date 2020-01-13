@@ -8,7 +8,7 @@ comments: What Sass resources are most useful to you?
 
 If you've decided Sass is snazzy and want to learn more, I've gathered up some links I've found useful and hope you do, too.
 
-## Reading &amp; learning about Sass
+## Reading & learning about Sass
 While you might not start out reading the [Sass documentation](http://sass-lang.com/documentation/file.SASS_REFERENCE.html), sooner or later you'll end up there in order to learn more about a feature of Sass or its limitations. For example, after [just saying](/blog/2015/naming-your-color-variables/) earlier this month that I don't do much theming, I found myself needing to create some themes for a web form and spent some time reading up on the [!default](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#variable_defaults_) flag.
 
 Thankfully, there's more interesting things to read out there other than the docs. Two blogs I follow and recommend include [Hugo Giraudel's blog](http://hugogiraudel.com/blog/) and [The Sass Way](http://thesassway.com/). You'll note some links from the former to the latter, as Hugo is a contributor to The Sass Way. I also keep up with via [Sassnews](http://sassnews.us7.list-manage.com/subscribe?u=b4a4054cce715a3b0ae5e7d35&id=f7c505323d), a weekly email newsletter.
@@ -18,7 +18,7 @@ If you like learning and connecting in person, there's [Camp Sass](http://campsa
 [![CampSass](/assets/img/blog/2015/campsass.png)](http://campsass.com/)
 [![SassConf](/assets/img/blog/2015/sassconf.png)](http://sassconf.com/)
 
-## Libraries, grids &amp; more
+## Libraries, grids & more
 There's a wealth of resources out there for making your already awesome and efficient Sass even better. I use [Bourbon](http://bourbon.io/), a mixin library, in almost all my projects, as it's lightweight, allows me to avoid handcoding vendor prefixes (`@include display(flex)` and `@include placeholder` FTW) and just allows for simpler, cleaner code (like `@include clearfix` and `#{$all-text-inputs}`).
 
 I also really like David Clark's library of Sass utilities, [Scut](https://davidtheclark.github.io/scut/). Even when I don't import his whole library, I reliably include his [REM with fallback](https://davidtheclark.github.io/scut/rem-fallback.html) mixin and, when a design calls for it, [Side-Lined](https://davidtheclark.github.io/scut/side-lined.html) mixin.

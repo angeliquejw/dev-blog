@@ -39,7 +39,7 @@ For example, when you loaded this page, there were server requests to grab the H
 
 This, of course, is a highly personal judgement call, but I've enjoyed both the complexity of digging into Middleman and a coding language I'm still learning, as well as the simplicity of writing up my posts in Markdown in either a text editor or, when I don't want to leave the browser, [Draft](http://draftin.com). Also, I've had the opportunity to focus on designing the site (my first personal project in a good long while) and writing the content; not finding, testing and updating widgets and plugins.
 
-### Some Caveats
+### Some caveats
 None of this, I should note, is meant to be a slam on PHP or WordPress. I'm using WordPress as my example simply because I know it so well---I started down the path to learning PHP by tearing apart and rebuilding default WordPress template files and I've created many WordPress sites for friends, clients and myself. Also, since WordPress is *the* most popular blogging system, I expect it's an example most folks would be familiar with.
 
 Also, to be entirely fair, WordPress offers some things out of the box that I don't get with Middleman or its equivalents (Oh, yeah, [there are *lots* of static site generators out there](https://staticsitegenerators.net/).) There's no comments here (*yet*), no search (*yet*); most importantly, there's no GUI. One of the reasons I've promoted WordPress to so many clients is the ease of use for folks with little to no technical know how. The WordPress posting interface is similar enough to Microsoft Word that folks can handle creating posts and pages with little to no guidance.
