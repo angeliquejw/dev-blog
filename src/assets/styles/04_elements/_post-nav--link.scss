@@ -1,0 +1,75 @@
+.post-nav--link {
+  color: $color-siren;
+  overflow-x: hidden;
+  overflow-y: show;
+  padding: $spacing-unit-xs 0;
+  position: relative;
+  text-decoration: none;
+
+  &::before,
+  &::after {
+    position: absolute;
+  }
+
+  &::before {
+    @include z-index(bottom);
+    background-color: white;
+    bottom: -4px;
+    content: "";
+    height: 18px;
+    opacity: 0.45;
+    width: 23px;
+  }
+
+  &::after {
+    @include z-index(low);
+    bottom: -5px;
+    color: $color-patina;
+    font-size: ms(1);
+    font-weight: $font-bold;
+  }
+
+  &__old {
+    padding-left: ($spacing-unit-xs / 2);
+
+    &::before {
+      right: 0;
+    }
+
+    &::after {
+      content: "↵";
+      right: 2px;
+    }
+  }
+
+  &__new {
+    padding-right: ($spacing-unit-xs / 2);
+
+    &::before {
+      left: 0;
+    }
+
+    &::after {
+      content: "↳";
+      left: 2px;
+    }
+  }
+
+  @include hover-state {
+    &::before {
+      height: 100%;
+      opacity: 1;
+      width: 100%;
+    }
+
+    &::after {
+      color: $color-tumeric;
+      font-weight: $font-extrabold;
+    }
+  }
+
+  em {
+    font-weight: $font-semibold;
+    text-transform: lowercase;
+  }
+}
