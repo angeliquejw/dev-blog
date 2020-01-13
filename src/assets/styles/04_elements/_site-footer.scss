@@ -51,9 +51,19 @@
       }
     }
   }
+}
 
-  em {
-    color: $color-mulberry;
-    font-style: normal;
+.bmore-heart {
+  color: $color-mulberry;
+  display: inline-block;
+  font-size: ms(2);
+  font-style: normal;
+}
+
+.site-footer a { /* stylelint-disable-line no-descending-specificity */
+  @include hover-state {
+    .bmore-heart {
+      transform: scale(1.3);
+    }
   }
 }
