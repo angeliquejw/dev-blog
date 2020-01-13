@@ -3,6 +3,7 @@ title: Encouraging Highs, Crushing Lows
 tags: [girl develop it, baltimore innovation week, sassconf, awards, workshops, presentations, depression, mental health, self care]
 date: 2016-01-03
 location: Baltimore
+comments: false
 ---
 
 While this could easily be a commitment to a new year, a reboot for my blog (I know it's been awhile), first I have to look back, to write something that's been in my head since September and shares things beyond even 2015. (Spoiler alert: This post is going to be just a word dump and *sans* technical/code examples.)
