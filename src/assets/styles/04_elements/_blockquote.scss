@@ -9,22 +9,33 @@ blockquote {
   padding: $spacing-unit 24px;
   position: relative;
 
-  &::before {
+  &::before, &::after {
     background-color: $color-tumeric;
     content: "";
     height: 4px;
     position: absolute;
     right: 0;
-    top: 0;
     width: 60%;
+  }
+
+  &::before {
+    top: 0;
+  }
+
+  &::after {
+    bottom: 0;
   }
 
   &.twitter-tweet-error { /* stylelint-disable-line selector-no-qualifying-type */
     margin: 0;
     padding: $spacing-unit-sm;
 
-    &::before {
+    &::before, &::after {
       display: none;
     }
+  }
+
+  p:first-child {
+    margin-top: 0;
   }
 }
