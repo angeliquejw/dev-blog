@@ -1,0 +1,50 @@
+.bio-footer {
+  background-color: $color-tumeric;
+  font-style: italic;
+  font-weight: $font-semibold;
+  margin-left: (-$spacing-unit-sm);
+  margin-right: (-$spacing-unit-sm);
+  padding: $spacing-unit-sm $spacing-unit-sm $spacing-unit;
+  position: relative;
+
+  .link-wrapper {
+    @include z-index(mid);
+    position: relative;
+
+    &::before {
+      background-color: white;
+      bottom: 0;
+      content: "";
+      height: 85%;
+      left: -4px;
+      opacity: 0.9;
+      position: absolute;
+      transition: width 400ms ease;
+      width: 160%;
+    }
+
+    a {
+      color: $color-valentino;
+      position: relative;
+      text-decoration: none;
+    }
+
+    @include hover-state {
+      a {
+        color: $color-siren;
+      }
+
+      &::before {
+        opacity: 1;
+        width: 180%;
+      }
+    }
+  }
+
+  .photo-wrapper {
+    @include z-index(low);
+    bottom: -120px;
+    position: absolute;
+    right: 0;
+  }
+}
