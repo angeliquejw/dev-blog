@@ -1,8 +1,15 @@
-.embed-container {
-  margin-bottom: $spacing-unit;
-  margin-left: $spacing-unit-sm;
-  margin-right: $spacing-unit-sm;
+.embed-container, .code-embed-container {
+  margin: $spacing-unit $spacing-unit-sm;
   max-width: calc(100% - #{$spacing-unit});
+
+  iframe {
+    @include u-margin-horizontal-auto();
+    display: block;
+    max-width: 100%;
+  }
+}
+
+.embed-container {
   position: relative;
 
   &::before, &::after {
@@ -23,10 +30,6 @@
     border: 1px solid $color-valentino;
     left: -12px;
     top: -12px;
-  }
-
-  iframe {
-    max-width: 100%;
   }
 
   &.giphy {

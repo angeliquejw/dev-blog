@@ -26,13 +26,17 @@ blockquote {
     bottom: 0;
   }
 
-  &.twitter-tweet-error { /* stylelint-disable-line selector-no-qualifying-type */
+  &.twitter-tweet-error, &.instagram-media { /* stylelint-disable-line selector-no-qualifying-type */
     margin: 0;
     padding: $spacing-unit-sm;
 
     &::before, &::after {
       display: none;
     }
+  }
+
+  &.no-cite { /* stylelint-disable-line selector-no-qualifying-type */
+    margin-bottom: $spacing-unit;
   }
 
   p:first-child {
