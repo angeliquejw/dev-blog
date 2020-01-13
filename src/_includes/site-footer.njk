@@ -1,15 +1,15 @@
-<footer>
-  <a href="#top">Top</a>
+<footer class="site-footer">
+  {% include "top-link.njk" %}
 
   {%- if templateClass == "tmpl-home" %}
     {% include "site-logo.njk" %}
   {%- endif %}
 
   <ul class="u-list-reset">
-    <li>v0.2 Build Info</li>
+    <li>v0.2 <span>Build Info</span></li>
     <li>&copy; 2015-<script>document.write(new Date().getFullYear());</script> Ang&eacute;lique Weger</li>
-    <li>Site powered by <a href="" target="_blank">Eleventy.js</a> [ <a href="" target="_blank">repo</a> ]</li>
+    <li>Site powered by <a href="https://www.11ty.dev/" target="_blank">Eleventy.js</a> [ <a href="https://github.com/angeliquejw/dev-blog" target="_blank">repo</a> ]</li>
     <li>Fonts used: Barlow, IBM Plex Mono, IBM Plex Sans</li>
-    <li><a href="http://madewithloveinbaltimore.org">Made with &hearts; in Baltimore</a></li>
+    <li><a href="http://madewithloveinbaltimore.org">Made with <em>&hearts;</em> in Baltimore</a></li>
   </ul>
 </footer>
