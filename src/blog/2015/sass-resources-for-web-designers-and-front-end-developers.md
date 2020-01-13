@@ -1,5 +1,5 @@
 ---
-title: Sass Resources for Web Designers and Front-end Developers
+title: Sass resources for web designers and front-end developers
 tags: [sass, links, resources]
 date: 2015-06-16
 location: Baltimore

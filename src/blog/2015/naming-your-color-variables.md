@@ -1,5 +1,5 @@
 ---
-title: Naming Your Color Variables
+title: Naming your color variables
 tags: [sass, variables, colors]
 date: 2015-06-02
 location: Detroit
