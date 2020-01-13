@@ -15,7 +15,7 @@ Using variables for colors is awesome; naming those variables can be&hellip;comp
 Need an into to *WHY* colors and Sass are awesome? I wrote about this and gave some examples in [a previous post](/blog/2015/getting-sassy-with-variables-and-colors/).
 {: .note}
 
-## Why Name Colors
+## Why name colors
 Regardless of what system you use, the goal is usually the same: To make it easier to remember and manipulate the main colors in your site's palette. When I was just using straight CSS, that usually meant doing something like this at the top of my stylesheet:
 
 ```css
@@ -37,7 +37,7 @@ Without a master colors list like this, your color variations can easily get out
 
 Once you have your palette, whether it has 8, 14 or more colors, you have to figure out how you're going to refer to them.
 
-### The CSS Way
+### The CSS way
 Here, in general, you don't have a lot of choices. Mainly, you have to decide what kind of color notation you'll use:
 * Hexadecimal <code>#c0c0c0</code>
 * HSL <code>hsl(0, 0%, 75%)</code>
@@ -63,7 +63,7 @@ This is familiar and, no doubt, works. However, I found I often had to refer bac
 ### The Sass way
 Sass allows us to use variables to make these color codes easier to remember and use. There are several common ways of naming these variables.
 
-#### Color Names
+#### Color names
 Using your own creativity or leaning on [Name That Color](http://chir.ag/projects/name-that-color/#00ACF1), you can assign recognizable names to the color variables, like so:
 
 ```scss
@@ -88,7 +88,7 @@ This method can be frustrating when a color needs to be replaced entirely (e.g.,
 As in the example above, I opt to prefix my color names with `color-` because this makes all my color variables show up in my text editor's autocomplete feature.
 {: .note }
 
-#### Functional Names
+#### Functional names
 One way of avoiding this switcheroo is to instead name things based on the function of the color, like so:
 
 ```scss
@@ -125,7 +125,7 @@ While wordy, this feels like a very clear way to organize things and easy for ot
 
 This clear system no longer makes sense. There's gotta be a better way, right?
 
-#### The Hybrid Naming System
+#### The hybrid naming system
 By combining the color and functional naming systems, you can avoid the problems of both:
 
 ```scss
@@ -169,7 +169,7 @@ Despite my feeling that variables based on function are an overcomplicated syste
 
 ## Other tips for dealing with color variables
 
-### Black & White in Variables
+### Black & white in variables
 
 [Some folks](http://createstopbecreative.com/2015/05/06/sass-stop-defining-useless-color-variables/) get bent out of shape about defining black and white as variables in Sass:
 
