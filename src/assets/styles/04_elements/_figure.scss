@@ -1,0 +1,20 @@
+figure {
+  border-left: 4px solid $color-tumeric;
+   margin-top: $spacing-unit;
+  
+   p {
+    margin: 0;
+  }
+
+  figcaption {
+    background-color: $color-offwhite;
+    padding: $spacing-unit-xs;
+  }
+}
+
+.blog-post figcaption a {
+  animation: unset;
+  background-image: unset;
+  border-color: $color-valentino;
+  color: $color-offblack;
+}
