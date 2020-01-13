@@ -46,6 +46,10 @@ templateClass: tmpl-post
   </nav>
 </div>
 
-<footer>
+<footer class="bio-footer">
   {% include "bio.njk" %}
+  <span class="photo-wrapper">
+    {% include "bio-photo.njk" %}
+    {% include "top-link.njk" %}
+  </span>
 </footer>
