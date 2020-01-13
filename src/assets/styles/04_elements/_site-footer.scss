@@ -1,0 +1,59 @@
+.site-footer {
+  background-color: $color-patina;
+  color: $color-valentino;
+  font-size: ms(-2);
+  font-weight: $font-light;
+  padding: $spacing-unit $spacing-unit-sm $spacing-unit-sm;
+  position: relative;
+
+  ul {
+    width: 65%;
+  }
+
+  li {
+    line-height: 1.4;
+    text-align: center;
+
+    &:nth-child(1), &:nth-child(2) {
+      display: inline;
+    }
+
+    &:nth-child(2) {
+      &::before {
+        content: " // ";
+      }
+    }
+
+    > span {
+      text-transform: uppercase;
+    }
+  
+    a {
+      color: $color-offblack;
+      position: relative;
+      text-decoration: none;
+
+      &::before {
+        border-bottom: 1px solid $color-mulberry;
+        bottom: -2px;
+        content: "";
+        height: 100%;
+        left: 0;
+        position: absolute;
+        transition: width 400ms ease;
+        width: 0;
+      }
+
+      @include hover-state {
+        &::before {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  em {
+    color: $color-mulberry;
+    font-style: normal;
+  }
+}
