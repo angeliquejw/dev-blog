@@ -1,23 +1,41 @@
-/* PrismJS 1.18.0
-https://prismjs.com/download.html#themes=prism-tomorrow&languages=markup+css+bash+css-extras+git+markup-templating+scss+shell-session&plugins=autolinker+autoloader */
 /**
- * prism.js tomorrow night eighties for JavaScript, CoffeeScript, CSS and HTML
- * Based on https://github.com/chriskempson/tomorrow-theme
- * @author Rose Pritchard
- */
+* Theme: Gloom Prism
+* https: //github.com/luisramirez-m/prism-gloom-theme
+*
+* Prism theme based on Theme Gloom from Atom (https://github.com/hejrobin/gloom)
+* @author Theme Gloom Atom: hejrobin (https://github.com/hejrobin/)
+* @author Theme Prism Gloom: Luis Ramirez (https://github.com/luisramirez-m)
+*/
+
+/*
+* Colors
+*/
+
+
+$color-bg: #292a44;
+$light: #fff;
+$blue-sky: #66D9EF;
+$blue: #7AA5FF;
+$purple-light: #c4b9fe;
+// $purple-light: #AE81FF;
+$purple-dark: #6D6DB5;
+$color-gray: #d8d8d8;
+$green: #2DE0A7;
+$teal: #6DFEDF;
+$pink-light: #FF6F9F;
+$pink-dark: #F92672;
+$yellow: #FFDB7D;
 
 code[class*="language-"],
 pre[class*="language-"] {
-  color: #ccc;
-  background: none;
-  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-  font-size: 1em;
+  font-family: Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+  font-size: 12px;
+  line-height: 1.5;
+  direction: ltr;
   text-align: left;
   white-space: pre;
   word-spacing: normal;
   word-break: normal;
-  word-wrap: normal;
-  line-height: 1.5;
 
   -moz-tab-size: 4;
   -o-tab-size: 4;
@@ -27,84 +45,132 @@ pre[class*="language-"] {
   -moz-hyphens: none;
   -ms-hyphens: none;
   hyphens: none;
-
+  background: $color-bg;
+  color: $blue-sky;
 }
 
-/* Code blocks */
+pre[class*="language-"]::-moz-selection,
+pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection,
+code[class*="language-"] ::-moz-selection {
+  text-shadow: none;
+  background: #b3d4fc;
+}
+
+pre[class*="language-"]::selection,
+pre[class*="language-"] ::selection,
+code[class*="language-"]::selection,
+code[class*="language-"] ::selection {
+  text-shadow: none;
+  background: #b3d4fc;
+}
+
+@media print {
+
+  code[class*="language-"],
+  pre[class*="language-"] {
+    text-shadow: none;
+  }
+}
+
 pre[class*="language-"] {
   padding: 1em;
-  margin: .5em 0;
+  margin: 3em 0;
   overflow: auto;
 }
 
 :not(pre)>code[class*="language-"],
 pre[class*="language-"] {
-  background: #2d2d2d;
+  background: $color-bg;
 }
 
-/* Inline code */
 :not(pre)>code[class*="language-"] {
   padding: .1em;
   border-radius: .3em;
   white-space: normal;
 }
 
+.token.scope {
+  color: $blue-sky;
+}
+
 .token.comment,
-.token.block-comment,
 .token.prolog,
 .token.doctype,
 .token.cdata {
-  color: #999;
+  color: $purple-dark;
+  font-style: italic;
 }
 
 .token.punctuation {
-  color: #ccc;
+  color: $color-gray;
+}
+
+.token.namespace {
+  opacity: .7;
 }
 
 .token.tag,
-.token.attr-name,
-.token.namespace,
-.token.deleted {
-  color: #e2777a;
-}
-
-.token.function-name {
-  color: #6196cc;
-}
-
-.token.boolean,
-.token.number,
-.token.function {
-  color: #f08d49;
-}
-
-.token.property,
-.token.class-name,
-.token.constant,
-.token.symbol {
-  color: #f8c555;
-}
-
-.token.selector,
-.token.important,
-.token.atrule,
-.token.keyword,
-.token.builtin {
-  color: #cc99cd;
-}
-
-.token.string,
-.token.char,
-.token.attr-value,
-.token.regex,
-.token.variable {
-  color: #7ec699;
-}
-
 .token.operator,
+.token.number {
+  color: $blue;
+}
+
+.token.property {
+  color: $pink-light;
+}
+
+.token.function {
+  color: $green;
+}
+
+.token.tag-id,
+.token.selector,
+.token.atrule-id {
+  color: $pink-light;
+}
+
+code.language-javascript,
+.token.attr-name {
+  color: $pink-dark;
+}
+
+code.language-css,
+code.language-scss,
+.token.boolean,
+.token.string,
 .token.entity,
-.token.url {
-  color: #67cdcc;
+.token.url,
+.language-css .token.string,
+.language-scss .token.string,
+.style .token.string,
+.token.attr-value,
+.token.keyword,
+.token.control,
+.token.directive,
+.token.unit,
+.token.statement,
+.token.regex,
+.token.atrule {
+  color: $teal;
+}
+
+.token.placeholder,
+.token.variable {
+  color: $pink-light;
+}
+
+.token.deleted {
+  text-decoration: line-through;
+}
+
+.token.inserted {
+  border-bottom: 1px dotted #eeebff;
+  text-decoration: none;
+}
+
+.token.italic {
+  font-style: italic;
 }
 
 .token.important,
@@ -112,18 +178,127 @@ pre[class*="language-"] {
   font-weight: bold;
 }
 
-.token.italic {
-  font-style: italic;
+.token.important {
+  color: $purple-light;
 }
 
 .token.entity {
   cursor: help;
 }
 
-.token.inserted {
-  color: green;
+.token.number {
+  color: $yellow;
 }
 
-.token a {
-  color: inherit;
+
+/*
+* Lenguage markup
+*/
+.language-markup {
+  color: $light !important;
+}
+
+/*
+* Lenguage HTML
+*/
+
+.language-html {
+  .token {
+    & .tag {
+      color: $pink-light;
+    }
+  }
+}
+
+/*
+* Lenguage PHP
+*/
+
+.language-php {
+  color: $teal !important;
+
+  .package {
+    color: $purple-light !important;
+  }
+
+  .token {
+    & .keyword {
+      color: $pink-dark !important;
+    }
+
+    .tag,
+      {
+      color: $teal !important;
+
+      .tag-id {
+        color: $teal !important;
+      }
+
+      .punctuation {
+        color: $teal !important;
+      }
+    }
+  }
+}
+
+/*
+* Lenguage CSS
+*/
+.language-css {
+  .token {
+    &.atrule-id {
+      color: $blue !important;
+    }
+
+    &.pseudo-class {
+      color: $pink-dark;
+    }
+  }
+
+  .token.property {
+    color: $blue-sky !important;
+  }
+}
+
+.language-js {
+  .token {
+    &.keyword {
+      color: $pink-dark;
+    }
+
+    &.variable {
+      color: $pink-light;
+    }
+  }
+}
+
+/*
+* Lenguage Bash
+*/
+.language-bash {
+  color: $light !important;
+
+  .token {
+
+    &.operator,
+    &.string,
+    &.function,
+    &.keyword,
+    &.variable {
+      color: $light !important;
+    }
+  }
+}
+
+/*
+* Lenguage Python
+*/
+.language-python {
+  color: $light !important;
+
+  .token {
+    &.keyword {
+      color: $pink-dark !important;
+    }
+  }
 }
