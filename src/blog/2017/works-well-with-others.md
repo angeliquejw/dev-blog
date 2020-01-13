@@ -1,5 +1,5 @@
 ---
-title: Works Well With Others
+title: Works well with others
 tags: [teams, empathy, safe space, communication, values, culture, tech culture, elm]
 date: 2017-07-25
 location: Baltimore
@@ -23,11 +23,8 @@ Of course, I'm not saying anything new about the benefits of safety and empathy 
 What safety looks like and feels like may vary amongst individuals and teams, but this is what I've noted during my time at Fractured Atlas:
 
 1. Clear, shared values with the company and amongst the team let me bring my whole self to work and let me know I will be respected and valued. During the interview process, I was impressed that Fractured Atlas's mission and values weren't dusty pages on a web site that had little to do with the day-to-day work, but instead were an [active pursuit](https://blog.fracturedatlas.org/our-next-step-in-anti-racism-and-anti-oppression-5e6d5589cbf0). Now that I'm part of the company, this is even more clear to me and I also know that our [core behavioral values](http://howwework.fracturedatlas.org/home/2016/9/2/core-behavioral-values) are referenced by our leadership and employees frequently.
-
 2. The engineering team, specifically, has an enthusiastic culture of learning and improvement that, in order to thrive, requires that we accept mistakes and confusion and build up our communication skills. Folks I've paired with over the last few months have been excellent and encouraging teachers and, when reviewing my code, have been quick to call out when they've also learned something new. I would have never anticipated my first couple of months on the job would include [learning a new programming language](https://github.com/angeliquejw/LearningElm), and that's only been possible because of the encouraging collaborative environment on my team. (Did I mention the engineering team is fully remote? To me, that makes this all the more impressive.)
-
 3. Furthermore, the culture of improvement isn't just around the code we deliver, but also relevant to how we work together and communicate. In weekly meetings, we reflect on and tweak our process and create time to talk about things that impact how we collaborate with other parts of the company. Team members and managers actively work to hear from every individual and consider every perspective. I appreciate that the commitment to empathy and communication isn't unilateral, but embraced and modeled by all.
-
 4. Team members are invested in what we're building and making it better. In place of competition or us-vs-them dynamics, we're joined by an enthusiasm for what we're doing and how we're all contributing. This feels especially apparent to me in a UX/front-end role, which some developer cultures belittle. There's not even been a hint of that in my experiences to date&mdash;instead, my teammates celebrate my contributions and seek out my expertise (with a `#UXLOVE` tag on Trello cards that need my attention!). This, in particular, has made it frictionless for me to contribute, learn and share with the team.
 
 <div class="embed-container">

@@ -1,5 +1,5 @@
 ---
-title: Improving Your Windows Command Prompt
+title: Improving Your Windows command prompt
 tags: [windows, command line, command prompt, terminal, cmder, cygwin, powershell]
 date: 2015-07-16
 location: Baltimore
