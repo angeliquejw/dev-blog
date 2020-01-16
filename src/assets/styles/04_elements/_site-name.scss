@@ -5,6 +5,7 @@
   margin: 0;
   position: relative;
   text-align: center;
+  transition: all 200ms ease;
   top: 4px;
 
   &::before {
@@ -14,6 +15,12 @@
     left: -4px;
     position: absolute;
     top: -4px;
+  }
+
+  @include hover-state {
+    &, &::before {
+      transform: scale(1.04);
+    }
   }
 }
 

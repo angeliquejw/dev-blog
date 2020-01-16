@@ -14,7 +14,7 @@ main {
   padding: $spacing-unit-sm $spacing-unit-sm 0;
 }
 
-a {
+a, svg {
   &, &::before, &::after {
     transition: all 200ms ease;
   }
