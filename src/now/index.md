@@ -1,6 +1,7 @@
 ---
-layout: layouts/page.njk
 title: What I'm Doing Now
+pageClass: pg-now
+layout: layouts/page.njk
 ---
 
 ## Currently
