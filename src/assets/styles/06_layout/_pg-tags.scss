@@ -1,0 +1,12 @@
+.pg-tags {
+  h1 {
+    color: $color-siren;
+    font-size: ms(4);
+    font-weight: $font-light;
+    text-transform: uppercase;
+  }
+
+  ul {
+    display: grid;
+  }
+}
