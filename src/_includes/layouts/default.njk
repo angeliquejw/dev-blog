@@ -4,7 +4,7 @@ layout: layouts/base.njk
 
 {% include "site-header.njk" %}
 
-<main>
+<main{% if pageClass %} class="{{ pageClass }}"{% endif %}>
   {{ content | safe }}
 </main>
 
