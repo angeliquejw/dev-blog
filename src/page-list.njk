@@ -1,11 +1,12 @@
 ---
+permalink: /page-list/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber }}/{% endif %}
+layout: layouts/home.njk
 pagination:
   data: collections.all
   size: 100
   alias: entries
-layout: layouts/home.njk
-permalink: /page-list/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber }}/{% endif %}
 ---
+
 <table>
   <thead>
     <th>URL</th>

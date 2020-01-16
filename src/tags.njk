@@ -1,4 +1,9 @@
 ---
+renderData:
+  title: Tagged “{{ tag }}”
+permalink: /tags/{{ tag | slug }}/
+pageClass: pg-tagged
+layout: layouts/page.njk
 pagination:
   data: collections
   size: 1
@@ -10,12 +15,10 @@ pagination:
     - posts
     - tagList
   addAllPagesToCollections: true
-layout: layouts/home.njk
-renderData:
-  title: Tagged “{{ tag }}”
-permalink: /tags/{{ tag | slug }}/
 ---
-<h1>Tagged “{{ tag }}”</h1>
+
+
+<h1>Tagged "{{ tag }}"</h1>
 
 {% set postslist = collections[ tag ] %}
 {% include "posts-list.njk" %}
