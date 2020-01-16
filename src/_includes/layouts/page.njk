@@ -3,5 +3,7 @@ layout: layouts/default.njk
 templateClass: tmpl-page
 ---
 
+{% if title %}
 <h1>{{ title }}</h1>
+{% endif %}
 {{ content | safe }}
