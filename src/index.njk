@@ -3,9 +3,14 @@ title: Angelique Weger
 layout: layouts/home.njk
 ---
 
-<h1>Ang&eacute;lique Weger</h1>
+<h1 class="u-sr-only">Ang&eacute;lique Weger</h1>
 
-<ul class="u-list-reset">
+<div class="image-wrapper">
+  <img src="/assets/img/glitches/00.gif" alt="" class="homepage-photo">
+</div>
+
+
+<ul class="u-list-reset labels-list">
   <li>Coder</li>
   <li>Designer</li>
   <li>Teacher</li>
@@ -13,14 +18,15 @@ layout: layouts/home.njk
   <li>Enthusiast</li>
 </ul>
 
-{% include "bio.njk" %}
+<div class="bio-wrapper">
+  <div class="bio-content">
+    {% include "bio.njk" %}
+  </div>
+  {% include "social-list.njk" %}
+</div>
 
-{% include "social-list.njk" %}
-
-<h2>Blog</h2>
+<h2 class="page-heading">Blog</h2>
 
 {% set postslist = collections.posts | head(-30) %}
 {% set postslistCounter = collections.posts | length %}
 {% include "posts-list.njk" %}
-
-{% include "site-footer.njk" %}
