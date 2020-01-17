@@ -1,0 +1,106 @@
+.posts-list {
+
+  li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: $spacing-unit;
+    margin-left: $spacing-unit-xs;
+    margin-right: $spacing-unit-xs;
+    min-height: 192px;
+    padding: 4px;
+    position: relative;
+
+    &::before {
+      @include z-index(bottom);
+      border: 1px solid $color-mulberry;
+      bottom: 0;
+      content: "";
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+    @include hover-state {
+      &::before {
+        border-color: $color-tumeric;
+      }
+
+      .post-cta > em {
+        color: $color-offwhite;
+
+        &::before,
+        &::after {
+          left: 0;
+          top: 0;
+        }
+
+        &::after {
+          border-color: $color-tumeric;
+        }
+      }
+    }
+  }
+
+  .post-title {
+    color: $color-offwhite;
+    font-family: $font-plex-sans;
+    font-size: ms(5);
+    font-weight: $font-extrabold;
+    margin: $spacing-unit-sm $spacing-unit-sm $spacing-unit;
+  }
+
+  time {
+    color: $color-pearl;
+    font-weight: $font-light;
+    order: -1;
+    text-align: right;
+  }
+
+  .post-cta {
+    align-self: center;
+    color: $color-mulberry;
+    margin-bottom: (-$spacing-unit-sm);
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &::before {
+      bottom: 0;
+      content: "";
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+    > em {
+      font-style: normal;
+      font-weight: $font-light;
+      padding: 2px 4px 8px 2px;
+      padding: $spacing-unit-xs;
+      position: relative;
+
+      &::before,
+      &::after {
+        @include z-index(bottom);
+        content: "";
+        height: 100%;
+        position: absolute;
+        width: 100%;
+      }
+
+      &::before {
+        background-color: $color-offblack;
+        left: -2px;
+        top: -2px;
+      }
+
+      &::after {
+        border: 1px solid $color-mulberry;
+        left: 2px;
+        top: 2px;
+      }
+    }
+  }
+}
