@@ -1,0 +1,92 @@
+.tmpl-home {
+  background-color: $color-valentino;
+
+  .page-heading {
+    color: $color-offwhite;
+    margin-top: $spacing-unit-xl;
+  }
+
+  main {
+    margin-bottom: $spacing-unit-xl + $spacing-unit;
+  }
+
+  .site-name {
+    left: unset;
+    position: absolute;
+    right: ($spacing-unit-sm);
+    top: -24px;
+  }
+
+  .site-logo {
+    position: relative;
+    top: 5px;
+  }
+
+  .site-footer ul {
+    width: 85%;
+  }
+}
+
+.image-wrapper {
+  overflow-x: hidden;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.homepage-photo {
+  @include z-index(bottom);
+  position: relative;
+  right: -64px;
+}
+
+.bio-wrapper {
+  position: relative;
+  top: $spacing-unit;
+}
+
+.bio-content {
+  background-color: rgba($color-offwhite, 16%);
+  padding: $spacing-unit $spacing-unit-sm $spacing-unit-sm;
+
+  > p {
+    color: $color-offwhite;
+    font-size: ms(1);
+    font-style: italic;
+    margin-top: 0;
+  }
+
+  .link-wrapper {
+    @include z-index(mid);
+    position: relative;
+
+    &::before {
+      background-color: $color-mulberry;
+      bottom: 0;
+      content: "";
+      height: 85%;
+      left: -4px;
+      opacity: 0.9;
+      position: absolute;
+      transition: width 400ms ease;
+      width: 160%;
+    }
+
+    a {
+      color: $color-offwhite;
+      position: relative;
+      text-decoration: none;
+    }
+
+    @include hover-state {
+      a {
+        color: $color-offwhite;
+      }
+
+      &::before {
+        opacity: 1;
+        width: 180%;
+      }
+    }
+  }
+}
