@@ -1,23 +1,23 @@
 [
     {
         "path": "src/assets/img/icon-email.svg",
-        "hash": "f63150a325ab3d04f2d179632ec8f1b0",
-        "size": "0.628kb"
+        "hash": "aa7288090a1ca2422c8718bef1a7dd5b",
+        "size": "0.593kb"
     },
     {
         "path": "src/assets/img/logo-github.svg",
-        "hash": "92308c81a2e9da64f12842253d54b412",
-        "size": "0.891kb"
+        "hash": "c1c7ecd583be769a610858c4aab19cdd",
+        "size": "0.856kb"
     },
     {
         "path": "src/assets/img/logo-linkedin.svg",
-        "hash": "7519b1950b154728061441d543eb6b28",
-        "size": "0.481kb"
+        "hash": "14da04d810251b238a9ce0a59c3b1bcb",
+        "size": "0.446kb"
     },
     {
         "path": "src/assets/img/logo-twitter.svg",
-        "hash": "96c1fe7a4e50f93ad8cf89c9e5df54ca",
-        "size": "0.609kb"
+        "hash": "65ae404f95abd6f22e1f3f2236641390",
+        "size": "0.574kb"
     },
     {
         "path": "src/assets/img/blog/2015/campsass.png",
@@ -85,11 +85,6 @@
         "size": "25.702kb"
     },
     {
-        "path": "src/assets/img/ajw-photo2.png",
-        "hash": "51b673d4c85245da936cfb59595e1fde",
-        "size": "11.595kb"
-    },
-    {
         "path": "src/assets/img/triangle-black.svg",
         "hash": "7ff8cc0320a9363c2922609c97ade6eb",
         "size": "0.214kb"
@@ -98,5 +93,10 @@
         "path": "src/assets/img/triangle-white.svg",
         "hash": "878dd90a0fcdc918ce2648d27dfc9741",
         "size": "0.247kb"
+    },
+    {
+        "path": "src/assets/img/ajw-photo.png",
+        "hash": "590127c45c1ecf0e51750aa8d441a5f9",
+        "size": "9.955kb"
     }
 ]
