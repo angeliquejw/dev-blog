@@ -1,9 +1,9 @@
-<ol class="u-list-reset">
+<ol class="u-list-reset posts-list">
   {% for post in postslist | reverse %}
-  <li class="{% if post.url == url %} --active{% endif %}">
-    <a href="{{ post.url | url }}">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
-    <time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
-    <span>Read More</span>
+  <li>
+    <h3 class="post-title">{{ post.data.title }}</h3>
+    <time datetime="{{ post.date | htmlDateString }}" class="u-block">{{ post.date | readableDate }}</time>
+    <a href="{{ post.url | url }}" class="u-block post-cta"><em class="u-block">Read More</em></a>
   </li>
   {% endfor %}
 </ol>
