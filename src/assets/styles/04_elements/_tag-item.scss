@@ -1,0 +1,33 @@
+.tag-item {
+  &__link {
+    border: 1px solid transparent;
+    color: $color-offblack;
+    display: flex;
+    font-family: $font-plex-sans;
+    font-style: italic;
+    justify-content: space-between;
+    padding-left: 2px;
+    text-decoration: none;
+
+    @include hover-state {
+
+      border-color: $color-tumeric;
+      font-style: normal;
+
+      .tag-item__number {
+        align-items: center;
+        background-color: $color-tumeric;
+        display: flex;
+        visibility: visible;
+      }
+    }
+  }
+
+  &__number {
+    font-family: $font-plex-mono;
+    font-style: normal;
+    font-weight: $font-bold;
+    padding: 2px 4px;
+    visibility: hidden;
+  }
+}
