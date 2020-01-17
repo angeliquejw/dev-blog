@@ -1,0 +1,25 @@
+.labels-list {
+  left: $spacing-unit-xs;
+  position: relative;
+
+  li {
+    color: $color-offwhite;
+    font-size: ms(4);
+    line-height: 1.2;
+
+    &:nth-of-type(odd) {
+      text-transform: uppercase;
+    }
+
+    &:nth-of-type(even) {
+      font-style: italic;
+      font-weight: $font-semibold;
+      margin-bottom: $spacing-unit-sm;
+      margin-left: $spacing-unit;
+    }
+
+    &:last-of-type {
+      font-weight: $font-semibold;
+    }
+  }
+}
