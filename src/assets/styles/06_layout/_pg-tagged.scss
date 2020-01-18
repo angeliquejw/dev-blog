@@ -1,19 +1,4 @@
 .pg-tagged {
-
-  .page-heading {
-    font-size: ms(2);
-    font-style: italic;
-    font-weight: $font-regular;
-    text-transform: lowercase;
-
-    em {
-      font-size: ms(4);
-      font-style: normal;
-      margin-left: $spacing-unit-xs;
-      text-transform: uppercase;
-    }
-  }
-
   .posts-list {
     li::before {
       background-color: $color-valentino;
