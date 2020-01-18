@@ -9,22 +9,6 @@
   main {
     margin-bottom: $spacing-unit-xl + $spacing-unit;
   }
-
-  .site-name {
-    left: unset;
-    position: absolute;
-    right: ($spacing-unit-sm);
-    top: -24px;
-  }
-
-  .site-logo {
-    position: relative;
-    top: 5px;
-  }
-
-  .site-footer ul {
-    width: 85%;
-  }
 }
 
 .image-wrapper {
