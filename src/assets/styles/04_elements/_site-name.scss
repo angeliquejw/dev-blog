@@ -5,8 +5,8 @@
   margin: 0;
   position: relative;
   text-align: center;
-  transition: all 200ms ease;
   top: 4px;
+  transition: all 200ms ease;
 
   &::before {
     @include size(52px);
