@@ -5,13 +5,15 @@
   justify-content: center;
 
   li {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    margin-right: 24px;
+    @media (max-width: 719px) {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      margin-right: 24px;
 
-    &:last-of-type {
-      margin-right: 24px - $spacing-unit-xs;
+      &:last-of-type {
+        margin-right: 24px - $spacing-unit-xs;
+      }
     }
   }
 
@@ -39,6 +41,15 @@
 
     li:last-of-type {
       margin-right: 0;
+    }
+  }
+
+  @media (min-width: 720px) {
+    flex-direction: column;
+    justify-content: space-between;
+
+    li + li {
+      margin-top: $spacing-unit;
     }
   }
 }
