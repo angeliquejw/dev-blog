@@ -6,7 +6,7 @@
     <title>{{ renderData.title or title or metadata.title }}</title>
     <meta name="Description" content="{{ renderData.description or description or metadata.description }}">
     <link rel="stylesheet" href="/assets/styles/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Barlow:400,400i,500,500i,600,600i,700,700i|IBM+Plex+Mono:100,200,300,400,400i,500,600,700|IBM+Plex+Sans:300,300i,400,400i,500,500i,600,600i,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Barlow:400,400i,500,500i,600,600i,700,700i|IBM+Plex+Mono:100,200,300,300i,400,400i,500,600,700|IBM+Plex+Sans:300,300i,400,400i,500,500i,600,600i,700&display=swap" rel="stylesheet">
     <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
   </head>
   <body id="top"{% if templateClass %} class="{{ templateClass }}"{% endif %}>
