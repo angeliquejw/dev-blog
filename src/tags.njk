@@ -18,9 +18,9 @@ pagination:
 ---
 
 
-<h1 class="page-heading">Tagged "{{ tag }}"</h1>
+<h1 class="page-heading">Tagged as <em class="u-inline-block">{{ tag }}</em></h1>
 
 {% set postslist = collections[ tag ] %}
 {% include "posts-list.njk" %}
 
-<p>See <a href="{{ '/tags/' | url }}">all tags</a>.</p>
+<p class="tagged-ref"><span class="u-block">See</span> <span class="link-wrapper u-inline-block"><a href="{{ '/tags/' | url }}" class="u-block">all tags</a></span></p>

@@ -1,0 +1,7 @@
+.pg-blog {
+  margin-top: $spacing-unit-lg;
+
+  .page-heading {
+    @include u-sr-only();
+  }
+}
