@@ -28,7 +28,7 @@
       color: $color-offwhite;
 
       &::before {
-        background-color: $color-offwhite;
+        background-color: currentColor;
         width: 124%;
       }
     }
@@ -38,14 +38,14 @@
 
     a {
       &::before {
-        background-color: $color-siren;
+        background-color: currentColor;
         transition: background-color 200ms ease;
         width: 124%;
       }
 
       @include hover-state {
         &::before {
-          background-color: $color-offwhite;
+          background-color: currentColor;
         }
       }
     }
