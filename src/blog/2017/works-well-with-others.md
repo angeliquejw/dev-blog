@@ -7,7 +7,7 @@ location: Baltimore
 
 I've been thinking a lot about teams and, based on my own lucky experiences, what makes them work well. I've been at Fractured Atlas for almost three months now and am legitimately delighted at how quickly and easily I gelled with my new team. The one thing I keep coming back to when trying to describe why I've been able to connect so quickly and accomplish so much is this: Safety.
 
-<div class="embed-container">
+<div class="embed-container twitter">
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I&#39;m so into my new team. My day has been full of awesome collaboration &amp; feedback. <a href="https://t.co/9kWkvs9go0">pic.twitter.com/9kWkvs9go0</a></p>&mdash; angelique🦈🏳️‍🌈🌮 (@messypixels) <a href="https://twitter.com/messypixels/status/870362399412555777">June 1, 2017</a></blockquote>
 </div>
 
@@ -27,14 +27,14 @@ What safety looks like and feels like may vary amongst individuals and teams, bu
 3. Furthermore, the culture of improvement isn't just around the code we deliver, but also relevant to how we work together and communicate. In weekly meetings, we reflect on and tweak our process and create time to talk about things that impact how we collaborate with other parts of the company. Team members and managers actively work to hear from every individual and consider every perspective. I appreciate that the commitment to empathy and communication isn't unilateral, but embraced and modeled by all.
 4. Team members are invested in what we're building and making it better. In place of competition or us-vs-them dynamics, we're joined by an enthusiasm for what we're doing and how we're all contributing. This feels especially apparent to me in a UX/front-end role, which some developer cultures belittle. There's not even been a hint of that in my experiences to date&mdash;instead, my teammates celebrate my contributions and seek out my expertise (with a `#UXLOVE` tag on Trello cards that need my attention!). This, in particular, has made it frictionless for me to contribute, learn and share with the team.
 
-<div class="embed-container">
+<div class="embed-container twitter">
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Today in My Team Is The Best:  Coworker left a comment on my UI changes that ended with &quot;Scrumptious!&quot; <a href="https://t.co/mQ7fi7BYd7">pic.twitter.com/mQ7fi7BYd7</a></p>&mdash; angelique🦈🏳️‍🌈🌮 (@messypixels) <a href="https://twitter.com/messypixels/status/889577201150152705">July 24, 2017</a></blockquote>
 </div>
 
 I'm grateful for this amazing experience and for the team members who have established these working norms that make it possible for a brand new person to swoop in and feel pretty quickly at ease, not just in my area of expertise, but also adapting to new tools and pushing myself to learn new things. I know many teams and companies don't get this stuff right or prioritize it, and I'm grateful to be contributing my energy to a group that does. Doing so does more than let me be my whole self at work, it lets me be my best self.
 
 <div class="embed-container giphy">
-<iframe src="https://giphy.com/embed/e1BxgoFxAOmbK" width="480" height="392" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/woman-weekend-wonder-e1BxgoFxAOmbK">via GIPHY</a></p>
+<iframe src="https://giphy.com/embed/e1BxgoFxAOmbK" width="480" height="392" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 </div>
 
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

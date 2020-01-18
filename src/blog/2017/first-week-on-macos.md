@@ -8,7 +8,7 @@ comments: Let me know what Mac apps you love or what customizations/settings mak
 
 With the exception of an original iMac I worked on for a couple years after graduation, my personal computers have always been, well, PCs.
 
-<div class="embed-container">
+<div class="embed-container yt">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e9Xd5bbw5aE?rel=0" frameborder="0" allowfullscreen></iframe>
 </div>
 
