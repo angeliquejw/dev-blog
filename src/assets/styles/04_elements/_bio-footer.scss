@@ -7,11 +7,6 @@
   padding: $spacing-unit-sm $spacing-unit-sm $spacing-unit;
   position: relative;
 
-  @media (min-width: 460px) {
-    padding-left: $spacing-unit;
-    padding-right: $spacing-unit;
-  }
-
   .link-wrapper {
     @include z-index(mid);
     position: relative;
@@ -47,9 +42,34 @@
   }
 
   .photo-wrapper {
-    @include z-index(low);
-    bottom: -120px;
     position: absolute;
-    right: 0;
+
+    @media (max-width: 679px) {
+      @include z-index(low);
+      bottom: -120px;
+      right: 0;
+    }
+  }
+
+  @media (min-width: 460px) {
+    padding-left: $spacing-unit;
+    padding-right: $spacing-unit;
+  }
+
+  @media (min-width: 680px) {
+    @include z-index(low);
+    margin-bottom: $spacing-unit-xs;
+    margin-top: $spacing-unit-xl;
+    padding-left: $spacing-unit-xl;
+    width: 75%;
+
+    p {
+      margin-left: $spacing-unit-xl;
+    }
+
+    .photo-wrapper {
+      left: $spacing-unit-sm;
+      top: (-$spacing-unit);
+    }
   }
 }

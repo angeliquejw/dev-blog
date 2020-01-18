@@ -68,6 +68,20 @@
       }
     }
   }
+
+  @media (min-width: 680px) {
+    .tmpl-post & {
+      bottom: (-$spacing-unit-xs);
+      padding-left: 70%;
+      position: absolute;
+      right: 0;
+      width: 100%;
+
+      ul {
+        width: 100%;
+      }
+    }
+  }
 }
 
 .bmore-heart {
