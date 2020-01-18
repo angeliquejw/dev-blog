@@ -7,6 +7,10 @@
   padding: $spacing-unit-sm $spacing-unit-sm $spacing-unit;
   position: relative;
 
+  p:last-of-type {
+    margin-bottom: 0;
+  }
+
   .link-wrapper {
     @include z-index(mid);
     position: relative;
@@ -71,5 +75,11 @@
       left: $spacing-unit-sm;
       top: (-$spacing-unit);
     }
+  }
+
+  @media (min-width: 720px) {
+    margin-right: 0;
+    width: 100%;
+    width: calc(100% - 36px);
   }
 }
