@@ -1,0 +1,59 @@
+// Giphy
+.embed-container.giphy {
+  $embed-width: 480px;
+
+  max-width: $embed-width + 12px;
+
+  a {
+    animation: unset;
+    background-image: unset;
+    color: $color-offblack;
+    opacity: 0.6;
+
+    @include hover-state {
+      opacity: 1;
+    }
+  }
+}
+
+.giphy-embed + p {
+  bottom: (-$spacing-unit-sm) - 4px;
+  font-family: $font-plex-mono;
+  font-size: ms(-1);
+  font-weight: $font-medium;
+  margin: 0;
+  position: absolute;
+  right: 0;
+}
+
+// Instagram
+.embed-container.instagram {
+  $embed-width: 540px;
+
+  max-width: $embed-width + 12px;
+}
+
+// Twitter
+.embed-container.twitter {
+  $embed-width: 500px;
+
+  max-width: $embed-width + 12px;
+}
+
+.twitter-tweet {
+  @include u-margin-horizontal-auto();
+}
+
+blockquote.twitter-tweet { /* stylelint-disable-line selector-no-qualifying-type */
+  // if the twitter JS doesn't work or the tweet is protected
+  background-color: $color-offwhite;
+  margin: 0;
+  padding: $spacing-unit-sm;
+}
+
+// YouTube
+.embed-container.yt {
+  $embed-width: 560px;
+
+  max-width: $embed-width + 12px;
+}

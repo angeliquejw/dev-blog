@@ -34,10 +34,3 @@ article > blockquote {
     margin-top: 0;
   }
 }
-
-blockquote.twitter-tweet { /* stylelint-disable-line selector-no-qualifying-type */
-  // if the twitter JS doesn't work or the tweet is protected
-  background-color: $color-offwhite;
-  margin: 0;
-  padding: $spacing-unit-sm;
-}
