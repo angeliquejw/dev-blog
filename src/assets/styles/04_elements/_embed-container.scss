@@ -1,4 +1,5 @@
 .embed-container, .code-embed-container {
+  @include u-margin-horizontal-auto();
   margin: $spacing-unit $spacing-unit-sm;
   max-width: calc(100% - #{$spacing-unit});
 
@@ -30,28 +31,5 @@
     border: 1px solid $color-valentino;
     left: -12px;
     top: -12px;
-  }
-
-  &.giphy {
-    a {
-      animation: unset;
-      background-image: unset;
-      color: $color-offblack;
-      opacity: 0.6;
-
-      @include hover-state {
-        opacity: 1;
-      }
-    }
-  }
-
-  .giphy-embed + p {
-    bottom: (-$spacing-unit-xs);
-    font-family: $font-plex-mono;
-    font-size: ms(-1);
-    font-weight: $font-medium;
-    margin: 0;
-    position: absolute;
-    right: 0;
   }
 }
