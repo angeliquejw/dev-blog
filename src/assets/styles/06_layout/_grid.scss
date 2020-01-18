@@ -1,0 +1,15 @@
+@media (min-width: 720px) {
+  body {
+    display: grid;
+    grid-template-columns: 120px 1fr 132px 264px;
+    grid-template-columns: 120px 1fr 100px 100px;
+  }
+
+  main {
+    grid-column: 2/4;
+  }
+
+  .site-footer {
+    grid-column: 1/5;
+  }
+}
