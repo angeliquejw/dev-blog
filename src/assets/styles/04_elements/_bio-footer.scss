@@ -7,6 +7,11 @@
   padding: $spacing-unit-sm $spacing-unit-sm $spacing-unit;
   position: relative;
 
+  @media (min-width: 460px) {
+    padding-left: $spacing-unit;
+    padding-right: $spacing-unit;
+  }
+
   .link-wrapper {
     @include z-index(mid);
     position: relative;
