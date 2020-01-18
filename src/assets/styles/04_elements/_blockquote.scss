@@ -1,4 +1,4 @@
-blockquote {
+article > blockquote {
   background-color: $color-offwhite;
   font-family: $font-plex-sans;
   font-size: ms(1);
@@ -26,20 +26,18 @@ blockquote {
     bottom: 0;
   }
 
-  &.twitter-tweet-error, &.instagram-media { /* stylelint-disable-line selector-no-qualifying-type */
-    margin: 0;
-    padding: $spacing-unit-sm;
-
-    &::before, &::after {
-      display: none;
-    }
-  }
-
   &.no-cite { /* stylelint-disable-line selector-no-qualifying-type */
     margin-bottom: $spacing-unit;
   }
 
-  p:first-child {
+  p:first-child { /* stylelint-disable-line selector-max-type*/
     margin-top: 0;
   }
+}
+
+blockquote.twitter-tweet { /* stylelint-disable-line selector-no-qualifying-type */
+  // if the twitter JS doesn't work or the tweet is protected
+  background-color: $color-offwhite;
+  margin: 0;
+  padding: $spacing-unit-sm;
 }
