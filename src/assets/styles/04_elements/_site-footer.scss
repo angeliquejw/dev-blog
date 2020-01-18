@@ -6,9 +6,25 @@
   padding: $spacing-unit $spacing-unit-sm $spacing-unit-sm;
   position: relative;
 
+  .site-name {
+    left: unset;
+    position: absolute;
+    right: ($spacing-unit-sm);
+    top: -24px;
+  }
+
+  .site-logo {
+    position: relative;
+    top: 5px;
+  }
+
   ul {
     text-align: center;
-    width: 65%;
+    width: 85%;
+
+    .tmpl-post & {
+      width: 65%;
+    }
   }
 
   li {
