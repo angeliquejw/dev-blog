@@ -10,6 +10,7 @@ blockquote + p {
     margin-left: 40%;
     padding: $spacing-unit-xs $spacing-unit-sm $spacing-unit-sm $spacing-unit-xs;
     position: relative;
+    text-align: center;
     text-transform: uppercase;
     top: (-$spacing-unit);
     width: 60%;
