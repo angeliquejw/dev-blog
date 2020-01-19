@@ -69,9 +69,9 @@
     }
   }
 
-  @media (min-width: 680px) and (max-width: 719px) {
+  @media (min-width: 680px) {
     .tmpl-post & {
-      bottom: (-$spacing-unit-xs);
+      bottom: 0;
       padding-left: 70%;
       position: absolute;
       right: 0;
@@ -85,13 +85,10 @@
 
   @media (min-width: 720px) {
     .tmpl-post & {
-
-      ul {
-        margin-left: calc(100% - 184px);
-        width: 184px;
-      }
+      padding-left: 58%;
+      padding-right: $spacing-unit-xs;
+      width: calc(100% - 120px);
     }
-
   }
 }
 
