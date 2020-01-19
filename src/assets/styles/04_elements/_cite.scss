@@ -20,6 +20,11 @@ blockquote + p {
 blockquote:not(.no-cite) {
   + p {
     margin: 0 (-$spacing-unit);
+   
+    @media (min-width: 720px) {
+      margin-left: (-$spacing-unit-lg);
+      margin-right: (-$spacing-unit-lg);
+    }
   }
 }
 

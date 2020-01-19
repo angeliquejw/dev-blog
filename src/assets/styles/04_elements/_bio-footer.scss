@@ -62,14 +62,10 @@
 
   @media (min-width: 680px) {
     @include z-index(low);
-    margin-bottom: $spacing-unit-xs;
+    margin-right: 0;
     margin-top: $spacing-unit-xl;
-    padding-left: $spacing-unit-xl;
+    padding-left: $spacing-unit-xl * 2;
     width: 75%;
-
-    p {
-      margin-left: $spacing-unit-xl;
-    }
 
     .photo-wrapper {
       left: $spacing-unit-sm;
@@ -78,8 +74,7 @@
   }
 
   @media (min-width: 720px) {
-    margin-right: 0;
-    width: 100%;
-    width: calc(100% - 36px);
+    margin-left: (-$spacing-unit-lg);
+    width: 80%;
   }
 }

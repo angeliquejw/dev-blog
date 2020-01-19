@@ -31,6 +31,10 @@
       position: absolute;
       top: 3px;
       width: 200px;
+
+      @media (min-width: 720px) {
+        left: (-$spacing-unit-lg);
+      }
     }
   }
 }

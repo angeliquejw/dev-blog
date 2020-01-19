@@ -3,5 +3,9 @@
 
   main {
     padding-bottom: 0;
+
+    @media (min-width: 680px) {
+      padding-bottom: $spacing-unit-xs;
+    }
   }
 }

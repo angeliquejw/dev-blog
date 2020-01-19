@@ -7,13 +7,19 @@
 body {
   font-family: $font-plex-mono;
   margin: 0;
-  position: relative;
   min-height: 100vh;
+  position: relative;
   scroll-behavior: smooth;
 }
 
 main {
   padding: $spacing-unit-sm $spacing-unit $spacing-unit-lg;
+
+  @media (min-width: 720px) {
+    margin-left: 120px;
+    overflow-x: hidden;
+    padding-left: $spacing-unit-lg;
+  }
 }
 
 a, svg {

@@ -1,4 +1,8 @@
 .meta-wrapper {
   margin: $spacing-unit-lg (-$spacing-unit) $spacing-unit;
   position: relative;
+
+  @media (min-width: 720px) {
+    margin-left: (-$spacing-unit-lg);
+  }
 }
