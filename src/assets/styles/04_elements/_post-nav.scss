@@ -1,8 +1,5 @@
 .post-nav {
-  position: absolute;
   text-transform: uppercase;
-  top: 0;
-  width: 100%;
 
   ol {
     justify-content: space-between;
@@ -17,5 +14,11 @@
     line-height: 1;
     text-align: center;
     width: 60px; /* stylelint-disable-line plugin/8-point-grid */
+  }
+
+  @media (max-width: 959px) {
+    position: absolute;
+    top: 0;
+    width: 100%;
   }
 }
