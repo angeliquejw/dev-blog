@@ -17,8 +17,11 @@ main {
 
   @media (min-width: 720px) {
     margin-left: 120px;
-    overflow-x: hidden;
     padding-left: $spacing-unit-lg;
+  }
+  
+  @media (min-width: 720px) and (max-width: 959px) {
+    overflow-x: hidden;
   }
 }
 
