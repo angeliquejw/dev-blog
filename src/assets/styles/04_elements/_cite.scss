@@ -14,6 +14,14 @@ blockquote + p {
     text-transform: uppercase;
     top: (-$spacing-unit);
     width: 60%;
+
+    @media (min-width: 1140px) {
+      max-width: 264px;
+      position: absolute;
+      right: 0;
+      top: (-$spacing-unit-xl);
+      width: 100%;
+    }
   }
 }
 
@@ -24,6 +32,12 @@ blockquote:not(.no-cite) {
     @media (min-width: 720px) {
       margin-left: (-$spacing-unit-lg);
       margin-right: (-$spacing-unit-lg);
+    }
+
+    @media (min-width: 1140px) {
+      margin-left: -256px;
+      margin-right: -264px;
+      position: relative;
     }
   }
 }

@@ -37,4 +37,13 @@
       }
     }
   }
+
+  @media (min-width: 1140px) {
+    margin-left: -120px;
+    max-width: 544px;
+
+    h1 {
+      font-size: ms(12);
+    }
+  }
 }

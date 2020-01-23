@@ -44,4 +44,31 @@
     top: 0;
     width: 55%;
   }
+
+  @media (min-width: 960px) {
+    margin-top: $spacing-unit-xl;
+    padding-bottom: $spacing-unit-sm;
+    padding-top: $spacing-unit-sm;
+    position: absolute;
+    right: -220px;
+    text-align: left;
+    top: 220px;
+    width: 176px;
+
+    a  {
+      text-transform: uppercase;
+    }
+
+    &::after {
+      background-color: $color-tumeric;
+      bottom: 0;
+      content: "";
+      height: 3px; /* stylelint-disable-line plugin/8-point-grid */
+      left: 0;
+      margin: auto;
+      position: absolute;
+      right: 0;
+      width: 55%;
+    }
+  }
 }

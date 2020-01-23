@@ -38,4 +38,19 @@ article > blockquote {
     margin-left: (-$spacing-unit-lg);
     margin-right: (-$spacing-unit-lg);
   }
+
+  @media (min-width: 960px) {
+    margin-right: (-$spacing-unit-lg) - 132px;
+  }
+  @media (min-width: 1140px) {
+    margin-bottom: $spacing-unit-lg;
+    margin-left: -256px;
+    margin-right: -264px;
+    padding-left: 256px;
+    padding-right: 128px;
+
+    &::before, &::after {
+      max-width: 264px;
+    }
+  }
 }
