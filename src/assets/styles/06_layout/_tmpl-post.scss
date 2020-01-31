@@ -60,4 +60,10 @@
       padding-left: 8 * $spacing-unit;
     }
   }
+
+  @media (min-width: 1360px) {
+    article {
+      max-width: 528px;
+    }
+  }
 }
