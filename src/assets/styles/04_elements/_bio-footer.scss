@@ -50,8 +50,12 @@
 
     @media (max-width: 679px) {
       @include z-index(low);
-      bottom: -120px;
+      bottom: -128px;
       right: 0;
+    }
+
+    @media (min-width: 580px) and (max-width: 679px) {
+      bottom: -112px;
     }
   }
 

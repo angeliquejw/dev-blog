@@ -40,9 +40,5 @@
       color: $color-offwhite;
       transform: scale(1.08) translate(0, -3%);
     }
-
-    @media (max-width: 679px) {
-      display: none;
-    }
   }
 }
