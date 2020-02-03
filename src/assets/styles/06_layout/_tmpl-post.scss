@@ -11,6 +11,13 @@
     }
   }
 
+  @media (max-width: 679px) {
+    .site-footer .top-link { /* stylelint-disable-line selector-max-class */
+      display: none;
+    }
+  }
+
+
   @media (min-width: 680px) {
     main {
       padding-bottom: $spacing-unit-xs;

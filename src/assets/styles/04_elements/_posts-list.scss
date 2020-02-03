@@ -30,6 +30,7 @@
       .post-cta > em {
         color: $color-offwhite;
 
+        /* stylelint-disable selector-max-combinators */
         &::before,
         &::after {
           left: 0;
@@ -39,6 +40,7 @@
         &::after {
           border-color: $color-tumeric;
         }
+        /* stylelint-enable */
       }
     }
   }
@@ -101,6 +103,23 @@
         left: 2px;
         top: 2px;
       }
+    }
+  }
+
+  @media (max-width: 399px) {
+    @include u-margin-horizontal-auto();
+  }
+
+  @media (min-width: 400px) {
+    display: grid;
+    // grid-auto-columns: auto;
+    // grid-auto-flow: dense;
+    // grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    // grid-template-columns: repeat(auto-fill, 264px);
+
+    li {
+      // max-width: 320px;
+      max-width: 264px;
     }
   }
 }
