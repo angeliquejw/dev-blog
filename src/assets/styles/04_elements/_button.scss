@@ -2,8 +2,11 @@
   margin-top: $spacing-unit-lg;
   text-align: center;
 
-  @media (min-width: 400px) {
-    // max-width: 320px;
+  > ol {
+    justify-content: space-between;
+  }
+
+  @media (max-width: 689px) {
     max-width: 264px;
   }
 }

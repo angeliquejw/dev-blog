@@ -4,4 +4,8 @@
   .page-heading {
     @include u-sr-only();
   }
+
+  @media (min-width: 690px) {
+    maragin-bottom: $spacing-unit-lg;
+  }
 }
