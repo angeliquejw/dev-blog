@@ -4,10 +4,17 @@
   .page-heading {
     color: $color-offwhite;
     margin-top: $spacing-unit-xl;
+    @media (min-width: 720px) {
+      margin-bottom: $spacing-unit-xs;
+      margin-left: -4ch;
+    }
   }
 
   main {
     margin-bottom: $spacing-unit-xl + $spacing-unit;
+    @media (min-width: 720px) and (max-width: 959px) {
+      overflow-x: unset;
+    }
   }
 }
 
@@ -16,12 +23,22 @@
   position: absolute;
   right: 0;
   top: 0;
+  @media (min-width: 720px) {
+    left: -220px;
+  }
+  @media (min-width: 1000px) {
+    left: -100px;
+  }
 }
 
 .homepage-photo {
   @include z-index(bottom);
   position: relative;
   right: -64px;
+  @media (min-width: 720px) {
+    left: 0;
+    right: unset;
+  }
 }
 
 .bio-wrapper {
@@ -72,5 +89,9 @@
         width: 180%;
       }
     }
+  }
+
+  @media (min-width: 720px) {
+    max-width: 62ch;
   }
 }
