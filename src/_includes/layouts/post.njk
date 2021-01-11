@@ -32,7 +32,7 @@ templateClass: tmpl-post
     </p>
   </div>
 
-  <nav class="post-nav">
+  <nav class="post-nav" aria-label="Pagination links">
     <ol class="u-list-reset u-flex{% if (prevPost.url == null) %} __only-newer{% endif %}">
     {% if prevPost.url %}
       <li>
