@@ -5,6 +5,7 @@
     background-color: $color-patina;
     margin-left: (-$spacing-unit);
     margin-right: (-$spacing-unit);
+    max-width: 96ch;
     padding: 0 $spacing-unit-sm $spacing-unit;
 
     h2, h3 {
@@ -117,6 +118,12 @@
     @media (min-width: 720px) {
       margin-left: (-$spacing-unit-lg);
       margin-right: (-$spacing-unit-lg);
+    }
+  }
+
+  + .site-footer .top-link {
+    @media (max-width: 1089px) {
+      filter: invert(0.62) contrast(3) hue-rotate(100deg);
     }
   }
 }
