@@ -5,6 +5,7 @@
 
   ul {
     display: grid;
+    grid-gap: $spacing-unit-xs;
     grid-template-columns: repeat(auto-fill, minmax(148px, 1fr));
   }
 }
