@@ -3,6 +3,10 @@ layout: layouts/default.njk
 templateClass: tmpl-post
 ---
 
+{%- if date | outOfDate %}
+{% include "out-of-date.njk" %}
+{%- endif %}
+
 <article class="blog-post">
   <header class="post-header u-flex">
     <h1>{{ title }}</h1>
