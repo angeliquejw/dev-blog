@@ -18,10 +18,16 @@ main {
   @media (min-width: 720px) {
     margin-left: 120px;
     padding-left: $spacing-unit-lg;
+    padding-right: $spacing-unit-lg;
   }
   
   @media (min-width: 720px) and (max-width: 959px) {
     overflow-x: hidden;
+  }
+
+  @media (min-width: 1160px) {
+    padding-left: $spacing-unit-xl;
+    padding-right: $spacing-unit-xl;
   }
 }
 
