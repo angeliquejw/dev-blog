@@ -71,6 +71,7 @@
   display: inline-block;
   font-size: ms(2);
   font-style: normal;
+  transition: $transition-default;
 }
 
 .site-footer a { /* stylelint-disable-line no-descending-specificity */
