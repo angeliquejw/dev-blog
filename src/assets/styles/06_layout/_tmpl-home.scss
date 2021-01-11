@@ -15,6 +15,9 @@
     @media (min-width: 720px) and (max-width: 959px) {
       overflow-x: unset;
     }
+    @media (min-width: 1200px) {
+      margin-left: 176px;
+    }
   }
 
   .site-footer {
@@ -47,29 +50,7 @@
   }
 
   .posts-list {
-    max-width: 1540px; /* stylelint-disable-line plugin/8-point-grid */
-  }
-
-  @media (max-width: 1535px) {
-    .more-link-item {
-      display: none;
-    }
-  }
-
-  @media (min-width: 1536px) {
-    .more-link-item {
-      align-items: center;
-      display: flex;
-      justify-content: center;
-
-      &::before, &::after {
-        content: unset;
-      }
-
-      @include hover-state {
-        transition: unset;
-      }
-    }
+    max-width: 1056px;
   }
 }
 
@@ -78,11 +59,15 @@
   position: absolute;
   right: 0;
   top: 0;
+  transition: $transition-default;
   @media (min-width: 720px) {
     left: -220px;
   }
-  @media (min-width: 1000px) {
+  @media (min-width: 920px) {
     left: -100px;
+  }
+  @media (min-width: 1200px) {
+    left: 0;
   }
 }
 
@@ -147,6 +132,16 @@
   }
 
   @media (min-width: 720px) {
-    max-width: 62ch;
+    max-width: 58ch;
+
+    > p {
+      line-height: 1.6;
+    }
+  }
+
+  @media (min-width: 920px) {
+    > p {
+      font-size: ms(2);
+    }
   }
 }

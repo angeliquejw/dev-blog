@@ -1,15 +1,14 @@
 .labels-list {
   left: $spacing-unit-xs;
   position: relative;
+  transition: $transition-default;
 
   li {
     color: $color-offwhite;
     font-size: ms(4);
     line-height: 1.2;
-  }
 
-  @media (max-width: 719px) {
-    li {
+    @media (max-width: 719px) {
       &:nth-of-type(odd) {
         text-transform: uppercase;
       }
@@ -26,13 +25,8 @@
         font-weight: $font-semibold;
       }
     }
-  }
 
-  @media (min-width: 720px) {
-    left: 110px;
-    width: max-content;
-
-    li {
+    @media (min-width: 720px) {
       background-color: $color-offblack;
       font-size: ms(5);
       font-weight: $font-light;
@@ -48,7 +42,7 @@
         display: block;
         height: 100%;
         position: absolute;
-        right: -8px;
+        right: -$spacing-unit-xs;
         width: 100%;
         z-index: -1;
       }
@@ -69,17 +63,35 @@
         left: calc(14ch);
       }
     }
-  }
 
-  @media (min-width: 920px) {
-    li {
+    @media (min-width: 920px) {
       font-size: ms(6);
+    }
+
+    @media (min-width: 1140px) {
+      font-size: ms(8);
+
+      &::after {
+        right: -$spacing-unit-sm;
+      }
     }
   }
 
-  @media (min-width: 1000px) {
-    left: 30vw;
-    top: 110px;
+  @media (min-width: 720px) {
+    left: 110px;
+    width: max-content;
+  }
+
+  @media (min-width: 920px) {
+    left: 28vw;
+    top: 48px;
     z-index: 1;
+  }
+  @media (min-width: 1000px) {
+    top: 110px;
+  }
+  @media (min-width: 1140px) {
+    left: min(22vw, 300px);
+    top: 132px;
   }
 }
