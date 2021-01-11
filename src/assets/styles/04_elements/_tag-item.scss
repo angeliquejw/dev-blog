@@ -6,15 +6,15 @@
     color: $color-offblack;
     display: flex;
     font-family: $font-plex-sans;
-    font-style: italic;
     justify-content: space-between;
     padding-left: 2px;
     text-decoration: none;
+    transition: all 400ms ease;
 
     @include hover-state {
 
       border-color: $color-tumeric;
-      font-style: normal;
+      font-style: italic;
 
       .tag-item__number {
         align-items: center;
