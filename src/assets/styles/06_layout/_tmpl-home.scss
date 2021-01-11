@@ -16,6 +16,27 @@
       overflow-x: unset;
     }
   }
+
+  .site-footer {
+    @media (min-width: 830px) {
+      border-left: 120px solid $color-offblack;
+
+      .site-name {
+        @include size(72px);
+        left: calc(((72 + 120) / 2) * -1px);
+        top: 50%;
+        transform: translateY(-50%);
+
+        &::before {
+          @include size(72px);
+        }
+      }
+
+      .site-logo { /* stylelint-disable-line selector-max-class */
+        font-size: ms(11);
+      }
+    }
+  }
 }
 
 .image-wrapper {

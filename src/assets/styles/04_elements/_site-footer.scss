@@ -64,6 +64,15 @@
       }
     }
   }
+
+  @media (min-width: 720px) {
+    display: flex;
+    justify-content: flex-end;
+
+    ul {
+      max-width: 50ch;
+    }
+  }
 }
 
 .bmore-heart {
