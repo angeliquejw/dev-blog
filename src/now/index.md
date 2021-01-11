@@ -8,7 +8,7 @@ layout: layouts/page.njk
 <section>
 
 ## Currently
-I'm living in Baltimore, working as a UX engineer for Fractured Atlas and teaching front-end web development at MICA.
+I'm living in Baltimore, working as the front-end lead for Lumen Learning and teaching front-end web development at MICA.
 
 </section>
 
@@ -16,9 +16,9 @@ I'm living in Baltimore, working as a UX engineer for Fractured Atlas and teachi
 
 ### I am enjoying
 
-- building out a design system at work
-- learning to weave
-- porch lyfe
+- so many bowls of ramen 🍜
+- my HappyLight (I got the [Verilux Happy Light Luxe](https://verilux.com/collections/happylight-therapy-lamps-boxes/products/happylight-luxe))
+- treating myself to skincare from [Soko Glam](https://sokoglam.com/) (👍🏻 to Inward herbal mask,  Klavuu lip mask, Neogen Bio-Peel exfoliation pads and The Klog's pimple patches)
 
 </section>
 
@@ -26,8 +26,9 @@ I'm living in Baltimore, working as a UX engineer for Fractured Atlas and teachi
 
 ### I am looking forward to
 
-- learning Vue.js
-- some summer travel
+- hiring a new dev for my team 💥
+- more knitting and weaving
+- seeing family and friends in person again...soon
 
 </section>
 
