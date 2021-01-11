@@ -1,0 +1,33 @@
+.notice--out-of-date {
+  align-items: center;
+  background-color: rgba(white, 0.4);
+  border: 2px solid $color-tumeric;
+  display: flex;
+  margin-bottom: $spacing-unit-xl;
+  margin-left: -$spacing-unit;
+  margin-right: -$spacing-unit;
+  padding: $spacing-unit-xs $spacing-unit-sm;
+
+  strong {
+    background-color: white;
+    border-right: 2px solid $color-tumeric;
+    flex: 1 0 auto;
+    /* stylelint-disable declaration-block-no-redundant-longhand-properties */
+    margin-bottom: -$spacing-unit-xs;
+    margin-left: -$spacing-unit-sm;
+    margin-right: $spacing-unit-sm;
+    margin-top: -$spacing-unit-xs;
+    /* stylelint-enable */
+    padding: $spacing-unit-sm;
+  }
+
+  @media (min-width: 720px) {
+    margin-left: -$spacing-unit-lg;
+    margin-right: -$spacing-unit-lg;
+  }
+
+  @media (min-width: 1140px) {
+    margin-left: -168px;
+    max-width: 816px;
+  }
+}
