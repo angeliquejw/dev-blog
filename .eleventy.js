@@ -13,6 +13,12 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
 
+  eleventyConfig.addShortcode("currentYear", () => `${new Date().getFullYear()}`);
+
+  eleventyConfig.addFilter('outOfDate', (dateObj) => {
+    return DateTime.fromJSDate(dateObj, 'dd.MM.yyyy').diffNow('years').toObject().years < -2;
+  });
+
   eleventyConfig.addFilter("readableDate", dateObj => {
     return DateTime.fromJSDate(dateObj, {
       zone: 'utc'
