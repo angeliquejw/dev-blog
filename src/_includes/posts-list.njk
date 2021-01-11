@@ -9,7 +9,11 @@
   <ol class="u-list-reset">
     {% for post in postslist %}
     <li>
+      {%- if (templateClass == "tmpl-home") %}
       <h3 class="post-title">{{ post.data.title }}</h3>
+      {%- else %}
+      <h2 class="post-title">{{ post.data.title }}</h2>
+      {%- endif %}
       <time datetime="{{ post.date | htmlDateString }}" class="u-block">{{ post.date | readableDate }}</time>
       <a href="{{ post.url | url }}" class="u-block post-cta"><em class="u-block">Read More</em></a>
     </li>
