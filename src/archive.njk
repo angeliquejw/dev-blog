@@ -3,7 +3,7 @@ title: Blog
 permalink: 'blog{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber }}{% endif %}/index.html'
 pagination:
   data: collections.posts
-  size: 8
+  size: 7
   reverse: true
 templateClass: tmpl-page tmpl-page--alt
 pageClass: pg-blog
@@ -12,5 +12,3 @@ layout: layouts/page.njk
 
 {% set postslist = pagination.items %}
 {% include "posts-list.njk" %}
-
-{% include "pagination.njk" %}

@@ -81,7 +81,7 @@
   }
 
   @media (min-width: 400px) and (max-width: 689px) {
-    li {
+    li, > nav {
       // max-width: 320px;
       max-width: 264px;
     }
@@ -93,13 +93,17 @@
     // grid-auto-flow: dense;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     // grid-template-columns: repeat(auto-fill, 264px);
+
+    > ol {
+      display: contents;
+    }
   }
 
   @media (max-width: 829px) {
     margin-left: -$spacing-unit-xs;
     margin-right: -$spacing-unit-xs;
 
-    li {
+    li, > nav {
       margin-bottom: $spacing-unit;
       margin-left: $spacing-unit-xs;
       margin-right: $spacing-unit-xs;
@@ -159,6 +163,10 @@
   @media (min-width: 830px) {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(314px, 1fr));
+
+    > ol {
+      display: contents;
+    }
 
     li {
       padding: $spacing-unit-sm;
