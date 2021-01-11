@@ -1,4 +1,6 @@
 .posts-list {
+  margin-left: -$spacing-unit-xs;
+  margin-right: -$spacing-unit-xs;
 
   li {
     display: flex;
@@ -114,16 +116,18 @@
     @include u-margin-horizontal-auto();
   }
 
-  @media (min-width: 400px) {
-    display: grid;
-    // grid-auto-columns: auto;
-    // grid-auto-flow: dense;
-    // grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    // grid-template-columns: repeat(auto-fill, 264px);
-
+  @media (min-width: 400px) and (max-width: 689px) {
     li {
       // max-width: 320px;
       max-width: 264px;
     }
+  }
+
+  @media (min-width: 690px) {
+    display: grid;
+    // grid-auto-columns: auto;
+    // grid-auto-flow: dense;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    // grid-template-columns: repeat(auto-fill, 264px);
   }
 }
