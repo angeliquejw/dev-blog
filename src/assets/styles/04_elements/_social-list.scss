@@ -51,5 +51,11 @@
     li + li {
       margin-top: $spacing-unit;
     }
+
+    .tmpl-home & {
+      bottom: 0;
+      left: -$spacing-unit-lg;
+      position: absolute;
+    }
   }
 }
