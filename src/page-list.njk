@@ -1,10 +1,10 @@
 ---
 permalink: /page-list/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber }}/{% endif %}
-layout: layouts/home.njk
+layout: layouts/base.njk
 pagination:
   data: collections.all
   size: 100
-  alias: entries
+  alias: pages
 ---
 
 <table>
@@ -13,10 +13,10 @@ pagination:
     <th>Page Title</th>
   </thead>
   <tbody>
-{%- for entry in entries %}
+{%- for page in pages %}
   <tr>
-    <td><a href="{{ entry.url }}"><code>{{ entry.url }}</code></a></td>
-    <td>{{ entry.data.title }}</td>
+    <td><a href="{{ page.url }}"><code>{{ page.url }}</code></a></td>
+    <td>{{ page.data.title }}</td>
   </tr>
 {%- endfor %}
   </tbody>

@@ -1,5 +1,5 @@
 <ol class="u-list-reset posts-list">
-  {% for post in postslist | reverse %}
+  {% for post in postslist %}
   <li>
     <h3 class="post-title">{{ post.data.title }}</h3>
     <time datetime="{{ post.date | htmlDateString }}" class="u-block">{{ post.date | readableDate }}</time>

@@ -1,0 +1,72 @@
+.button-container {
+  margin-top: $spacing-unit-lg;
+  text-align: center;
+
+  @media (min-width: 400px) {
+    // max-width: 320px;
+    max-width: 264px;
+  }
+}
+
+.button {
+  color: $color-offwhite;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  &::before {
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  >em {
+    font-style: normal;
+    font-weight: $font-light;
+    padding: $spacing-unit-xs;
+    position: relative;
+
+    &::before,
+    &::after {
+      @include z-index(bottom);
+      content: "";
+      height: 100%;
+      position: absolute;
+      width: 100%;
+    }
+
+    &::before {
+      background-color: $color-offblack;
+      left: -2px;
+      top: -2px;
+    }
+
+    &::after {
+      border: 1px solid $color-offwhite;
+      left: 2px;
+      top: 2px;
+    }
+  }
+
+  @include hover-state {
+    >em {
+      color: $color-valentino;
+
+      /* stylelint-disable selector-max-combinators */
+      &::before,
+      &::after {
+        left: 0;
+        top: 0;
+      }
+
+      &::before {
+        background-color: $color-offwhite;
+      }
+
+      /* stylelint-enable */
+    }
+  }
+}
