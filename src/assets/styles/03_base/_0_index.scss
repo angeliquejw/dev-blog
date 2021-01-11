@@ -27,7 +27,7 @@ main {
 
 a, svg {
   &, &::before, &::after {
-    transition: all 200ms ease;
+    transition: $transition-default;
   }
 }
 

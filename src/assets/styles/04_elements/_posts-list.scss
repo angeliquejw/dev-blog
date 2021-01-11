@@ -83,6 +83,10 @@
       padding: $spacing-unit-xs;
       position: relative;
 
+      &, &::before, &::after {
+        transition: $transition-default;
+      }
+
       &::before,
       &::after {
         @include z-index(bottom);
