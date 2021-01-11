@@ -1,4 +1,5 @@
 @mixin u-clearfix {
+
   &::before,
   &::after {
     content: " ";
@@ -8,4 +9,8 @@
   &::after {
     clear: both;
   }
+}
+
+.u-clearfix {
+  @include u-clearfix();
 }

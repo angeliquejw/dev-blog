@@ -1,5 +1,6 @@
 @use "sass:list";
-$float-options: left, right;
+$float-options: left,
+right;
 
 @mixin u-float($direction) {
   @if not list.index($float-options, $direction) {
@@ -9,4 +10,12 @@ $float-options: left, right;
   @else {
     float: #{$direction};
   }
+}
+
+.u-left {
+  @include u-float(left);
+}
+
+.u-right {
+  @include u-float(right);
 }

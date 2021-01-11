@@ -3,3 +3,7 @@
   margin: 0;
   padding-left: 0;
 }
+
+.u-list-reset {
+  @include u-list-reset();
+}
