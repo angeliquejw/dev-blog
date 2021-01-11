@@ -29,11 +29,6 @@ layout: layouts/home.njk
 
 {% set postslist = collections.posts | reverse %}
 {# for homepage, only return most recent posts  #}
-{% set postslist = postslist.slice(0,4) %} 
+{% set postslist = postslist.slice(0,7) %} 
 
 {% include "posts-list.njk" %}
-
-
-<p class="button-container">
-  <a href="/blog/" class="button"><em>View All</em></a>
-</p>

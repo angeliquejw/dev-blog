@@ -1,14 +1,8 @@
-.button-container {
-  margin-top: $spacing-unit-lg;
-  text-align: center;
-
-  > ol {
-    justify-content: space-between;
-  }
-
-  @media (max-width: 689px) {
-    max-width: 264px;
-  }
+.button-tile {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 136px;
 }
 
 .button {
@@ -26,7 +20,7 @@
     top: 0;
   }
 
-  >em {
+  > em {
     font-style: normal;
     font-weight: $font-light;
     padding: $spacing-unit-xs;
@@ -59,7 +53,7 @@
   }
 
   @include hover-state {
-    >em {
+    > em {
       color: $color-valentino;
 
       /* stylelint-disable selector-max-combinators */

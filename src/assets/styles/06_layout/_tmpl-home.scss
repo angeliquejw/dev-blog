@@ -18,7 +18,15 @@
   }
 
   .site-footer {
-    @media (min-width: 830px) {
+
+    @media (max-width: 719px) {
+      .top-link { /* stylelint-disable-line selector-max-class */
+        bottom: 0;
+        top: unset;
+      }
+    }
+
+    @media (min-width: 720px) {
       border-left: 120px solid $color-offblack;
 
       .site-name {
@@ -34,6 +42,32 @@
 
       .site-logo { /* stylelint-disable-line selector-max-class */
         font-size: ms(11);
+      }
+    }
+  }
+
+  .posts-list {
+    max-width: 1540px; /* stylelint-disable-line plugin/8-point-grid */
+  }
+
+  @media (max-width: 1535px) {
+    .more-link-item {
+      display: none;
+    }
+  }
+
+  @media (min-width: 1536px) {
+    .more-link-item {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+
+      &::before, &::after {
+        content: unset;
+      }
+
+      @include hover-state {
+        transition: unset;
       }
     }
   }
