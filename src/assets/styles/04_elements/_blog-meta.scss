@@ -20,19 +20,24 @@
 
   ul {
     @include z-index(low);
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: $spacing-unit-xs * -1;
+    margin-right: $spacing-unit-xs * -1;
     position: relative;
   }
 
   li {
     line-height: 1.6;
-    margin-left: 4px;
-    margin-right: 4px;
+    margin-left: $spacing-unit-xs;
+    margin-right: $spacing-unit-xs;
   }
 
   a {
     border-bottom: 1px solid rgba($color-mulberry, 0.5);
     color: $color-siren;
     text-decoration: none;
+    text-transform: uppercase;
 
     @include hover-state {
       border-bottom-color: $color-mulberry;
@@ -51,6 +56,12 @@
     width: 55%;
   }
 
+  @media (max-width: 959px) {
+    ul {
+      justify-content: center;
+    }
+  }
+
   @media (min-width: 960px) {
     margin-top: $spacing-unit-xl;
     padding-bottom: $spacing-unit-sm;
@@ -60,10 +71,6 @@
     text-align: left;
     top: 220px;
     width: 176px;
-
-    a  {
-      text-transform: uppercase;
-    }
 
     &::after {
       background-color: $color-tumeric;
