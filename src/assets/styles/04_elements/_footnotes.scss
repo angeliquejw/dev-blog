@@ -1,0 +1,26 @@
+.blog-post .footnotes {
+  margin: $spacing-unit ($spacing-unit-sm * -1) 0;
+  padding: $spacing-unit-sm $spacing-unit-sm $spacing-unit-sm $spacing-unit;
+  position: relative;
+
+  &::before {
+    background-color: $color-tumeric;
+    content: "";
+    display: block;
+    height: 3px; /* stylelint-disable-line plugin/8-point-grid */
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 16%;
+  }
+
+  a[href^="#return"] {
+    background: none;
+    border-bottom: none;
+    position: relative;
+    @include hover-state {
+      color: $color-mulberry;
+      top: -1px;
+    }
+  }
+}
