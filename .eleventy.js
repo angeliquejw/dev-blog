@@ -77,6 +77,9 @@ module.exports = function (eleventyConfig) {
   markdownEngine.use(markdownItAnchor, {
     permalink: true,
     permalinkClass: "direct-link",
+    permalinkAttrs: () => ({
+      'aria-label': 'Link to this heading'
+    }),
     permalinkSymbol: "#"
   });
   markdownEngine.use(markdownItAttr, {
