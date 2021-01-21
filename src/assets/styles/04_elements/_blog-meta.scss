@@ -18,9 +18,15 @@
     text-transform: uppercase;
   }
 
-  ul  {
+  ul {
     @include z-index(low);
     position: relative;
+  }
+
+  li {
+    line-height: 1.6;
+    margin-left: 4px;
+    margin-right: 4px;
   }
 
   a {
