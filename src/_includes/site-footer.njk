@@ -1,4 +1,4 @@
-<footer class="site-footer">
+<footer class="site-footer" itemprop="hasPart" itemscope itemtype="http://schema.org/WPFooter">
   {% include "top-link.njk" %}
 
   {%- if (templateClass == "tmpl-home") %}
@@ -6,8 +6,8 @@
   {%- endif %}
 
   <ul class="u-list-reset">
-    <li>v0.2 <span>Build Info</span></li>
-    <li>&copy; 2015-{% currentYear %} Ang&eacute;lique Weger</li>
+    <li><span itemprop="version">v0.2</span> <span class="u-text-uppercase">Build Info</span></li>
+    <li itemprop="copyrightNotice">&copy; 2015-{% currentYear %} <span itemprop="author copyrightHolder" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Ang&eacute;lique Weger</span></span></li>
     <li>Site powered by <a href="https://www.11ty.dev/" target="_blank">Eleventy.js</a> [ <a href="https://github.com/angeliquejw/dev-blog" target="_blank">repo</a> ]</li>
     <li>Fonts used: Barlow, IBM Plex Mono, IBM Plex Sans</li>
     <li><a href="http://madewithloveinbaltimore.org">Made with <em class="bmore-heart u-inline-block">&hearts;</em> in Baltimore</a></li>

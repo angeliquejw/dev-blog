@@ -4,7 +4,8 @@ layout: layouts/base.njk
 
 {% include "site-header.njk" %}
 
-<main{% if pageClass %} class="{{ pageClass }}"{% endif %}>
+<main{% if pageClass %} class="{{ pageClass }}"{% endif %} itemprop="mainEntity" itemscope itemtype="http://schema.org/Blog">
+  <meta itemprop="name" content="Angelique Weger's blog">
   {{ content | safe }}
 </main>
 

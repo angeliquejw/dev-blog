@@ -2,10 +2,10 @@
 	{%- for item in metadata.author.social %}
   <li>
     {%- if item.type == "email" %}
-    <a href="mailto:{{ item.mailto }}" target="_blank">
+    <a href="mailto:{{ item.mailto }}" target="_blank" itemprop="email">
     {% include "../assets/img/icon-email.svg" %}
     {%- else %}
-    <a href="{{ item.url }}" target="_blank">
+    <a href="{{ item.url }}" target="_blank" itemprop="sameAs">
     {% include "../assets/img/logo-" + item.type + ".svg" %}
     {%- endif %}
     <span class="u-sr-only">{{ item.type }}</span>
