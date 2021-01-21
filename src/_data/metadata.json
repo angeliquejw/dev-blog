@@ -1,15 +1,15 @@
 {
-  "title": "Angelique Weger",
+  "title": "Angélique Weger",
   "url": "https://angeliqueweger.com/",
-  "description": "Angelique Weger is a coder, designer, teacher, learner and overall enthusiast. This is her blog.",
+  "description": "Angélique Weger is a coder, designer, teacher, learner and overall enthusiast. This is her blog.",
   "feed": {
-    "subtitle": "Angelique Weger is a coder, designer, teacher, learner and overall enthusiast. This is her blog.",
+    "subtitle": "Angélique Weger is a coder, designer, teacher, learner and overall enthusiast. This is her blog.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "https://angeliqueweger.com/"
   },
   "author": {
-    "name": "Angelique Weger",
+    "name": "Angélique Weger",
     "social": [{
         "type": "github",
         "url": "https://github.com/angeliquejw"
