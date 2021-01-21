@@ -26,9 +26,9 @@ I'm living in Baltimore, working as the front-end lead for Lumen Learning and te
 
 ### I am looking forward to
 
-- hiring a new dev for my team 💥
-- more knitting and weaving
-- seeing family and friends in person again...soon
+- hiring a new dev for my team 💥 (see the [job description](https://lumenlearning.com/front-end-engineer/))
+- more knitting and weaving 🧶
+- seeing family and friends in person again...soon 👀
 
 </section>
 
