@@ -1,0 +1,49 @@
+.tmpl-404 {
+  display: flex;
+  flex-direction: column;
+
+  img {
+    background-color: $color-mulberry;
+    border: 16px solid $color-mulberry;
+    border-radius: 50%;
+    height: 128px;
+    margin-left: $spacing-unit-xs;
+    margin-right: $spacing-unit-xs;
+    width: auto;
+  }
+
+  header {
+    align-items: center;
+    color: $color-mulberry;
+    display: flex;
+    font-family: $font-plex-mono;
+    font-size: ms(20);
+    font-weight: $font-bold;
+    justify-content: center;
+    line-height: 1;
+    text-align: center;
+  }
+
+  main {
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80ch;
+  }
+
+  p {
+    font-family: $font-plex-sans;
+    line-height: 1.4;
+  }
+
+  a {
+    color: $color-patina;
+    transition: $transition-default;
+    @include hover-state {
+      color: $color-mulberry;
+    }
+  }
+}
