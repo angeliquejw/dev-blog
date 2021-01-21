@@ -14,7 +14,7 @@
     width: 16%;
   }
 
-  a[href^="#return"] {
+  a[href^="#return"] { /* stylelint-disable-line */
     background: none;
     border-bottom: none;
     position: relative;

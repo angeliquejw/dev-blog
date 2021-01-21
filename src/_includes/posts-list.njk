@@ -15,7 +15,7 @@
       <h2 class="post-title">{{ post.data.title }}</h2>
       {%- endif %}
       <time datetime="{{ post.date | htmlDateString }}" class="u-block">{{ post.date | readableDate }}</time>
-      <a href="{{ post.url | url }}" class="u-block post-cta"><em class="u-block">Read More</em></a>
+      <a href="{{ post.url | url }}" class="u-block post-cta"><em class="u-block post-cta-text">Read More</em></a>
     </li>
     {% endfor %}
   </ol>

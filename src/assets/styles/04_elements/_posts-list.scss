@@ -25,7 +25,7 @@
       }
 
       @media (max-width: 829px) {
-        .post-cta > em {
+        .post-cta-text {
           color: $color-offwhite;
 
           /* stylelint-disable selector-max-combinators */
@@ -70,7 +70,7 @@
     text-decoration: none;
     text-transform: uppercase;
 
-    > em {
+    &-text {
       font-style: normal;
       font-weight: $font-light;
     }
@@ -126,7 +126,7 @@
         top: 0;
       }
 
-      > em {
+      &-text {
         padding: $spacing-unit-xs;
         position: relative;
 

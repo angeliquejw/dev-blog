@@ -1,145 +1,148 @@
 .pg-now {
   padding-bottom: 0;
-  
-  section {
-    background-color: $color-patina;
-    margin-left: (-$spacing-unit);
-    margin-right: (-$spacing-unit);
-    max-width: 96ch;
-    padding: 0 $spacing-unit-sm $spacing-unit;
 
-    h2, h3 {
-      background-color: $color-offblack;
-      color: $color-offwhite;
-      margin: 0 0 $spacing-unit (-$spacing-unit-sm);
-      position: relative;
-      top: -2px;
-
-      &::before, &::after {
-        content: "";
-        position: absolute;
-      }
-
-      &::before {
-        background-color: $color-tumeric;
-        height: 2px;
-        left: 0;
-        top: 0;
-        width: 60%;
-      }
-
-      &::after {
-        background-color: $color-patina;
-        bottom: 0;
-        height: 4px;
-        right: 0;
-        width: 15%;
-      }
-
-      > .direct-link {
-        @include hover-state {
-          color: $color-patina;
-        }
-      }
-    }
-
-    h2 {
-      font-size: ms(4);
-      padding: $spacing-unit-sm;
-    }
-
-    h3 {
-      font-size: ms(3);
-      padding: $spacing-unit-xs $spacing-unit-sm;
-    }
-
-    li {
-      list-style: square;
-      margin-bottom: $spacing-unit-sm;
-    }
-
-    a {
-      color: $color-offwhite;
-      position: relative;
-      text-decoration: none;
-
-      &::before {
-        border-bottom: 1px solid $color-mulberry;
-        bottom: -2px;
-        content: "";
-        height: 100%;
-        left: 0;
-        position: absolute;
-        transition: width 400ms ease;
-        width: 0;
-      }
-
-      @include hover-state {
-        color: white;
-
-        &::before {
-          width: 100%;
-        }
-      }
-    }
-
-    &:nth-of-type(odd) {
-      background-color: $color-tumeric;
-
-      h2,
-      h3 {
-        &::before {
-          background-color: $color-patina;
-        }
-
-        &::after {
-          background-color: $color-tumeric;
-        }
-        >.direct-link {
-          @include hover-state {
-            color: $color-tumeric;
-          }
-        }
-      }
-    }
-
-    &:first-of-type {
-      h2, h3 {
-        &::before {
-          background-color: $color-grey;
-        }
-      }
-    }
-
-    &:last-of-type {
-      background-color: $color-offblack;
-      color: $color-offwhite;
-      padding-bottom: $spacing-unit-lg;
-
-      h2,
-      h3 {
-        color: white;
-
-        &::after {
-          background-color: transparent;
-        }
-        >.direct-link {
-          @include hover-state {
-            color: white;
-          }
-        }
-      }
-    }
-
-    @media (min-width: 720px) {
-      margin-left: (-$spacing-unit-lg);
-      margin-right: (-$spacing-unit-lg);
-    }
-  }
-
-  + .site-footer .top-link {
+  + .site-footer .top-link { /* stylelint-disable-line selector-max-class */
     @media (max-width: 1089px) {
       filter: invert(0.62) contrast(3) hue-rotate(100deg);
     }
+  }
+}
+
+.now-heading {
+  background-color: $color-offblack;
+  color: $color-offwhite;
+  margin: 0 0 $spacing-unit (-$spacing-unit-sm);
+  position: relative;
+  top: -2px;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+  }
+
+  &::before {
+    background-color: $color-tumeric;
+    height: 2px;
+    left: 0;
+    top: 0;
+    width: 60%;
+  }
+
+  &::after {
+    background-color: $color-patina;
+    bottom: 0;
+    height: 4px;
+    right: 0;
+    width: 15%;
+  }
+
+  > .direct-link {
+    @include hover-state {
+      color: $color-patina;
+    }
+  }
+}
+
+
+.now-section {
+  background-color: $color-patina;
+  margin-left: (-$spacing-unit);
+  margin-right: (-$spacing-unit);
+  max-width: 96ch;
+  padding: 0 $spacing-unit-sm $spacing-unit;
+
+  h2 {
+    font-size: ms(4);
+    padding: $spacing-unit-sm;
+  }
+
+  h3 {
+    font-size: ms(3);
+    padding: $spacing-unit-xs $spacing-unit-sm;
+  }
+
+  li {
+    list-style: square;
+    margin-bottom: $spacing-unit-sm;
+  }
+
+  a {
+    color: $color-offwhite;
+    position: relative;
+    text-decoration: none;
+
+    &::before {
+      border-bottom: 1px solid $color-mulberry;
+      bottom: -2px;
+      content: "";
+      height: 100%;
+      left: 0;
+      position: absolute;
+      transition: width 400ms ease;
+      width: 0;
+    }
+
+    @include hover-state {
+      color: white;
+
+      &::before {
+        width: 100%;
+      }
+    }
+  }
+
+  &:nth-of-type(odd) {
+    background-color: $color-tumeric;
+
+    .now-heading {
+      &::before {
+        background-color: $color-patina;
+      }
+
+      &::after {
+        background-color: $color-tumeric;
+      }
+
+      > .direct-link { /* stylelint-disable-line selector-max-class */
+        @include hover-state {
+          color: $color-tumeric;
+        }
+      }
+    }
+  }
+
+  &:first-of-type {
+
+    .now-heading {
+      &::before {
+        background-color: $color-grey;
+      }
+    }
+  }
+
+  &:last-of-type {
+    background-color: $color-offblack;
+    color: $color-offwhite;
+    padding-bottom: $spacing-unit-lg;
+
+    .now-heading {
+      color: white;
+
+      &::after {
+        background-color: transparent;
+      }
+
+      > .direct-link { /* stylelint-disable-line selector-max-class */
+        @include hover-state {
+          color: white;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 720px) {
+    margin-left: (-$spacing-unit-lg);
+    margin-right: (-$spacing-unit-lg);
   }
 }
