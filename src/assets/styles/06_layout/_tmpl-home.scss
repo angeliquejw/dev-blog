@@ -32,13 +32,13 @@
     @media (min-width: 720px) {
       border-left: 120px solid $color-offblack;
 
-      .site-name {
+      .site-name { /* stylelint-disable-line selector-max-class */
         @include size(72px);
         left: calc(((72 + 120) / 2) * -1px);
         top: 50%;
         transform: translateY(-50%);
 
-        &::before {
+        &::before { /* stylelint-disable-line selector-max-class */
           @include size(72px);
         }
       }

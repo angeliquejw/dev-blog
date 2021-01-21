@@ -5,16 +5,16 @@ layout: layouts/page.njk
 
 <h1 class="page-heading page-heading--alt">What I'm Doing <em class="u-block">Now</em></h1>
 
-<section>
+<section class="now-section">
 
-## Currently
+## Currently{: .now-heading}
 I'm living in Baltimore, working as the front-end lead for Lumen Learning and teaching front-end web development at MICA.
 
 </section>
 
-<section>
+<section class="now-section">
 
-### I am enjoying
+### I am enjoying{: .now-heading}
 
 - so many bowls of ramen 🍜
 - my HappyLight (I got the [Verilux Happy Light Luxe](https://verilux.com/collections/happylight-therapy-lamps-boxes/products/happylight-luxe))
@@ -22,9 +22,9 @@ I'm living in Baltimore, working as the front-end lead for Lumen Learning and te
 
 </section>
 
-<section>
+<section class="now-section">
 
-### I am looking forward to
+### I am looking forward to{: .now-heading}
 
 - hiring a new dev for my team 💥 (see the [job description](https://lumenlearning.com/front-end-engineer/))
 - more knitting and weaving 🧶
@@ -32,9 +32,9 @@ I'm living in Baltimore, working as the front-end lead for Lumen Learning and te
 
 </section>
 
-<section>
+<section class="now-section">
 
-### I can be reached
+### I can be reached{: .now-heading}
 
 - via [Twitter](http://twitter.com/messypixels)
 - via [email](mailto:hello@angeliqueweger.com)
