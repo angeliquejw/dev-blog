@@ -16,9 +16,7 @@ templateClass: tmpl-post
   {{ content | safe }}
 
   {% if comments != false %}
-  <footer>
-    <p>As always, feel free to <a href="https://twitter.com/intent/tweet?screen_name=messypixels" target="_blank">send comments to me via Twitter</a>. {{comments | safe }}</p>
-  </footer>
+    {% include "post-close.njk" %}
   {% endif %}
 </article>
 
@@ -52,10 +50,4 @@ templateClass: tmpl-post
   </nav>
 </div>
 
-<footer class="bio-footer">
-  {% include "bio.njk" %}
-  <span class="photo-wrapper">
-    {% include "bio-photo.njk" %}
-    {% include "top-link.njk" %}
-  </span>
-</footer>
+{% include "post-footer.njk" %}
