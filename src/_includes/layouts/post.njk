@@ -7,47 +7,51 @@ templateClass: tmpl-post
 {% include "out-of-date.njk" %}
 {%- endif %}
 
-<article class="blog-post">
-  <header class="post-header u-flex">
-    <h1>{{ title }}</h1>
-    <time datetime="{{ date | htmlDateString }}">{{ date | readableDate }}</time>
-  </header>
+<div itemscope="itemscope" itemtype="http://schema.org/blogPost">
+  <article class="blog-post">
+    <header class="post-header u-flex">
+      <h1 itemprop="headline">{{ title }}</h1>
+      <time datetime="{{ date | htmlDateString }}" itemprop="datePublished">{{ date | readableDate }}</time>
+    </header>
 
-  {{ content | safe }}
+    <div itemprop="text">
+      {{ content | safe }}
+    </div>
 
-  {% if comments != false %}
-    {% include "post-close.njk" %}
-  {% endif %}
-</article>
+    {% if comments != false %}
+      {% include "post-close.njk" %}
+    {% endif %}
+  </article>
 
-<div class="meta-wrapper">
-  <div class="blog-meta">
-    <p>Written in <em>{{ location }}</em> and tagged as:
-      <ul class="u-list-reset">
-      {% for tag in tags %}
-        {%- if collections.tagList.indexOf(tag) != -1 -%}
-        {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
-        <li class="u-inline-block"><a href="{{ tagUrl | url }}" class="u-block">{{ tag }}</a></li>
-        {%- endif -%}
-      {% endfor %}
-      </ul>
-    </p>
+  <div class="meta-wrapper">
+    <div class="blog-meta">
+      <p>Written in <em itemprop="locationCreated">{{ location }}</em> and tagged as:
+        <ul class="u-list-reset" itemprop="keywords">
+        {% for tag in tags %}
+          {%- if collections.tagList.indexOf(tag) != -1 -%}
+          {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+          <li class="u-inline-block"><a href="{{ tagUrl | url }}" class="u-block">{{ tag }}</a></li>
+          {%- endif -%}
+        {% endfor %}
+        </ul>
+      </p>
+    </div>
+
+    <nav class="post-nav" aria-label="Pagination links">
+      <ol class="u-list-reset u-flex{% if (prevPost.url == null) %} __only-newer{% endif %}">
+      {% if prevPost.url %}
+        <li>
+          <a class="post-nav--link post-nav--link__old u-block" href="{{ prevPost.url }}"><em>Older</em> Post</a>
+        </li>
+      {% endif %}
+      {% if nextPost.url %}
+        <li>
+          <a class="post-nav--link post-nav--link__new u-block" href="{{ nextPost.url }}"><em>Newer</em> Post</a>
+        </li>
+      {% endif %}
+      </ol>
+    </nav>
   </div>
-
-  <nav class="post-nav" aria-label="Pagination links">
-    <ol class="u-list-reset u-flex{% if (prevPost.url == null) %} __only-newer{% endif %}">
-    {% if prevPost.url %}
-      <li>
-        <a class="post-nav--link post-nav--link__old u-block" href="{{ prevPost.url }}"><em>Older</em> Post</a>
-      </li>
-    {% endif %}
-    {% if nextPost.url %}
-      <li>
-        <a class="post-nav--link post-nav--link__new u-block" href="{{ nextPost.url }}"><em>Newer</em> Post</a>
-      </li>
-    {% endif %}
-    </ol>
-  </nav>
 </div>
 
 {% include "post-footer.njk" %}

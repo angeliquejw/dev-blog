@@ -1,15 +1,15 @@
-<header class="site-header">
+<header class="site-header" itemprop="hasPart" itemscope itemtype="http://schema.org/WPHeader">
 
-  <div class="mobile-row">
+  <div class="mobile-row" itemscope itemtype="https://schema.org/Person">
     {% include "site-logo.njk" %}
     
     {% include "social-list.njk" %}
   </div>
 
-  <nav>
+  <nav itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
     <ul class="page-list u-list-reset">
-      <li class="{% if (title == "Blog") or (tags and "posts" in tags) %} --active{% endif %}"><a href="/blog" class="u-block">Blog</a></li>
-      <li class="{% if (entry.url == page.url) %} --active{% endif %}"><a href="/" class="u-block">About</a></li>
+      <li class="{% if (title == "Blog") or (tags and "posts" in tags) %} --active{% endif %}"><a href="/blog" class="u-block" itemprop="url"><span itemprop="name">Blog</span></a></li>
+      <li class="{% if (entry.url == page.url) %} --active{% endif %}"><a href="/" class="u-block" itemprop="url"><span itemprop="name">About</span></a></li>
     </ul>
   </nav>
 
