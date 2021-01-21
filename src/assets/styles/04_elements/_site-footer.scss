@@ -71,17 +71,17 @@
   }
 }
 
-.bmore-heart {
-  color: $color-mulberry;
-  display: inline-block;
-  font-size: ms(2);
-  font-style: normal;
-  transition: $transition-default;
-}
-
-.site-footer a { /* stylelint-disable-line no-descending-specificity */
+.bmore-link {
+  svg {
+    display: inline-block;
+    fill: $color-mulberry;
+    height: 16px;
+    position: relative;
+    top: 4px;
+    transition: $transition-default;
+  }
   @include hover-state {
-    .bmore-heart {
+    svg {
       transform: scale(1.3);
     }
   }
