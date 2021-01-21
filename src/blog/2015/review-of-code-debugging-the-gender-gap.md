@@ -52,7 +52,7 @@ While some of this info was eye-opening and new to me, the overall themes of <st
 
 Overall, I would recommend the documentary to those interested in an overview about the issues women in tech face. I hope we have an opportunity to have a screening here in Baltimore for the women in tech and Girl Develop It communities.
 
-<ol>
+<ol class="footnotes">
     <li id="fn1">The film, obvously, focuses on the lack of gender diversity in tech. Other diversity issues&mdash;ethnic, socio-economic&mdash;are discussed and some of the things that keep women out of tech&mdash;lack of role models, toxic culture&mdash;affect these other groups, too. <a href="#return-fn1">&#x2934;</a></li>
     <li id="fn2">Sources for CS education stats: <a href="https://code.org/stats">https://code.org/stats</a>, <a href="http://www.computinginthecore.org/facts-resources">http://www.computinginthecore.org/facts-resources</a>, <a href="http://www.exploringcs.org/resources/cs-statistics">http://www.exploringcs.org/resources/cs-statistics</a>. <a href="#return-fn2">&#x2934;</a></li>
 </ol>
