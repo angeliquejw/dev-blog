@@ -1,6 +1,6 @@
 ---
 title: Vagrant + Middleman = Victory
-tags: [middleman, vagrant, react, ruby, windows]
+tags: [static site generators, middleman, vagrant, react, ruby, windows]
 date: 2016-03-08
 location: San Francisco
 comments: I'd love to hear your Vagrant tips or woes.
