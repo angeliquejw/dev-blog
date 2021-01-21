@@ -35,6 +35,12 @@
         right: 0;
         width: 15%;
       }
+
+      > .direct-link {
+        @include hover-state {
+          color: $color-patina;
+        }
+      }
     }
 
     h2 {
@@ -89,6 +95,11 @@
         &::after {
           background-color: $color-tumeric;
         }
+        >.direct-link {
+          @include hover-state {
+            color: $color-tumeric;
+          }
+        }
       }
     }
 
@@ -111,6 +122,11 @@
 
         &::after {
           background-color: transparent;
+        }
+        >.direct-link {
+          @include hover-state {
+            color: white;
+          }
         }
       }
     }
