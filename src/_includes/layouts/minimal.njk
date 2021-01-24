@@ -1,0 +1,10 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-minimal
+---
+
+<main{% if pageClass %} class="{{ pageClass }}"{% endif %} itemprop="mainEntity" itemscope itemtype="http://schema.org/CreativeWork">
+  {{ content | safe }}
+</main>
+
+{% include "site-footer.njk" %}
