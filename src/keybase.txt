@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/aweger
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://angeliqueweger.com
+  * I am aweger (https://keybase.io/aweger) on keybase.
+  * I have a public key ASAOiPHTD_UKR6-PKV0n5NXSwTL8L3fMbROa-_tsLd9vZwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01200e88f1d30ff50a47af8f295d27e4d5d2c132fc2f77cc6d139afbfb6c2ddf6f670a",
+      "host": "keybase.io",
+      "kid": "01200e88f1d30ff50a47af8f295d27e4d5d2c132fc2f77cc6d139afbfb6c2ddf6f670a",
+      "uid": "60e50a9b165b1d1f69200ea20fb8ec19",
+      "username": "aweger"
+    },
+    "merkle_root": {
+      "ctime": 1611521658,
+      "hash": "ff162703dfbe512396de5be3752dd1d603ec3d6362768e2e3800c498f7be3a427305e2b9c64148ba33eaaa1d800da451c71ea62a0c6bd66b7be100a10d68d2a4",
+      "hash_meta": "f4cdc5d84a4c292cafc8dff7b9386c516125b0523ad397b72f8234c8f0686b4e",
+      "seqno": 18892734
+    },
+    "service": {
+      "entropy": "iyXb4yghT79+VexYYFvMv+hz",
+      "hostname": "angeliqueweger.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.6.0"
+  },
+  "ctime": 1611521674,
+  "expire_in": 504576000,
+  "prev": "d284f2e4865d42ba3d34b779ad563da446dd23609728e5fa1ac9c43281f37239",
+  "seqno": 26,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgDojx0w/1CkevjyldJ+TV0sEy/C93zG0Tmvv7bC3fb2cKp3BheWxvYWTESpcCGsQg0oTy5IZdQro9NLd5rVY9pEbdI2CXKOX6GsnEMoHzcjnEIAiR8th8jSMlUWHb+Qbb+xBEnbl0FLFq33xXEprJoivEAgHCo3NpZ8RAPoUeiCwg/Y4Zqw0zTm4i0PPJ9UH8U5pm8YBqn1DaOSyCfdFANmjnmqPk5bct410Hard3RniFUqKII5j+7RzmCahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEINee6cjpLjpubAP6fU6fdFWJo9kYQLsgb/dQdvEqwOeSo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/aweger
+
+==================================================================
