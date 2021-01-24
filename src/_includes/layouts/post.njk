@@ -32,7 +32,7 @@ templateClass: tmpl-post
         {% for tag in tags %}
           {%- if collections.tagList.indexOf(tag) != -1 -%}
           {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
-          <li><a href="{{ tagUrl | url }}">{{ tag }}</a></li>
+          <li><a href="{{ tagUrl }}">{{ tag }}</a></li>
           {%- endif -%}
         {% endfor %}
         </ul>
