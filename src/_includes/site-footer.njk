@@ -1,7 +1,7 @@
 <footer class="site-footer" itemprop="hasPart" itemscope itemtype="http://schema.org/WPFooter">
   {% include "top-link.njk" %}
 
-  {%- if (templateClass == "tmpl-home") %}
+  {%- if (templateClass == "tmpl-home") or (templateClass == "tmpl-minimal") %}
     {% include "site-logo.njk" %}
   {%- endif %}
 

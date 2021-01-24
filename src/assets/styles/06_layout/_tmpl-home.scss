@@ -20,35 +20,6 @@
     }
   }
 
-  .site-footer {
-
-    @media (max-width: 719px) {
-      .top-link { /* stylelint-disable-line selector-max-class */
-        bottom: 0;
-        top: unset;
-      }
-    }
-
-    @media (min-width: 720px) {
-      border-left: 120px solid $color-offblack;
-
-      .site-name { /* stylelint-disable-line selector-max-class */
-        @include size(72px);
-        left: calc(((72 + 120) / 2) * -1px);
-        top: 50%;
-        transform: translateY(-50%);
-
-        &::before { /* stylelint-disable-line selector-max-class */
-          @include size(72px);
-        }
-      }
-
-      .site-logo { /* stylelint-disable-line selector-max-class */
-        font-size: ms(11);
-      }
-    }
-  }
-
   .posts-list {
     max-width: 1056px;
   }
