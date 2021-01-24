@@ -65,8 +65,27 @@
     display: flex;
     justify-content: flex-end;
 
+    .tmpl-home &, .tmpl-minimal & {
+      border-left: 120px solid $color-offblack;
+    }
+
     ul {
       max-width: 50ch;
+    }
+
+    .site-name {
+      @include size(72px);
+      left: calc(((72 + 120) / 2) * -1px);
+      top: 50%;
+      transform: translateY(-50%);
+
+      &::before {
+        @include size(72px);
+      }
+    }
+
+    .site-logo {
+      font-size: ms(11);
     }
   }
 }

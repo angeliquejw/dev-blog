@@ -40,5 +40,13 @@
       color: $color-offwhite;
       transform: scale(1.08) translate(0, -3%);
     }
+
+    @media (max-width: 719px) {
+  
+      .tmpl-home &, .tmpl-minimal & { /* stylelint-disable-line selector-max-class */
+        bottom: 0;
+        top: unset;
+      }
+    }
   }
 }
