@@ -8,6 +8,7 @@
     "dev:parcel": "parcel watch src/assets/img/* src/assets/img/*/* src/assets/img/*/*/* src/assets/styles/styles.scss src/assets/scripts/index.js --out-dir _dev/assets",
     "build": "run-s clean prod:*",
     "prod:eleventy": "ELEVENTY_ENV=production eleventy",
+    "prod:proof": "cp ./src/keybase.txt ./_site/",
     "prod:parcel": "parcel build src/assets/img/* src/assets/img/*/* src/assets/img/*/*/* src/assets/styles/styles.scss src/assets/scripts/index.js --out-dir _site/assets",
     "debug": "run-s clean && DEBUG=* eleventy"
   },

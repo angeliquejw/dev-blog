@@ -111,9 +111,6 @@ module.exports = function (eleventyConfig) {
     ghostMode: false
   });
 
-  // Keybase proof
-  eleventyConfig.addPassthroughCopy("keybase.txt");
-
   return {
     templateFormats: [
       "md",
