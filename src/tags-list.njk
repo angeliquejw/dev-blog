@@ -8,6 +8,6 @@ layout: layouts/page.njk
 <ul class="u-list-reset">
   {% for tagKey, tagVal in collections.tagCount %}
   {% set tagUrl %}/tags/{{ tagKey | slug }}/{% endset %}
-  <li class="tag-item"><a href="{{ tagUrl | url }}" class="tag-item__link">{{ tagKey }} <span class="tag-item__number">{{ tagVal }}</span></a></li>
+  <li class="tag-item"><a href="{{ tagUrl }}" class="tag-item__link">{{ tagKey }} <span class="tag-item__number">{{ tagVal }}</span></a></li>
   {% endfor %}
 </ul>
