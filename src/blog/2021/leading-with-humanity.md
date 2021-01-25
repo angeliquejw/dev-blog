@@ -20,6 +20,12 @@ I wasn't prepared for the deluge of info that came my way, but was heartened to 
 
 Over the next several days, I gathered up the details as they were shared and tweets and DMs, hearing about the responses from over 200 companies and have [published a full list of the info I received here](/bits/company-list-2021/).
 
+<div class="button-container">
+  <a href="/bits/company-list-2021/" class="button">
+    <em>see the data</em>
+  </a>
+</div>
+
 ## Some notes about this data
 This is **not** meant to be a list of Good Companies™️. This list is not definitive proof that these companies are good places to work now or in the future.
 
@@ -29,7 +35,7 @@ To me, that is a data point. It is interesting and worthwhile, but it also shoul
 
 ## How to use this data if...
 ### You're looking for your next team
-If you're job hunting, I've added a filter for if the company is currently hiring (again, data valid as of this blog post) and a link to their current openings. There is also [this separate view of that data](/bits/company-list-hiring-2021/) filtered to companies that are currently hiring. (Your welcome. Searching for your next job is grueling, so I hope this gives you a little help.)
+If you're job hunting, I've added a filter for if the company is currently hiring (again, data valid as of this blog post) and a link to their current openings. There is also [this separate view of that data](/bits/company-list-hiring-2021/) filtered to companies that are currently hiring. (You're welcome. Searching for your next job is grueling, so I hope this gives you a little help.)
 
 Additionally, when you're interviewing with any team, ask what management and leadership did to respond on January 6th. Ask what accommodations they've offered as employees have transitioned to working from home due to COVID. Ask what the organization's commitment is to racial justice (as well as how that is being tracked!) and if Juneteenth is a company holiday.
 
