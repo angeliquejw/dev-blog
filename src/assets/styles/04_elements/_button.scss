@@ -1,8 +1,33 @@
-.button-tile {
+.button-container, .button-tile {
   align-items: center;
   display: flex;
   justify-content: center;
+}
+
+.button-tile {
   min-height: 136px;
+}
+
+.button-container {
+
+  margin-bottom: $spacing-unit-lg;
+  margin-top: $spacing-unit;
+
+  p {
+    margin-bottom: 0;
+  }
+
+  .button {
+    background-image: unset;
+    border-bottom: 0;
+    color: white;
+    text-decoration: none;
+
+    > em {
+      display: inline-block;
+      padding: $spacing-unit;
+    }
+  }
 }
 
 .button {
