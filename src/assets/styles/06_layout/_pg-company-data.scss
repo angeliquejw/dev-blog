@@ -1,0 +1,123 @@
+.pg-company-data {
+  font-family: $font-barlow;
+  overflow-x: hidden;
+
+  .direct-link {
+    display: none;
+  }
+
+  .opener {
+    background-color: rgba($color-patina, 0.1);
+    margin-left: $spacing-unit * -1;
+    margin-right: $spacing-unit * -1;
+    margin-top: $spacing-unit-sm * -1;
+    min-height: 100vh;
+
+    @media (min-width: 720px) {
+      margin-left: $spacing-unit-lg * -1;
+      margin-right: $spacing-unit-lg * -1;
+    }
+
+    @media (min-width: 1160px) {
+      margin-left: $spacing-unit-xl * -1;
+      margin-right: $spacing-unit-xl * -1;
+    }
+
+    > div {
+      padding: 0 $spacing-unit $spacing-unit;
+    }
+  }
+
+  header {
+    background-color: $color-patina;
+    margin-bottom: $spacing-unit;
+    padding: $spacing-unit;
+  }
+
+  h1, h2, h3 {
+    font-family: $font-plex-sans;
+  }
+
+  h1 {
+    margin-top: 0;
+  }
+
+  .content-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 120ch;
+  }
+
+  p {
+    line-height: 1.4;
+  }
+
+  a {
+    color: $color-patina;
+
+    &:visited {
+      color: $color-valentino;
+    }
+
+    @include hover-state {
+      color: $color-mulberry;
+    }
+  }
+
+  blockquote {
+    background-color: white;
+    border-left: 3px solid $color-mulberry;
+    margin: 0;
+    padding: $spacing-unit-sm;
+
+    p {
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+
+    + blockquote {
+      padding-top: 0;
+    }
+  }
+
+  ul {
+    @include u-list-reset();
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: $spacing-unit-xl;
+    margin-top: $spacing-unit-lg;
+
+    li {
+      margin-bottom: $spacing-unit;
+    }
+
+    a {
+      border: 1px solid transparent;
+      display: block;
+      padding: $spacing-unit-sm;
+
+      @include hover-state {
+        background-color: white;
+        border-color: $color-offblack;
+      }
+    }
+  }
+
+  .embed-container {
+    padding-top: $spacing-unit-lg;
+
+    &, iframe {
+      min-height: 90vh;
+    }
+  }
+
+  aside {
+    margin-top: $spacing-unit-xl;
+
+    h2 {
+      color: $color-patina;
+      margin-top: $spacing-unit-lg;
+    }
+  }
+}
