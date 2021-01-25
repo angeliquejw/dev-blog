@@ -82,6 +82,14 @@
       &::before {
         @include size(72px);
       }
+
+      @include hover-state {
+        transform: scale(1.04) translateY(-50%);
+
+        &::before {
+          transform: scale(1.04);
+        }
+      }
     }
 
     .site-logo {
