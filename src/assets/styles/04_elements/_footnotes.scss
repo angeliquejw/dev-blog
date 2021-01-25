@@ -1,17 +1,24 @@
 .blog-post .footnotes {
-  margin: $spacing-unit ($spacing-unit-sm * -1) 0;
+  margin: $spacing-unit ($spacing-unit-sm * -1);
   padding: $spacing-unit-sm $spacing-unit-sm $spacing-unit-sm $spacing-unit;
   position: relative;
 
-  &::before {
+  &::before, &::after {
     background-color: $color-tumeric;
     content: "";
     display: block;
     height: 3px; /* stylelint-disable-line plugin/8-point-grid */
     left: 0;
     position: absolute;
-    top: 0;
     width: 16%;
+  }
+
+  &::before {
+    top: 0;
+  }
+
+  &::after {
+    bottom: 0;
   }
 
   a[href^="#return"] { /* stylelint-disable-line */
