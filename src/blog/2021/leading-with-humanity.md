@@ -1,5 +1,6 @@
 ---
 title: Leading with humanity
+summary: How to lead teams through crises and a list of companies that (maybe) are trying to do this right.
 tags: [leadership, teams, communication, values, culture, empathy, safe space, tech culture]
 date: 2021-01-24
 location: Baltimore
