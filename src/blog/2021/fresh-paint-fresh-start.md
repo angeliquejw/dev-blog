@@ -1,5 +1,6 @@
 ---
 title: Fresh Paint, Fresh Start
+summary: Relaunching my blog and refactoring it to use Eleventy.
 tags: [static site generators, 11ty, eleventy, middleman, redesign]
 date: 2021-01-21
 location: Baltimore
