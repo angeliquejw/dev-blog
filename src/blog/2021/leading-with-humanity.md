@@ -1,9 +1,9 @@
 ---
 title: Leading with humanity
-tags: [teams, communication, values, culture, empathy, safe space, tech culture]
+tags: [leadership, teams, communication, values, culture, empathy, safe space, tech culture]
 date: 2021-01-24
 location: Baltimore
-comments: Thanks for reading.
+comments: Thanks for reading and sharing and just being you. ✨
 ---
 
 On January 6, like so many other Americans, I watched a scary and violent thing unfold in our nation's Capitol. Because I watched things happening in real time on my screen&mdash;on the PBS News Hour livestream, but also in people's responses in Twitter and various community Slacks&mdash;I was aware that, in addition to the immediate stressful events, there was also an undercurrent of "How am I supposed to work through this?"
