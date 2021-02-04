@@ -16,18 +16,6 @@
   p {
     margin-bottom: 0;
   }
-
-  .button {
-    background-image: unset;
-    border-bottom: 0;
-    color: white;
-    text-decoration: none;
-
-    > em {
-      display: inline-block;
-      padding: $spacing-unit;
-    }
-  }
 }
 
 .button {
@@ -74,6 +62,18 @@
       border: 1px solid $color-offwhite;
       left: 2px;
       top: 2px;
+    }
+  }
+
+  .button-container & {
+    background-image: unset;
+    border-bottom: 0;
+    color: white;
+    text-decoration: none;
+
+    > em {
+      display: inline-block;
+      padding: $spacing-unit;
     }
   }
 

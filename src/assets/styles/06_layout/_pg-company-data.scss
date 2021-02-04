@@ -92,7 +92,7 @@
       margin-bottom: $spacing-unit;
     }
 
-    a {
+    a { /* stylelint-disable-line no-descending-specificity */
       border: 1px solid transparent;
       display: block;
       padding: $spacing-unit-sm;
