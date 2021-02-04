@@ -4,6 +4,7 @@ const {
 const fs = require("fs");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const getWebmentionsForUrl = require("./src/_11ty/getWebmentionsForUrl");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
@@ -14,6 +15,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
 
   eleventyConfig.addShortcode("currentYear", () => `${new Date().getFullYear()}`);
+
+  eleventyConfig.addFilter("getWebmentionsForUrl", getWebmentionsForUrl);
 
   eleventyConfig.addFilter('outOfDate', (dateObj) => {
     return DateTime.fromJSDate(dateObj, 'dd.MM.yyyy').diffNow('years').toObject().years < -2;
@@ -30,6 +33,10 @@ module.exports = function (eleventyConfig) {
     return DateTime.fromJSDate(dateObj, {
       zone: 'utc'
     }).toFormat('yyyy-LL-dd');
+  });
+
+  eleventyConfig.addFilter("readableDateFromISO", (dateObj) => {
+    return DateTime.fromISO(dateObj).toFormat('LLL dd yyyy');
   });
 
   // Get the first `n` elements of a collection.

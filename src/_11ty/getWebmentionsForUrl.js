@@ -2,7 +2,7 @@ const sanitizeHTML = require('sanitize-html');
 
 module.exports = function getWebmentionsForUrl(webmentions, url) {
   const likes = ['like-of'];
-  const retweet = ['repost-of'];
+  const retweets = ['repost-of'];
   const messages = ['mention-of', 'in-reply-to'];
 
   const hasRequiredFields = entry => {
@@ -27,9 +27,9 @@ module.exports = function getWebmentionsForUrl(webmentions, url) {
     'likes': webmentions
       .filter(entry => entry['wm-target'] === url)
       .filter(entry => likes.includes(entry['wm-property'])),
-    'retweet': webmentions
+    'retweets': webmentions
       .filter(entry => entry['wm-target'] === url)
-      .filter(entry => retweet.includes(entry['wm-property']))
+      .filter(entry => retweets.includes(entry['wm-property']))
       .filter(hasRequiredFields)
       .map(sanitize),
     'messages': webmentions
