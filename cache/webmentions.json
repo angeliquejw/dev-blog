@@ -1,0 +1,738 @@
+{
+  "lastFetched": "2021-02-04T16:18:41.534Z",
+  "children": [
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Maggie Epps",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/d82bda4605b64610439b7d8f11a5ef7bd9cb1ee1837d38f9451a0164d4616d9a.jpg",
+        "url": "https://twitter.com/meppstimist"
+      },
+      "url": "https://twitter.com/meppstimist/status/1357055543395909632",
+      "published": "2021-02-03T19:57:09+00:00",
+      "wm-received": "2021-02-03T20:43:40Z",
+      "wm-id": 1015603,
+      "wm-source": "https://brid.gy/repost/twitter/messypixels/1354083429344796672/1357055543395909632",
+      "wm-target": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "content": {
+        "text": "👋🏻 I've published a blog post with more info from this tweet and the info I received, both publicly and privately, from folks about how thei"
+      },
+      "repost-of": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Maggie Epps",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/d82bda4605b64610439b7d8f11a5ef7bd9cb1ee1837d38f9451a0164d4616d9a.jpg",
+        "url": "https://twitter.com/meppstimist"
+      },
+      "url": "https://twitter.com/messypixels/status/1354083429344796672#favorited-by-285157838",
+      "published": null,
+      "wm-received": "2021-02-03T20:43:39Z",
+      "wm-id": 1015602,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1354083429344796672/285157838",
+      "wm-target": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "like-of": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "James Pogran",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/5127470fef2372cbcec019176fa3301b1d861ae38e1a70f5b96755f7e7a17220.jpg",
+        "url": "https://twitter.com/ender2025"
+      },
+      "url": "https://twitter.com/messypixels/status/1354083429344796672#favorited-by-16059450",
+      "published": null,
+      "wm-received": "2021-02-03T18:44:19Z",
+      "wm-id": 1015512,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1354083429344796672/16059450",
+      "wm-target": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "like-of": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Dana Jones",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/9e15f4d43e43b3da2c4001d92086bb254ade7dd995d20b7a93ae9bab3685bee0.jpg",
+        "url": "https://twitter.com/danabrit"
+      },
+      "url": "https://twitter.com/danabrit/status/1357031841291722755",
+      "published": "2021-02-03T18:22:58+00:00",
+      "wm-received": "2021-02-03T18:44:19Z",
+      "wm-id": 1015513,
+      "wm-source": "https://brid.gy/post/twitter/messypixels/1357031841291722755",
+      "wm-target": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "content": {
+        "html": "What happens when an empathetic, academic engineering leader meets a national crisis moment? Data analysis!!! 👏🏻\n<a class=\"u-mention\" href=\"https://angeliqueweger.com/blog/2021/leading-with-humanity/\"></a>",
+        "text": "What happens when an empathetic, academic engineering leader meets a national crisis moment? Data analysis!!! 👏🏻"
+      },
+      "mention-of": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Will Stockdale",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/824f7938311bc5abb60c10f9e9a790822852709c58dd820cb1ab28c6524d6031.jpg",
+        "url": "https://twitter.com/WillStockd"
+      },
+      "url": "https://twitter.com/WillStockd/status/1356336557033140227",
+      "published": "2021-02-01T20:20:09+00:00",
+      "wm-received": "2021-02-03T18:44:14Z",
+      "wm-id": 1015511,
+      "wm-source": "https://brid.gy/post/twitter/messypixels/1357026406513991680",
+      "wm-target": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "content": {
+        "html": "<a href=\"https://twitter.com/messypixels\">@messypixels</a> has published her findings on how companies supported their employees during the attack on the capitol on 6 January. \n\nYou can read the blogpost here: <a href=\"https://angeliqueweger.com/blog/2021/leading-with-humanity/\">angeliqueweger.com/blog/2021/lead…</a>\n\nThought provoking for anyone reflecting on their own company's response (or job-hunting).",
+        "text": "@messypixels has published her findings on how companies supported their employees during the attack on the capitol on 6 January. \n\nYou can read the blogpost here: angeliqueweger.com/blog/2021/lead…\n\nThought provoking for anyone reflecting on their own company's response (or job-hunting)."
+      },
+      "mention-of": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Will Stockdale",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/824f7938311bc5abb60c10f9e9a790822852709c58dd820cb1ab28c6524d6031.jpg",
+        "url": "https://twitter.com/WillStockd"
+      },
+      "url": "https://twitter.com/WillStockd/status/1356336557033140227",
+      "published": "2021-02-01T20:20:09+00:00",
+      "wm-received": "2021-02-01T20:28:17Z",
+      "wm-id": 1012897,
+      "wm-source": "https://brid-gy.appspot.com/post/twitter/messypixels/1356336557033140227",
+      "wm-target": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "content": {
+        "html": "<a href=\"https://twitter.com/messypixels\">@messypixels</a> has published her findings on how companies supported their employees during the attack on the capitol on 6 January. \n\nYou can read the blogpost here: <a href=\"https://angeliqueweger.com/blog/2021/leading-with-humanity/\">angeliqueweger.com/blog/2021/lead…</a>\n\nThought provoking for anyone reflecting on their own company's response (or job-hunting).",
+        "text": "@messypixels has published her findings on how companies supported their employees during the attack on the capitol on 6 January. \n\nYou can read the blogpost here: angeliqueweger.com/blog/2021/lead…\n\nThought provoking for anyone reflecting on their own company's response (or job-hunting)."
+      },
+      "mention-of": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Christi N",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/19de13555540f0c836af1f971ac0240e160abe94ca418284458887729be45f14.jpg",
+        "url": "https://twitter.com/Mzchibious"
+      },
+      "url": "https://twitter.com/messypixels/status/1354083429344796672#favorited-by-37339436",
+      "published": null,
+      "wm-received": "2021-01-28T04:11:01Z",
+      "wm-id": 1006716,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/messypixels/1354083429344796672/37339436",
+      "wm-target": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "like-of": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Kristen Seversky",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/867b2f2e4bf4e4a415184ff492c45da86c129b28429d1d5fc78c41961f928bb6.jpg",
+        "url": "https://twitter.com/KR1573N"
+      },
+      "url": "https://twitter.com/messypixels/status/1354083429344796672#favorited-by-15012998",
+      "published": null,
+      "wm-received": "2021-01-27T15:08:19Z",
+      "wm-id": 1005902,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/messypixels/1354083429344796672/15012998",
+      "wm-target": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "like-of": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Kristen Seversky",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/867b2f2e4bf4e4a415184ff492c45da86c129b28429d1d5fc78c41961f928bb6.jpg",
+        "url": "https://twitter.com/KR1573N"
+      },
+      "url": "https://twitter.com/KR1573N/status/1354444188251779074",
+      "published": "2021-01-27T15:00:33+00:00",
+      "wm-received": "2021-01-27T15:08:19Z",
+      "wm-id": 1005903,
+      "wm-source": "https://brid-gy.appspot.com/post/twitter/messypixels/1354444188251779074",
+      "wm-target": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "content": {
+        "html": "Gahhhh Angelique is such a gem! She's posted the findings of her Jan 6th \"is your company acknowledging this moment?\" prompt and now we can see which companies are keeping it human.*\n\n*Forever skeptical about this stuff, but always happy to see places doing the right things.\n<a class=\"u-mention\" href=\"https://angeliqueweger.com/blog/2021/leading-with-humanity/\"></a>",
+        "text": "Gahhhh Angelique is such a gem! She's posted the findings of her Jan 6th \"is your company acknowledging this moment?\" prompt and now we can see which companies are keeping it human.*\n\n*Forever skeptical about this stuff, but always happy to see places doing the right things."
+      },
+      "mention-of": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Julie Pixels",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/50b3912b38e2b75f99d3318f7063f1a2f6e06cba91f377abcfe0e6758b543186.jpg",
+        "url": "https://twitter.com/juliepixels"
+      },
+      "url": "https://twitter.com/juliepixels/status/1354223275644248066",
+      "published": "2021-01-27T00:22:43+00:00",
+      "wm-received": "2021-01-27T00:30:59Z",
+      "wm-id": 1004683,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/messypixels/1354083429344796672/1354223275644248066",
+      "wm-target": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "content": {
+        "text": "👋🏻 I've published a blog post with more info from this tweet and the info I received, both publicly and privately, from folks about how thei"
+      },
+      "repost-of": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Loren Wilson",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c86f7737545c9d9d5c99bd7dce43df995183d158e5756a9eae8e744a4ac6b143.jpg",
+        "url": "https://twitter.com/lorendwilson"
+      },
+      "url": "https://twitter.com/messypixels/status/1354083429344796672#favorited-by-280663219",
+      "published": null,
+      "wm-received": "2021-01-26T23:15:13Z",
+      "wm-id": 1004611,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/messypixels/1354083429344796672/280663219",
+      "wm-target": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "like-of": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Brad Lhotsky",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/d876756ae917642c11e97e324cb5625471d8acccafbc31f4234d0b7c9ef46289.jpg",
+        "url": "https://twitter.com/reyjrar"
+      },
+      "url": "https://twitter.com/messypixels/status/1354083429344796672#favorited-by-15632872",
+      "published": null,
+      "wm-received": "2021-01-26T21:48:12Z",
+      "wm-id": 1004544,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/messypixels/1354083429344796672/15632872",
+      "wm-target": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "like-of": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Brad Lhotsky",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/d876756ae917642c11e97e324cb5625471d8acccafbc31f4234d0b7c9ef46289.jpg",
+        "url": "https://twitter.com/reyjrar"
+      },
+      "url": "https://twitter.com/reyjrar/status/1354179515388289026",
+      "published": "2021-01-26T21:28:50+00:00",
+      "wm-received": "2021-01-26T21:48:12Z",
+      "wm-id": 1004545,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/messypixels/1354083429344796672/1354179515388289026",
+      "wm-target": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "content": {
+        "text": "👋🏻 I've published a blog post with more info from this tweet and the info I received, both publicly and privately, from folks about how thei"
+      },
+      "repost-of": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Quintessence {🥑/} - 👀",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/fb85df1765252185a16d467c8a39a53f75364ab5e1dce92223ff53011d015251.jpg",
+        "url": "https://twitter.com/QuintessenceAnx"
+      },
+      "url": "https://twitter.com/QuintessenceAnx/status/1354152909441814528",
+      "published": "2021-01-26T19:43:07+00:00",
+      "wm-received": "2021-01-26T20:34:44Z",
+      "wm-id": 1004474,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/messypixels/1354083429344796672/1354152909441814528",
+      "wm-target": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "content": {
+        "text": "👋🏻 I've published a blog post with more info from this tweet and the info I received, both publicly and privately, from folks about how thei"
+      },
+      "repost-of": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Kim Crayton [She/Her] 🏢 💻🎙#causeascene",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c3326ef543f5c4e4cf1fb40bb9d3a5ce05495c87cc785fe18f9ea0f04181feb9.jpg",
+        "url": "https://twitter.com/KimCrayton1"
+      },
+      "url": "https://twitter.com/KimCrayton1/status/1354126825761472514",
+      "published": "2021-01-26T17:59:28+00:00",
+      "wm-received": "2021-01-26T19:09:57Z",
+      "wm-id": 1004405,
+      "wm-source": "https://brid-gy.appspot.com/post/twitter/messypixels/1354126825761472514",
+      "wm-target": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "content": {
+        "html": "Because we get there together or not at all ✊🏾\n<a class=\"u-mention\" href=\"https://angeliqueweger.com/blog/2021/leading-with-humanity/\"></a>",
+        "text": "Because we get there together or not at all ✊🏾"
+      },
+      "mention-of": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Senior Oops Engineer",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0ce150e0878caa4fb28e058bec33c107db64130904ebb9b7f7611d10c2d9ae30.jpg",
+        "url": "https://twitter.com/ReinH"
+      },
+      "url": "https://twitter.com/messypixels/status/1354083429344796672#favorited-by-10255262",
+      "published": null,
+      "wm-received": "2021-01-26T19:09:56Z",
+      "wm-id": 1004404,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/messypixels/1354083429344796672/10255262",
+      "wm-target": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "like-of": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Angela Jarosz",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0d75637768c975cb052dc7da75dc439aab02cc1111b4dc7b2dde9878021f378e.jpg",
+        "url": "https://twitter.com/mimismash"
+      },
+      "url": "https://twitter.com/messypixels/status/1354083429344796672#favorited-by-69370116",
+      "published": null,
+      "wm-received": "2021-01-26T19:09:55Z",
+      "wm-id": 1004403,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/messypixels/1354083429344796672/69370116",
+      "wm-target": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "like-of": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Shane 🦉",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/a7a3b2fbc02db088429f5961553720d6c9335f0c4537b31949ebefdf2c0dd79f.jpg",
+        "url": "https://twitter.com/teysrol"
+      },
+      "url": "https://twitter.com/messypixels/status/1354083429344796672#favorited-by-258207878",
+      "published": null,
+      "wm-received": "2021-01-26T19:09:54Z",
+      "wm-id": 1004401,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/messypixels/1354083429344796672/258207878",
+      "wm-target": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "like-of": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Kathleen McMahon",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/17efd969828de1c2a7a88c92ee820ba2867711a45d729f729bc16c62f470f8d5.jpg",
+        "url": "https://twitter.com/resource11"
+      },
+      "url": "https://twitter.com/messypixels/status/1354083429344796672#favorited-by-32190243",
+      "published": null,
+      "wm-received": "2021-01-26T19:09:54Z",
+      "wm-id": 1004402,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/messypixels/1354083429344796672/32190243",
+      "wm-target": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "like-of": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Michelle Martir",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/97dcb0032867f5131341e8697617f3374139903e17bb5feff94a283abbe48bc6.jpg",
+        "url": "https://twitter.com/martirology"
+      },
+      "url": "https://twitter.com/martirology/status/1354102670789902336",
+      "published": "2021-01-26T16:23:29+00:00",
+      "wm-received": "2021-01-26T17:37:42Z",
+      "wm-id": 1004318,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/messypixels/1354083429344796672/1354102670789902336",
+      "wm-target": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "content": {
+        "text": "👋🏻 I've published a blog post with more info from this tweet and the info I received, both publicly and privately, from folks about how thei"
+      },
+      "repost-of": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Brittney Braxton",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/2e47b05a31465cbcf1eb041da463a520cee39065d48e34e452b8f2f597cc2423.png",
+        "url": "https://twitter.com/mintiiB"
+      },
+      "url": "https://twitter.com/mintiiB/status/1354105303160205314",
+      "published": "2021-01-26T16:33:56+00:00",
+      "wm-received": "2021-01-26T17:37:41Z",
+      "wm-id": 1004317,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/messypixels/1354083429344796672/1354105303160205314",
+      "wm-target": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "content": {
+        "text": "👋🏻 I've published a blog post with more info from this tweet and the info I received, both publicly and privately, from folks about how thei"
+      },
+      "repost-of": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Paige North",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/446f386af42a90939ade0b8faa3dbce2ca06c1bbf75d4ba8708af5931c844751.jpg",
+        "url": "https://twitter.com/radmint"
+      },
+      "url": "https://twitter.com/radmint/status/1354108510431154176",
+      "published": "2021-01-26T16:46:41+00:00",
+      "wm-received": "2021-01-26T17:37:40Z",
+      "wm-id": 1004316,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/messypixels/1354083429344796672/1354108510431154176",
+      "wm-target": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "content": {
+        "text": "👋🏻 I've published a blog post with more info from this tweet and the info I received, both publicly and privately, from folks about how thei"
+      },
+      "repost-of": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Feminigoose wants to defund the police",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/bea341f29643ab0f044d785b6bc8739fec00f4b6a1e10b445dcaf2e42e6a1ddd.jpg",
+        "url": "https://twitter.com/maryloulenhart"
+      },
+      "url": "https://twitter.com/maryloulenhart/status/1354114261757399041",
+      "published": "2021-01-26T17:09:32+00:00",
+      "wm-received": "2021-01-26T17:37:39Z",
+      "wm-id": 1004314,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/messypixels/1354083429344796672/1354114261757399041",
+      "wm-target": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "content": {
+        "text": "👋🏻 I've published a blog post with more info from this tweet and the info I received, both publicly and privately, from folks about how thei"
+      },
+      "repost-of": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Shell 🍋",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/4fdde987efe213e6da92c4508c0f1d1992232be04cca753e47588d2556500c5c.jpg",
+        "url": "https://twitter.com/miffenss"
+      },
+      "url": "https://twitter.com/miffenss/status/1354108640341364736",
+      "published": "2021-01-26T16:47:12+00:00",
+      "wm-received": "2021-01-26T17:37:39Z",
+      "wm-id": 1004315,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/messypixels/1354083429344796672/1354108640341364736",
+      "wm-target": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "content": {
+        "text": "👋🏻 I've published a blog post with more info from this tweet and the info I received, both publicly and privately, from folks about how thei"
+      },
+      "repost-of": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Michelle Martir",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/97dcb0032867f5131341e8697617f3374139903e17bb5feff94a283abbe48bc6.jpg",
+        "url": "https://twitter.com/martirology"
+      },
+      "url": "https://twitter.com/messypixels/status/1354083429344796672#favorited-by-54446356",
+      "published": null,
+      "wm-received": "2021-01-26T17:37:38Z",
+      "wm-id": 1004313,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/messypixels/1354083429344796672/54446356",
+      "wm-target": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "like-of": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Feminigoose wants to defund the police",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/bea341f29643ab0f044d785b6bc8739fec00f4b6a1e10b445dcaf2e42e6a1ddd.jpg",
+        "url": "https://twitter.com/maryloulenhart"
+      },
+      "url": "https://twitter.com/messypixels/status/1354083429344796672#favorited-by-73231837",
+      "published": null,
+      "wm-received": "2021-01-26T17:37:37Z",
+      "wm-id": 1004312,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/messypixels/1354083429344796672/73231837",
+      "wm-target": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "like-of": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "feminism & sharks",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/dfa28625d140a035abf1f0b40d6ec980a4567f0cbb1053d41fc8f360d39c4ad7.jpg",
+        "url": "https://twitter.com/messypixels"
+      },
+      "url": "https://twitter.com/messypixels/status/1354112293785755651",
+      "published": "2021-01-26T17:01:43+00:00",
+      "wm-received": "2021-01-26T17:37:36Z",
+      "wm-id": 1004311,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/messypixels/1354083429344796672/1354112293785755651",
+      "wm-target": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "content": {
+        "html": "It was a message to myself last week, too, for sure.\n<a class=\"u-mention\" href=\"https://twitter.com/martirology\"></a>",
+        "text": "It was a message to myself last week, too, for sure."
+      },
+      "in-reply-to": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Michelle Martir",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/97dcb0032867f5131341e8697617f3374139903e17bb5feff94a283abbe48bc6.jpg",
+        "url": "https://twitter.com/martirology"
+      },
+      "url": "https://twitter.com/martirology/status/1354102885953527808",
+      "published": "2021-01-26T16:24:20+00:00",
+      "wm-received": "2021-01-26T17:37:35Z",
+      "wm-id": 1004310,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/messypixels/1354083429344796672/1354102885953527808",
+      "wm-target": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "content": {
+        "html": "The GIF in your post was something I needed to hear today 😭💕✨\n<a class=\"u-mention\" href=\"http://my.pronoun.is/she\"></a>\n<a class=\"u-mention\" href=\"http://www.angeliqueweger.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/messypixels\"></a>",
+        "text": "The GIF in your post was something I needed to hear today 😭💕✨"
+      },
+      "in-reply-to": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Raph D'Amico",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/fe38eb357d2a399ab3fc77b4de28a8993f29f14a78b843f33335cd2c82d65639.jpg",
+        "url": "https://twitter.com/raphdamico"
+      },
+      "url": "https://twitter.com/raphdamico/status/1354085510852042754",
+      "published": "2021-01-26T15:15:18+00:00",
+      "wm-received": "2021-01-26T16:02:28Z",
+      "wm-id": 1004167,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/messypixels/1354083429344796672/1354085510852042754",
+      "wm-target": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "content": {
+        "text": "👋🏻 I've published a blog post with more info from this tweet and the info I received, both publicly and privately, from folks about how thei"
+      },
+      "repost-of": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Carol Ott 🏚️",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/8f7230cf80246c65d5dbc345782378153f86efe177a71a3bd1dfa442bdf5942b.jpg",
+        "url": "https://twitter.com/CarolSOtt"
+      },
+      "url": "https://twitter.com/CarolSOtt/status/1354091632354873347",
+      "published": "2021-01-26T15:39:37+00:00",
+      "wm-received": "2021-01-26T16:02:27Z",
+      "wm-id": 1004166,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/messypixels/1354083429344796672/1354091632354873347",
+      "wm-target": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "content": {
+        "text": "👋🏻 I've published a blog post with more info from this tweet and the info I received, both publicly and privately, from folks about how thei"
+      },
+      "repost-of": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jamie Gaskins",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/91ef7c0329377a82a841bff436e7d7af4441e399879cf524d5cff893f5d64aac.jpg",
+        "url": "https://twitter.com/jamie_gaskins"
+      },
+      "url": "https://twitter.com/jamie_gaskins/status/1354092575850979330",
+      "published": "2021-01-26T15:43:22+00:00",
+      "wm-received": "2021-01-26T16:02:26Z",
+      "wm-id": 1004165,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/messypixels/1354083429344796672/1354092575850979330",
+      "wm-target": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "content": {
+        "text": "👋🏻 I've published a blog post with more info from this tweet and the info I received, both publicly and privately, from folks about how thei"
+      },
+      "repost-of": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jess",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/1d773b6ad053c268806f7a13b97161d4358eddf4d6100d40b46eaa5162b09b9b.jpg",
+        "url": "https://twitter.com/jessisdotcool"
+      },
+      "url": "https://twitter.com/jessisdotcool/status/1354092645333790725",
+      "published": "2021-01-26T15:43:39+00:00",
+      "wm-received": "2021-01-26T16:02:25Z",
+      "wm-id": 1004164,
+      "wm-source": "https://brid-gy.appspot.com/repost/twitter/messypixels/1354083429344796672/1354092645333790725",
+      "wm-target": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "content": {
+        "text": "👋🏻 I've published a blog post with more info from this tweet and the info I received, both publicly and privately, from folks about how thei"
+      },
+      "repost-of": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nick Canzoneri",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/bd7be9150b9704897426c48f8889e1949371108fad31c4f54d59a95fe14c5952.jpg",
+        "url": "https://twitter.com/nick_canz"
+      },
+      "url": "https://twitter.com/messypixels/status/1354083429344796672#favorited-by-89791384",
+      "published": null,
+      "wm-received": "2021-01-26T16:02:24Z",
+      "wm-id": 1004163,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/messypixels/1354083429344796672/89791384",
+      "wm-target": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "like-of": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jamie Gaskins",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/91ef7c0329377a82a841bff436e7d7af4441e399879cf524d5cff893f5d64aac.jpg",
+        "url": "https://twitter.com/jamie_gaskins"
+      },
+      "url": "https://twitter.com/messypixels/status/1354083429344796672#favorited-by-195645259",
+      "published": null,
+      "wm-received": "2021-01-26T16:02:23Z",
+      "wm-id": 1004161,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/messypixels/1354083429344796672/195645259",
+      "wm-target": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "like-of": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "xenolon",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/dd6b00e7519af6756bf1baa45bc96d68ca96f73c6cc003110b512694cebc26f2.jpg",
+        "url": "https://twitter.com/xenolon"
+      },
+      "url": "https://twitter.com/messypixels/status/1354083429344796672#favorited-by-11282242",
+      "published": null,
+      "wm-received": "2021-01-26T16:02:23Z",
+      "wm-id": 1004162,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/messypixels/1354083429344796672/11282242",
+      "wm-target": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "like-of": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jess",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/1d773b6ad053c268806f7a13b97161d4358eddf4d6100d40b46eaa5162b09b9b.jpg",
+        "url": "https://twitter.com/jessisdotcool"
+      },
+      "url": "https://twitter.com/messypixels/status/1354083429344796672#favorited-by-33280427",
+      "published": null,
+      "wm-received": "2021-01-26T16:02:21Z",
+      "wm-id": 1004159,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/messypixels/1354083429344796672/33280427",
+      "wm-target": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "like-of": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Raph D'Amico",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/fe38eb357d2a399ab3fc77b4de28a8993f29f14a78b843f33335cd2c82d65639.jpg",
+        "url": "https://twitter.com/raphdamico"
+      },
+      "url": "https://twitter.com/messypixels/status/1354083429344796672#favorited-by-19016666",
+      "published": null,
+      "wm-received": "2021-01-26T16:02:21Z",
+      "wm-id": 1004160,
+      "wm-source": "https://brid-gy.appspot.com/like/twitter/messypixels/1354083429344796672/19016666",
+      "wm-target": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "like-of": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "wm-property": "like-of",
+      "wm-private": false
+    }
+  ]
+}
