@@ -1,6 +1,10 @@
 figure {
   border-left: 4px solid $color-tumeric;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: $spacing-unit;
+  max-width: 100%;
+  width: max-content;
   
   figcaption {
     background-color: $color-offwhite;
