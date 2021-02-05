@@ -14,6 +14,8 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
 
+  eleventyConfig.addPassthroughCopy("assets/img");
+
   eleventyConfig.addShortcode("currentYear", () => `${new Date().getFullYear()}`);
 
   eleventyConfig.addFilter("getWebmentionsForUrl", getWebmentionsForUrl);
