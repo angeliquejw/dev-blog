@@ -14,16 +14,23 @@ templateClass: tmpl-post
       <time datetime="{{ date | htmlDateString }}" itemprop="datePublished">{{ date | readableDate }}</time>
     </header>
 
-    <div itemprop="text">
+    <div class="content" itemprop="text">
       {{ content | safe }}
     </div>
 
-    {% if comments != false %}
+    {% if comments %}
       {% include "post-close.njk" %}
     {% endif %}
-  </article>
 
-  {% include "webmentions.njk" %}
+    {% if footnotes %}
+      <ol class="footnotes">
+        {% for note in footnotes %}
+          {% set noteId = "fn" + loop.index %}
+          <li id="{{ noteId }}">{{ note | safe }} <a href="#return-{{ noteId }}">&#x2934;</a></li>
+        {% endfor %}
+      </ol>
+    {% endif %}
+  </article>
 
   <div class="meta-wrapper">
     <div class="blog-meta">
@@ -54,6 +61,9 @@ templateClass: tmpl-post
       </ol>
     </nav>
   </div>
+
+  {% include "webmentions.njk" %}
+
 </div>
 
 {% include "post-footer.njk" %}

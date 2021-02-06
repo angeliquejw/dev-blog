@@ -5,9 +5,11 @@ tags: [leadership, teams, communication, values, culture, empathy, safe space, t
 date: 2021-01-24
 location: Baltimore
 comments: Thanks for reading and sharing and just being you. ✨
+footnotes:
+  - I wasn't the only thinking about this. <a href="https://twitter.com/lizthegrey/status/1347011576927121408" target="_blank">Liz Fong-Jones created a Twitter poll</a> with disappointing results and <a href="https://twitter.com/BlkGrlBrilliant/status/1347283258300620802" target="_blank">Dr. Nneka D. Dennie asked a similar question about universities</a>.
 ---
 
-On January 6, like so many other Americans, I watched a scary and violent thing unfold in our nation's Capitol. Because I watched things happening in real time on my screen&mdash;on the PBS News Hour livestream, but also in people's responses in Twitter and various community Slacks&mdash;I was aware that, in addition to the immediate stressful events, there was also an undercurrent of "How am I supposed to work through this?"
+On January 6, like so many other Americans, I watched a scary and violent thing unfold in our nation's Capitol. Because I watched things happening in real time on my screen&mdash;on the PBS News Hour livestream, but also in people's responses in Twitter and various community Slacks&mdash;I was aware that, in addition to the immediate stressful events, there was also an undercurrent of 'How am I supposed to work through this?"
 
 <div class="embed-container giphy"><div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/5QRnThZOV6csvKXdmB" width="100%" height="100%" style="position:absolute;" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div></div>
 
@@ -70,7 +72,3 @@ Companies do _not_ have be like families to be run and organized as if they depe
 <div class="embed-container giphy"><div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/SwgDkKT9au9MhVEMB6" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div></div>
 
 Finally, extra special thanks to everyone who replied to my tweet, publicly or privately, for making this list possible. Let your team leads, managers and CEOs know what they did right this month.
-
-<ol class="footnotes">
-  <li id="fn1">I wasn't the only thinking about this. <a href="https://twitter.com/lizthegrey/status/1347011576927121408" target="_blank">Liz Fong-Jones created a Twitter poll</a> with disappointing results and <a href="https://twitter.com/BlkGrlBrilliant/status/1347283258300620802" target="_blank">Dr. Nneka D. Dennie asked a similar question about universities</a>.</li>
-</ol>
