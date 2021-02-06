@@ -1,24 +1,18 @@
 .blog-post .footnotes {
-  margin: $spacing-unit ($spacing-unit-sm * -1);
-  padding: $spacing-unit-sm $spacing-unit-sm $spacing-unit-sm $spacing-unit;
+  background-color: rgba($color-offwhite, 0.4);
+  margin: $spacing-unit ($spacing-unit * -1) 0;
+  padding: $spacing-unit;
   position: relative;
 
-  &::before, &::after {
-    background-color: $color-tumeric;
+  &::before {
+    background-color: $color-patina;
     content: "";
     display: block;
     height: 3px; /* stylelint-disable-line plugin/8-point-grid */
     left: 0;
     position: absolute;
-    width: 16%;
-  }
-
-  &::before {
     top: 0;
-  }
-
-  &::after {
-    bottom: 0;
+    width: 32%;
   }
 
   a[href^="#return"] { /* stylelint-disable-line */
@@ -28,6 +22,22 @@
     @include hover-state {
       color: $color-mulberry;
       top: -1px;
+    }
+  }
+
+  @media (min-width: 720px) {
+    margin-left: ($spacing-unit-lg * -1);
+    margin-right: ($spacing-unit-lg * -1);
+    padding-left: $spacing-unit-lg;
+    padding-right: $spacing-unit-lg;
+  }
+
+  @media (min-width: 1140px) {
+    margin-left: -256px;
+    padding-left: 256px;
+
+    &::before {
+      width: 72%;
     }
   }
 }
