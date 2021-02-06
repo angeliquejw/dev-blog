@@ -9,6 +9,10 @@
     position: relative;
   }
 
+  @media (min-width: 960px) {
+    margin-top: 0;
+  }
+
   @media (min-width: 1140px) {
     margin: (-$spacing-unit) -120px 0;
   }

@@ -1,6 +1,7 @@
 .blog-meta {
   color: $color-siren;
   margin: $spacing-unit auto $spacing-unit-lg;
+  padding-top: $spacing-unit-sm;
   position: relative;
   text-align: center;
   width: 44%;
@@ -65,7 +66,6 @@
   @media (min-width: 960px) {
     margin-top: $spacing-unit-xl;
     padding-bottom: $spacing-unit-sm;
-    padding-top: $spacing-unit-sm;
     position: absolute;
     right: -220px;
     text-align: left;
