@@ -4,11 +4,13 @@ const {
 const fs = require("fs");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const readingTime = require('eleventy-plugin-reading-time');
 const getWebmentionsForUrl = require("./src/_11ty/getWebmentionsForUrl");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
+  eleventyConfig.addPlugin(readingTime);
 
   eleventyConfig.setDataDeepMerge(true);
 
