@@ -32,7 +32,7 @@ While I wouldn't be keen to use this activity now, it _was_ relevant to the job 
 
 The candidate _was_ wrong (I had timed myself recreating the button), but I didn't feel good about pushing someone to that point of frustration and definitely felt the interview process could be improved. We eventually replaced this specific activity with recreating a nav element that existed in one of our products -- it had similar complexity to the button, but it was spread out over more elements and somehow didn't feel as grueling.
 
-### Lessons learned
+### Lessons learned{: #lessons-1 }
 
 - Anything I ask a candidate to do during the interview should have immediate relevance to what the job asks of them. Essentially, no whiteboarding; if you ask a candidate to write code, they should be able to do so in a familiar code editor with the tooling they're accustomed to.
 - Avoid questions that can and should be resolved with a web search or a visit to MDN. Knowing stuff is definitely important to the job, but outright quizzing candidates isn't as revealing as one might hope and adds extra stress into an already fraught process.
@@ -56,7 +56,7 @@ More importantly, while some of the interview questions I was asked did touch on
 
 After being hired, I participated in the hiring process for coworkers both on and off the dev team and gained new appreciation for how this thoughtful process came to be. As a member of hiring committees, I was asked to take [implicit association tests](https://implicit.harvard.edu/implicit/index.jsp) to understand my unconcious biases and also given rubrics by which to grade candidates, helping us keep the important criteria for the role front of mind and providing some quantitative data to a process that can be ruled&mdash;disasterously so&mdash;by instinct.
 
-### Lessons learned
+### Lessons learned{: #lessons-2 }
 
 - Good hiring processes come out of very thoughtful consideration about the outcomes you want and the things that might get in the way of those outcomes. For example:
     - For many folks participating in the hiring process, it's on top of their normal job, so providing guidance is necessary to steer things in the right direction.
@@ -83,7 +83,7 @@ Things I've added to our process:
 - We've adapted the original code conversation to instead be a [take-home code review exercise](https://twitter.com/messypixels/status/1356668023470448641) and, for this search, I updated that to have a front-end component. Additionally, I added some more specific prompts and questions as part of the code review to better understand a candidate's previous experience with code review.
 - Provide a rubric/scale for evaluation from the hiring committee, in addition to our more standard conversational evaluation. My goal here is to prevent the hiring committee from being too swayed by who speaks first or a good candidate from being skipped over because of bias.
 
-### Lessons learned
+### Lessons learned{: #lessons-3 }
 This process is ongoing&mdash;as in, we're currently conducting interviews&mdash;so it's too early to sum things up in a tidy bow. However, two things stand out to me at this point:
 
 - Like so many other things, the hiring process is iterative. I'm learning things all the time, which allows me to refine and improve whatever my current best guess about how to do this. You also get to a better result faster if you get insight from more folks. Listen to your team if they say they would be put off by a question or request or express that they wouldn't be succeed at your activity; none of these are good signs.
