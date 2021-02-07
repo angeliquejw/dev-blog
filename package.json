@@ -43,6 +43,7 @@
     "stylelint-order": "^4.1.0"
   },
   "dependencies": {
+    "eleventy-plugin-reading-time": "0.0.1",
     "sanitize-html": "^2.3.2"
   }
 }
