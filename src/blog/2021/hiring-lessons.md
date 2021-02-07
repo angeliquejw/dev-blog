@@ -1,10 +1,9 @@
 ---
-title: Something about hiring
+title: Lessons learned hiring in tech
 summary: 
-tags:  [teams, hiring, values, culture, empathy, tech culture]
-date: 2021-02-08
+tags:  [teams, hiring, interviews, values, culture, empathy, tech culture]
+date: 2021-02-07
 location: Baltimore
-comments: 
 ---
 
 Since my team is currently hiring, how we go about hiring for tech roles is very much on my mind right now. I've participated in hiring on three different teams now (on both sides of the hiring equation), and my own thinking and process has evolved.
