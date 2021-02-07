@@ -18,7 +18,7 @@ templateClass: tmpl-post
       {{ content | safe }}
     </div>
 
-    {% if comments %}
+    {% if comments != false %}
       {% include "post-close.njk" %}
     {% endif %}
 
