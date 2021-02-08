@@ -1,6 +1,7 @@
 ---
 title: No thanks to Business As Usual
 summary: Teams and companies that made an effort to treat their employees humanely on Jan 6, 2021
+bits_description: Test
 pageClass: pg-company-data
 layout: layouts/minimal.njk
 ---

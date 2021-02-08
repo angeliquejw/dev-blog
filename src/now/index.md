@@ -1,4 +1,8 @@
 ---
+title: "/now"
+custom_title: What I'm doing now
+summary: "Current status. Inspired by <a href='https://nownownow.com/about'>https://nownownow.com/about</a>."
+tags: [bits]
 pageClass: pg-now
 layout: layouts/page.njk
 ---
