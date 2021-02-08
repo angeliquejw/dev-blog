@@ -44,7 +44,7 @@
         position: absolute;
         right: -$spacing-unit-xs;
         width: 100%;
-        z-index: -1;
+        @include z-index(bottom);
       }
 
       &:nth-of-type(2) {
@@ -85,7 +85,7 @@
   @media (min-width: 920px) {
     left: 28vw;
     top: 48px;
-    z-index: 1;
+    @include z-index(low);
   }
   @media (min-width: 1000px) {
     top: 110px;
