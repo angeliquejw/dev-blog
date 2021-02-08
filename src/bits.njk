@@ -1,0 +1,20 @@
+---
+title: Bits and bobs
+layout: layouts/page.njk
+---
+
+{% set itemlist = collections.bits %}
+
+<ul>
+  {% for item in itemlist | sort(attribute="title") %}
+  {% set details = item.data.bits_description or item.data.summary %}
+
+  <li>
+    <a href="{{ item.url }}">{{ item.data.title }}</a>
+    {{  details | safe }}
+  </li>
+
+  {% endfor %}
+</ul>
+
+
