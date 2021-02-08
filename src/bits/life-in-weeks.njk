@@ -1,0 +1,63 @@
+---
+title: Life in weeks
+permalink: /bits/life-in-weeks/
+pageClass: pg-liw
+layout: layouts/minimal.njk
+eleventyExcludeFromCollections: true
+---
+
+<h1>My life in weeks</h1>
+{# https://notes.busterbenson.com/life-in-weeks #}
+
+{% set start_date = life[0].date %}
+{% set start_year = start_date | slice(3) | 
+first | int %}
+{% set end_year = 2028 %}
+
+{% for decade in range(start_year, end_year) | batch(10) -%}
+  <section>
+
+    {% if loop.index == 1 %}
+      <h2>Childhood</h2>
+    {% elseif loop.index == 2 %}
+      <h2>My teens</h2>
+    {% else %}
+      <h2>My {{ (loop.index - 1) * 10 }}s</h2>
+    {% endif %}
+
+    <ol class="u-list-reset">
+      {% for display_year in decade %}
+        {% set display_age = display_year - start_year %}
+          <li>{{ display_age }} in {{ display_year}}</li>
+          {% for week in range(0, 53) %}
+            {% set display_week_date = display_year | shortDateFromYear | addDaysToDate(7 * week) %}
+            <li class="week" data-date="{{ display_week_date }}">
+              {% for day in range(0,7) %}
+                {% set specific_day = display_week_date | addDaysToDate(loop.index0) %}
+                {% for event in life %}
+                  {% if event.date == specific_day %}
+                    <span title="{{ event.date }}">{{ event.description }}</span>
+                  {% endif %}
+                {% endfor %}
+              {% endfor %}
+              &nbsp;
+            </li>
+          {% endfor %}
+      {%- endfor %}
+    </ol>
+
+  </section>
+{%- endfor %}
+
+
+<script>
+  const today = new Date();
+  const weeks = document.querySelectorAll('.week');
+  weeks.forEach(week => {
+    let weekDate = new Date(week.getAttribute('data-date'));
+
+    if (today < weekDate) {
+      week.classList.add("week--future");
+    }
+  });
+</script>

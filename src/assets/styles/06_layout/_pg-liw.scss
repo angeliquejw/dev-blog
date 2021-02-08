@@ -1,0 +1,26 @@
+.pg-liw {
+
+  ol {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  li {
+    border: 0.5px solid $color-tumeric;
+    flex: 1 0 auto;
+    padding: 4px;
+
+    &:not(.week) {
+      background-color: rgba($color-tumeric, 0.2);
+    }
+  }
+
+  .week {
+    // border-color: $color-tumeric;
+    &--future {
+      background-color: $color-patina;
+      border-color: $color-pearl;
+    }
+  }
+
+}

@@ -43,6 +43,19 @@ module.exports = function (eleventyConfig) {
     return DateTime.fromISO(dateObj).toFormat('LLL dd yyyy');
   });
 
+  // Used in life in weeks page
+  eleventyConfig.addFilter('shortDateFromYear', (dateObj) => {
+    return DateTime.fromObject({
+      year: dateObj
+    }).toISODate();
+  });
+
+  eleventyConfig.addFilter('addDaysToDate', (dateObj, daysInt) => {
+    return DateTime.fromISO(dateObj).plus({
+      days: daysInt
+    }).toFormat('yyyy-LL-dd');
+  });
+
   // Get the first `n` elements of a collection.
   eleventyConfig.addFilter("head", (array, n) => {
     if (n < 0) {

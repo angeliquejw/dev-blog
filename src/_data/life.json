@@ -1,0 +1,21 @@
+[{
+    "date": "1978-03-27",
+    "description": "I was born in Chicago, Illinois",
+    "category": "birthday"
+  },
+  {
+    "date": "1996-08-28",
+    "description": "Start frosh year at IUP Honors College",
+    "category": "school"
+  },
+  {
+    "date": "2002-04-27",
+    "description": "M and I get married",
+    "category": "family"
+  },
+  {
+    "date": "2002-08-26",
+    "description": "Start master's program at UArts in Philly",
+    "category": "school"
+  }
+]
