@@ -55,6 +55,10 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addCollection("tagList", require("./src/_11ty/getTagList"));
   eleventyConfig.addCollection("tagCount", require("./src/_11ty/getTagCount"));
 
+  eleventyConfig.addCollection("bits", function (collection) {
+    return collection.getFilteredByTag("bits");
+  });
+
   eleventyConfig.addCollection("posts", function (collection) {
     const coll = collection.getFilteredByTag("posts");
 
