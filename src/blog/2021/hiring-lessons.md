@@ -1,6 +1,6 @@
 ---
 title: Lessons learned hiring in tech
-summary: 
+summary: What I've learned about hiring via my reflections on the processes I've participated in.
 tags:  [teams, hiring, interviews, values, culture, empathy, tech culture]
 date: 2021-02-07
 location: Baltimore
