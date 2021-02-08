@@ -1,0 +1,26 @@
+.peek-teaser {
+  color: $color-pearl;
+  font-weight: $font-thin;
+  position: relative;
+  text-transform: uppercase;
+  top: $spacing-unit-lg;
+  width: 88%;
+
+  a {
+    color: $color-pearl;
+    @include hover-state {
+      color: $color-mulberry;
+    }
+  }
+
+  @media (min-width: 690px) {
+    margin-bottom: 0;
+    top: $spacing-unit-xl;
+  }
+
+  @media (min-width: 720px) {
+    margin-bottom: -$spacing-unit;
+    margin-top: $spacing-unit-lg;
+    top: unset;
+  }
+}
