@@ -3,17 +3,31 @@ title: Bits and bobs
 layout: layouts/page.njk
 ---
 
+<p>Pages and projects separate from my blog posts.</p>
+
 {% set itemlist = collections.bits %}
 
-<ul>
+<ul class="u-list-reset">
+  {% set dataUrls = [] %}
   {% for item in itemlist | sort(attribute="title") %}
-  {% set details = item.data.bits_description or item.data.summary %}
+    {% if item.data.pageClass == "pg-company-data" %}
 
-  <li>
-    <a href="{{ item.url }}">{{ item.data.title }}</a>
-    {{  details | safe }}
-  </li>
+      {% if item.data.bits_description %}
+      <li>
+        <a href="{{ item.url }}">{{ item.data.title }}</a>
+        <span>{{ item.data.bits_description }}</span>
+      </li>
+      {% endif %}
 
+    {% else %}
+      {% set details = item.data.bits_description or item.data.summary %}
+
+      <li>
+        <a href="{{ item.url }}">{{ item.data.title }}</a>
+        {{  details | safe }}
+      </li>
+
+    {% endif %}
   {% endfor %}
 </ul>
 
