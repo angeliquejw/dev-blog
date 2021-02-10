@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2021-02-04T16:18:41.534Z",
+  "lastFetched": "2021-02-10T00:03:09.208Z",
   "children": [
     {
       "type": "entry",
@@ -731,6 +731,153 @@
       "wm-source": "https://brid-gy.appspot.com/like/twitter/messypixels/1354083429344796672/19016666",
       "wm-target": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
       "like-of": "https://angeliqueweger.com/blog/2021/leading-with-humanity/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Dave Dash",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/6a681ee42021be33c290d3f5eb911c463f6ab1c0764c96f2ec1e224a334baeb4.jpg",
+        "url": "https://twitter.com/davedash"
+      },
+      "url": "https://twitter.com/messypixels/status/1358802932557357058#favorited-by-13634662",
+      "published": null,
+      "wm-received": "2021-02-08T15:57:02Z",
+      "wm-id": 1022949,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1358802932557357058/13634662",
+      "wm-target": "https://angeliqueweger.com/blog/2021/hiring-lessons/",
+      "like-of": "https://angeliqueweger.com/blog/2021/hiring-lessons/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Vanessa",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/1c95070d81dc47437da4c743a39bfe3afa67869a17df4f912c11933ea12d97ea.jpg",
+        "url": "https://twitter.com/vanessakristoff"
+      },
+      "url": "https://twitter.com/messypixels/status/1358802932557357058#favorited-by-9282292",
+      "published": null,
+      "wm-received": "2021-02-08T15:56:36Z",
+      "wm-id": 1022948,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1358802932557357058/9282292",
+      "wm-target": "https://angeliqueweger.com/blog/2021/hiring-lessons/",
+      "like-of": "https://angeliqueweger.com/blog/2021/hiring-lessons/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "xenolon",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/dd6b00e7519af6756bf1baa45bc96d68ca96f73c6cc003110b512694cebc26f2.jpg",
+        "url": "https://twitter.com/xenolon"
+      },
+      "url": "https://twitter.com/messypixels/status/1358802932557357058#favorited-by-11282242",
+      "published": null,
+      "wm-received": "2021-02-08T15:56:29Z",
+      "wm-id": 1022947,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1358802932557357058/11282242",
+      "wm-target": "https://angeliqueweger.com/blog/2021/hiring-lessons/",
+      "like-of": "https://angeliqueweger.com/blog/2021/hiring-lessons/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Amy Gebhardt (she / her)",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/56b92ca85aa5bb0f74d08d3300ba1a02196814dfa813bf586451f503923cabe2.jpg",
+        "url": "https://twitter.com/amlyhamm"
+      },
+      "url": "https://twitter.com/messypixels/status/1358607419945996289#favorited-by-852871441",
+      "published": null,
+      "wm-received": "2021-02-08T05:42:03Z",
+      "wm-id": 1021293,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1358607419945996289/852871441",
+      "wm-target": "https://angeliqueweger.com/blog/2021/hiring-lessons/",
+      "like-of": "https://angeliqueweger.com/blog/2021/hiring-lessons/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nick Canzoneri",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/bd7be9150b9704897426c48f8889e1949371108fad31c4f54d59a95fe14c5952.jpg",
+        "url": "https://twitter.com/nick_canz"
+      },
+      "url": "https://twitter.com/nick_canz/status/1358620837843267585",
+      "published": "2021-02-08T03:37:04+00:00",
+      "wm-received": "2021-02-08T04:37:32Z",
+      "wm-id": 1021214,
+      "wm-source": "https://brid.gy/repost/twitter/messypixels/1358607419945996289/1358620837843267585",
+      "wm-target": "https://angeliqueweger.com/blog/2021/hiring-lessons/",
+      "content": {
+        "text": "Instead of watching the Big Game, I wrote 2k words about my experiences on both sides of the equation when hiring in tech. 💅🏻\nhttps://t.co/W"
+      },
+      "repost-of": "https://angeliqueweger.com/blog/2021/hiring-lessons/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Courtney Harge",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/68934d6dd5facbd0d9221971cb793f8c02725cb66edc510cc4f6652fc7e645bc.jpg",
+        "url": "https://twitter.com/Arts_Courtney"
+      },
+      "url": "https://twitter.com/messypixels/status/1358607419945996289#favorited-by-205457825",
+      "published": null,
+      "wm-received": "2021-02-08T03:34:47Z",
+      "wm-id": 1020990,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1358607419945996289/205457825",
+      "wm-target": "https://angeliqueweger.com/blog/2021/hiring-lessons/",
+      "like-of": "https://angeliqueweger.com/blog/2021/hiring-lessons/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Meg Em Dub",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/cc07f7045a7bdeeddfb66cdd7773ea276f10281c203cdfa52898b1d4e5096ee9.jpg",
+        "url": "https://twitter.com/heisenfeature"
+      },
+      "url": "https://twitter.com/messypixels/status/1358607419945996289#favorited-by-261250076",
+      "published": null,
+      "wm-received": "2021-02-08T03:34:19Z",
+      "wm-id": 1020988,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1358607419945996289/261250076",
+      "wm-target": "https://angeliqueweger.com/blog/2021/hiring-lessons/",
+      "like-of": "https://angeliqueweger.com/blog/2021/hiring-lessons/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nick Canzoneri",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/bd7be9150b9704897426c48f8889e1949371108fad31c4f54d59a95fe14c5952.jpg",
+        "url": "https://twitter.com/nick_canz"
+      },
+      "url": "https://twitter.com/messypixels/status/1358607419945996289#favorited-by-89791384",
+      "published": null,
+      "wm-received": "2021-02-08T03:34:19Z",
+      "wm-id": 1020989,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1358607419945996289/89791384",
+      "wm-target": "https://angeliqueweger.com/blog/2021/hiring-lessons/",
+      "like-of": "https://angeliqueweger.com/blog/2021/hiring-lessons/",
       "wm-property": "like-of",
       "wm-private": false
     }
