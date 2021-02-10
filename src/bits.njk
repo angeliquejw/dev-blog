@@ -1,33 +1,34 @@
 ---
 title: Bits and bobs
+pageClass: pg-bits
 layout: layouts/page.njk
 ---
 
 <p>Pages and projects separate from my blog posts.</p>
 
-{% set itemlist = collections.bits %}
+{% set itemlist = [] %}
 
-<ul class="u-list-reset">
-  {% set dataUrls = [] %}
+{# Combines content in /bits directory and in _data/bits.json 🙌🏻 #}
+{% for item in collections.bits %}
+  {% set itemlist = (itemlist.push({
+      title: item.data.title,
+      description: item.data.bits_description or item.data.summary,
+      url: item.url
+    }), itemlist) %}
+{% endfor %}
+
+{% for item in bits %}
+  {% set itemlist = (itemlist.push(item), itemlist) %}
+{% endfor %}
+
+<ul class="u-list-reset bits-list">
   {% for item in itemlist | sort(attribute="title") %}
-    {% if item.data.pageClass == "pg-company-data" %}
 
-      {% if item.data.bits_description %}
-      <li>
-        <a href="{{ item.url }}">{{ item.data.title }}</a>
-        <span>{{ item.data.bits_description }}</span>
-      </li>
-      {% endif %}
+    <li>
+      <a href="{{ item.url }}">{{ item.title }}</a>
+      {{  item.description | safe }}
+    </li>
 
-    {% else %}
-      {% set details = item.data.bits_description or item.data.summary %}
-
-      <li>
-        <a href="{{ item.url }}">{{ item.data.title }}</a>
-        {{  details | safe }}
-      </li>
-
-    {% endif %}
   {% endfor %}
 </ul>
 
