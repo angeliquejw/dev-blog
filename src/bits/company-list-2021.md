@@ -1,6 +1,7 @@
 ---
 title: No thanks to Business As Usual
 summary: Teams and companies that made an effort to treat their employees humanely on Jan 6, 2021
+bits_description: Based on responses to a tweet of mine from January 6, 2021, I compiled this list of companies and teams that responded to the day's events with some compassion for their employees.
 pageClass: pg-company-data
 layout: layouts/minimal.njk
 ---

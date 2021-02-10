@@ -3,8 +3,12 @@ layout: layouts/base.njk
 templateClass: tmpl-minimal
 ---
 
-<main{% if pageClass %} class="{{ pageClass }}"{% endif %} itemprop="mainEntity" itemscope itemtype="http://schema.org/CreativeWork">
-  {{ content | safe }}
-</main>
+<div class="container{% if pageClass %} {{ pageClass }}{% endif %}">
+  {% include "site-nav.njk" %}
+
+  <main itemprop="mainEntity" itemscope itemtype="http://schema.org/CreativeWork">
+    {{ content | safe }}
+  </main>
+</div>
 
 {% include "site-footer.njk" %}
