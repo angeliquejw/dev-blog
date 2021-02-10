@@ -6,11 +6,5 @@
     {% include "social-list.njk" %}
   </div>
 
-  <nav itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
-    <ul class="page-list u-list-reset">
-      <li class="{% if (title == "Blog") or (tags and "posts" in tags) %} --active{% endif %}"><a href="/blog" class="u-block" itemprop="url"><span itemprop="name">Blog</span></a></li>
-      <li class="{% if (entry.url == page.url) %} --active{% endif %}"><a href="/" class="u-block" itemprop="url"><span itemprop="name">About</span></a></li>
-    </ul>
-  </nav>
-
+    {% include "site-nav.njk" %}
 </header>

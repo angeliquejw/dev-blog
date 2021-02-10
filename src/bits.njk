@@ -1,0 +1,35 @@
+---
+title: Bits and bobs
+pageClass: pg-bits
+layout: layouts/page.njk
+---
+
+<p>Pages and projects separate from my blog posts.</p>
+
+{% set itemlist = [] %}
+
+{# Combines content in /bits directory and in _data/bits.json 🙌🏻 #}
+{% for item in collections.bits %}
+  {% set itemlist = (itemlist.push({
+      title: item.data.title,
+      description: item.data.bits_description or item.data.summary,
+      url: item.url
+    }), itemlist) %}
+{% endfor %}
+
+{% for item in bits %}
+  {% set itemlist = (itemlist.push(item), itemlist) %}
+{% endfor %}
+
+<ul class="u-list-reset u-margin-top-lg bits-list">
+  {% for item in itemlist | sort(attribute="title") %}
+
+    <li class="u-padding">
+      <h2 class="u-margin-top-none"><a href="{{ item.url }}">{{ item.title }}</a></h2>
+      <p>{{ item.description | safe }}</p>
+    </li>
+
+  {% endfor %}
+</ul>
+
+
