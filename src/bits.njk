@@ -21,12 +21,12 @@ layout: layouts/page.njk
   {% set itemlist = (itemlist.push(item), itemlist) %}
 {% endfor %}
 
-<ul class="u-list-reset bits-list">
+<ul class="u-list-reset u-margin-top-lg bits-list">
   {% for item in itemlist | sort(attribute="title") %}
 
-    <li>
-      <a href="{{ item.url }}">{{ item.title }}</a>
-      {{  item.description | safe }}
+    <li class="u-padding">
+      <h2 class="u-margin-top-none"><a href="{{ item.url }}">{{ item.title }}</a></h2>
+      <p>{{ item.description | safe }}</p>
     </li>
 
   {% endfor %}
