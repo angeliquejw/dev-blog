@@ -6,8 +6,12 @@ pageClass: pg-liw
 layout: layouts/minimal.njk
 ---
 
-<h1>My life in weeks</h1>
-{# https://notes.busterbenson.com/life-in-weeks #}
+<header class="u-padding u-padding-top-xl">
+
+  <h1 class="u-margin-vertical-none">My life in weeks</h1>
+  {# https://notes.busterbenson.com/life-in-weeks #}
+
+</header>
 
 {% set start_date = life[0].date %}
 {% set start_year = start_date | slice(3) | 
@@ -25,7 +29,7 @@ first | int %}
       <h2>My {{ (loop.index - 1) * 10 }}s</h2>
     {% endif %}
 
-    <ol class="u-list-reset">
+    <ol class="u-list-reset life-weeks">
       {% for display_year in decade %}
         {% set display_age = display_year - start_year %}
           <li>{{ display_age }} in {{ display_year}}</li>

@@ -1,10 +1,26 @@
 .pg-liw {
+  nav {
+    background-color: $color-patina;
+    padding: $spacing-unit-xs $spacing-unit-xs $spacing-unit-sm;
+  }
+
+  .page-list {
+    a {
+      color: $color-pearl;
+      
+      @include hover-state {
+        color: white;
+      }
+    }
+  }
 
   ol {
     display: flex;
     flex-wrap: wrap;
   }
+}
 
+.life-weeks {
   li {
     border: 0.5px solid $color-tumeric;
     flex: 1 0 auto;
@@ -16,11 +32,9 @@
   }
 
   .week {
-    // border-color: $color-tumeric;
     &--future {
       background-color: $color-patina;
       border-color: $color-pearl;
     }
   }
-
 }
