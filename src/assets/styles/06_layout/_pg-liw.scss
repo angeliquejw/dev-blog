@@ -4,19 +4,33 @@
     padding: $spacing-unit-xs $spacing-unit-xs $spacing-unit-sm;
   }
 
-  .page-list {
+  header {
     a {
-      color: $color-pearl;
-      
+      color: $color-siren;
+
       @include hover-state {
-        color: white;
+        color: $color-mulberry;
       }
     }
+  }
+
+  h2 {
+    margin-top: $spacing-unit;
   }
 
   ol {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .page-list {
+    a {
+      color: $color-pearl;
+
+      @include hover-state {
+        color: white;
+      }
+    }
   }
 }
 
@@ -35,6 +49,10 @@
     &--future {
       background-color: $color-patina;
       border-color: $color-pearl;
+
+      + li:not(.week) {
+        background-color: rgba($color-patina, 0.5);
+      }
     }
   }
 }

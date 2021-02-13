@@ -6,11 +6,11 @@ pageClass: pg-liw
 layout: layouts/minimal.njk
 ---
 
-<header class="u-padding u-padding-top-xl">
+<header class="u-padding-top-xl">
 
   <h1 class="u-margin-vertical-none">My life in weeks</h1>
-  {# https://notes.busterbenson.com/life-in-weeks #}
-
+  <p>Inspired by Buster Benson's own <a href="https://notes.busterbenson.com/life-in-weeks">Life in Weeks</a> page, I've created this summary of my life, where each week is a small box.</p>
+  <p>I think the career bits of this summary are especially important for all those folks who think they've missed the boat if they don't get their first coding job in their 20s.</p>
 </header>
 
 {% set start_date = life[0].date %}
@@ -26,7 +26,8 @@ first | int %}
     {% elseif loop.index == 2 %}
       <h2>My teens</h2>
     {% else %}
-      <h2>My {{ (loop.index - 1) * 10 }}s</h2>
+      {% set era = (loop.index - 1) * 10 %}
+      <h2 id="decade-{{ era }}">My {{ era }}s</h2>
     {% endif %}
 
     <ol class="u-list-reset life-weeks">
