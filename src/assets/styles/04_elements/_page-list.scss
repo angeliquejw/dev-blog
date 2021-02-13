@@ -2,7 +2,7 @@
   text-align: right;
   text-transform: uppercase;
 
-  li {
+  &-item {
     font-size: ms(2);
     font-weight: $font-light;
   }
@@ -50,7 +50,7 @@
   }
 
   @media (max-width: 719px) {
-    li {
+    &-item {
       @include u-display(inline-block);
       margin-right: 24px;
       margin-top: $spacing-unit-xs;

@@ -85,8 +85,8 @@
     }
   }
 
-  .page-list {
-    a {
+  .page-list-item {
+    a { /* stylelint-disable-line no-descending-specificity */
       color: $color-pearl;
 
       @include hover-state {
@@ -94,9 +94,9 @@
       }
     }
 
-    .--active {
+    &.--active {
       a {
-        &::before {
+        &::before { /* stylelint-disable-line selector-max-class */
           background-color: $color-pearl;
           width: 132%;
         }
