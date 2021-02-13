@@ -1,21 +1,193 @@
 [{
     "date": "1978-03-27",
-    "description": "I was born in Chicago, Illinois",
+    "description": "👶🏻 I was born in Chicago, Illinois",
     "category": "birthday"
   },
   {
-    "date": "1996-08-28",
-    "description": "Start frosh year at IUP Honors College",
+    "date": "1983-02-01",
+    "estimated": true,
+    "description": "Parents divorce",
+    "category": "family"
+  },
+  {
+    "date": "1983-09-03",
+    "estimated": true,
+    "description": "Start first grade",
     "category": "school"
   },
   {
+    "date": "1985-09-01",
+    "estimated": true,
+    "description": "🚚 Move to Coal City, Illinois",
+    "category": "move"
+  },
+  {
+    "date": "1991-06-28",
+    "description": "Stepfather dies of cancer",
+    "category": "family"
+  },
+  {
+    "date": "1993-06-01",
+    "estimated": true,
+    "description": "🚚 Move to Florida",
+    "category": "move"
+  },
+  {
+    "date": "1996-05-22",
+    "estimated": true,
+    "description": "👩🏻‍🎓 Graduate high school",
+    "category": "school"
+  },
+  {
+    "date": "1996-08-28",
+    "estimated": true,
+    "description": "Move to PA, start frosh year at IUP Honors College",
+    "category": "school"
+  },
+  {
+    "date": "1998-08-24",
+    "estimated": true,
+    "description": "🇬🇧 Start year abroad at Sheffield-Hallam",
+    "category": "school"
+  },
+  {
+    "date": "2000-05-20",
+    "estimated": true,
+    "description": "👩🏻‍🎓 Graduate IUP",
+    "category": "school"
+  },
+  {
+    "date": "2001-09-11",
+    "description": "September 11",
+    "category": "history"
+  },
+  {
     "date": "2002-04-27",
-    "description": "M and I get married",
+    "description": "💜 M and I get married",
     "category": "family"
   },
   {
     "date": "2002-08-26",
-    "description": "Start master's program at UArts in Philly",
+    "estimated": true,
+    "description": "Move to NJ, start master's program at UArts in Philly",
     "category": "school"
+  },
+  {
+    "date": "2003-05-03",
+    "estimated": true,
+    "description": "von Hess fellow at Baltimore Museum of Art",
+    "category": "work"
+  },
+  {
+    "date": "2006-08-30",
+    "estimated": true,
+    "description": "🚚 Move to Florida",
+    "category": "move"
+  },
+  {
+    "date": "2007-01-12",
+    "estimated": true,
+    "description": "💔 Mum dies of cancer",
+    "category": "family"
+  },
+  {
+    "date": "2007-12-12",
+    "description": "Reunite with paternal side of family",
+    "category": "family"
+  },
+  {
+    "date": "2007-12-29",
+    "description": "I buy my first domain name",
+    "category": "misc"
+  },
+  {
+    "date": "2009-07-27",
+    "description": "🦈 Start isitsharkweek.com",
+    "category": "misc"
+  },
+  {
+    "date": "2010-09-05",
+    "description": "🚚 Move back to Baltimore",
+    "category": "move"
+  },
+  {
+    "date": "2012-04-27",
+    "description": "💖 10th wedding anniversary",
+    "category": "family"
+  },
+  {
+    "date": "2012-07-27",
+    "description": "Register this domain name",
+    "category": "misc"
+  },
+  {
+    "date": "2013-03-28",
+    "description": "Start working as freelance developer FT",
+    "category": "work"
+  },
+  {
+    "date": "2013-07-15",
+    "description": "🤼‍♂️ Brother competes at wrestling Nationals",
+    "category": "family"
+  },
+  {
+    "date": "2014-02-19",
+    "description": "First Baltimore GDI workshop",
+    "category": "misc"
+  },
+  {
+    "date": "2014-05-24",
+    "description": "👨🏻‍🎓 Brother graduates HS",
+    "category": "family"
+  },
+  {
+    "date": "2014-06-23",
+    "description": "👩🏻‍💻 Start as senior front-end developer at Detroit Trading Co",
+    "category": "work"
+  },
+  {
+    "date": "2014-09-23",
+    "description": "🏡 Buy our first home",
+    "category": "move"
+  },
+  {
+    "date": "2015-11-11",
+    "description": "Attend SassConf in Austin, Texas",
+    "category": "misc"
+  },
+  {
+    "date": "2017-05-08",
+    "description": "👩🏻‍💻 Start as senior UX engineer at Fractured Atlas",
+    "category": "work"
+  },
+  {
+    "date": "2018-08-30",
+    "description": "🍎 Start teaching web dev at MICA",
+    "category": "work"
+  },
+  {
+    "date": "2018-12-18",
+    "description": "👨🏻‍🎓 Brother graduates from Towson",
+    "category": "family"
+  },
+  {
+    "date": "2019-10-14",
+    "description": "👩🏻‍💻 Start as senior front-end engineer at Lumen Learning",
+    "category": "work"
+  },
+  {
+    "date": "2020-03-16",
+    "description": "COVID lockdown begins in Maryland",
+    "category": "history"
+  },
+  {
+    "date": "2021-01-06",
+    "description": "Insurrection at Capitol",
+    "category": "history"
+  },
+  {
+    "date": "2022-04-27",
+    "description": "💖 20th wedding anniversary",
+    "category": "family"
   }
 ]
