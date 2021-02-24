@@ -1,7 +1,6 @@
 {
-  "lastFetched": "2021-02-10T00:03:09.208Z",
-  "children": [
-    {
+  "lastFetched": "2021-02-24T14:41:58.817Z",
+  "children": [{
       "type": "entry",
       "author": {
         "type": "card",
@@ -878,6 +877,24 @@
       "wm-source": "https://brid.gy/like/twitter/messypixels/1358607419945996289/89791384",
       "wm-target": "https://angeliqueweger.com/blog/2021/hiring-lessons/",
       "like-of": "https://angeliqueweger.com/blog/2021/hiring-lessons/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Casey Watts!",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/5b895c11559eb22e4e2e0a662c2c1f2b215eea1942b7508e28a1122c0158d99d.jpg",
+        "url": "https://twitter.com/heycaseywattsup"
+      },
+      "url": "https://twitter.com/messypixels/status/1359499303123828737#favorited-by-13656282",
+      "published": null,
+      "wm-received": "2021-02-10T15:23:53Z",
+      "wm-id": 1026065,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1359499303123828737/13656282",
+      "wm-target": "https://angeliqueweger.com/bits",
+      "like-of": "https://angeliqueweger.com/bits",
       "wm-property": "like-of",
       "wm-private": false
     }

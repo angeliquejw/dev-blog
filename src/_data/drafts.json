@@ -59,7 +59,8 @@
   },
   {
     "topic": "11ty",
-    "notes": "Migrated from Middleman to Eleventy, other code snippets from this blog"
+    "notes": "Migrated from Middleman to Eleventy, other code snippets from this blog",
+    "published": "2021/middleman-eleventy/"
   },
   {
     "topic": "how long have you been coding",

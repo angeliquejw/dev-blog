@@ -16,11 +16,15 @@ eleventyExcludeFromCollections: true
 <ul class="u-margin-top-lg u-margin-bottom-xl draft-ideas">
 {%- for post in drafts | sort(attribute="topic") %}
 
-<li>
+<li {%- if post.published %} class="is-published"{%- endif %}>
   <strong>{{ post.topic }}</strong>
 
   {%- if post.notes %}
   <p class="u-margin-top-none">{{ post.notes }}</p>
+  {%- endif %}
+
+  {%- if post.published %}
+    <p class="u-margin-top-none">Now published &rarr; <a href="/blog/{{ post.published }}">{{ metadata.url }}/blog/{{ post.published }}</a></p>
   {%- endif %}
 
   {%- if post.links %}
@@ -32,7 +36,7 @@ eleventyExcludeFromCollections: true
         {%- endfor %}
       </ul>
     {%- else %}
-    <p class="u-margin-top-none"><a href="{{post.links.url}}">{{ post.links.url }}</a></p>
+    <p class="u-margin-top-none"><a href="{{ post.links.url }}">{{ post.links.url }}</a></p>
     {%- endif %}
   {%- endif %}
 </li>

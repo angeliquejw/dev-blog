@@ -42,7 +42,7 @@ Two apps that migrated with me from my Windows days:
 
 One week in, my only current major pain point is my Razer keyboard; the Razer software seems to hate macOS (my custom settings occasionally delete/reset themselves?). I'm trying, at this point, to avoid going down the rabbit hole of researching new Mac-friendly mechanical keyboards.
 
-I'll make an attempt to update this one month in (Will I still be attempting to close windows the Windows way? Tune in!). While there seem to be many blog posts about and for Mac power users, there is not as much discussion around folks making the switch to Mac (for the reverse, devs transitioning to Windows, check out the [#davegoeswindows](http://daverupert.com/tag/davegoeswindows) series by one of the ShopTalk guys). So, hopefully this can be a good resource for other old dogs learning new tricks.
+I'll make an attempt to update this one month in (Will I still be attempting to close windows the Windows way? Tune in!). While there seem to be many blog posts about and for Mac power users, there is not as much discussion around folks making the switch to Mac (for the reverse, devs transitioning to Windows, check out the [#DaveGoesWindows](http://daverupert.com/tag/davegoeswindows) series by one of the ShopTalk guys). So, hopefully this can be a good resource for other old dogs learning new tricks.
 
 <div class="embed-container giphy">
 <iframe src="https://giphy.com/embed/kNjoM9UQUX612" width="480" height="263" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
