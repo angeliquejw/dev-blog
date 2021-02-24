@@ -35,4 +35,30 @@
       color: $color-siren;
     }
   }
+
+  > .is-published {
+    strong {
+      &::before {
+        content: unset;
+      }
+
+      &::after {
+        background-color: $color-offblack;
+        content: "";
+        height: 4px;
+        left: (-$spacing-unit);
+        position: absolute;
+        top: $spacing-unit-xs;
+        transform: rotate(45deg);
+        width: 64%;
+      }
+    }
+
+    a {
+      color: $color-mulberry;
+      @include hover-state {
+        color: $color-siren;
+      }
+    }
+  }
 }
