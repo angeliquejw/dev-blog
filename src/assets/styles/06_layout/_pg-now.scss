@@ -44,7 +44,6 @@
   }
 }
 
-
 .now-section {
   background-color: $color-patina;
   margin-left: (-$spacing-unit);
@@ -144,5 +143,27 @@
   @media (min-width: 720px) {
     margin-left: (-$spacing-unit-lg);
     margin-right: (-$spacing-unit-lg);
+  }
+}
+
+// Goodreads widget
+.gr_grid_container {
+  display: flex;
+}
+
+.gr_grid_book_container {
+  margin-right: $spacing-unit;
+
+  img {
+    filter: grayscale(0.8);
+    transition: $transition-default;
+  }
+
+  a {
+    @include hover-state {
+      img {
+        filter: unset;
+      }
+    }
   }
 }
