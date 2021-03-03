@@ -34,7 +34,7 @@ templateClass: tmpl-post
 
   <div class="meta-wrapper">
     <div class="blog-meta">
-      <p>Reading time: <em>{{ content | readingTime }}</em></p>
+      <p>Reading time: <em>{{ content | readingTime({speed:200}) }}</em></p>
       <p>Written in <em itemprop="locationCreated">{{ location }}</em> and tagged as:</p>
       <ul class="u-list-reset" itemprop="keywords">
       {% for tag in tags %}
