@@ -1,0 +1,14 @@
+In the late '80s and with very little fanfare, I wrote my first computer program. After pressing the pastel buttons on my [Atari XEGS](https://en.wikipedia.org/wiki/Atari_XEGS), I was faced with the blue-on-blue [Atari BASIC](https://www.atariarchives.org/basic/index.php) screen. I followed a series of tutorials introducing the syntax and core programming concepts like variables, if-then and loops and eventually created a sequence of randomly placed and brighly colored lines on my TV screen. I was filled with a sense of wonder and possibility.
+
+![Atari XEGS]()
+Photo by [Adam Jenkins](https://www.flickr.com/photos/37796451@N00/4925230730/in/photostream/).
+
+I wasn't looking to be a computer programmer. The XEGS was in my bedroom along with an unconscionable number of Barbie dolls, ribbons from dog shows and a stack of books; it was another hobby, another toy. This context was helpful and, very likely, empowering. Gamergate was decades away, FAANGs were something in vampire stories, and I was just a pre-teen girl in her bedroom playing with colors on a screen.
+
+While that moment didn't put me on a certain path to coding, it did make it feel like it was something possible, something in reach. As a result, computers remained an important part of my life. I went on to make friends in a variety of online worlds (Prodigy, local bulletin board systems, Sierra On-line's Imagination Network, AOL's Red Dragon Inn) and become a host of Teen Chat on America Online.
+
+![Sierra On-line's Imagination Network welcome screen.]()
+
+I was adept at using desktop publishing software and became editor of my high school's newspaper and poetry journal. From my freshman dorm, I discovered Geocities and published my first web page (and my first, but not last, "under construction" GIF 😹). As a journalism major, I was thrilled with the publishing possibilities the web offered. While I'll never know how welcoming or not the comp sci department was on that campus, I was once again, safe in my bedroom, typing away on a keyboard and inventing new things--only this time I could share they with others far beyond my screen.
+
+Tech and the web today are more beautiful and uglier than I imagined in the '80s or the 2000s. I've worked full-time as a developer since 2014 and have been teaching others to code since then as well. In the last handful of years, I've learned new JS frameworks, my first functional language and launched two design systems into production. In the last year, I had a hand in making our financial accounting courseware accessible to more students. While I still savor technical challenges like these, I also feel my biggest impact is in teaching a new generation of front-end developers and in making the teams I work on better for all. In 2021, my focus isn't solely on what I code, but very much on what we can build together. By sharing the sense of wonder and possibility I've maintained, I also manage to grow it.
