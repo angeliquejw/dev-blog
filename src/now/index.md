@@ -40,7 +40,7 @@ I'm living in Baltimore, working as the front-end lead for Lumen Learning and te
 ### I am looking forward to{: .now-heading}
 
 - onboarding two new front-end developers on my team
-- more knitting and weaving 🧶
+- getting back into embroidery thanks to patterns from [Cozy Blue](https://cozybluehandmade.com/)
 - seeing family and friends in person again...soon 👀
 
 </section>
