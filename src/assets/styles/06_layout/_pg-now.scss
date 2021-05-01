@@ -44,12 +44,34 @@
   }
 }
 
-.now-section {
-  background-color: $color-patina;
+.now-section, .now-footer {
   margin-left: (-$spacing-unit);
   margin-right: (-$spacing-unit);
-  max-width: 96ch;
   padding: 0 $spacing-unit-sm $spacing-unit;
+  max-width: 96ch;
+
+  @media (min-width: 720px) {
+    margin-left: (-$spacing-unit-lg);
+    margin-right: (-$spacing-unit-lg);
+  }
+}
+
+.now-footer {
+  background-color: $color-offblack;
+  color: $color-offwhite;
+  p {
+    margin-top: 0;
+  }
+  a {
+    color: $color-offwhite;
+    @include hover-state {
+      color: white;
+    }
+  }
+}
+
+.now-section {
+  background-color: $color-patina;
 
   h2 {
     font-size: ms(4);
@@ -138,11 +160,6 @@
         }
       }
     }
-  }
-
-  @media (min-width: 720px) {
-    margin-left: (-$spacing-unit-lg);
-    margin-right: (-$spacing-unit-lg);
   }
 }
 

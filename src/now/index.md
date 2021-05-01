@@ -52,3 +52,7 @@ I'm living in Baltimore, working as the front-end lead for Lumen Learning and te
 - via [email](mailto:hello@angeliqueweger.com)
 
 </section>
+
+<footer class="now-footer">
+  <p>This 'now' page is part of the bigger project <a href="https://nownownow.com/about">Nownownow</a> by Derek Sivers.</p>
+</footer>
