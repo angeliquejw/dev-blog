@@ -20,9 +20,9 @@ I'm living in Baltimore, working as the front-end lead for Lumen Learning and te
 
 ### I am enjoying{: .now-heading}
 
-- so many bowls of ramen 🍜
-- my HappyLight (I got the [Verilux Happy Light Luxe](https://verilux.com/collections/happylight-therapy-lamps-boxes/products/happylight-luxe))
-- treating myself to skincare from [Soko Glam](https://sokoglam.com/) (👍🏻 to Inward herbal mask, Klavuu lip mask, Neogen Bio-Peel exfoliation pads and The Klog's pimple patches)
+- porch life ☀️
+- feminist comic book club 🤓
+- getting back into embroidery thanks to patterns from [Cozy Blue](https://cozybluehandmade.com/)
 
 </section>
 
@@ -40,7 +40,6 @@ I'm living in Baltimore, working as the front-end lead for Lumen Learning and te
 ### I am looking forward to{: .now-heading}
 
 - onboarding two new front-end developers on my team
-- getting back into embroidery thanks to patterns from [Cozy Blue](https://cozybluehandmade.com/)
 - seeing family and friends in person again...soon 👀
 
 </section>
