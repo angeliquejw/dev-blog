@@ -8,7 +8,7 @@
     font-family: $font-barlow;
   }
 
-  li {
+  li:not(.uses-subsection) {
     margin-bottom: $spacing-unit-sm;
   }
 
@@ -32,6 +32,29 @@
 .uses {
   &-heading {
     font-weight: $font-regular;
+    position: relative;
+
+    &::before {
+      @include z-index(bottom);
+
+      background-color: $color-offwhite;
+      content: "";
+      height: $spacing-unit;
+      left: (-$spacing-unit);
+      position: absolute;
+      top: 3px;
+      width: 240px;
+
+      @media (min-width: 720px) {
+        left: (-$spacing-unit-lg);
+        width: 248px;
+      }
+
+      @media (min-width: 1160px) {
+        left: (-$spacing-unit-xl);
+        width: 280px;
+      }
+    }
   }
 
   &-intro {
@@ -52,6 +75,7 @@
       margin: 0;
       padding: $spacing-unit-sm;
       position: absolute;
+      text-transform: lowercase;
       top: -$spacing-unit;
       width: max-content;
 
@@ -85,12 +109,19 @@
     }
 
     &-subheading {
+      border-bottom: 2px solid $color-mulberry;
+      margin-bottom: $spacing-unit-sm;
+      width: max-content;
+
       &--alt {
         font-family: $font-barlow;
         font-size: 1rem;
         margin-bottom: $spacing-unit-sm;
         margin-top: 0;
-        text-transform: lowercase;
+      }
+
+      @media (max-width: 1079px) {
+        margin-top: $spacing-unit;
       }
     }
 
