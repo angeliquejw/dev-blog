@@ -1,0 +1,95 @@
+---
+title: "/uses"
+custom_title: Tech and tools I use
+summary: "My tech and tools. Inspired by <a href='https://uses.tech/'>Uses.Tech</a>."
+tags: [bits]
+pageClass: pg-uses
+layout: layouts/page.njk
+---
+
+{%- set divider %}
+  <span class="uses-divider"> ⟼ </span>
+{%- endset %}
+
+{%- macro link(name, url) %}
+  <a href="{{ url }} ">{{ name }}</a>
+{%- endmacro %}
+
+{%- macro pluginlink(name, url) %}
+  <a href="https://marketplace.visualstudio.com/items?itemName={{ url }}">{{ name }}</a>
+{%- endmacro %}
+
+<h1 class="uses-heading">What I <span>use</span></h1>
+
+<p>Some details about the tech and tools I use at work, teaching and when building personal projects, like this site. This list was last updated on May 1, 2021, and includes <em>zero</em> affiliate links.</p>
+
+{%- for use in uses %}
+<section class="uses-section">
+  <h2 class="uses-section-heading">{{ use.section }}</h2>
+
+  {%- if use.notes %}
+  <p>{{ use.notes }}</p>
+  {%- endif %}
+
+  <ul class="u-list-reset">
+    {%- for item in use.items %}
+    <li>
+
+      {%- if item.subsection %}
+
+      {%- set pluginslist = (item.subsection === "Plugins") %}
+      <h3 class="{{ "uses-section-subheading--alt" if pluginslist }}">
+        {{ item.subsection }}
+        {{ divider | safe if pluginslist }}
+      </h3>
+      <ul class="u-list-reset{{ " uses-plugins-list" if pluginslist }}">
+        {%- for listitem in item.items %}
+        <li>
+          {%- if pluginslist %}
+          {{ pluginlink(listitem.name, listitem.itemName) }}
+          {%- else %}
+          <span class="uses-desc">{{ listitem.description | safe }}</span>
+          {{ divider | safe }}
+          {{ listitem.notes if listitem.notes }}
+          {%- if listitem.subitems %}
+          {%- for listitem in listitem.subitems %}
+          {%- if loop.last %}
+          and {{ link(listitem.name, listitem.url) }}
+          {%- else %}
+          {{ link(listitem.name, listitem.url) }}
+          {%- endif %}
+          {%- endfor %}
+          {%- else %}
+          {{ link(listitem.name, listitem.url) }}
+          {%- endif %}
+        {%- endif %}
+        </li>
+        {%- endfor %}
+      </ul>
+
+      {%- else %}
+
+      <span class="uses-desc">{{ item.description | safe }}</span>
+      {{ divider | safe }}
+      {{ item.notes if item.notes }}
+      {%- if item.subitems %}
+      {%- for listitem in item.subitems %}
+      {%- if loop.last %}
+      and {{ link(listitem.name, listitem.url) }}
+      {%- else %}
+      {{ link(listitem.name, listitem.url) }}
+      {%- endif %}
+      {%- endfor %}
+      {% endif %}
+      {{ link(item.name, item.url) if item.url }}
+      {{ item.details | safe if item.details }}
+      {%- endif %}
+    </li>
+    {%- endfor %}
+  </ul>
+</section>
+{%- endfor %}
+
+<footer class="uses-footer">
+ <p>This 'uses' page is part of the bigger project <a href="https://uses.tech/">Uses.Tech</a> by Wes Bos.</p>
+</footer>
