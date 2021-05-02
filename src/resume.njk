@@ -1,0 +1,94 @@
+---
+title: "Resume"
+custom_title: Resume
+summary: "Professional experience."
+tags: [bits]
+date: Last Modified
+pageClass: pg-resume
+layout: layouts/minimal.njk
+---
+
+<header>
+  <h1>{{ metadata.title }}</h1>
+  <p>Front-end lead and manager</h1>
+  <ul class="u-list-reset contact-list">
+  	{%- for item in metadata.author.social %}
+    {%- if item.mailto %}
+    <li><a href="mailto:{{ item.mailto }}">{{ item.mailto }}</a></li>
+    {%- endif %}
+    {%- endfor %}
+    <li><a href="{{ metadata.url }}">{{ metadata.domain }}</a></li>
+  </ul>
+  <nav>
+    <ol>
+      {%- for section in resume %}
+      {%- if section.slug %}
+      <li>
+        {%- set short_name = section.short_name or section.mid_name or section.section %}
+        {%- set mid_name = section.mid_name or section.short_name or section.section %}
+        <a href="#{{ section.slug }}" data-short="{{ short_name }}" data-mid="{{ mid_name }}" data-long="{{ section.section }}">
+          {{ section.section }}
+        </a>
+      </li>
+      {%- endif %}
+      {%- endfor %}
+    </ol>
+  </nav>
+</header>
+
+{%- for section in resume %}
+<section {%- if section.slug %} id="{{ section.slug }}"{%- endif %}>
+<h2>{{ section.section }}</h2>
+<ul class="u-list-reset">
+  {%- for item in section.items %}
+  <li>
+
+    {%- if section.slug === "exp" %}
+    <h3>{{ item.title }}</h3>
+    <h4>{{ item.org }}</h4>
+    <p>{{ item.start }} &ndash; {{ item.end if item.end else "present" }}</p>
+    {%- if item.tech %}
+    <h4>Technologies used:</h4>
+    <ul class="u-list-reset">
+      {%- for tech in item.tech %}
+      <li>{{ tech }}</li>
+      {%- endfor %}
+    </ul>
+    {%- endif %}
+    <p>{{ item.description }} My responsibilities include{{ "d" if item.end }}:</p>
+    <ul>
+      {%- for resp in item.responsibilites %}
+      <li>{{ resp }}</li>
+      {%- endfor %}
+    </ul>
+
+    {%- else %}
+
+    {%- if (section.slug === "skills" or section.slug === "talks") %}
+    <h3>{{ item.title }}</h3>
+    <ul class="u-list-reset">
+      {%- for detail in item.details %}
+      <li>
+        {%- if detail.venue %}
+        {{ detail.venue }}
+        {{ detail.date }}
+        {%- else %}
+        {{ detail }}
+        {%- endif %}
+      </li>
+      {%- endfor %}
+    </ul>
+    {%- elseif item.url %}
+    <a href="{{ item.url }}">{{ item.title }}</a>
+    {%- else %}
+    {{ item.title }}
+    {{ item.description | safe }}
+    {%- endif %}
+    {%- endif %}
+
+  </li>
+  {%- endfor %}
+</ul>
+</section>
+
+{%- endfor %}
