@@ -2,7 +2,7 @@
     "section": "Tools",
     "items": [{
         "description": "browsers",
-        "details": "I use Firefox as my daily driver on my laptop and mobile devices because I value their stance on user privacy <em>and</em> think their dev tools are top notch. At work, I use Chrome because we're already deep into the Google ecosystem. I use the developer versons of both browsers for testing purposes, too."
+        "details": "I use <a href='https://www.mozilla.org/en-US/firefox/new/'>Firefox</a> as my daily driver on my laptop and mobile devices because I value their stance on user privacy <em>and</em> think their dev tools are top notch. At work, I use Chrome because we're already deep into the Google ecosystem. I use the developer versons of both browsers for testing purposes, too."
       },
       {
         "description": "terminal",
@@ -24,7 +24,7 @@
         "url": "https://input.djr.com/info/"
       },
       {
-        "subsection": "Plugins",
+        "subsection": "plugins",
         "items": [{
             "name": "Auto Rename Tag",
             "itemName": "formulahendry.auto-rename-tag"
@@ -64,7 +64,7 @@
         ]
       },
       {
-        "subsection": "MacOS",
+        "subsection": "macOS",
         "items": [{
             "description": "see my day at a glance",
             "name": "Itsycal",
@@ -93,7 +93,7 @@
         ]
       },
       {
-        "subsection": "Command line",
+        "subsection": "command line",
         "items": [{
             "description": "never have to remember directory structures or if a directory name is capitalized",
             "name": "z",
@@ -116,7 +116,7 @@
         ]
       },
       {
-        "subsection": "Android",
+        "subsection": "android",
         "items": [{
             "description": "delightful and simple mood tracking",
             "name": "Daylio",
@@ -184,7 +184,7 @@
         "details": "2011? Lenovo ThinkPad T420s for running NVDA and JAWS"
       },
       {
-        "subsection": "Peripherals",
+        "subsection": "peripherals",
         "items": [{
             "description": "clicky keyboard",
             "name": "CM Storm QuickFire Rapid",
