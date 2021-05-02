@@ -5,6 +5,10 @@
         "details": "I use Firefox as my daily driver on my laptop and mobile devices because I value their stance on user privacy <em>and</em> think their dev tools are top notch. At work, I use Chrome because we're already deep into the Google ecosystem. I use the developer versons of both browsers for testing purposes, too."
       },
       {
+        "description": "terminal",
+        "details": "MacOS's default terminal 🤷🏻‍♀️"
+      },
+      {
         "description": "editor",
         "name": "VS Code Insiders",
         "url": "https://code.visualstudio.com/insiders/"
@@ -58,10 +62,6 @@
             "itemName": "webhint.vscode-webhint"
           }
         ]
-      },
-      {
-        "description": "terminal",
-        "details": "MacOS's default terminal 🤷🏻‍♀️"
       },
       {
         "subsection": "MacOS",

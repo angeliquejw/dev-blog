@@ -1,0 +1,195 @@
+.pg-uses {
+  p, li {
+    line-height: 1.3;
+    max-width: 96ch;
+  }
+
+  p {
+    font-family: $font-barlow;
+  }
+
+  li {
+    margin-bottom: $spacing-unit-sm;
+  }
+
+  a {
+    border-bottom: 1px solid rgba($color-mulberry, 0.5);
+    color: $color-siren;
+    text-decoration: none;
+
+    @include hover-state {
+      border-bottom-color: $color-mulberry;
+    }
+  }
+
+  @media (min-width: 1080px) {
+    display: grid;
+    grid-gap: $spacing-unit;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.uses {
+  &-heading {
+    font-weight: $font-regular;
+  }
+
+  &-intro {
+    @media (max-width: 1079px) {
+      margin-bottom: $spacing-unit-xl;
+    }
+  }
+
+  &-section {
+    $highlight-color: $color-mulberry;
+    border-top: 1px solid $highlight-color;
+    margin-top: $spacing-unit;
+    padding: $spacing-unit-lg $spacing-unit $spacing-unit;
+    position: relative;
+
+    &-heading {
+      left: $spacing-unit-sm;
+      margin: 0;
+      padding: $spacing-unit-sm;
+      position: absolute;
+      top: -$spacing-unit;
+      width: max-content;
+
+      > span {
+        position: relative;
+      }
+
+      &::before,
+      &::after {
+        content: "";
+        display: block;
+        height: 100%;
+        position: absolute;
+        width: 100%;
+      }
+
+      &::before {
+        background-color: $color-valentino-lt48;
+        border-left: ($spacing-unit-xs/2) solid $color-grey;
+        bottom: -$spacing-unit-xs/2;
+        left: 0;
+        width: calc(100% + #{$spacing-unit-xs/2});
+      }
+
+      &::after {
+        border: 1px solid $highlight-color;
+        left: 0;
+        top: -$spacing-unit-xs/2;
+        top: 0;
+      }
+    }
+
+    &-subheading {
+      &--alt {
+        font-family: $font-barlow;
+        font-size: 1rem;
+        margin-bottom: $spacing-unit-sm;
+        margin-top: 0;
+        text-transform: lowercase;
+      }
+    }
+
+    @media (max-width: 719px) {
+      margin-left: -$spacing-unit;
+      margin-right: -$spacing-unit;
+
+      &:nth-of-type(even) {
+        $highlight-color: $color-pearl;
+        border-top-color: $highlight-color;
+
+        .uses-section-heading::after {
+          border-color: $highlight-color;
+        }
+      }
+    }
+
+    @media (min-width: 720px) {
+      $highlight-color: $color-mulberry;
+      border: 1px solid $highlight-color;
+
+      .uses-section-heading {
+        &::after {
+          border-color: $highlight-color;
+        }
+      }
+    }
+
+    @media (min-width: 720px) and (max-width: 1080px) {
+      &:nth-of-type(even) {
+        $highlight-color: $color-pearl;
+        border: 1px solid $highlight-color;
+  
+        .uses-section-heading::after {
+          border-color: $highlight-color;
+        }
+      }
+    }
+
+    @media (min-width: 1080px) {
+      &:nth-of-type(3n+2) {
+        $highlight-color: $color-pearl;
+        border: 1px solid $highlight-color;
+
+        .uses-section-heading::after {
+          border-color: $highlight-color;
+        }
+      }
+    }
+
+    @media (min-width: 720px) and (max-width: 1079px) {
+      margin-bottom: $spacing-unit-xl;
+    }
+  }
+
+  &-plugins-list {
+    @media (max-width: 639px) {
+      margin-left: $spacing-unit-sm;
+    }
+    
+    @media (min-width: 640px) {
+      column-gap: $spacing-unit-sm;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: 1080px) {
+      column-gap: $spacing-unit;
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  &-desc {
+    font-family: $font-barlow;
+    font-weight: 600;
+  }
+
+  &-divider {
+    color: $color-siren;
+  }
+
+  @media (min-width: 1080px) {
+    &-intro, &-section--tools, &-footer {
+      grid-column: span 2;
+    }
+
+    &-subsection--plugins {
+      max-width: unset!important; /* stylelint-disable-line declaration-no-important*/
+    }
+
+    &-section--tools > ul {
+      column-gap: $spacing-unit;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+
+      > li:not(.uses-subsection),
+      > .uses-subsection--plugins {
+        grid-column: span 3;
+      }
+    }
+  }
+}
