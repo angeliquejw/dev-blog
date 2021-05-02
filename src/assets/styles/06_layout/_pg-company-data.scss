@@ -94,8 +94,8 @@
       }
     }
 
-    .--active {
-      a::before { /* stylelint-disable-line selector-max-combinators */
+    .--active { /* stylelint-disable-line selector-max-class */
+      a::before { /* stylelint-disable-line selector-max-combinators */ /* stylelint-disable-line selector-max-class */
         background-color: $color-pearl;
         width: 132%;
 
@@ -141,7 +141,8 @@
   .embed-container {
     padding-top: $spacing-unit-lg;
 
-    &, iframe {
+    &,
+    iframe {
       min-height: 90vh;
     }
   }

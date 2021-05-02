@@ -1,8 +1,10 @@
 @use "sass:list";
 
+/* stylelint-disable */
 $display-options: block,
 inline-block,
 flex;
+/* stylelint-enable */
 
 @mixin u-display($value) {
   @if not list.index($display-options, $value) {

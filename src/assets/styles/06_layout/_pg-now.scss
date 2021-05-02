@@ -1,9 +1,7 @@
 .pg-now {
   padding-bottom: 0;
 
-  + .site-footer .top-link {
-
-    /* stylelint-disable-line selector-max-class */
+  + .site-footer .top-link { /* stylelint-disable-line selector-max-class */
     @media (max-width: 1089px) {
       filter: invert(0.62) contrast(3) hue-rotate(100deg);
     }
@@ -131,9 +129,7 @@
         background-color: $color-tumeric;
       }
 
-      > .direct-link {
-
-        /* stylelint-disable-line selector-max-class */
+      > .direct-link { /* stylelint-disable-line selector-max-class */
         @include hover-state {
           color: $color-tumeric;
         }
@@ -162,9 +158,7 @@
         background-color: transparent;
       }
 
-      > .direct-link {
-
-        /* stylelint-disable-line selector-max-class */
+      > .direct-link { /* stylelint-disable-line selector-max-class */
         @include hover-state {
           color: white;
         }

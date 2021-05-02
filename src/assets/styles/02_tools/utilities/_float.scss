@@ -1,6 +1,9 @@
 @use "sass:list";
+
+/* stylelint-disable */
 $float-options: left,
 right;
+/* stylelint-enable */
 
 @mixin u-float($direction) {
   @if not list.index($float-options, $direction) {
