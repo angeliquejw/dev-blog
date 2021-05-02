@@ -11,6 +11,7 @@
     "prod:eleventy": "ELEVENTY_ENV=production eleventy",
     "prod:proof": "cp ./src/keybase.txt ./_site/",
     "prod:parcel": "parcel build src/assets/img/* src/assets/img/*/* src/assets/img/*/*/* src/assets/styles/styles.scss src/assets/scripts/index.js --out-dir _site/assets",
+    "lint": "npx stylelint 'src/assets/styles/**/*scss'",
     "debug": "run-s clean && DEBUG=* eleventy"
   },
   "repository": {
