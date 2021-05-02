@@ -1,7 +1,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ renderData.title or custom_title or title or metadata.title }}</title>
+  <title>
+    {%- set pageTitle = renderData.title or custom_title or title %}
+    {{ pageTitle }}
+    {{ " | " if pageTitle }}
+    {{ metadata.title }}
+  </title>
   <meta name="Description" content="{{ renderData.description or description or metadata.description }}">
   <meta property="og:type" content="website" />
   <meta property="og:title" content="{{ renderData.title or title }}">
