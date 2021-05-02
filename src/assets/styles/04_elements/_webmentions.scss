@@ -22,7 +22,7 @@
     @media (min-width: 480px) {
       column-gap: $spacing-unit-lg;
       display: grid;
-      grid-template-areas:
+      grid-template-areas: /* style-lint-disable-line declaration-colon-space-after */
         "header header"
         "likes rts"
         "comments comments"

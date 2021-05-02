@@ -86,7 +86,7 @@
   }
 
   .page-list {
-    a {
+    a { /* stylelint-disable-line no-descending-specificity */
       color: $color-pearl;
 
       @include hover-state {
@@ -95,11 +95,9 @@
     }
 
     .--active {
-      a {
-        &::before {
-          background-color: $color-pearl;
-          width: 132%;
-        }
+      a::before { /* stylelint-disable-line selector-max-combinators */
+        background-color: $color-pearl;
+        width: 132%;
 
         @include hover-state {
           color: $color-pearl;
