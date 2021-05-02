@@ -3,6 +3,7 @@ title: "/uses"
 custom_title: Tech and tools I use
 summary: "My tech and tools. Inspired by <a href='https://uses.tech/'>Uses.Tech</a>."
 tags: [bits]
+date: Last Modified
 pageClass: pg-uses
 layout: layouts/page.njk
 ---
@@ -22,9 +23,8 @@ layout: layouts/page.njk
 <div class="uses-intro">
   <h1 class="uses-heading">What I use</h1>
 
-  <p>Some details about the tech and tools I use at work, teaching and when building personal projects, like this site. This list was last updated on May 1, 2021, and includes <em>zero</em> affiliate links.</p>
+  <p>Some details about the tech and tools I use at work, teaching and when building personal projects, like this site. This list was last updated on <time datetime="{{ page.date | htmlDateString }}" itemprop="datePublished">{{ page.date | readableDate }}</time>, and includes <em>zero</em> affiliate links.</p>
 </div>
-
 
 {%- for use in uses %}
 <section class="uses-section uses-section--{{ use.section | slug }}">
@@ -39,8 +39,8 @@ layout: layouts/page.njk
       {%- if item.subsection %}
       <li class="uses-subsection uses-subsection--{{item.subsection | slug }}">
 
-        {%- set pluginslist = (item.subsection === "Plugins") %}
-        <h3 class="{{ "uses-section-subheading--alt" if pluginslist }}">
+        {%- set pluginslist = (item.subsection === "plugins") %}
+        <h3 class="{{ "uses-section-subheading--alt" if pluginslist else "uses-section-subheading" }}">
           {{ item.subsection }}
           {{ divider | safe if pluginslist }}
         </h3>
