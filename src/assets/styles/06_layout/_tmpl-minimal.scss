@@ -6,14 +6,14 @@
     flex: 1 0 auto;
   }
 
-  nav {
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 100%;
-  }
-
   .page-list {
+    &-nav {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 100%;
+    }
+
     li {
       font-size: ms(1);
     }
