@@ -9,8 +9,8 @@ layout: layouts/minimal.njk
 ---
 
 <header>
-  <h1>{{ metadata.title }}</h1>
-  <p>Front-end lead and manager</h1>
+  <h1 class="resume-name"><span>{{ metadata.title }}</span></h1>
+  <p class="resume-headline">Front-end lead + manager</h1>
   <ul class="u-list-reset contact-list">
   	{%- for item in metadata.author.social %}
     {%- if item.mailto %}
@@ -19,71 +19,76 @@ layout: layouts/minimal.njk
     {%- endfor %}
     <li><a href="{{ metadata.url }}">{{ metadata.domain }}</a></li>
   </ul>
-  <nav>
-    <ol>
-      {%- for section in resume %}
-      {%- if section.slug %}
-      <li>
-        {%- set short_name = section.short_name or section.mid_name or section.section %}
-        {%- set mid_name = section.mid_name or section.short_name or section.section %}
-        <a href="#{{ section.slug }}" data-short="{{ short_name }}" data-mid="{{ mid_name }}" data-long="{{ section.section }}">
-          {{ section.section }}
-        </a>
-      </li>
-      {%- endif %}
-      {%- endfor %}
-    </ol>
-  </nav>
 </header>
+<nav class="resume-nav">
+  <ol class="u-list-reset">
+    {%- for section in resume %}
+    {%- if section.slug %}
+    <li>
+      {%- set short_name = section.short_name or section.mid_name or section.section %}
+      {%- set mid_name = section.mid_name or section.short_name or section.section %}
+      <a href="#{{ section.slug }}" data-short="{{ short_name }}" data-mid="{{ mid_name }}" data-long="{{ section.section }}">
+        <span class="u-sr-only">{{ section.section }}</span>
+      </a>
+    </li>
+    {%- endif %}
+    {%- endfor %}
+  </ol>
+</nav>
 
 {%- for section in resume %}
-<section {%- if section.slug %} id="{{ section.slug }}"{%- endif %}>
+<section {%- if section.slug %} id="{{ section.slug }}"{%- endif %} class="resume-section{%- if not section.slug %} resume-section--alt{%- endif %}">
 <h2>{{ section.section }}</h2>
 <ul class="u-list-reset">
   {%- for item in section.items %}
-  <li>
-
-    {%- if section.slug === "exp" %}
+  <li class="section-item">
     <h3>{{ item.title }}</h3>
+
+    {%- if section.slug === "work" %}
+    {%- if item.org %}
     <h4>{{ item.org }}</h4>
-    <p>{{ item.start }} &ndash; {{ item.end if item.end else "present" }}</p>
+    {%- endif %}
+    <p class="work-dates">{{ item.start | dateMoYr }} &ndash; {{ (item.end | dateMoYr) if item.end else "present" }}</p>
     {%- if item.tech %}
-    <h4>Technologies used:</h4>
-    <ul class="u-list-reset">
+    <h4 class="work-tech-heading">Technologies used:</h4>
+    <ul class="u-list-reset work-tech-list">
       {%- for tech in item.tech %}
       <li>{{ tech }}</li>
       {%- endfor %}
     </ul>
     {%- endif %}
-    <p>{{ item.description }} My responsibilities include{{ "d" if item.end }}:</p>
-    <ul>
+    <p>
+      {{ item.description }}
+      {%- if item.responsibilites %}
+      &nbsp;My responsibilities include{{ "d" if item.end }}:
+      {%- endif %}
+    </p>
+    {%- if item.responsibilites %}
+    <ul class="work-resp-list">
       {%- for resp in item.responsibilites %}
       <li>{{ resp }}</li>
       {%- endfor %}
     </ul>
+    {%- endif %}
 
-    {%- else %}
-
-    {%- if (section.slug === "skills" or section.slug === "talks") %}
-    <h3>{{ item.title }}</h3>
+    {%- elif section.slug === "talks" %}
+    <p>
+      {%- for detail in item.details %}
+      {{ detail.venue }} ({{ detail.date }}){%- if not loop.last %}, {%- endif %}
+      {%- endfor %}
+    </p>
+    {%- elif item.description %}
+    <p>{{ item.description | safe }}</p>
+    {%- elif item.details %}
     <ul class="u-list-reset">
       {%- for detail in item.details %}
       <li>
-        {%- if detail.venue %}
-        {{ detail.venue }}
-        {{ detail.date }}
-        {%- else %}
         {{ detail }}
-        {%- endif %}
       </li>
       {%- endfor %}
     </ul>
-    {%- elseif item.url %}
+    {%- elif item.url %}
     <a href="{{ item.url }}">{{ item.title }}</a>
-    {%- else %}
-    {{ item.title }}
-    {{ item.description | safe }}
-    {%- endif %}
     {%- endif %}
 
   </li>
