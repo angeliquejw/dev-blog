@@ -63,7 +63,7 @@
     li {
       margin-bottom: $spacing-unit;
 
-      a { /* stylelint-disable-line no-descending-specificity */ /* stylelint-disable-line selector-max-type */ /* stylelint-disable-line selector-max-combinators */
+      a { /* stylelint-disable-line selector-max-type */ /* stylelint-disable-line selector-max-combinators */
         border: 1px solid transparent;
         display: block;
         padding: $spacing-unit-sm;
@@ -86,7 +86,7 @@
   }
 
   .page-list {
-    a { /* stylelint-disable-line no-descending-specificity */
+    a {
       color: $color-pearl;
 
       @include hover-state {
@@ -94,7 +94,9 @@
       }
     }
 
-    .--active { /* stylelint-disable-line selector-max-class */
+    .--active {
+
+      /* stylelint-disable-line selector-max-class */
       a::before { /* stylelint-disable-line selector-max-combinators */ /* stylelint-disable-line selector-max-class */
         background-color: $color-pearl;
         width: 132%;
