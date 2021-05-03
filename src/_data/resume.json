@@ -1,7 +1,7 @@
 [{
     "section": "Technical Expertise",
     "slug": "skills",
-    "short_name": "Tech Exp",
+    "short_name": "Skills",
     "mid_name": "Tech Expertise",
     "items": [{
         "title": "Languages",
@@ -38,13 +38,13 @@
   },
   {
     "section": "Work + Experience",
-    "slug": "exp",
+    "slug": "work",
     "short_name": "Work",
     "mid_name": "Work + Exp",
     "items": [{
         "title": "Engineering Manager, Front-end",
         "org": "Lumen Learning",
-        "start": "10/2019",
+        "start": "2019-10",
         "tech": [
           "React",
           "Vue",
@@ -71,7 +71,14 @@
       {
         "title": "Adjunct Professor",
         "org": "MICA",
-        "start": "8/2018",
+        "start": "2018-08",
+        "tech": [
+          "Sass",
+          "HTML5",
+          "JavaScript",
+          "Eleventy",
+          "Git + GitHub"
+        ],
         "responsibilites": [
           "Instructing undergraduate students in GD 220 (Graphic Design 2) and GD 431 (Front End Web development)",
           "Developing curriculum and assignments for each 16-week course",
@@ -81,8 +88,8 @@
       {
         "title": "Senior UX Engineer",
         "org": "Fractured Atlas",
-        "start": "5/2017",
-        "end": "10/2019",
+        "start": "2017-05",
+        "end": "2019-10",
         "tech": [
           "Sass",
           "HTML5",
@@ -106,8 +113,8 @@
       {
         "title": "Senior Front-end Developer",
         "org": "Detroit Trading",
-        "start": "6/2014",
-        "end": "4/2017",
+        "start": "2014-06",
+        "end": "2017-04",
         "tech": [
           "Sass",
           "HTML5",
@@ -130,10 +137,9 @@
         ]
       },
       {
-        "title": "Web Designer + Developer",
-        "org": "Angélique Weger Web Design + Development",
-        "start": "9/2004",
-        "end": "6/2014",
+        "title": "Freelance Web Designer + Developer",
+        "start": "2004-09",
+        "end": "2014-06",
         "tech": [
           "CSS",
           "PHP",
