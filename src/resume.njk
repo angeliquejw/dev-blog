@@ -36,6 +36,8 @@ layout: layouts/minimal.njk
   </ol>
 </nav>
 
+{% include "symbols-resume.svg" %}
+
 {%- for section in resume %}
 <section {%- if section.slug %} id="{{ section.slug }}"{%- endif %} class="resume-section{%- if not section.slug %} resume-section--alt{%- endif %}">
 <h2>{{ section.section }}</h2>
@@ -94,6 +96,11 @@ layout: layouts/minimal.njk
   </li>
   {%- endfor %}
 </ul>
+{%- if section.slug %}
+<svg class="icon">
+  <use xlink:href="#icon-{{ section.slug }}" />
+</svg>
+{%- endif %}
 </section>
 
 {%- endfor %}
