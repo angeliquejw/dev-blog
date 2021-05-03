@@ -8,23 +8,23 @@ pageClass: pg-resume
 layout: layouts/minimal.njk
 ---
 
-<header>
-  <h1 class="resume-name"><span>{{ metadata.title }}</span></h1>
-  <p class="resume-headline">Front-end lead + manager</h1>
-  <ul class="u-list-reset contact-list">
+<header class="resume__header">
+  <h1 class="resume__name"><span>{{ metadata.title }}</span></h1>
+  <p class="resume__headline">Front-end lead + manager</h1>
+  <ul class="u-list-reset resume__contact-list">
   	{%- for item in metadata.author.social %}
     {%- if item.mailto %}
-    <li><a href="mailto:{{ item.mailto }}">{{ item.mailto }}</a></li>
+    <li class="resume__contact-list-item"><a href="mailto:{{ item.mailto }}">{{ item.mailto }}</a></li>
     {%- endif %}
     {%- endfor %}
-    <li><a href="{{ metadata.url }}">{{ metadata.domain }}</a></li>
+    <li class="resume__contact-list-item"><a href="{{ metadata.url }}">{{ metadata.domain }}</a></li>
   </ul>
 </header>
-<nav class="resume-nav">
-  <ol class="u-list-reset">
+<nav class="resume__nav">
+  <ol class="u-list-reset resume__nav-list">
     {%- for section in resume %}
     {%- if section.slug %}
-    <li>
+    <li class="resume__nav-list-item">
       {%- set short_name = section.short_name or section.mid_name or section.section %}
       {%- set mid_name = section.mid_name or section.short_name or section.section %}
       <a href="#{{ section.slug }}" data-short="{{ short_name }}" data-mid="{{ mid_name }}" data-long="{{ section.section }}">
@@ -39,68 +39,68 @@ layout: layouts/minimal.njk
 {% include "symbols-resume.svg" %}
 
 {%- for section in resume %}
-<section {%- if section.slug %} id="{{ section.slug }}"{%- endif %} class="resume-section{%- if not section.slug %} resume-section--alt{%- endif %}">
-<h2>{{ section.section }}</h2>
-<ul class="u-list-reset">
-  {%- for item in section.items %}
-  <li class="section-item">
-    <h3>{{ item.title }}</h3>
+<section {%- if section.slug %} id="{{ section.slug }}"{%- endif %} class="resume__section{%- if not section.slug %} resume__section--alt{%- endif %}">
+  <h2 class="resume__section-heading">{{ section.section }}</h2>
+  <ul class="u-list-reset resume__section-list">
+    {%- for item in section.items %}
+    <li class="resume__section-list-item">
+      <h3 class="resume__section-subheading">{{ item.title }}</h3>
 
-    {%- if section.slug === "work" %}
-    {%- if item.org %}
-    <h4>{{ item.org }}</h4>
-    {%- endif %}
-    <p class="work-dates">{{ item.start | dateMoYr }} &ndash; {{ (item.end | dateMoYr) if item.end else "present" }}</p>
-    {%- if item.tech %}
-    <h4 class="work-tech-heading">Technologies used:</h4>
-    <ul class="u-list-reset work-tech-list">
-      {%- for tech in item.tech %}
-      <li>{{ tech }}</li>
-      {%- endfor %}
-    </ul>
-    {%- endif %}
-    <p>
-      {{ item.description }}
-      {%- if item.responsibilites %}
-      &nbsp;My responsibilities include{{ "d" if item.end }}:
+      {%- if section.slug === "work" %}
+      {%- if item.org %}
+      <h4 class="work__org-name">{{ item.org }}</h4>
       {%- endif %}
-    </p>
-    {%- if item.responsibilites %}
-    <ul class="work-resp-list">
-      {%- for resp in item.responsibilites %}
-      <li>{{ resp }}</li>
-      {%- endfor %}
-    </ul>
-    {%- endif %}
+      <p class="work__dates">{{ item.start | dateMoYr }} &ndash; {{ (item.end | dateMoYr) if item.end else "present" }}</p>
+      {%- if item.tech %}
+      <h4 class="work__tech-heading">Technologies used:</h4>
+      <ul class="u-list-reset work__tech-list">
+        {%- for tech in item.tech %}
+        <li class="work__tech-list-item">{{ tech }}</li>
+        {%- endfor %}
+      </ul>
+      {%- endif %}
+      <p class="work__description">
+        {{ item.description }}
+        {%- if item.responsibilites %}
+        &nbsp;My responsibilities include{{ "d" if item.end }}:
+        {%- endif %}
+      </p>
+      {%- if item.responsibilites %}
+      <ul class="work__resp-list">
+        {%- for resp in item.responsibilites %}
+        <li class="work__resp-list-item">{{ resp }}</li>
+        {%- endfor %}
+      </ul>
+      {%- endif %}
 
-    {%- elif section.slug === "talks" %}
-    <p>
-      {%- for detail in item.details %}
-      {{ detail.venue }} ({{ detail.date }}){%- if not loop.last %}, {%- endif %}
-      {%- endfor %}
-    </p>
-    {%- elif item.description %}
-    <p>{{ item.description | safe }}</p>
-    {%- elif item.details %}
-    <ul class="u-list-reset">
-      {%- for detail in item.details %}
-      <li>
-        {{ detail }}
-      </li>
-      {%- endfor %}
-    </ul>
-    {%- elif item.url %}
-    <a href="{{ item.url }}">{{ item.title }}</a>
-    {%- endif %}
+      {%- elif section.slug === "talks" %}
+      <p class="resume__section-description">
+        {%- for detail in item.details %}
+        {{ detail.venue }} ({{ detail.date }}){%- if not loop.last %}, {%- endif %}
+        {%- endfor %}
+      </p>
+      {%- elif item.description %}
+      <p class="resume__section-description">{{ item.description | safe }}</p>
+      {%- elif item.details %}
+      <ul class="u-list-reset resume__section-sublist">
+        {%- for detail in item.details %}
+        <li class="resume__section-sublist-item">
+          {{ detail }}
+        </li>
+        {%- endfor %}
+      </ul>
+      {%- elif item.url %}
+      <a href="{{ item.url }}">{{ item.title }}</a>
+      {%- endif %}
 
-  </li>
-  {%- endfor %}
-</ul>
-{%- if section.slug %}
-<svg class="icon">
-  <use xlink:href="#icon-{{ section.slug }}" />
-</svg>
-{%- endif %}
+    </li>
+    {%- endfor %}
+  </ul>
+  {%- if section.slug %}
+  <svg class="resume__section-icon">
+    <use xlink:href="#icon-{{ section.slug }}" />
+  </svg>
+  {%- endif %}
 </section>
 
 {%- endfor %}
