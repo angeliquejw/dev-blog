@@ -44,7 +44,9 @@ layout: layouts/minimal.njk
   <ul class="u-list-reset resume__section-list">
     {%- for item in section.items %}
     <li class="resume__section-list-item">
+      {%- if section.slug %}
       <h3 class="resume__section-subheading">{{ item.title }}</h3>
+      {%- endif %}
 
       {%- if section.slug === "work" %}
       {%- if item.org %}

@@ -1,6 +1,26 @@
+$icon-size: 32px;
+
 .pg-resume {
+  background-color: $color-valentino;
+
   .page-list-nav {
+    background-color: $color-tumeric;
+    padding-bottom: $spacing-unit-xs;
     @include z-index(low);
+
+    @media (min-width: 720px) {
+      background-color: $color-offblack;
+    }
+  }
+
+  main {
+    background-color: $color-offwhite;
+    
+    @media (min-width: 920px) {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 880px;
+    }
   }
 
   p,
@@ -16,16 +36,26 @@
   &__nav {
     margin-left: (-$spacing-unit);
     margin-right: (-$spacing-unit);
+
+    @media (min-width: 720px) {
+      margin-left: (-$spacing-unit-lg);
+      margin-right: (-$spacing-unit-lg);
+    }
+
+    @media (min-width: 1160px) {
+      margin-left: (-$spacing-unit-xl);
+      margin-right: (-$spacing-unit-xl);
+    }
   }
 
   &__header {
     background-color: $color-patina;
     margin-top: -$spacing-unit-sm;
+    overflow-x: hidden;
     padding: $spacing-unit-xl $spacing-unit $spacing-unit;
   }
 
   &__nav {
-    border-top: 4px solid $color-tumeric;
     position: sticky;
     top: 0;
     @include z-index(low);
@@ -36,6 +66,7 @@
 
       &-item {
         background-color: $color-grey;
+        border-top: 4px solid $color-tumeric;
         counter-increment: nav;
         flex: 1 0 auto;
         position: relative;
@@ -65,7 +96,7 @@
           text-transform: uppercase;
 
           &::before {
-            color: $color-patina;
+            color: rgba($color-offwhite, 0.55);
             content: counter(nav);
             display: block;
             font-size: ms(3);
@@ -73,6 +104,17 @@
 
           &::after {
             content: attr(data-short);
+
+            /* stylelint-disable max-nesting-depth */
+            @media (min-width: 600px) {
+              content: attr(data-mid);
+            }
+
+            @media (min-width: 860px) {
+              content: attr(data-long);
+              font-size: 0.9rem;
+            }
+            /* stylelint-enable */
           }
         }
 
@@ -83,14 +125,26 @@
 
           a {
             color: white;
-
-            /* stylelint-disable max-nesting-depth */
-            &::before {
-              color: white;
-            }
-            /* stylelint-enable */
           }
         }
+      }
+    }
+
+    &::before {
+      @media (min-width: 1000px) {
+        background: $color-valentino;
+        background: linear-gradient(to top, rgba($color-valentino, 0.1), rgba($color-valentino, 0.6) 5%, rgba($color-valentino, 0.9) 32%, $color-valentino 80%);
+        content: "";
+        display: block;
+        height: 64px;
+        left: (-$icon-size) + (-$spacing-unit-xs);
+        position: absolute;
+        top: 0;
+        width: $icon-size;
+      }
+
+      @media (min-width: 1160px) {
+        left: (-$icon-size)+(-$spacing-unit-sm);
       }
     }
   }
@@ -105,9 +159,30 @@
       display: block;
       height: $spacing-unit-sm;
       left: (-$spacing-unit);
+      max-width: 720px;
       position: absolute;
-      width: $spacing-unit-xl;
       width: 80vw;
+
+
+      @media (min-width: 720px) {
+        left: (-$spacing-unit-lg);
+      }
+
+      @media (min-width: 1160px) {
+        left: (-$spacing-unit-xl);
+      }
+    }
+  }
+
+  &__section:not(.resume__section--alt) {
+    &::before {
+      @media (min-width: 600px) {
+        width: 60vw;
+      }
+
+      @media (min-width: 860px) {
+        width: 40vw;
+      }
     }
   }
 
@@ -170,11 +245,25 @@
     }
 
     &-subheading {
+      font-weight: $font-semibold;
       margin-bottom: $spacing-unit-xs;
     }
 
     &-icon {
-      display: none;
+      fill: $color-tumeric;
+      height: $icon-size;
+      left: (-$spacing-unit-lg) + (-$icon-size) + (-$spacing-unit-xs);
+      position: absolute;
+      top: 0;
+      width: $icon-size;
+
+      @media (max-width: 999px) {
+        display: none;
+      }
+
+      @media (min-width: 1160px) {
+        left: (-$spacing-unit-xl) + (-$icon-size) + (-$spacing-unit-sm);
+      }
     }
 
     a {
@@ -189,14 +278,21 @@
       margin-bottom: $spacing-unit-lg;
 
       .resume__section-heading {
+        font-family: $font-barlow;
         font-size: ms(1);
         opacity: 0.8;
         text-align: center;
+        text-transform: uppercase;
       }
 
       .resume__section-list {
-        display: flex;
-        justify-content: space-between;
+        column-gap: $spacing-unit;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 600px;
+        text-align: center;
       }
     }
   }
@@ -207,24 +303,31 @@
     &-list {
       column-gap: $spacing-unit;
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(4, 1fr);
 
-      &-item {
-        &:nth-child(1) {
-          grid-column: 1/2;
-          grid-row: 1/3;
-        }
+      @media (max-width: 719px) {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
 
-        &:nth-child(2) {
-          grid-column: 1/2;
-          grid-row: 3/5;
-        }
+        &-item {
+          &:nth-child(1) {
+            grid-column: 1/2;
+            grid-row: 1/3;
+          }
 
-        &:nth-child(3) {
-          grid-column: 2/3;
-          grid-row: 2/4;
+          &:nth-child(2) {
+            grid-column: 1/2;
+            grid-row: 3/5;
+          }
+
+          &:nth-child(3) {
+            grid-column: 2/3;
+            grid-row: 2/4;
+          }
         }
+      }
+
+      @media (min-width: 720px) {
+        grid-template-columns: repeat(3, 1fr);
       }
     }
 
@@ -271,7 +374,9 @@
 
   &__tech {
     &-heading {
+      font-family: $font-barlow;
       font-size: 1rem;
+      font-weight: $font-regular;
       margin-bottom: 0;
       margin-top: $spacing-unit-sm;
     }
@@ -298,6 +403,10 @@
 
     &-item {
       margin-bottom: $spacing-unit-xs;
+
+      &::marker {
+        color: $color-patina;
+      }
     }
   }
 }
@@ -319,13 +428,18 @@
       margin-top: 0;
     }
 
-    &-subheading + .resume__section-description {
-      &::before {
-        content: "■";
-        display: inline-block;
-        margin-right: $spacing-unit-xs;
-        position: relative;
-        top: -2px;
+    &-subheading {
+      font-size: 1rem;
+
+      + .resume__section-description {
+        &::before {
+          color: $color-patina;
+          content: "■";
+          display: inline-block;
+          margin-right: $spacing-unit-xs;
+          position: relative;
+          top: -2px;
+        }
       }
     }
   }
