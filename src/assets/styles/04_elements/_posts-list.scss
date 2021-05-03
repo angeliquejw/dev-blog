@@ -29,7 +29,6 @@
           color: $color-offwhite;
 
           /* stylelint-disable selector-max-combinators */
-          /* stylelint-disable max-nesting-depth */
           &::before,
           &::after {
             left: 0;
