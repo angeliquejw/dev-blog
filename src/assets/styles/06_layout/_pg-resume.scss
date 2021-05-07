@@ -13,6 +13,12 @@ $icon-size: 32px;
     }
   }
 
+  + .site-footer .top-link {
+    @media (min-width: 990px) {
+      filter: #{"invert(100%)"};
+    }
+  }
+
   main {
     background-color: $color-offwhite;
     
@@ -144,7 +150,7 @@ $icon-size: 32px;
       }
 
       @media (min-width: 1160px) {
-        left: (-$icon-size)+(-$spacing-unit-sm);
+        left: (-$icon-size) + (-$spacing-unit-sm);
       }
     }
   }
@@ -444,3 +450,186 @@ $icon-size: 32px;
     }
   }
 }
+
+/* stylelint-disable */
+@media print {
+  @page {
+    margin: 1.25cm 1.5cm 1.25cm;
+  }
+
+  body {
+    background-color: white;
+    font-size: 13pt;
+  }
+
+  .pg-resume {
+    background-color: white;
+
+    .page-list-nav, + .site-footer {
+      display: none !important;
+    }
+
+    main {
+      background-color: white;
+      color: black;
+      max-width: 100%;
+    }
+
+    p, li li {
+      line-height: 1.2;
+    }
+  }
+
+  .resume {
+    &__nav, &__section-icon, &__section--alt, &__name::before {
+      display: none !important;
+    }
+
+    &__header {
+      background-color: $color-offblack;
+      color: white;
+      padding: 11pt;
+      print-color-adjust: exact;
+    }
+
+    &__name {
+      font-size: 36pt;
+    }
+
+    &__headline {
+      margin-bottom: 8pt;
+      margin-top: 8pt;
+    }
+
+    &__contact-list {
+      display: flex;
+      font-size: 14pt;
+
+      &-item + .resume__contact-list-item {
+        margin-left: 32pt;
+      }
+    }
+
+    &__section{
+      &:not(.resume__section--alt) {
+        &::before {
+          background-color: $color-offblack;
+          height: 13pt;
+          top: 2pt;
+          width: 32pt;
+        }
+      }
+
+      &-heading {
+        font-size: 16pt;
+        margin-top: $spacing-unit;
+      }
+
+      &-subheading {
+        font-family: $font-barlow;
+        font-size: 14pt;
+        // font-size: 14pt !important;
+      }
+    }
+  }
+
+  .work {
+
+    &__description {
+      display: none !important;
+    }
+
+    &__org-name, &__dates, &__tech-heading {
+      font-size: 14pt;
+      margin-bottom: 4pt;
+      margin-top: 0;
+    }
+
+    &__org-name + .work__dates {
+      &::before {
+        color: $color-offblack;
+      }
+    }
+
+    &__tech {
+      &-heading {
+        font-size: 13pt;
+        margin-bottom: 0;
+        margin-top: 4pt;
+      }
+
+      &-list {
+        font-size: 13pt;
+        margin-bottom: 4pt;
+      }
+    }
+
+    &__resp-list-item {
+      margin-bottom: 2pt;
+
+      &::marker {
+        color: $color-offblack;
+      }
+    }
+  }
+
+  #skills, #work {
+    .resume__section-subheading {
+      margin-bottom: 0;
+    }
+  }
+
+  #skills {
+    .resume__section-subheading {
+      font-size: 13pt;
+      // font-size: 13pt !important;
+    }
+  }
+
+  #work {
+    .resume__section {
+      &-heading {
+        margin-top: 0;
+      }
+
+      &-subheading {
+        display: inline;
+        font-size: 14pt;
+
+        &::after {
+          color: $color-offblack;
+          content: " | ";
+          display: inline-block;
+          font-weight: 400;
+          margin-left: $spacing-unit-xs;
+        }
+      }
+
+      &-list-item {
+        margin-bottom: 24pt;
+      }
+    }
+  }
+
+  #talks,
+  #community,
+  #honors,
+  #edu {
+    page-break-inside: avoid;
+
+    .resume__section-subheading {
+      font-size: 13pt;
+
+      + .resume__section-description {
+        &::before {
+          color: $color-offblack;
+        }
+      }
+    }
+  }
+
+  #talks, #edu {
+    display: none !important;
+  }
+}
+/* stylelint-enable */
