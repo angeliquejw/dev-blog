@@ -220,7 +220,7 @@
       {
         "title": "HTML 101 Workshop",
         "details": [{
-          "venue": "Girl Develop It Baltimore",
+          "venue": "National Women In Tech Nonprofit",
           "date": "2014"
         }]
       },
@@ -242,7 +242,7 @@
     "section": "Community",
     "slug": "community",
     "items": [{
-        "title": "Girl Develop It",
+        "title": "National Women In Tech Nonprofit",
         "description": "Baltimore chapter leader and teacher from 2013–2017. Organized and presented hands-on workshops for women to learn web and software development. Coordinated teachers and volunteer teaching assistants across a wide variety of tech subjects. Built relationships with local companies and nonprofits who can provide space for our classes or other sponsorship opportunities. At the time I stepped down, the chapter had 1500+ members and had hosted 60+ events."
       },
       {
@@ -271,7 +271,7 @@
         "description": "2015 Baltimore Innovation Awards"
       },
       {
-        "title": "Tech Mission Org of the Year (Girl Develop It Baltimore)",
+        "title": "Tech Mission Org of the Year",
         "description": "2015 Baltimore Innovation Awards"
       },
       {
