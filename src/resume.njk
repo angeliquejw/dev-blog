@@ -52,28 +52,40 @@ layout: layouts/minimal.njk
       <h4 class="work__org-name">{{ item.org }}</h4>
       {%- endif %}
       <p class="work__dates">{{ item.start | dateMoYr }} &ndash; {{ (item.end | dateMoYr) if item.end else "present" }}</p>
-      {%- if item.tech %}
-      <h4 class="work__tech-heading">Technologies used:</h4>
-      <ul class="u-list-reset work__tech-list">
-        {%- for tech in item.tech %}
-        <li class="work__tech-list-item">{{ tech }}</li>
-        {%- endfor %}
-      </ul>
-      {%- endif %}
       <p class="work__description">
-        {{ item.description }}
-        {%- if item.responsibilites %}
-        &nbsp;My responsibilities include{{ "d" if item.end }}:
-        {%- endif %}
+        {{ item.description | safe }}
       </p>
-      {%- if item.responsibilites %}
+      {%- if item.responsibilities %}
       <ul class="work__resp-list">
-        {%- for resp in item.responsibilites %}
-        <li class="work__resp-list-item">{{ resp }}</li>
+        {%- for resp in item.responsibilities %}
+        <li class="work__resp-list-item">{{ resp | safe }}</li>
         {%- endfor %}
       </ul>
       {%- endif %}
-
+      {%- if item.leadership %}
+      <h4 class="work__resp-heading">Leadership</h4>
+      <ul class="work__resp-list">
+        {%- for resp in item.leadership %}
+        <li class="work__resp-list-item">{{ resp| safe  }}</li>
+        {%- endfor %}
+      </ul>
+      {%- endif %}
+      {%- if item.technical %}
+      <h4 class="work__resp-heading">Technical</h4>
+      <ul class="work__resp-list">
+        {%- for resp in item.technical %}
+        <li class="work__resp-list-item">{{ resp| safe  }}</li>
+        {%- endfor %}
+      </ul>
+      {%- endif %}
+      {%- if item.culture %}
+      <h4 class="work__resp-heading">Culture</h4>
+      <ul class="work__resp-list">
+        {%- for resp in item.culture %}
+        <li class="work__resp-list-item">{{ resp| safe  }}</li>
+        {%- endfor %}
+      </ul>
+      {%- endif %}
       {%- elif section.slug === "talks" %}
       <p class="resume__section-description">
         {%- for detail in item.details %}

@@ -378,40 +378,47 @@ $icon-size: 32px;
     }
   }
 
-  &__tech {
+  // &__tech {
+  //   &-heading {
+  //     font-family: $font-barlow;
+  //     font-size: 1rem;
+  //     font-weight: $font-regular;
+  //     margin-bottom: 0;
+  //     margin-top: $spacing-unit-sm;
+  //   }
+
+  //   &-list {
+  //     &-item {
+  //       display: inline;
+
+  //       &::after {
+  //         content: ", ";
+  //         display: inline;
+  //       }
+
+  //       &:last-child::after {
+  //         content: unset;
+  //       }
+  //     }
+  //   }
+  // }
+
+  &__resp {
     &-heading {
-      font-family: $font-barlow;
-      font-size: 1rem;
-      font-weight: $font-regular;
-      margin-bottom: 0;
+      margin-bottom: $spacing-unit-xs;
       margin-top: $spacing-unit-sm;
     }
 
     &-list {
+      list-style-type: square;
+      padding-left: $spacing-unit-sm;
+
       &-item {
-        display: inline;
+        margin-bottom: $spacing-unit-xs;
 
-        &::after {
-          content: ", ";
-          display: inline;
+        &::marker {
+          color: $color-patina;
         }
-
-        &:last-child::after {
-          content: unset;
-        }
-      }
-    }
-  }
-
-  &__resp-list {
-    list-style-type: square;
-    padding-left: $spacing-unit-sm;
-
-    &-item {
-      margin-bottom: $spacing-unit-xs;
-
-      &::marker {
-        color: $color-patina;
       }
     }
   }
@@ -528,7 +535,6 @@ $icon-size: 32px;
       &-subheading {
         font-family: $font-barlow;
         font-size: 14pt;
-        // font-size: 14pt !important;
       }
     }
   }
@@ -537,10 +543,15 @@ $icon-size: 32px;
 
     &__description {
       display: none !important;
+
+      + .work__resp-list {
+        margin-top: 8pt;
+      }
     }
 
-    &__org-name, &__dates, &__tech-heading {
-      font-size: 14pt;
+    // &__org-name, &__dates, &__tech-heading {
+    &__org-name, &__dates {
+      font-size: 15pt;
       margin-bottom: 4pt;
       margin-top: 0;
     }
@@ -551,24 +562,30 @@ $icon-size: 32px;
       }
     }
 
-    &__tech {
+    // &__tech {
+    //   &-heading {
+    //     font-size: 13pt;
+    //     margin-bottom: 0;
+    //     margin-top: 4pt;
+    //   }
+
+    //   &-list {
+    //     font-size: 13pt;
+    //     margin-bottom: 4pt;
+    //   }
+    // }
+
+    &__resp {
       &-heading {
-        font-size: 13pt;
-        margin-bottom: 0;
-        margin-top: 4pt;
+        font-family: $font-barlow;
       }
 
-      &-list {
-        font-size: 13pt;
-        margin-bottom: 4pt;
-      }
-    }
+      &-list-item {
+        margin-bottom: 2pt;
 
-    &__resp-list-item {
-      margin-bottom: 2pt;
-
-      &::marker {
-        color: $color-offblack;
+        &::marker {
+          color: $color-offblack;
+        }
       }
     }
   }
@@ -582,7 +599,6 @@ $icon-size: 32px;
   #skills {
     .resume__section-subheading {
       font-size: 13pt;
-      // font-size: 13pt !important;
     }
   }
 
@@ -594,7 +610,7 @@ $icon-size: 32px;
 
       &-subheading {
         display: inline;
-        font-size: 14pt;
+        font-size: 15pt;
 
         &::after {
           color: $color-offblack;

@@ -57,16 +57,21 @@
           "Git + GitHub",
           "Jira"
         ],
-        "description": "Founded in 2012, Lumen Learning uses open educational resources (OER) to provide affordable course materials that improve learning and replace expensive textbooks in high-enrollment college courses. Over 350 institutions across the U.S. use Lumen's award-winning digital courseware for in-person, online, and blended courses. ",
-        "responsibilites": [
-          "Leading front-end development across our products",
-          "Providing guidelines to developers and content team for creating inclusive and accessible markup and testing with screen readers",
-          "Updating overall team hiring process and managing hiring for the front-end team",
+        "description": "Founded in 2012, Lumen Learning uses open educational resources (OER) to provide affordable course materials that improve learning and replace expensive textbooks in high-enrollment college courses. Over 400 institutions across the U.S. use Lumen's award-winning digital courseware for in-person, online, and blended courses.",
+        "leadership": [
           "Holding 1:1s for a cohort of 5 team members at all skill levels",
-          "In direct collaboration with the Director of Engineering, establishing and modeling engineering team norms",
-          "Organizing and running team meetings, including sprint planning and retrospectives",
+          "Managing hiring for the front-end team, as well as updating engineering hiring and onboarding processes",
+          "Organizing and running team meetings, including sprint planning and retrospectives"
+        ],
+        "technical": [
+          "Responsible for scoping, planning and implementing front-end features and bug fixes across our products",
+          "Providing guidelines to developers and content team for creating inclusive and accessible markup and testing with screen readers",
+          "Collaborating with product owners and designers to successfully estimate and complete projects",
+          "Writing documentation and participating in code review"
+        ],
+        "culture": [
           "Conducting company-wide workshop on accessibility and inclusive design principles",
-          "Collaborating with product owners and designers to successfully estimate and complete projects"
+          "Establishing and modeling engineering team norms, specifically around learning/professional development and employee wellness"
         ]
       },
       {
@@ -80,7 +85,7 @@
           "Eleventy",
           "Git + GitHub"
         ],
-        "responsibilites": [
+        "responsibilities": [
           "Instructing undergraduate students in GD 220 (Graphic Design 2) and GD 431 (Front End Web development)",
           "Developing curriculum and assignments for each 16-week course",
           "Working 1:1 with students and providing detailed code review in response to assignments"
@@ -101,14 +106,20 @@
           "Google Analytics",
           "Mixpanel"
         ],
-        "description": "Fractured Atlas builds software and provides services to help artists and arts organizations—over 500,000—handle the business side of their work, like raising money, tracking donors and selling event tickets.",
-        "responsibilites": [
-          "Led front-end development of our crowdfunding site",
-          "Managed growing UX team and serving as project lead for crowdfunding and fundraising tool",
+        "description": "Fractured Atlas builds software and provides services to help over 500,000 artists and arts organizations handle the business side of their work, like raising money, tracking donors and selling event tickets.",
+        "leadership": [
+          "Managed UX team, including holding 1:1s and setting team priorities",
+          "Served as project lead for crowdfunding and fundraising tool, including organizing and running team meetings and retrospectives"
+        ],
+        "technical": [
           "Provided coding guidelines for writing maintainable Sass and inclusive and accessible markup",
-          "Created site wireframes and prototypes to improve internal discussions and planning about site features and organization",
-          "Wrote documentation, participated in code review and organized and ran team meetings, including retrospectives ",
-          "Developed and presented all-staff training on accessibility testing and best practices"
+          "Wrote and reviewed front-end code",
+          "Built and deployed design system to establish a consistent look and feel across a variety of applications",
+          "Created site wireframes and prototypes to improve internal discussions and planning about site features and organization"
+        ],
+        "culture": [
+          "Developed and presented all-staff training on accessibility testing and best practices",
+          "Provided guidance on the organization's transition to being wholly virtual/remote (including <a href='https://blog.fracturedatlas.org/how-we-work-virtually-featuring-angelique-weger-ded335653265'>being featured on our blog</a>)"
         ]
       },
       {
@@ -127,14 +138,14 @@
           "Bootstrap"
         ],
         "description": "Detroit Trading Company aggregates in-market automotive shopper intelligence, providing data that is responsible for more than $1 billion in monthly car sales.",
-        "responsibilites": [
-          "Created brand style guide and built component-based Sass stylesheets to make development more efficient",
+        "leadership": [
+          "Collaborated across the company, including CEO, .NET and Angular developers, designer and sales, to advocate for UX and to complete successful projects"
+        ],
+        "technical": [
           "Led A-B testing of lead-generation forms to increase engagement and conversion. Lead funnel conversion increased from ~5% to more than 10% through improvements to copy, design and mobile layout.",
-          "Prepared site wireframes and prototypes to improve internal discussions and planning about site features and organization",
-          "Collaborated across the company, including CEO, .NET and Angular developers, designer and sales, to advocate for UX and to complete successful projects",
-          "Led front-end development of our brand sites (car.show and usedca.rs); for online automotive shopping tools for brands such as Time, AutoGuide, CNET and Kmart; and for data-driven dashboards for our clients",
-          "Designed mobile-friendly, responsive layouts for automotive shopping sites and lead-generation forms",
-          "Browser and device testing of all web projects to ensure the best possible experience for all users"
+          "Responsible for front-end development of our brand sites (car.show and usedca.rs), online automotive shopping tools (for brands such as Time, AutoGuide, CNET and Kmart) and data-driven dashboards for our clients",
+          "Created brand style guide and built component-based Sass stylesheets to make development more efficient",
+          "Prepared site wireframes and prototypes to improve internal discussions and planning about site features and organization"
         ]
       },
       {
