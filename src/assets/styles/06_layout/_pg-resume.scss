@@ -137,7 +137,7 @@ $icon-size: 32px;
     }
 
     &::before {
-      @media (min-width: 1000px) {
+      @media screen and (min-width: 1000px) {
         background: $color-valentino;
         background: linear-gradient(to top, rgba($color-valentino, 0.1), rgba($color-valentino, 0.6) 5%, rgba($color-valentino, 0.9) 32%, $color-valentino 80%);
         content: "";
@@ -149,7 +149,7 @@ $icon-size: 32px;
         width: $icon-size;
       }
 
-      @media (min-width: 1160px) {
+      @media screen and (min-width: 1160px) {
         left: (-$icon-size) + (-$spacing-unit-sm);
       }
     }
@@ -310,7 +310,7 @@ $icon-size: 32px;
       column-gap: $spacing-unit;
       display: grid;
 
-      @media (max-width: 719px) {
+      @media screen and (max-width: 719px) {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(4, 1fr);
 
@@ -332,7 +332,7 @@ $icon-size: 32px;
         }
       }
 
-      @media (min-width: 720px) {
+      @media screen and (min-width: 720px) {
         grid-template-columns: repeat(3, 1fr);
       }
     }
@@ -524,6 +524,7 @@ $icon-size: 32px;
           height: 13pt;
           top: 2pt;
           width: 32pt;
+          width: 22pt;
         }
       }
 
@@ -597,8 +598,14 @@ $icon-size: 32px;
   }
 
   #skills {
-    .resume__section-subheading {
-      font-size: 13pt;
+    .resume__section {
+      &-subheading {
+        font-size: 13pt;
+      }
+
+      &-list {
+        grid-template-columns: repeat(3, 1fr);
+      }
     }
   }
 
