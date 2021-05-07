@@ -1,299 +1,305 @@
-[{
-    "section": "Technical Expertise",
-    "slug": "skills",
-    "short_name": "Skills",
-    "mid_name": "Tech Expertise",
-    "items": [{
-        "title": "Languages",
-        "details": [
-          "Sass/CSS",
-          "JavaScript",
-          "HTML",
-          "PHP",
-          "Ruby"
-        ]
-      },
-      {
-        "title": "Frameworks + Libraries",
-        "details": [
-          "Vue.js",
-          "React",
-          "Bootstrap",
-          "Middleman",
-          "Ruby on Rails"
-        ]
-      },
-      {
-        "title": "Tools",
-        "details": [
-          "Version control",
-          "Screen readers",
-          "Jira",
-          "InVision",
-          "Google Analytics",
-          "Mixpanel",
-          "Optimizely"
-        ]
-      }
-    ]
-  },
-  {
-    "section": "Work + Experience",
-    "slug": "work",
-    "short_name": "Work",
-    "mid_name": "Work + Exp",
-    "items": [{
-        "title": "Engineering Manager, Front-end",
-        "org": "Lumen Learning",
-        "start": "2019-10",
-        "tech": [
-          "React",
-          "Vue",
-          "TypeScript",
-          "Sass",
-          "HTML5",
-          "JavaScript",
-          "Ruby on Rails",
-          "Git + GitHub",
-          "Jira"
-        ],
-        "description": "Founded in 2012, Lumen Learning uses open educational resources (OER) to provide affordable course materials that improve learning and replace expensive textbooks in high-enrollment college courses. Over 400 institutions across the U.S. use Lumen's award-winning digital courseware for in-person, online, and blended courses.",
-        "leadership": [
-          "Holding 1:1s for a cohort of 5 team members at all skill levels",
-          "Managing hiring for the front-end team, as well as updating engineering hiring and onboarding processes",
-          "Organizing and running team meetings, including sprint planning and retrospectives"
-        ],
-        "technical": [
-          "Responsible for scoping, planning and implementing front-end features and bug fixes across our products",
-          "Providing guidelines to developers and content team for creating inclusive and accessible markup and testing with screen readers",
-          "Collaborating with product owners and designers to successfully estimate and complete projects",
-          "Writing documentation and participating in code review"
-        ],
-        "culture": [
-          "Conducting company-wide workshop on accessibility and inclusive design principles",
-          "Establishing and modeling engineering team norms, specifically around learning/professional development and employee wellness"
-        ]
-      },
-      {
-        "title": "Adjunct Professor",
-        "org": "MICA",
-        "start": "2018-08",
-        "tech": [
-          "Sass",
-          "HTML5",
-          "JavaScript",
-          "Eleventy",
-          "Git + GitHub"
-        ],
-        "responsibilities": [
-          "Instructing undergraduate students in GD 220 (Graphic Design 2) and GD 431 (Front End Web development)",
-          "Developing curriculum and assignments for each 16-week course",
-          "Working 1:1 with students and providing detailed code review in response to assignments"
-        ]
-      },
-      {
-        "title": "Senior UX Engineer",
-        "org": "Fractured Atlas",
-        "start": "2017-05",
-        "end": "2019-10",
-        "tech": [
-          "Sass",
-          "HTML5",
-          "JavaScript",
-          "Ruby on Rails",
-          "Elm",
-          "Git + GitHub",
-          "Google Analytics",
-          "Mixpanel"
-        ],
-        "description": "Fractured Atlas builds software and provides services to help over 500,000 artists and arts organizations handle the business side of their work, like raising money, tracking donors and selling event tickets.",
-        "leadership": [
-          "Managed UX team, including holding 1:1s and setting team priorities",
-          "Served as project lead for crowdfunding and fundraising tool, including organizing and running team meetings and retrospectives"
-        ],
-        "technical": [
-          "Provided coding guidelines for writing maintainable Sass and inclusive and accessible markup",
-          "Wrote and reviewed front-end code",
-          "Built and deployed design system to establish a consistent look and feel across a variety of applications",
-          "Created site wireframes and prototypes to improve internal discussions and planning about site features and organization"
-        ],
-        "culture": [
-          "Developed and presented all-staff training on accessibility testing and best practices",
-          "Provided guidance on the organization's transition to being wholly virtual/remote (including <a href='https://blog.fracturedatlas.org/how-we-work-virtually-featuring-angelique-weger-ded335653265'>being featured on our blog</a>)"
-        ]
-      },
-      {
-        "title": "Senior Front-end Developer",
-        "org": "Detroit Trading",
-        "start": "2014-06",
-        "end": "2017-04",
-        "tech": [
-          "Sass",
-          "HTML5",
-          "JavaScript",
-          "Visual Studio + TFS",
-          "Google Analytics",
-          "Optimizely",
-          "Zeplin",
-          "Bootstrap"
-        ],
-        "description": "Detroit Trading Company aggregates in-market automotive shopper intelligence, providing data that is responsible for more than $1 billion in monthly car sales.",
-        "leadership": [
-          "Collaborated across the company, including CEO, .NET and Angular developers, designer and sales, to advocate for UX and to complete successful projects"
-        ],
-        "technical": [
-          "Led A-B testing of lead-generation forms to increase engagement and conversion. Lead funnel conversion increased from ~5% to more than 10% through improvements to copy, design and mobile layout.",
-          "Responsible for front-end development of our brand sites (car.show and usedca.rs), online automotive shopping tools (for brands such as Time, AutoGuide, CNET and Kmart) and data-driven dashboards for our clients",
-          "Created brand style guide and built component-based Sass stylesheets to make development more efficient",
-          "Prepared site wireframes and prototypes to improve internal discussions and planning about site features and organization"
-        ]
-      },
-      {
-        "title": "Freelance Web Designer + Developer",
-        "start": "2004-09",
-        "end": "2014-06",
-        "tech": [
-          "CSS",
-          "PHP",
-          "WordPress",
-          "HTML5",
-          "JavaScript",
-          "Google Analytics"
-        ],
-        "description": "Designed and coded web sites for clients, including small and mid-size businesses, nonprofits, educational institutions and individuals. Majority of projects were bespoke WordPress sites, including custom themes, custom content types and custom plugin development. Handled lead generation and client relations and education/training."
-      }
-    ]
-  },
-  {
-    "section": "More Information",
-    "items": [{
-        "title": "LinkedIn",
-        "url": "http://www.linkedin.com/in/angeliqueweger"
-      },
-      {
-        "title": "GitHub",
-        "url": "http://github.com/angeliquejw"
-      },
-      {
-        "title": "StackOverflow",
-        "url": "http://stackoverflow.com/users/2309380/angelique"
-      }
-    ]
-  },
-  {
-    "section": "Talks + Workshops",
-    "slug": "talks",
-    "short_name": "Talks",
-    "items": [{
-        "title": "Intro to Sass",
-        "details": [{
-            "venue": "MICA",
-            "date": "2016"
-          },
-          {
-            "venue": "Baltimore Innovation Week",
-            "date": "2015"
-          }
-        ]
-      },
-      {
-        "title": "Superpowered Front-end Theming with Sass & SMACSS Workshop",
-        "details": [{
-          "venue": "Baltimore Innovation Week",
-          "date": "2015"
-        }]
-      },
-      {
-        "title": "Static Site Generators",
-        "details": [{
-          "venue": "Bmore on Rails",
-          "date": "2015"
-        }]
-      },
-      {
-        "title": "30 Tech Concepts in 30 Mins",
-        "details": [{
-          "venue": "AIGA Baltimore Ink & Pixels",
-          "date": "2015"
-        }]
-      },
-      {
-        "title": "HTML 101 Workshop",
-        "details": [{
-          "venue": "National Women In Tech Nonprofit",
-          "date": "2014"
-        }]
-      },
-      {
-        "title": "WordPress 101 Workshop",
-        "details": [{
-            "venue": "Baltimore Innovation Week",
-            "date": "2013"
-          },
-          {
-            "venue": "Mesh Baltimore",
-            "date": "2013"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "section": "Community",
-    "slug": "community",
-    "items": [{
-        "title": "National Women In Tech Nonprofit",
-        "description": "Baltimore chapter leader and teacher from 2013–2017. Organized and presented hands-on workshops for women to learn web and software development. Coordinated teachers and volunteer teaching assistants across a wide variety of tech subjects. Built relationships with local companies and nonprofits who can provide space for our classes or other sponsorship opportunities. At the time I stepped down, the chapter had 1500+ members and had hosted 60+ events."
-      },
-      {
-        "title": "Creative Mixtape",
-        "description": "Collaborative events between 7 Baltimore professional design associations. Participated in event and sponsorship logistics, including development of the one-page event site for our kickoff December 2016 event."
-      },
-      {
-        "title": "Bmore on Rails, AIGA, Mesh Baltimore",
-        "description": "speaker and member"
-      },
-      {
-        "title": "ChangeEngine",
-        "description": "Wrote a column on the intersection of art and measurable impact from 2012–2014 (<a href='http://changingmediagroup.com/category/art-social-change/art-that-counts/'>archive of articles</a>)"
-      }
-    ]
-  },
-  {
-    "section": "Honors",
-    "slug": "honors",
-    "items": [{
-        "title": "Spirited Woman Giving Back",
-        "description": "2017 Baltimore Spirited Woman Awards"
-      },
-      {
-        "title": "Technologist of the Year",
-        "description": "2015 Baltimore Innovation Awards"
-      },
-      {
-        "title": "Tech Mission Org of the Year",
-        "description": "2015 Baltimore Innovation Awards"
-      },
-      {
-        "title": "Von Hess Graduate Fellowship in Museum Education"
-      },
-      {
-        "title": "PASSHE Women's Consortium Annual Undergraduate Women's Leadership Institution Scholarship"
-      }
-    ]
-  },
-  {
-    "section": "Education",
-    "slug": "edu",
-    "short_name": "Edu",
-    "items": [{
-        "title": "The University of the Arts",
-        "description": "MA, Museum Communication <small>(pending thesis completion)</small>"
-      },
-      {
-        "title": "Indiana University of Pennsylvania",
-        "description": "BA, Journalism"
-      }
-    ]
-  }
+[
+	{
+		"section": "Technical Expertise",
+		"slug": "skills",
+		"short_name": "Skills",
+		"mid_name": "Tech Expertise",
+		"items": [
+			{
+				"title": "Languages",
+				"details": ["Sass/CSS", "JavaScript", "HTML", "PHP", "Ruby"]
+			},
+			{
+				"title": "Frameworks + Libraries",
+				"details": [
+					"Vue.js",
+					"React",
+					"Bootstrap",
+					"Middleman",
+					"Ruby on Rails"
+				]
+			},
+			{
+				"title": "Tools",
+				"details": [
+					"Version control",
+					"Screen readers",
+					"Jira",
+					"InVision",
+					"Google Analytics",
+					"Mixpanel",
+					"Optimizely"
+				]
+			}
+		]
+	},
+	{
+		"section": "Work + Experience",
+		"slug": "work",
+		"short_name": "Work",
+		"mid_name": "Work + Exp",
+		"items": [
+			{
+				"title": "Engineering Manager, Front-end",
+				"org": "Lumen Learning",
+				"start": "2019-10",
+				"tech": [
+					"React",
+					"Vue",
+					"TypeScript",
+					"Sass",
+					"HTML5",
+					"JavaScript",
+					"Ruby on Rails",
+					"Git + GitHub",
+					"Jira"
+				],
+				"description": "Founded in 2012, Lumen Learning uses open educational resources (OER) to provide affordable course materials that improve learning and replace expensive textbooks in high-enrollment college courses. Over 400 institutions across the U.S. use Lumen's award-winning digital courseware for in-person, online, and blended courses.",
+				"leadership": [
+					"Holding 1:1s for a cohort of 5 team members at all skill levels",
+					"Managing hiring for the front-end team, as well as updating engineering hiring and onboarding processes",
+					"Organizing and running team meetings, including sprint planning and retrospectives"
+				],
+				"technical": [
+					"Responsible for scoping, planning and implementing front-end features and bug fixes across our products",
+					"Providing guidelines to developers and content team for creating inclusive and accessible markup and testing with screen readers",
+					"Collaborating with product owners and designers to successfully estimate and complete projects",
+					"Writing documentation and participating in code review"
+				],
+				"culture": [
+					"Conducting company-wide workshop on accessibility and inclusive design principles",
+					"Establishing and modeling engineering team norms, specifically around learning/professional development and employee wellness"
+				]
+			},
+			{
+				"title": "Adjunct Professor",
+				"org": "MICA",
+				"start": "2018-08",
+				"tech": ["Sass", "HTML5", "JavaScript", "Eleventy", "Git + GitHub"],
+				"responsibilities": [
+					"Instructing undergraduate students in GD 220 (Graphic Design 2) and GD 431 (Front End Web development)",
+					"Developing curriculum and assignments for each 16-week course",
+					"Working 1:1 with students and providing detailed code review in response to assignments"
+				]
+			},
+			{
+				"title": "Senior UX Engineer",
+				"org": "Fractured Atlas",
+				"start": "2017-05",
+				"end": "2019-10",
+				"tech": [
+					"Sass",
+					"HTML5",
+					"JavaScript",
+					"Ruby on Rails",
+					"Elm",
+					"Git + GitHub",
+					"Google Analytics",
+					"Mixpanel"
+				],
+				"description": "Fractured Atlas builds software and provides services to help over 500,000 artists and arts organizations handle the business side of their work, like raising money, tracking donors and selling event tickets.",
+				"leadership": [
+					"Managed UX team, including holding 1:1s and setting team priorities",
+					"Served as project lead for crowdfunding and fundraising tool, including organizing and running team meetings and retrospectives"
+				],
+				"technical": [
+					"Provided coding guidelines for writing maintainable Sass and inclusive and accessible markup",
+					"Wrote and reviewed front-end code",
+					"Built and deployed design system to establish a consistent look and feel across a variety of applications",
+					"Created site wireframes and prototypes to improve internal discussions and planning about site features and organization"
+				],
+				"culture": [
+					"Developed and presented all-staff training on accessibility testing and best practices",
+					"Provided guidance on the organization's transition to being wholly virtual/remote (including <a href='https://blog.fracturedatlas.org/how-we-work-virtually-featuring-angelique-weger-ded335653265'>being featured on our blog</a>)"
+				]
+			},
+			{
+				"title": "Senior Front-end Developer",
+				"org": "Detroit Trading",
+				"start": "2014-06",
+				"end": "2017-04",
+				"tech": [
+					"Sass",
+					"HTML5",
+					"JavaScript",
+					"Visual Studio + TFS",
+					"Google Analytics",
+					"Optimizely",
+					"Zeplin",
+					"Bootstrap"
+				],
+				"description": "Detroit Trading Company aggregates in-market automotive shopper intelligence, providing data that is responsible for more than $1 billion in monthly car sales.",
+				"leadership": [
+					"Collaborated across the company, including CEO, .NET and Angular developers, designer and sales, to advocate for UX and to complete successful projects"
+				],
+				"technical": [
+					"Led A-B testing of lead-generation forms to increase engagement and conversion. Lead funnel conversion increased from ~5% to more than 10% through improvements to copy, design and mobile layout.",
+					"Responsible for front-end development of our brand sites (car.show and usedca.rs), online automotive shopping tools (for brands such as Time, AutoGuide, CNET and Kmart) and data-driven dashboards for our clients",
+					"Created brand style guide and built component-based Sass stylesheets to make development more efficient",
+					"Prepared site wireframes and prototypes to improve internal discussions and planning about site features and organization"
+				]
+			},
+			{
+				"title": "Freelance Web Designer + Developer",
+				"start": "2004-09",
+				"end": "2014-06",
+				"tech": [
+					"CSS",
+					"PHP",
+					"WordPress",
+					"HTML5",
+					"JavaScript",
+					"Google Analytics"
+				],
+				"description": "Designed and coded web sites for clients, including small and mid-size businesses, nonprofits, educational institutions and individuals. Majority of projects were bespoke WordPress sites, including custom themes, custom content types and custom plugin development. Handled lead generation and client relations and education/training."
+			}
+		]
+	},
+	{
+		"section": "More Information",
+		"items": [
+			{
+				"title": "LinkedIn",
+				"url": "http://www.linkedin.com/in/angeliqueweger"
+			},
+			{
+				"title": "GitHub",
+				"url": "http://github.com/angeliquejw"
+			},
+			{
+				"title": "StackOverflow",
+				"url": "http://stackoverflow.com/users/2309380/angelique"
+			}
+		]
+	},
+	{
+		"section": "Talks + Workshops",
+		"slug": "talks",
+		"short_name": "Talks",
+		"items": [
+			{
+				"title": "Intro to Sass",
+				"details": [
+					{
+						"venue": "MICA",
+						"date": "2016"
+					},
+					{
+						"venue": "Baltimore Innovation Week",
+						"date": "2015"
+					}
+				]
+			},
+			{
+				"title": "Superpowered Front-end Theming with Sass & SMACSS Workshop",
+				"details": [
+					{
+						"venue": "Baltimore Innovation Week",
+						"date": "2015"
+					}
+				]
+			},
+			{
+				"title": "Static Site Generators",
+				"details": [
+					{
+						"venue": "Bmore on Rails",
+						"date": "2015"
+					}
+				]
+			},
+			{
+				"title": "30 Tech Concepts in 30 Mins",
+				"details": [
+					{
+						"venue": "AIGA Baltimore Ink & Pixels",
+						"date": "2015"
+					}
+				]
+			},
+			{
+				"title": "HTML 101 Workshop",
+				"details": [
+					{
+						"venue": "National Women In Tech Nonprofit",
+						"date": "2014"
+					}
+				]
+			},
+			{
+				"title": "WordPress 101 Workshop",
+				"details": [
+					{
+						"venue": "Baltimore Innovation Week",
+						"date": "2013"
+					},
+					{
+						"venue": "Mesh Baltimore",
+						"date": "2013"
+					}
+				]
+			}
+		]
+	},
+	{
+		"section": "Community",
+		"slug": "community",
+		"items": [
+			{
+				"title": "National Women In Tech Nonprofit",
+				"description": "Baltimore chapter leader and teacher from 2013–2017. Organized and presented hands-on workshops for women to learn web and software development. Coordinated teachers and volunteer teaching assistants across a wide variety of tech subjects. Built relationships with local companies and nonprofits who can provide space for our classes or other sponsorship opportunities. At the time I stepped down, the chapter had 1500+ members and had hosted 60+ events."
+			},
+			{
+				"title": "Creative Mixtape",
+				"description": "Collaborative events between 7 Baltimore professional design associations. Participated in event and sponsorship logistics, including development of the one-page event site for our kickoff December 2016 event."
+			},
+			{
+				"title": "Bmore on Rails, AIGA, Mesh Baltimore",
+				"description": "speaker and member"
+			},
+			{
+				"title": "ChangeEngine",
+				"description": "Wrote a column on the intersection of art and measurable impact from 2012–2014 (<a href='http://changingmediagroup.com/category/art-social-change/art-that-counts/'>archive of articles</a>)"
+			}
+		]
+	},
+	{
+		"section": "Honors",
+		"slug": "honors",
+		"items": [
+			{
+				"title": "Spirited Woman Giving Back",
+				"description": "2017 Baltimore Spirited Woman Awards"
+			},
+			{
+				"title": "Technologist of the Year",
+				"description": "2015 Baltimore Innovation Awards"
+			},
+			{
+				"title": "Tech Mission Org of the Year",
+				"description": "2015 Baltimore Innovation Awards"
+			},
+			{
+				"title": "Von Hess Graduate Fellowship in Museum Education"
+			},
+			{
+				"title": "PASSHE Women's Consortium Annual Undergraduate Women's Leadership Institution Scholarship"
+			}
+		]
+	},
+	{
+		"section": "Education",
+		"slug": "edu",
+		"short_name": "Edu",
+		"items": [
+			{
+				"title": "The University of the Arts",
+				"description": "MA, Museum Communication <small>(pending thesis completion)</small>"
+			},
+			{
+				"title": "Indiana University of Pennsylvania",
+				"description": "BA, Journalism"
+			}
+		]
+	}
 ]
