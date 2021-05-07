@@ -1,26 +1,13 @@
 ---
-renderData:
-  title: Tagged “{{ tag }}”
-permalink: /tags/{{ tag | slug }}/
-pageClass: pg-tagged
+title: Tags
+permalink: /tags/
+pageClass: pg-tags
 layout: layouts/page.njk
-pagination:
-  data: collections
-  size: 1
-  alias: tag
-  filter:
-    - all
-    - nav
-    - post
-    - posts
-    - tagList
-  addAllPagesToCollections: true
 ---
 
-
-<h1 class="page-heading page-heading--alt">Tagged as <em class="u-block">{{ tag }}</em></h1>
-
-{% set postslist = collections[ tag ] | reverse %}
-{% include "posts-list.njk" %}
-
-<p class="tagged-ref"><span class="u-block">See</span> <span class="link-wrapper u-inline-block"><a href="/tags/" class="u-block">all tags</a></span></p>
+<ul class="u-list-reset">
+  {% for tagKey, tagVal in collections.tagCount %}
+  {% set tagUrl %}/tags/{{ tagKey | slug }}/{% endset %}
+  <li class="tag-item"><a href="{{ tagUrl }}" class="tag-item__link">{{ tagKey }} <span class="tag-item__number">{{ tagVal }}</span></a></li>
+  {% endfor %}
+</ul>
