@@ -1,87 +1,87 @@
 .blog-meta {
-  color: $color-siren;
-  margin: $spacing-unit auto $spacing-unit-lg;
-  padding-top: $spacing-unit-sm;
-  position: relative;
-  text-align: center;
-  width: 44%;
-  
-  p {
-    font-size: ms(-1);
-    font-style: italic;
-    margin: 0;
-    padding-top: $spacing-unit-xs;
-    text-transform: lowercase;
-  }
-  
-  em {
-    font-style: normal;
-    text-transform: uppercase;
-  }
+	color: $color-siren;
+	margin: $spacing-unit auto $spacing-unit-lg;
+	padding-top: $spacing-unit-sm;
+	position: relative;
+	text-align: center;
+	width: 44%;
 
-  ul {
-    @include z-index(low);
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: $spacing-unit-xs * -1;
-    margin-right: $spacing-unit-xs * -1;
-    position: relative;
-  }
+	p {
+		font-size: ms(-1);
+		font-style: italic;
+		margin: 0;
+		padding-top: $spacing-unit-xs;
+		text-transform: lowercase;
+	}
 
-  li {
-    line-height: 1.6;
-    margin-left: $spacing-unit-xs;
-    margin-right: $spacing-unit-xs;
-  }
+	em {
+		font-style: normal;
+		text-transform: uppercase;
+	}
 
-  a {
-    border-bottom: 1px solid rgba($color-mulberry, 0.5);
-    color: $color-siren;
-    text-decoration: none;
-    text-transform: uppercase;
+	ul {
+		@include z-index(low);
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: $spacing-unit-xs * -1;
+		margin-right: $spacing-unit-xs * -1;
+		position: relative;
+	}
 
-    @include hover-state {
-      border-bottom-color: $color-mulberry;
-    }
-  }
+	li {
+		line-height: 1.6;
+		margin-left: $spacing-unit-xs;
+		margin-right: $spacing-unit-xs;
+	}
 
-  &::before {
-    background-color: $color-tumeric;
-    content: "";
-    height: 3px; /* stylelint-disable-line plugin/8-point-grid */
-    left: 0;
-    margin: auto;
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 55%;
-  }
+	a {
+		border-bottom: 1px solid rgba($color-mulberry, 0.5);
+		color: $color-siren;
+		text-decoration: none;
+		text-transform: uppercase;
 
-  @media (max-width: 959px) {
-    ul {
-      justify-content: center;
-    }
-  }
+		@include hover-state {
+			border-bottom-color: $color-mulberry;
+		}
+	}
 
-  @media (min-width: 960px) {
-    margin-top: $spacing-unit-xl;
-    padding-bottom: $spacing-unit-sm;
-    position: absolute;
-    right: -220px;
-    text-align: left;
-    top: 220px;
-    width: 176px;
+	&::before {
+		background-color: $color-tumeric;
+		content: "";
+		height: 3px; /* stylelint-disable-line plugin/8-point-grid */
+		left: 0;
+		margin: auto;
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 55%;
+	}
 
-    &::after {
-      background-color: $color-tumeric;
-      bottom: 0;
-      content: "";
-      height: 3px; /* stylelint-disable-line plugin/8-point-grid */
-      left: 0;
-      margin: auto;
-      position: absolute;
-      right: 0;
-      width: 55%;
-    }
-  }
+	@media (max-width: 959px) {
+		ul {
+			justify-content: center;
+		}
+	}
+
+	@media (min-width: 960px) {
+		margin-top: $spacing-unit-xl;
+		padding-bottom: $spacing-unit-sm;
+		position: absolute;
+		right: -220px;
+		text-align: left;
+		top: 220px;
+		width: 176px;
+
+		&::after {
+			background-color: $color-tumeric;
+			bottom: 0;
+			content: "";
+			height: 3px; /* stylelint-disable-line plugin/8-point-grid */
+			left: 0;
+			margin: auto;
+			position: absolute;
+			right: 0;
+			width: 55%;
+		}
+	}
 }

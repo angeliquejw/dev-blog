@@ -1,50 +1,50 @@
 .post-header {
-  flex-direction: column-reverse;
-  margin-top: $spacing-unit;
+	flex-direction: column-reverse;
+	margin-top: $spacing-unit;
 
-  h1 {
-    color: $color-valentino;
-    font-family: $font-plex-sans;
-    font-size: ms(9);
-    font-weight: $font-bold;
-    line-height: 1.2;
-    margin-bottom: $spacing-unit-sm;
-    margin-top: $spacing-unit-xs;
-  }
+	h1 {
+		color: $color-valentino;
+		font-family: $font-plex-sans;
+		font-size: ms(9);
+		font-weight: $font-bold;
+		line-height: 1.2;
+		margin-bottom: $spacing-unit-sm;
+		margin-top: $spacing-unit-xs;
+	}
 
-  time {
-    color: $color-siren;
-    font-family: $font-plex-mono;
-    font-size: ms(0);
-    font-weight: $font-light;
-    line-height: 1;
-    padding-left: $spacing-unit-xs;
-    position: relative;
+	time {
+		color: $color-siren;
+		font-family: $font-plex-mono;
+		font-size: ms(0);
+		font-weight: $font-light;
+		line-height: 1;
+		padding-left: $spacing-unit-xs;
+		position: relative;
 
-    &::before {
-      @include z-index(bottom);
+		&::before {
+			@include z-index(bottom);
 
-      background-color: $color-offwhite;
-      content: "";
-      height: 11px; /* stylelint-disable-line plugin/8-point-grid */
-      left: (-$spacing-unit);
-      position: absolute;
-      top: 3px;
-      width: 200px;
+			background-color: $color-offwhite;
+			content: "";
+			height: 11px; /* stylelint-disable-line plugin/8-point-grid */
+			left: (-$spacing-unit);
+			position: absolute;
+			top: 3px;
+			width: 200px;
 
-      @media (min-width: 720px) {
-        left: (-$spacing-unit-lg);
-        width: 216px;
-      }
-    }
-  }
+			@media (min-width: 720px) {
+				left: (-$spacing-unit-lg);
+				width: 216px;
+			}
+		}
+	}
 
-  @media (min-width: 1140px) {
-    margin-left: -120px;
-    max-width: 544px;
+	@media (min-width: 1140px) {
+		margin-left: -120px;
+		max-width: 544px;
 
-    h1 {
-      font-size: ms(12);
-    }
-  }
+		h1 {
+			font-size: ms(12);
+		}
+	}
 }

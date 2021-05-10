@@ -1,56 +1,56 @@
 .pg-tagged {
-  .posts-list {
-    li::before {
-      background-color: $color-valentino;
-    }
-  }
+	.posts-list {
+		li::before {
+			background-color: $color-valentino;
+		}
+	}
 }
 
 .tagged-ref {
-  font-size: ms(2);
-  font-style: italic;
-  font-weight: $font-regular;
-  line-height: 1;
-  text-transform: lowercase;
+	font-size: ms(2);
+	font-style: italic;
+	font-weight: $font-regular;
+	line-height: 1;
+	text-transform: lowercase;
 
-  a {
-    font-size: ms(4);
-    font-style: normal;
-    margin-left: $spacing-unit-xs;
-    text-transform: uppercase;
-  }
+	a {
+		font-size: ms(4);
+		font-style: normal;
+		margin-left: $spacing-unit-xs;
+		text-transform: uppercase;
+	}
 
-  .link-wrapper {
-    @include z-index(mid);
-    position: relative;
+	.link-wrapper {
+		@include z-index(mid);
+		position: relative;
 
-    &::before {
-      background-color: $color-offwhite;
-      bottom: 0;
-      content: "";
-      height: 85%;
-      left: -4px;
-      opacity: 0.6;
-      position: absolute;
-      transition: width 400ms ease;
-      width: 120%;
-    }
+		&::before {
+			background-color: $color-offwhite;
+			bottom: 0;
+			content: "";
+			height: 85%;
+			left: -4px;
+			opacity: 0.6;
+			position: absolute;
+			transition: width 400ms ease;
+			width: 120%;
+		}
 
-    a {
-      color: $color-siren;
-      position: relative;
-      text-decoration: none;
-    }
+		a {
+			color: $color-siren;
+			position: relative;
+			text-decoration: none;
+		}
 
-    @include hover-state {
-      a {
-        color: $color-mulberry;
-      }
+		@include hover-state {
+			a {
+				color: $color-mulberry;
+			}
 
-      &::before {
-        opacity: 1;
-        width: 135%;
-      }
-    }
-  }
+			&::before {
+				opacity: 1;
+				width: 135%;
+			}
+		}
+	}
 }

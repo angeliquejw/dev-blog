@@ -1,109 +1,114 @@
 .blog-post {
-  font-family: $font-barlow;
+	font-family: $font-barlow;
 
-  h2, h3, h4 {
-    color: $color-valentino;
-    font-family: $font-plex-sans;
-  }
+	h2,
+	h3,
+	h4 {
+		color: $color-valentino;
+		font-family: $font-plex-sans;
+	}
 
-  h2 {
-    font-size: ms(4);
-    font-weight: $font-bold;
-    margin-bottom: $spacing-unit-sm;
-    margin-top: $spacing-unit;
-  }
+	h2 {
+		font-size: ms(4);
+		font-weight: $font-bold;
+		margin-bottom: $spacing-unit-sm;
+		margin-top: $spacing-unit;
+	}
 
-  h3 {
-    font-size: ms(3);
-    font-weight: $font-semibold;
-    margin-bottom: $spacing-unit-xs;
-    margin-top: $spacing-unit;
-  }
+	h3 {
+		font-size: ms(3);
+		font-weight: $font-semibold;
+		margin-bottom: $spacing-unit-xs;
+		margin-top: $spacing-unit;
+	}
 
-  h4 {
-    font-size: ms(2);
-    font-weight: $font-semibold;
-    margin-bottom: $spacing-unit-xs;
-    margin-top: $spacing-unit-sm;
-    text-transform: uppercase;
-  }
+	h4 {
+		font-size: ms(2);
+		font-weight: $font-semibold;
+		margin-bottom: $spacing-unit-xs;
+		margin-top: $spacing-unit-sm;
+		text-transform: uppercase;
+	}
 
-  p, li {
-    font-size: ms(1);
-    line-height: 1.4;
+	p,
+	li {
+		font-size: ms(1);
+		line-height: 1.4;
 
-    > code {
-      background-color: rgba($color-offwhite, 0.4);
-      color: $color-patina;
-      font-family: $font-plex-mono;
-      font-size: ms(-1);
-      font-weight: $font-light;
-      padding: 2px;
-    }
-  }
+		> code {
+			background-color: rgba($color-offwhite, 0.4);
+			color: $color-patina;
+			font-family: $font-plex-mono;
+			font-size: ms(-1);
+			font-weight: $font-light;
+			padding: 2px;
+		}
+	}
 
-  p {
-    margin-bottom: $spacing-unit-xs;
-    margin-top: 0;
-  }
+	p {
+		margin-bottom: $spacing-unit-xs;
+		margin-top: 0;
+	}
 
-  ol, ul {
-    margin-bottom: $spacing-unit-xs;
-    margin-top: $spacing-unit-xs;
-    padding-left: $spacing-unit;
-  }
+	ol,
+	ul {
+		margin-bottom: $spacing-unit-xs;
+		margin-top: $spacing-unit-xs;
+		padding-left: $spacing-unit;
+	}
 
-  li + li {
-    margin-top: $spacing-unit-sm;
-  }
+	li + li {
+		margin-top: $spacing-unit-xs/2;
+	}
 
-  pre {
-    margin-bottom: $spacing-unit-sm;
-    margin-top: $spacing-unit-sm;
+	pre {
+		margin-bottom: $spacing-unit-sm;
+		margin-top: $spacing-unit-sm;
 
-    > code {
-      font-family: $font-plex-mono;
-      font-size: ms(2);
-      font-weight: $font-light;
-      white-space: pre-wrap;
-    }
-  }
+		> code {
+			font-family: $font-plex-mono;
+			font-size: ms(2);
+			font-weight: $font-light;
+			white-space: pre-wrap;
+		}
+	}
 
-  img {
-    @include u-margin-horizontal-auto();
-    padding: $spacing-unit-xs;
-  }
+	img {
+		@include u-margin-horizontal-auto();
+		padding: $spacing-unit-xs;
+	}
 
-  a {
-    @include link-effect();
-  }
+	a {
+		@include link-effect();
+	}
 
-  cite, .content {
-    + p {
-      margin-top: 0;
-    }
-  }
+	cite,
+	.content {
+		+ p {
+			margin-top: 0;
+		}
+	}
 }
 
 // Styles for first graph and drop cap
 .content > p:first-of-type {
-  font-family: $font-plex-sans;
-  font-size: ms(2);
-  font-weight: $font-semibold;
-  line-height: 1.4;
-  margin-bottom: $spacing-unit;
+	font-family: $font-plex-sans;
+	font-size: ms(2);
+	font-weight: $font-semibold;
+	line-height: 1.4;
+	margin-bottom: $spacing-unit;
 
-  &::first-letter {
-    color: $color-tumeric;
-    float: left;
-    font-size: ms(16);
-    font-weight: $font-bold;
-    line-height: 0.68;
-    padding-right: 4px;
-    padding-top: 6px; /* stylelint-disable-line plugin/8-point-grid */
-  }
+	&::first-letter {
+		color: $color-tumeric;
+		float: left;
+		font-size: ms(16);
+		font-weight: $font-bold;
+		line-height: 0.68;
+		padding-right: 4px;
+		padding-top: 6px; /* stylelint-disable-line plugin/8-point-grid */
+	}
 
-  @media (min-width: 1360px) {
-    margin-right: -128px;
-  }
+	@media (min-width: 1360px) {
+		margin-right: -128px;
+	}
 }

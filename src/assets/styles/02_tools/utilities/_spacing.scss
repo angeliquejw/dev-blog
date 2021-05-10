@@ -1,42 +1,40 @@
 .u-margin-horizontal-auto {
-  @include u-margin-horizontal-auto();
+	@include u-margin-horizontal-auto();
 }
 
 // Loop to generate margin and padding clases based on the values set in settings/spacing.scss
 $spacing-directions: (
-  null: null,
-  "-top": "-top",
-  "-right": "-right",
-  "-bottom": "-bottom",
-  "-left": "-left",
-  "-horizontal": "-left""-right",
-  "-vertical": "-top""-bottom",
+	null: null,
+	"-top": "-top",
+	"-right": "-right",
+	"-bottom": "-bottom",
+	"-left": "-left",
+	"-horizontal": "-left" "-right",
+	"-vertical": "-top" "-bottom",
 );
 
 $spacing-properties: (
-  "padding": "padding",
-  "margin": "margin",
+	"padding": "padding",
+	"margin": "margin",
 );
 
 $spacing-sizes: (
-  null: $spacing-unit,
-  "-xs": $spacing-unit-xs,
-  "-sm": $spacing-unit-sm,
-  "-lg": $spacing-unit-lg,
-  "-xl": $spacing-unit-xl,
-  "-none": 0
+	null: $spacing-unit,
+	"-xs": $spacing-unit-xs,
+	"-sm": $spacing-unit-sm,
+	"-lg": $spacing-unit-lg,
+	"-xl": $spacing-unit-xl,
+	"-none": 0,
 );
 
 @each $property-namespace, $property in $spacing-properties {
-
-  @each $direction-namespace, $direction-rules in $spacing-directions {
-
-    @each $size-namespace, $size in $spacing-sizes {
-      .u-#{$property-namespace}#{$direction-namespace}#{$size-namespace} {
-        @each $direction in $direction-rules {
-          #{$property}#{$direction}: $size;
-        }
-      }
-    }
-  }
+	@each $direction-namespace, $direction-rules in $spacing-directions {
+		@each $size-namespace, $size in $spacing-sizes {
+			.u-#{$property-namespace}#{$direction-namespace}#{$size-namespace} {
+				@each $direction in $direction-rules {
+					#{$property}#{$direction}: $size;
+				}
+			}
+		}
+	}
 }

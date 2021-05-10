@@ -1,43 +1,46 @@
 .blog-post .footnotes {
-  background-color: rgba($color-offwhite, 0.4);
-  margin: $spacing-unit ($spacing-unit * -1) 0;
-  padding: $spacing-unit;
-  position: relative;
+	background-color: rgba($color-offwhite, 0.4);
+	margin: $spacing-unit ($spacing-unit * -1) 0;
+	padding: $spacing-unit;
+	position: relative;
 
-  &::before {
-    background-color: $color-patina;
-    content: "";
-    display: block;
-    height: 3px; /* stylelint-disable-line plugin/8-point-grid */
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 32%;
-  }
+	&::before {
+		background-color: $color-patina;
+		content: "";
+		display: block;
+		height: 3px; /* stylelint-disable-line plugin/8-point-grid */
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 32%;
+	}
 
-  a[href^="#return"] { /* stylelint-disable-line */
-    background: none;
-    border-bottom: none;
-    position: relative;
-    @include hover-state {
-      color: $color-mulberry;
-      top: -1px;
-    }
-  }
+	/* stylelint-disable selector-attribute-quotes */
+	/* stylelint-disable selector-no-qualifying-type */
+	a[href^="#return"] {
+		/* stylelint-enable */
+		background: none;
+		border-bottom: none;
+		position: relative;
+		@include hover-state {
+			color: $color-mulberry;
+			top: -1px;
+		}
+	}
 
-  @media (min-width: 720px) {
-    margin-left: ($spacing-unit-lg * -1);
-    margin-right: ($spacing-unit-lg * -1);
-    padding-left: $spacing-unit-lg;
-    padding-right: $spacing-unit-lg;
-  }
+	@media (min-width: 720px) {
+		margin-left: ($spacing-unit-lg * -1);
+		margin-right: ($spacing-unit-lg * -1);
+		padding-left: $spacing-unit-lg;
+		padding-right: $spacing-unit-lg;
+	}
 
-  @media (min-width: 1140px) {
-    margin-left: -256px;
-    padding-left: 256px;
+	@media (min-width: 1140px) {
+		margin-left: -256px;
+		padding-left: 256px;
 
-    &::before {
-      width: 72%;
-    }
-  }
+		&::before {
+			width: 72%;
+		}
+	}
 }

@@ -1,98 +1,100 @@
-.button-container, .button-tile {
-  align-items: center;
-  display: flex;
-  justify-content: center;
+.button-container,
+.button-tile {
+	align-items: center;
+	display: flex;
+	justify-content: center;
 }
 
 .button-tile {
-  min-height: 136px;
+	min-height: 136px;
 }
 
 .button-container {
+	margin-bottom: $spacing-unit-lg;
+	margin-top: $spacing-unit;
 
-  margin-bottom: $spacing-unit-lg;
-  margin-top: $spacing-unit;
-
-  p {
-    margin-bottom: 0;
-  }
+	p {
+		margin-bottom: 0;
+	}
 }
 
 .button {
-  color: $color-offwhite;
-  position: relative;
-  text-decoration: none;
-  text-transform: uppercase;
+	color: $color-offwhite;
+	position: relative;
+	text-decoration: none;
+	text-transform: uppercase;
 
-  &::before {
-    bottom: 0;
-    content: "";
-    left: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
+	&::before {
+		bottom: 0;
+		content: "";
+		left: 0;
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
 
-  > em {
-    font-style: normal;
-    font-weight: $font-light;
-    padding: $spacing-unit-xs;
-    position: relative;
+	> em {
+		font-style: normal;
+		font-weight: $font-light;
+		padding: $spacing-unit-xs;
+		position: relative;
 
-    &, &::before, &::after {
-      transition: $transition-default;
-    }
+		&,
+		&::before,
+		&::after {
+			transition: $transition-default;
+		}
 
-    &::before,
-    &::after {
-      @include z-index(bottom);
-      content: "";
-      height: 100%;
-      position: absolute;
-      width: 100%;
-    }
+		&::before,
+		&::after {
+			@include z-index(bottom);
+			content: "";
+			height: 100%;
+			position: absolute;
+			width: 100%;
+		}
 
-    &::before {
-      background-color: $color-offblack;
-      left: -2px;
-      top: -2px;
-    }
+		&::before {
+			background-color: $color-offblack;
+			left: -2px;
+			top: -2px;
+		}
 
-    &::after {
-      border: 1px solid $color-offwhite;
-      left: 2px;
-      top: 2px;
-    }
-  }
+		&::after {
+			border: 1px solid $color-offwhite;
+			left: 2px;
+			top: 2px;
+		}
+	}
 
-  .button-container & {
-    background-image: unset;
-    border-bottom: 0;
-    color: white;
-    text-decoration: none;
+	.button-container & {
+		background-image: unset;
+		border-bottom: 0;
+		color: white;
+		text-decoration: none;
 
-    > em {
-      display: inline-block;
-      padding: $spacing-unit;
-    }
-  }
+		> em {
+			display: inline-block;
+			padding: $spacing-unit;
+		}
+	}
 
-  @include hover-state {
-    > em {
-      color: $color-valentino;
+	@include hover-state {
+		> em {
+			color: $color-valentino;
 
-      /* stylelint-disable selector-max-combinators */
-      &::before,
-      &::after {
-        left: 0;
-        top: 0;
-      }
+			/* stylelint-disable selector-max-combinators */
+			&::before,
+			&::after {
+				left: 0;
+				top: 0;
+			}
 
-      &::before {
-        background-color: $color-offwhite;
-      }
+			&::before {
+				background-color: $color-offwhite;
+			}
 
-      /* stylelint-enable */
-    }
-  }
+			/* stylelint-enable */
+		}
+	}
 }

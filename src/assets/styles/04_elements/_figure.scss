@@ -1,32 +1,32 @@
 figure {
-  border-left: 4px solid $color-tumeric;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: $spacing-unit;
-  max-width: 100%;
-  width: max-content;
-  
-  figcaption {
-    background-color: $color-offwhite;
-    padding: $spacing-unit-xs;
-  }
+	border-left: 4px solid $color-tumeric;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: $spacing-unit;
+	max-width: 100%;
+	width: max-content;
+
+	figcaption {
+		background-color: $color-offwhite;
+		padding: $spacing-unit-xs;
+	}
 }
 
 .blog-post {
-  figure {
-    p {
-      margin: 0;
-    }
+	figure {
+		p {
+			margin: 0;
+		}
 
-    img {
-      padding: 0;
-    }
-  }
+		img {
+			padding: 0;
+		}
+	}
 
-  figcaption a {
-    animation: unset;
-    background-image: unset;
-    border-color: $color-valentino;
-    color: $color-offblack;
-  }
+	figcaption a {
+		animation: unset;
+		background-image: unset;
+		border-color: $color-valentino;
+		color: $color-offblack;
+	}
 }

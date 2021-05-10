@@ -1,11 +1,11 @@
 .pg-blog {
-  margin-top: $spacing-unit-lg;
+	margin-top: $spacing-unit-lg;
 
-  .page-heading {
-    @include u-sr-only();
-  }
+	.page-heading {
+		@include u-sr-only();
+	}
 
-  @media (min-width: 690px) {
-    margin-bottom: $spacing-unit-lg;
-  }
+	@media (min-width: 690px) {
+		margin-bottom: $spacing-unit-lg;
+	}
 }

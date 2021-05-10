@@ -1,108 +1,107 @@
 .bits-list {
+	li {
+		background-color: $color-tumeric;
+		margin-bottom: $spacing-unit;
+		margin-right: $spacing-unit-xs;
+		position: relative;
+		transition: $transition-default;
 
-  li {
-    background-color: $color-tumeric;
-    margin-bottom: $spacing-unit;
-    margin-right: $spacing-unit-xs;
-    position: relative;
-    transition: $transition-default;
+		&::after {
+			border: 2px solid rgba($color-patina, 0.72);
+			content: "";
+			height: 100%;
+			left: $spacing-unit-xs;
+			pointer-events: none;
+			position: absolute;
+			top: $spacing-unit-xs;
+			width: 100%;
+		}
 
-    &::after {
-      border: 2px solid rgba($color-patina, 0.72);
-      content: "";
-      height: 100%;
-      left: $spacing-unit-xs;
-      pointer-events: none;
-      position: absolute;
-      top: $spacing-unit-xs;
-      width: 100%;
-    }
+		&:nth-child(3n) {
+			background-color: $color-pearl;
+		}
 
-    &:nth-child(3n) {
-      background-color: $color-pearl;
-    }
+		&:nth-child(odd) {
+			&::after {
+				border-color: rgba($color-mulberry, 0.72);
+			}
+		}
 
-    &:nth-child(odd) {
-      &::after {
-        border-color: rgba($color-mulberry, 0.72);
-      }
-    }
+		@include hover-state {
+			background-color: rgba($color-tumeric, 0.92);
 
-    @include hover-state {
-      background-color: rgba($color-tumeric, 0.92);
+			&::after {
+				border-color: $color-patina;
+			}
 
-      &::after {
-        border-color: $color-patina;
-      }
+			&:nth-child(3n) {
+				background-color: rgba($color-pearl, 0.92);
+			}
 
-      &:nth-child(3n) {
-        background-color: rgba($color-pearl, 0.92);
-      }
+			&:nth-child(odd) {
+				&::after {
+					border-color: $color-mulberry;
+				}
+			}
+		}
+	}
 
-      &:nth-child(odd) {
-        &::after {
-          border-color: $color-mulberry;
-        }
-      }
-    }
-  }
+	p {
+		line-height: 1.3;
+	}
 
-  p {
-    line-height: 1.3;
-  }
+	a {
+		color: $color-siren;
+		@include hover-state {
+			color: $color-mulberry;
+		}
+	}
 
-  a {
-    color: $color-siren;
-    @include hover-state {
-      color: $color-mulberry;
-    }
-  }
+	@media (min-width: 640px) {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
 
-  @media (min-width: 640px) {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+		li {
+			&:nth-child(even) {
+				grid-column: 1/4;
+			}
 
-    li {
-      &:nth-child(even) {
-        grid-column: 1/4;
-      }
+			&:nth-child(odd) {
+				grid-column: 2/5;
+			}
+		}
+	}
 
-      &:nth-child(odd) {
-        grid-column: 2/5;
-      }
-    }
-  }
+	@media (min-width: 860px) {
+		align-items: center;
+		column-gap: $spacing-unit;
 
-  @media (min-width: 860px) {
-    align-items: center;
-    column-gap: $spacing-unit;
+		li {
+			&:nth-child(even) {
+				grid-column: 3/5;
+			}
 
-    li {
-      &:nth-child(even) {
-        grid-column: 3/5;
-      }
+			&:nth-child(odd) {
+				grid-column: 1/3;
+			}
+		}
+	}
 
-      &:nth-child(odd) {
-        grid-column: 1/3;
-      }
-    }
-  }
+	@media (min-width: 1120px) {
+		grid-template-columns: repeat(5, 1fr);
 
-  @media (min-width: 1120px) {
-    grid-template-columns: repeat(5, 1fr);
+		li {
+			&:nth-child(even) {
+				grid-column: span 3;
+			}
 
-    li {
-      &:nth-child(even) {
-        grid-column: span 3;
-      }
-      
-      &:nth-child(odd) {
-        grid-column: span 2;
-      }
-    }
-  }
+			&:nth-child(odd) {
+				grid-column: span 2;
+			}
+		}
+	}
 
-  @media (min-width: 1300px) {
-    grid-template-columns: repeat(7, 1fr);
-  }
+	@media (min-width: 1300px) {
+		grid-template-columns: repeat(7, 1fr);
+	}
 }

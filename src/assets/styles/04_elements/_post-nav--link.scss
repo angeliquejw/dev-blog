@@ -1,73 +1,73 @@
 .post-nav--link {
-  color: $color-siren;
-  padding: $spacing-unit-xs 0;
-  position: relative;
-  text-decoration: none;
+	color: $color-siren;
+	padding: $spacing-unit-xs 0;
+	position: relative;
+	text-decoration: none;
 
-  &::before,
-  &::after {
-    position: absolute;
-  }
+	&::before,
+	&::after {
+		position: absolute;
+	}
 
-  &::before {
-    @include z-index(bottom);
-    background-color: white;
-    bottom: -4px;
-    content: "";
-    height: 18px; /* stylelint-disable-line plugin/8-point-grid */
-    opacity: 0.45;
-    width: 23px; /* stylelint-disable-line plugin/8-point-grid */
-  }
+	&::before {
+		@include z-index(bottom);
+		background-color: white;
+		bottom: -4px;
+		content: "";
+		height: 18px; /* stylelint-disable-line plugin/8-point-grid */
+		opacity: 0.45;
+		width: 23px; /* stylelint-disable-line plugin/8-point-grid */
+	}
 
-  &::after {
-    @include z-index(low);
-    bottom: -5px;
-    color: $color-patina;
-    font-size: ms(1);
-    font-weight: $font-bold;
-  }
+	&::after {
+		@include z-index(low);
+		bottom: -5px;
+		color: $color-patina;
+		font-size: ms(1);
+		font-weight: $font-bold;
+	}
 
-  &__old {
-    padding-left: ($spacing-unit-xs / 2);
+	&__old {
+		padding-left: ($spacing-unit-xs / 2);
 
-    &::before {
-      right: 0;
-    }
+		&::before {
+			right: 0;
+		}
 
-    &::after {
-      content: "↵";
-      right: 2px;
-    }
-  }
+		&::after {
+			content: "↵";
+			right: 2px;
+		}
+	}
 
-  &__new {
-    padding-right: ($spacing-unit-xs / 2);
+	&__new {
+		padding-right: ($spacing-unit-xs / 2);
 
-    &::before {
-      left: 0;
-    }
+		&::before {
+			left: 0;
+		}
 
-    &::after {
-      content: "↳";
-      left: 2px;
-    }
-  }
+		&::after {
+			content: "↳";
+			left: 2px;
+		}
+	}
 
-  @include hover-state {
-    &::before {
-      height: 100%;
-      opacity: 1;
-      width: 100%;
-    }
+	@include hover-state {
+		&::before {
+			height: 100%;
+			opacity: 1;
+			width: 100%;
+		}
 
-    &::after {
-      color: $color-tumeric;
-      font-weight: $font-bold;
-    }
-  }
+		&::after {
+			color: $color-tumeric;
+			font-weight: $font-bold;
+		}
+	}
 
-  em {
-    font-weight: $font-semibold;
-    text-transform: lowercase;
-  }
+	em {
+		font-weight: $font-semibold;
+		text-transform: lowercase;
+	}
 }

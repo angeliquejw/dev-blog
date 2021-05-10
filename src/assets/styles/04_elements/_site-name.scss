@@ -1,41 +1,42 @@
 .site-name {
-  @include size(52px);
-  background-color: $color-siren;
-  font-size: ms(3);
-  left: 4px;
-  margin: 0;
-  position: relative;
-  text-align: center;
-  top: 4px;
-  transition: $transition-default;
+	@include size(52px);
+	background-color: $color-siren;
+	font-size: ms(3);
+	left: 4px;
+	margin: 0;
+	position: relative;
+	text-align: center;
+	top: 4px;
+	transition: $transition-default;
 
-  &::before {
-    @include size(52px);
-    border: 1px solid $color-mulberry;
-    content: "";
-    left: -4px;
-    position: absolute;
-    top: -4px;
-  }
+	&::before {
+		@include size(52px);
+		border: 1px solid $color-mulberry;
+		content: "";
+		left: -4px;
+		position: absolute;
+		top: -4px;
+	}
 
-  @include hover-state {
-    &, &::before {
-      transform: scale(1.04);
-    }
-  }
+	@include hover-state {
+		&,
+		&::before {
+			transform: scale(1.04);
+		}
+	}
 }
 
 .home-link {
-  align-items: center;
-  justify-content: center;
-  line-height: 1;
-  position: relative;
-  text-decoration: none;
-  top: -4px;
+	align-items: center;
+	justify-content: center;
+	line-height: 1;
+	position: relative;
+	text-decoration: none;
+	top: -4px;
 }
 
 .site-logo {
-  color: $color-tumeric;
-  font-size: ms(8);
-  font-weight: $font-thin;
+	color: $color-tumeric;
+	font-size: ms(8);
+	font-weight: $font-thin;
 }

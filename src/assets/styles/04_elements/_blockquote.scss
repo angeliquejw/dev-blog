@@ -1,63 +1,70 @@
 article blockquote {
-  background-color: $color-offwhite;
-  font-family: $font-plex-sans;
-  font-size: ms(1);
-  font-style: italic;
-  font-weight: $font-semibold;
-  line-height: 1.6;
-  margin: $spacing-unit-sm (-$spacing-unit) 0;
-  padding: $spacing-unit 24px;
-  position: relative;
+	background-color: $color-offwhite;
+	font-family: $font-plex-sans;
+	font-size: ms(1);
+	font-style: italic;
+	font-weight: $font-semibold;
+	line-height: 1.6;
+	margin: $spacing-unit-sm (-$spacing-unit) 0;
+	padding: $spacing-unit 24px;
+	position: relative;
 
-  &::before, &::after {
-    background-color: $color-tumeric;
-    content: "";
-    height: 4px;
-    position: absolute;
-    right: 0;
-    width: 60%;
-  }
+	&::before,
+	&::after {
+		background-color: $color-tumeric;
+		content: "";
+		height: 4px;
+		position: absolute;
+		right: 0;
+		width: 60%;
+	}
 
-  &::before {
-    top: 0;
-  }
+	&::before {
+		top: 0;
+	}
 
-  &::after {
-    bottom: 0;
-  }
+	&::after {
+		bottom: 0;
+	}
 
-  &.no-cite { /* stylelint-disable-line selector-no-qualifying-type */
-    margin-bottom: $spacing-unit;
-  }
+	/* stylelint-disable selector-no-qualifying-type */
+	&.no-cite {
+		/* stylelint-enable */
+		margin-bottom: $spacing-unit;
+	}
 
-  p:first-child { /* stylelint-disable-line selector-max-type*/
-    margin-top: 0;
-  }
+	/* stylelint-disable selector-max-type*/
+	p:first-child {
+		/* stylelint-enable */
+		margin-top: 0;
+	}
 
-  @media (min-width: 720px) {
-    margin-left: (-$spacing-unit-lg);
-    margin-right: (-$spacing-unit-lg);
-  }
+	@media (min-width: 720px) {
+		margin-left: (-$spacing-unit-lg);
+		margin-right: (-$spacing-unit-lg);
+	}
 
-  @media (min-width: 840px) {
-    &::before, &::after {
-      width: 300px; /* stylelint-disable-line plugin/8-point-grid*/
-    }
-  }
+	@media (min-width: 840px) {
+		&::before,
+		&::after {
+			width: 300px; /* stylelint-disable-line plugin/8-point-grid*/
+		}
+	}
 
-  @media (min-width: 960px) {
-    margin-right: (-$spacing-unit-lg) - 132px;
-  }
+	@media (min-width: 960px) {
+		margin-right: (-$spacing-unit-lg) - 132px;
+	}
 
-  @media (min-width: 1140px) {
-    margin-bottom: $spacing-unit-lg;
-    margin-left: -256px;
-    margin-right: -264px;
-    padding-left: 256px;
-    padding-right: 128px;
+	@media (min-width: 1140px) {
+		margin-bottom: $spacing-unit-lg;
+		margin-left: -256px;
+		margin-right: -264px;
+		padding-left: 256px;
+		padding-right: 128px;
 
-    &::before, &::after {
-      width: 264px;
-    }
-  }
+		&::before,
+		&::after {
+			width: 264px;
+		}
+	}
 }

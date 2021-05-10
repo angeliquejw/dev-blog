@@ -1,54 +1,55 @@
 {
-  "name": "angeliqueweger.com",
-  "version": "2.0.0",
-  "private": true,
-  "scripts": {
-    "clean": "rm -rf _site && rm -rf .cache && rm -rf _dev",
-    "start": "npm-run-all --parallel dev:*",
-    "dev:eleventy": "ELEVENTY_ENV=development eleventy --serve --output=./_dev",
-    "dev:parcel": "parcel watch src/assets/img/* src/assets/img/*/* src/assets/img/*/*/* src/assets/styles/styles.scss src/assets/scripts/index.js --out-dir _dev/assets",
-    "build": "run-s clean prod:*",
-    "prod:eleventy": "ELEVENTY_ENV=production eleventy",
-    "prod:proof": "cp ./src/keybase.txt ./_site/",
-    "prod:parcel": "parcel build src/assets/img/* src/assets/img/*/* src/assets/img/*/*/* src/assets/styles/styles.scss src/assets/scripts/index.js --out-dir _site/assets",
-    "lint": "npx stylelint 'src/assets/styles/**/*scss'",
-    "debug": "run-s clean && DEBUG=* eleventy"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/angeliquejw/dev-blog.git"
-  },
-  "author": {
-    "name": "Angélique Weger",
-    "email": "hello@angeliqueweger.com",
-    "url": "https://angeliqueweger.com/"
-  },
-  "resolutions": {
-    "@babel/preset-env": "7.13.8"
-  },
-  "devDependencies": {
-    "@11ty/eleventy": "^0.11.1",
-    "@11ty/eleventy-plugin-rss": "^1.1.0",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.6",
-    "caniuse-lite": "^1.0.30001194",
-    "eleventy-plugin-reading-time": "0.0.1",
-    "luxon": "^1.26.0",
-    "markdown-it": "^11.0.0",
-    "markdown-it-abbr": "^1.0.4",
-    "markdown-it-anchor": "^6.0.1",
-    "markdown-it-attrs": "^3.0.3",
-    "markdown-it-code-embed": "0.0.8",
-    "markdown-it-prism": "^2.1.4",
-    "minimage": "^2.0.5",
-    "node-fetch": "^2.6.1",
-    "npm-run-all": "^4.1.5",
-    "parcel-bundler": "^1.12.4",
-    "parcel-plugin-imagemin": "^4.0.2",
-    "prettier": "2.2.1",
-    "sanitize-html": "^2.3.2",
-    "sass": "^1.32.8",
-    "stylelint": "^13.11.0",
-    "stylelint-8-point-grid": "^1.0.0",
-    "stylelint-order": "^4.1.0"
-  }
+	"name": "angeliqueweger.com",
+	"version": "2.0.0",
+	"private": true,
+	"scripts": {
+		"clean": "rm -rf _site && rm -rf .cache && rm -rf _dev",
+		"start": "npm-run-all --parallel dev:*",
+		"dev:eleventy": "ELEVENTY_ENV=development eleventy --serve --output=./_dev",
+		"dev:parcel": "parcel watch src/assets/img/* src/assets/img/*/* src/assets/img/*/*/* src/assets/styles/styles.scss src/assets/scripts/index.js --out-dir _dev/assets",
+		"build": "run-s clean prod:*",
+		"prod:eleventy": "ELEVENTY_ENV=production eleventy",
+		"prod:proof": "cp ./src/keybase.txt ./_site/",
+		"prod:parcel": "parcel build src/assets/img/* src/assets/img/*/* src/assets/img/*/*/* src/assets/styles/styles.scss src/assets/scripts/index.js --out-dir _site/assets",
+		"lint": "npx stylelint 'src/assets/styles/**/*scss'",
+		"debug": "run-s clean && DEBUG=* eleventy"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/angeliquejw/dev-blog.git"
+	},
+	"author": {
+		"name": "Angélique Weger",
+		"email": "hello@angeliqueweger.com",
+		"url": "https://angeliqueweger.com/"
+	},
+	"resolutions": {
+		"@babel/preset-env": "7.13.8"
+	},
+	"devDependencies": {
+		"@11ty/eleventy": "^0.11.1",
+		"@11ty/eleventy-plugin-rss": "^1.1.0",
+		"@11ty/eleventy-plugin-syntaxhighlight": "^3.0.6",
+		"caniuse-lite": "^1.0.30001194",
+		"eleventy-plugin-reading-time": "0.0.1",
+		"luxon": "^1.26.0",
+		"markdown-it": "^11.0.0",
+		"markdown-it-abbr": "^1.0.4",
+		"markdown-it-anchor": "^6.0.1",
+		"markdown-it-attrs": "^3.0.3",
+		"markdown-it-code-embed": "0.0.8",
+		"markdown-it-prism": "^2.1.4",
+		"minimage": "^2.0.5",
+		"node-fetch": "^2.6.1",
+		"npm-run-all": "^4.1.5",
+		"parcel-bundler": "^1.12.4",
+		"parcel-plugin-imagemin": "^4.0.2",
+		"prettier": "2.2.1",
+		"sanitize-html": "^2.3.2",
+		"sass": "^1.32.8",
+		"stylelint": "^13.11.0",
+		"stylelint-8-point-grid": "^1.0.0",
+		"stylelint-config-prettier": "^7.0.0",
+		"stylelint-order": "^4.1.0"
+	}
 }

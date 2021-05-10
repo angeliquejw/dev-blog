@@ -1,36 +1,37 @@
 /* stylelint-disable */
-$z-index: (top : 10,
-  high : 9,
-  mid : 5,
-  low : 1,
-  bottom : -1,
+$z-index: (
+	top: 10,
+	high: 9,
+	mid: 5,
+	low: 1,
+	bottom: -1,
 );
 /* stylelint-enable */
 
 @function z-index($key) {
-  @return map-get($z-index, $key);
+	@return map-get($z-index, $key);
 }
 
 @mixin z-index($key) {
-  z-index: z-index($key);
+	z-index: z-index($key);
 }
 
 .u-z-bottom {
-  @include z-index(bottom);
+	@include z-index(bottom);
 }
 
 .u-z-low {
-  @include z-index(low);
+	@include z-index(low);
 }
 
 .u-z-mid {
-  @include z-index(mid);
+	@include z-index(mid);
 }
 
 .u-z-high {
-  @include z-index(high);
+	@include z-index(high);
 }
 
 .u-z-top {
-  @include z-index(top);
+	@include z-index(top);
 }

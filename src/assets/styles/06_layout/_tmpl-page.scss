@@ -1,21 +1,21 @@
 .tmpl-page {
-  background-color: $color-grey;
-  display: flex;
-  flex-direction: column;
+	background-color: $color-grey;
+	display: flex;
+	flex-direction: column;
 
-  &--alt {
-    background-color: $color-valentino;
+	&--alt {
+		background-color: $color-valentino;
 
-    .page-list a {
-      color: $color-pearl;
+		.page-list a {
+			color: $color-pearl;
 
-      @include hover-state {
-        color: $color-offwhite;
-      }
-    }
-  }
+			@include hover-state {
+				color: $color-offwhite;
+			}
+		}
+	}
 
-  main {
-    flex-grow: 1;
-  }
+	main {
+		flex-grow: 1;
+	}
 }

@@ -1,19 +1,19 @@
 .meta-wrapper {
-  margin: $spacing-unit-lg (-$spacing-unit) $spacing-unit;
+	margin: $spacing-unit-lg (-$spacing-unit) $spacing-unit;
 
-  @media (min-width: 720px) {
-    margin-left: (-$spacing-unit-lg);
-  }
+	@media (min-width: 720px) {
+		margin-left: (-$spacing-unit-lg);
+	}
 
-  @media (max-width: 959px) {
-    position: relative;
-  }
+	@media (max-width: 959px) {
+		position: relative;
+	}
 
-  @media (min-width: 960px) {
-    margin-top: 0;
-  }
+	@media (min-width: 960px) {
+		margin-top: 0;
+	}
 
-  @media (min-width: 1140px) {
-    margin: (-$spacing-unit) -120px 0;
-  }
+	@media (min-width: 1140px) {
+		margin: (-$spacing-unit) -120px 0;
+	}
 }

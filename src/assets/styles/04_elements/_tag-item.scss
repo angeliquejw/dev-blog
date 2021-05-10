@@ -1,35 +1,34 @@
 .tag-item {
-  margin-bottom: $spacing-unit-xs;
+	margin-bottom: $spacing-unit-xs;
 
-  &__link {
-    border: 1px solid transparent;
-    color: $color-offblack;
-    display: flex;
-    font-family: $font-plex-sans;
-    justify-content: space-between;
-    padding-left: 2px;
-    text-decoration: none;
-    transition: all 400ms ease;
+	&__link {
+		border: 1px solid transparent;
+		color: $color-offblack;
+		display: flex;
+		font-family: $font-plex-sans;
+		justify-content: space-between;
+		padding-left: 2px;
+		text-decoration: none;
+		transition: all 400ms ease;
 
-    @include hover-state {
+		@include hover-state {
+			border-color: $color-tumeric;
+			font-style: italic;
 
-      border-color: $color-tumeric;
-      font-style: italic;
+			.tag-item__number {
+				align-items: center;
+				background-color: $color-tumeric;
+				display: flex;
+				visibility: visible;
+			}
+		}
+	}
 
-      .tag-item__number {
-        align-items: center;
-        background-color: $color-tumeric;
-        display: flex;
-        visibility: visible;
-      }
-    }
-  }
-
-  &__number {
-    font-family: $font-plex-mono;
-    font-style: normal;
-    font-weight: $font-semibold;
-    padding: 2px 4px;
-    visibility: hidden;
-  }
+	&__number {
+		font-family: $font-plex-mono;
+		font-style: normal;
+		font-weight: $font-semibold;
+		padding: 2px 4px;
+		visibility: hidden;
+	}
 }

@@ -1,11 +1,11 @@
 .pg-tags {
-  .page-heading {
-    color: $color-siren;
-  }
+	.page-heading {
+		color: $color-siren;
+	}
 
-  ul {
-    display: grid;
-    grid-gap: $spacing-unit-xs;
-    grid-template-columns: repeat(auto-fill, minmax(148px, 1fr));
-  }
+	ul {
+		display: grid;
+		grid-gap: $spacing-unit-xs;
+		grid-template-columns: repeat(auto-fill, minmax(148px, 1fr));
+	}
 }

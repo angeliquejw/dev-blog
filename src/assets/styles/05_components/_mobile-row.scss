@@ -1,16 +1,16 @@
 .mobile-row {
-  @include u-display(flex);
-  justify-content: space-between;
+	@include u-display(flex);
+	justify-content: space-between;
 
-  @media (max-width: 719px) {
-    background-color: $color-offblack;
-    height: 40px;
-    padding: $spacing-unit-xs;
-  }
+	@media (max-width: 719px) {
+		background-color: $color-offblack;
+		height: 40px;
+		padding: $spacing-unit-xs;
+	}
 
-  @media (min-width: 720px) {
-    flex-direction: column;
-    flex-grow: 1;
-    margin-bottom: $spacing-unit-lg;
-  }
+	@media (min-width: 720px) {
+		flex-direction: column;
+		flex-grow: 1;
+		margin-bottom: $spacing-unit-lg;
+	}
 }

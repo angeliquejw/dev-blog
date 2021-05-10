@@ -1,97 +1,97 @@
 .labels-list {
-  left: $spacing-unit-xs;
-  position: relative;
-  transition: $transition-default;
+	left: $spacing-unit-xs;
+	position: relative;
+	transition: $transition-default;
 
-  li {
-    color: $color-offwhite;
-    font-size: ms(4);
-    line-height: 1.2;
+	li {
+		color: $color-offwhite;
+		font-size: ms(4);
+		line-height: 1.2;
 
-    @media (max-width: 719px) {
-      &:nth-of-type(odd) {
-        text-transform: uppercase;
-      }
+		@media (max-width: 719px) {
+			&:nth-of-type(odd) {
+				text-transform: uppercase;
+			}
 
-      &:nth-of-type(even) {
-        font-style: italic;
-        font-weight: $font-semibold;
-        margin-bottom: $spacing-unit-sm;
-        margin-left: $spacing-unit;
-        text-transform: lowercase;
-      }
+			&:nth-of-type(even) {
+				font-style: italic;
+				font-weight: $font-semibold;
+				margin-bottom: $spacing-unit-sm;
+				margin-left: $spacing-unit;
+				text-transform: lowercase;
+			}
 
-      &:last-of-type {
-        font-weight: $font-semibold;
-      }
-    }
+			&:last-of-type {
+				font-weight: $font-semibold;
+			}
+		}
 
-    @media (min-width: 720px) {
-      background-color: $color-offblack;
-      font-size: ms(5);
-      font-weight: $font-light;
-      padding: $spacing-unit-sm $spacing-unit-xs;
-      position: relative;
-      text-transform: uppercase;
-      width: max-content;
+		@media (min-width: 720px) {
+			background-color: $color-offblack;
+			font-size: ms(5);
+			font-weight: $font-light;
+			padding: $spacing-unit-sm $spacing-unit-xs;
+			position: relative;
+			text-transform: uppercase;
+			width: max-content;
 
-      &::after {
-        background-color: $color-tumeric;
-        bottom: -4px;
-        content: "";
-        display: block;
-        height: 100%;
-        position: absolute;
-        right: -$spacing-unit-xs;
-        width: 100%;
-        @include z-index(bottom);
-      }
+			&::after {
+				background-color: $color-tumeric;
+				bottom: -4px;
+				content: "";
+				display: block;
+				height: 100%;
+				position: absolute;
+				right: -$spacing-unit-xs;
+				width: 100%;
+				@include z-index(bottom);
+			}
 
-      &:nth-of-type(2) {
-        left: calc(5ch + 16px);
-      }
+			&:nth-of-type(2) {
+				left: calc(5ch + 16px);
+			}
 
-      &:nth-of-type(3) {
-        left: calc(-1ch - 16px);
-      }
+			&:nth-of-type(3) {
+				left: calc(-1ch - 16px);
+			}
 
-      &:nth-of-type(4) {
-        left: calc(7ch - 16px);
-      }
+			&:nth-of-type(4) {
+				left: calc(7ch - 16px);
+			}
 
-      &:last-of-type {
-        left: calc(14ch);
-      }
-    }
+			&:last-of-type {
+				left: calc(14ch);
+			}
+		}
 
-    @media (min-width: 920px) {
-      font-size: ms(6);
-    }
+		@media (min-width: 920px) {
+			font-size: ms(6);
+		}
 
-    @media (min-width: 1140px) {
-      font-size: ms(8);
+		@media (min-width: 1140px) {
+			font-size: ms(8);
 
-      &::after {
-        right: -$spacing-unit-sm;
-      }
-    }
-  }
+			&::after {
+				right: -$spacing-unit-sm;
+			}
+		}
+	}
 
-  @media (min-width: 720px) {
-    left: 110px;
-    width: max-content;
-  }
+	@media (min-width: 720px) {
+		left: 110px;
+		width: max-content;
+	}
 
-  @media (min-width: 920px) {
-    left: 28vw;
-    top: 48px;
-    @include z-index(low);
-  }
-  @media (min-width: 1000px) {
-    top: 110px;
-  }
-  @media (min-width: 1140px) {
-    left: min(22vw, 300px);
-    top: 132px;
-  }
+	@media (min-width: 920px) {
+		left: 28vw;
+		top: 48px;
+		@include z-index(low);
+	}
+	@media (min-width: 1000px) {
+		top: 110px;
+	}
+	@media (min-width: 1140px) {
+		left: min(22vw, 300px);
+		top: 132px;
+	}
 }

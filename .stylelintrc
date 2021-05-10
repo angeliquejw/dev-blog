@@ -1,5 +1,6 @@
 {
   "extends": [
+    "stylelint-config-prettier",
     "stylelint-8-point-grid"
   ],
  "plugins": [
@@ -51,7 +52,7 @@
     "function-name-case": "lower",
     "function-parentheses-space-inside": "never",
     "function-whitespace-after": "always",
-    "indentation": 2,
+    "indentation": "tab",
     "keyframe-declaration-no-important": true,
     "length-zero-no-unit": true,
     "max-nesting-depth": 5,

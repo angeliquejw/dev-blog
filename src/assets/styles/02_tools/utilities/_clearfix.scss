@@ -1,16 +1,15 @@
 @mixin u-clearfix {
+	&::before,
+	&::after {
+		content: " ";
+		display: table;
+	}
 
-  &::before,
-  &::after {
-    content: " ";
-    display: table;
-  }
-
-  &::after {
-    clear: both;
-  }
+	&::after {
+		clear: both;
+	}
 }
 
 .u-clearfix {
-  @include u-clearfix();
+	@include u-clearfix();
 }

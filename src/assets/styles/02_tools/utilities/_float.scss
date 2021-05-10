@@ -1,24 +1,22 @@
 @use "sass:list";
 
 /* stylelint-disable */
-$float-options: left,
-right;
+$float-options: left, right;
 /* stylelint-enable */
 
 @mixin u-float($direction) {
-  @if not list.index($float-options, $direction) {
-    @error "#{$direction} is not a supported value for this mixin. Expected one of #{$float-options}.";
-  }
-
-  @else {
-    float: #{$direction};
-  }
+	@if not list.index($float-options, $direction) {
+		@error "#{$direction} is not a supported value for this mixin. Expected one of #{$float-options}.";
+	}
+	@else {
+		float: #{$direction};
+	}
 }
 
 .u-left {
-  @include u-float(left);
+	@include u-float(left);
 }
 
 .u-right {
-  @include u-float(right);
+	@include u-float(right);
 }

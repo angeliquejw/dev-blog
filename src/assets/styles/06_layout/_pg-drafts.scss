@@ -1,43 +1,43 @@
 .pg-drafts {
-  position: relative;
+	position: relative;
 
-  .page-heading {
-    color: $color-valentino;
-    font-family: $font-plex-sans;
-    font-size: ms(6);
-    font-weight: $font-bold;
-  }
+	.page-heading {
+		color: $color-valentino;
+		font-family: $font-plex-sans;
+		font-size: ms(6);
+		font-weight: $font-bold;
+	}
 
-  .intro {
-    font-family: $font-barlow;
-    font-size: ms(1);
-    line-height: 1.3;
+	.intro {
+		font-family: $font-barlow;
+		font-size: ms(1);
+		line-height: 1.3;
 
-    a {
-      @include link-effect();
-    }
-  }
+		a {
+			@include link-effect();
+		}
+	}
 
-  svg {
-    fill: rgba($color-tumeric, 0.9);
-    height: 256px;
-    left: -$spacing-unit-sm;
-    position: absolute;
-    top: -$spacing-unit-lg;
-    @include z-index(bottom);
-  }
+	svg {
+		fill: rgba($color-tumeric, 0.9);
+		height: 256px;
+		left: -$spacing-unit-sm;
+		position: absolute;
+		top: -$spacing-unit-lg;
+		@include z-index(bottom);
+	}
 
-  .return-link {
-    bottom: $spacing-unit-sm;
-    color: $color-siren;
-    position: absolute;
+	.return-link {
+		bottom: $spacing-unit-sm;
+		color: $color-siren;
+		position: absolute;
 
-    &::before {
-      content: "↵ ";
-    }
+		&::before {
+			content: "↵ ";
+		}
 
-    @include hover-state {
-      color: white;
-    }
-  }
+		@include hover-state {
+			color: white;
+		}
+	}
 }

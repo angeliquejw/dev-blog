@@ -1,29 +1,26 @@
 @use "sass:list";
 
 /* stylelint-disable */
-$display-options: block,
-inline-block,
-flex;
+$display-options: block, inline-block, flex;
 /* stylelint-enable */
 
 @mixin u-display($value) {
-  @if not list.index($display-options, $value) {
-    @error "#{$value} is not a supported value for this mixin. Expected one of #{$values}.";
-  }
-
-  @else {
-    display: #{$value};
-  }
+	@if not list.index($display-options, $value) {
+		@error "#{$value} is not a supported value for this mixin. Expected one of #{$values}.";
+	}
+	@else {
+		display: #{$value};
+	}
 }
 
 .u-block {
-  @include u-display(block);
+	@include u-display(block);
 }
 
 .u-flex {
-  @include u-display(flex);
+	@include u-display(flex);
 }
 
 .u-inline-block {
-  @include u-display(inline-block);
+	@include u-display(inline-block);
 }

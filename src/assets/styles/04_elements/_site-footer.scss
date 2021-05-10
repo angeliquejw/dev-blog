@@ -1,115 +1,117 @@
 .site-footer {
-  background-color: $color-patina;
-  color: $color-valentino;
-  font-size: ms(-2);
-  font-weight: $font-light;
-  padding: $spacing-unit $spacing-unit-sm $spacing-unit-sm;
-  position: relative;
+	background-color: $color-patina;
+	color: $color-valentino;
+	font-size: ms(-2);
+	font-weight: $font-light;
+	padding: $spacing-unit $spacing-unit-sm $spacing-unit-sm;
+	position: relative;
 
-  .site-name {
-    left: unset;
-    position: absolute;
-    right: ($spacing-unit-sm);
-    top: -24px;
-  }
+	.site-name {
+		left: unset;
+		position: absolute;
+		right: ($spacing-unit-sm);
+		top: -24px;
+	}
 
-  .site-logo {
-    position: relative;
-    top: 5px;
-  }
+	.site-logo {
+		position: relative;
+		top: 5px;
+	}
 
-  ul {
-    text-align: center;
-    width: 85%;
-  }
+	ul {
+		text-align: center;
+		width: 85%;
+	}
 
-  li {
-    line-height: 1.4;
-    text-align: center;
+	li {
+		line-height: 1.4;
+		text-align: center;
 
-    &:nth-child(1), &:nth-child(2) {
-      display: inline;
-    }
+		&:nth-child(1),
+		&:nth-child(2) {
+			display: inline;
+		}
 
-    &:nth-child(2) {
-      &::before {
-        content: " // ";
-      }
-    }
-  
-    a {
-      color: $color-offblack;
-      position: relative;
-      text-decoration: none;
+		&:nth-child(2) {
+			&::before {
+				content: " // ";
+			}
+		}
 
-      &::before {
-        border-bottom: 1px solid $color-mulberry;
-        bottom: -2px;
-        content: "";
-        height: 100%;
-        left: 0;
-        position: absolute;
-        transition: width 400ms ease;
-        width: 0;
-      }
+		a {
+			color: $color-offblack;
+			position: relative;
+			text-decoration: none;
 
-      @include hover-state {
-        &::before {
-          width: 100%;
-        }
-      }
-    }
-  }
+			&::before {
+				border-bottom: 1px solid $color-mulberry;
+				bottom: -2px;
+				content: "";
+				height: 100%;
+				left: 0;
+				position: absolute;
+				transition: width 400ms ease;
+				width: 0;
+			}
 
-  @media (min-width: 720px) {
-    display: flex;
-    justify-content: flex-end;
+			@include hover-state {
+				&::before {
+					width: 100%;
+				}
+			}
+		}
+	}
 
-    .tmpl-home &, .tmpl-minimal & {
-      border-left: 120px solid $color-offblack;
-    }
+	@media (min-width: 720px) {
+		display: flex;
+		justify-content: flex-end;
 
-    ul {
-      max-width: 50ch;
-    }
+		.tmpl-home &,
+		.tmpl-minimal & {
+			border-left: 120px solid $color-offblack;
+		}
 
-    .site-name {
-      @include size(72px);
-      left: calc(((72 + 120) / 2) * -1px);
-      top: 50%;
-      transform: translateY(-50%);
+		ul {
+			max-width: 50ch;
+		}
 
-      &::before {
-        @include size(72px);
-      }
+		.site-name {
+			@include size(72px);
+			left: calc(((72 + 120) / 2) * -1px);
+			top: 50%;
+			transform: translateY(-50%);
 
-      @include hover-state {
-        transform: scale(1.04) translateY(-50%);
+			&::before {
+				@include size(72px);
+			}
 
-        &::before {
-          transform: scale(1.04);
-        }
-      }
-    }
+			@include hover-state {
+				transform: scale(1.04) translateY(-50%);
 
-    .site-logo {
-      font-size: ms(11);
-    }
-  }
+				&::before {
+					transform: scale(1.04);
+				}
+			}
+		}
+
+		.site-logo {
+			font-size: ms(11);
+		}
+	}
 }
 
 .bmore-link {
-  svg {
-    display: inline-block;
-    fill: $color-mulberry;
-    height: 16px;
-    position: relative;
-    top: 4px;
-    transition: $transition-default;
-  }
-  @include hover-state {
-    svg {
-      transform: scale(1.3);
-    }
-  }
+	svg {
+		display: inline-block;
+		fill: $color-mulberry;
+		height: 16px;
+		position: relative;
+		top: 4px;
+		transition: $transition-default;
+	}
+	@include hover-state {
+		svg {
+			transform: scale(1.3);
+		}
+	}
 }

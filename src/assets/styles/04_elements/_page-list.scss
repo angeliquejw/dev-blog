@@ -1,90 +1,89 @@
 .page-list {
-  text-align: right;
-  text-transform: uppercase;
+	text-align: right;
+	text-transform: uppercase;
 
-  li {
-    font-size: ms(2);
-    font-weight: $font-light;
-  }
-  
-  a {
-    color: $color-siren;
-    position: relative;
-    text-decoration: none;
+	li {
+		font-size: ms(2);
+		font-weight: $font-light;
+	}
 
-    &::before {
-      content: "";
-      height: 1px;
-      left: -12%;
-      position: absolute;
-      top: 50%;
-      transition: width 350ms ease;
-      width: 0;
-    }
-    
-    @include hover-state {
-      color: $color-offwhite;
+	a {
+		color: $color-siren;
+		position: relative;
+		text-decoration: none;
 
-      &::before {
-        background-color: currentColor;
-        width: 124%;
-      }
-    }
-  }
+		&::before {
+			content: "";
+			height: 1px;
+			left: -12%;
+			position: absolute;
+			top: 50%;
+			transition: width 350ms ease;
+			width: 0;
+		}
 
-  .--active {
+		@include hover-state {
+			color: $color-offwhite;
 
-    a {
-      &::before {
-        background-color: currentColor;
-        transition: background-color 200ms ease;
-        width: 124%;
-      }
+			&::before {
+				background-color: currentColor;
+				width: 124%;
+			}
+		}
+	}
 
-      @include hover-state {
-        &::before {
-          background-color: currentColor;
-        }
-      }
-    }
-  }
+	.--active {
+		a {
+			&::before {
+				background-color: currentColor;
+				transition: background-color 200ms ease;
+				width: 124%;
+			}
 
-  @media (max-width: 719px) {
-    li {
-      @include u-display(inline-block);
-      margin-right: 24px;
-      margin-top: $spacing-unit-xs;
-    }
-  }
+			@include hover-state {
+				&::before {
+					background-color: currentColor;
+				}
+			}
+		}
+	}
 
-  @media (min-width: 720px) {
-    text-align: center;
+	@media (max-width: 719px) {
+		li {
+			@include u-display(inline-block);
+			margin-right: 24px;
+			margin-top: $spacing-unit-xs;
+		}
+	}
 
-    a {
-      color: $color-mulberry;
+	@media (min-width: 720px) {
+		text-align: center;
 
-      &::before {
-        left: (-$spacing-unit-xs);
-      }
+		a {
+			color: $color-mulberry;
 
-      @include hover-state {
-        color: $color-mulberry;
+			&::before {
+				left: (-$spacing-unit-xs);
+			}
 
-        &::before {
-          width: 100%;
-        }
-      }
-    }
+			@include hover-state {
+				color: $color-mulberry;
 
-    .--active {
-      a {
-        color: white;
+				&::before {
+					width: 100%;
+				}
+			}
+		}
 
-        &::before {
-          background-color: $color-mulberry;
-          width: 100%;
-        }
-      }
-    }
-  }
+		.--active {
+			a {
+				color: white;
+
+				&::before {
+					background-color: $color-mulberry;
+					width: 100%;
+				}
+			}
+		}
+	}
 }

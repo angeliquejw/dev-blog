@@ -1,190 +1,195 @@
 .pg-now {
-  padding-bottom: 0;
+	padding-bottom: 0;
 
-  + .site-footer .top-link { /* stylelint-disable-line selector-max-class */
-    @media (max-width: 1089px) {
-      filter: invert(0.62) contrast(3) hue-rotate(100deg);
-    }
-  }
+	/* stylelint-disable selector-max-class */
+	+ .site-footer .top-link {
+		/* stylelint-enable */
+		@media (max-width: 1089px) {
+			filter: invert(0.62) contrast(3) hue-rotate(100deg);
+		}
+	}
 }
 
 .now-heading {
-  background-color: $color-offblack;
-  color: $color-offwhite;
-  margin: 0 0 $spacing-unit (-$spacing-unit-sm);
-  position: relative;
-  top: -2px;
+	background-color: $color-offblack;
+	color: $color-offwhite;
+	margin: 0 0 $spacing-unit (-$spacing-unit-sm);
+	position: relative;
+	top: -2px;
 
-  &::before,
-  &::after {
-    content: "";
-    position: absolute;
-  }
+	&::before,
+	&::after {
+		content: "";
+		position: absolute;
+	}
 
-  &::before {
-    background-color: $color-tumeric;
-    height: 2px;
-    left: 0;
-    top: 0;
-    width: 60%;
-  }
+	&::before {
+		background-color: $color-tumeric;
+		height: 2px;
+		left: 0;
+		top: 0;
+		width: 60%;
+	}
 
-  &::after {
-    background-color: $color-patina;
-    bottom: 0;
-    height: 4px;
-    right: 0;
-    width: 15%;
-  }
+	&::after {
+		background-color: $color-patina;
+		bottom: 0;
+		height: 4px;
+		right: 0;
+		width: 15%;
+	}
 
-  > .direct-link {
-    @include hover-state {
-      color: $color-patina;
-    }
-  }
+	> .direct-link {
+		@include hover-state {
+			color: $color-patina;
+		}
+	}
 }
 
 .now-section,
 .now-footer {
-  margin-left: (-$spacing-unit);
-  margin-right: (-$spacing-unit);
-  max-width: 96ch;
-  padding: 0 $spacing-unit-sm $spacing-unit;
+	margin-left: (-$spacing-unit);
+	margin-right: (-$spacing-unit);
+	max-width: 96ch;
+	padding: 0 $spacing-unit-sm $spacing-unit;
 
-  @media (min-width: 720px) {
-    margin-left: (-$spacing-unit-lg);
-    margin-right: (-$spacing-unit-lg);
-  }
+	@media (min-width: 720px) {
+		margin-left: (-$spacing-unit-lg);
+		margin-right: (-$spacing-unit-lg);
+	}
 }
 
 .now-footer {
-  background-color: $color-offblack;
-  color: $color-offwhite;
+	background-color: $color-offblack;
+	color: $color-offwhite;
 
-  p {
-    margin-top: 0;
-  }
+	p {
+		margin-top: 0;
+	}
 
-  a {
-    color: $color-offwhite;
+	a {
+		color: $color-offwhite;
 
-    @include hover-state {
-      color: white;
-    }
-  }
+		@include hover-state {
+			color: white;
+		}
+	}
 }
 
 .now-section {
-  background-color: $color-patina;
+	background-color: $color-patina;
 
-  h2 {
-    font-size: ms(4);
-    padding: $spacing-unit-sm;
-  }
+	h2 {
+		font-size: ms(4);
+		padding: $spacing-unit-sm;
+	}
 
-  h3 {
-    font-size: ms(3);
-    padding: $spacing-unit-xs $spacing-unit-sm;
-  }
+	h3 {
+		font-size: ms(3);
+		padding: $spacing-unit-xs $spacing-unit-sm;
+	}
 
-  li {
-    list-style: square;
-    margin-bottom: $spacing-unit-sm;
-  }
+	li {
+		list-style: square;
+		margin-bottom: $spacing-unit-sm;
+	}
 
-  a {
-    color: $color-offwhite;
-    position: relative;
-    text-decoration: none;
+	a {
+		color: $color-offwhite;
+		position: relative;
+		text-decoration: none;
 
-    &::before {
-      border-bottom: 1px solid $color-mulberry;
-      bottom: -2px;
-      content: "";
-      height: 100%;
-      left: 0;
-      position: absolute;
-      transition: width 400ms ease;
-      width: 0;
-    }
+		&::before {
+			border-bottom: 1px solid $color-mulberry;
+			bottom: -2px;
+			content: "";
+			height: 100%;
+			left: 0;
+			position: absolute;
+			transition: width 400ms ease;
+			width: 0;
+		}
 
-    @include hover-state {
-      color: white;
+		@include hover-state {
+			color: white;
 
-      &::before {
-        width: 100%;
-      }
-    }
-  }
+			&::before {
+				width: 100%;
+			}
+		}
+	}
 
-  &:nth-of-type(odd) {
-    background-color: $color-tumeric;
+	&:nth-of-type(odd) {
+		background-color: $color-tumeric;
 
-    .now-heading {
-      &::before {
-        background-color: $color-patina;
-      }
+		.now-heading {
+			&::before {
+				background-color: $color-patina;
+			}
 
-      &::after {
-        background-color: $color-tumeric;
-      }
+			&::after {
+				background-color: $color-tumeric;
+			}
 
-      > .direct-link { /* stylelint-disable-line selector-max-class */
-        @include hover-state {
-          color: $color-tumeric;
-        }
-      }
-    }
-  }
+			/* stylelint-disable selector-max-class */
+			> .direct-link {
+				/* stylelint-enable */
+				@include hover-state {
+					color: $color-tumeric;
+				}
+			}
+		}
+	}
 
-  &:first-of-type {
+	&:first-of-type {
+		.now-heading {
+			&::before {
+				background-color: $color-grey;
+			}
+		}
+	}
 
-    .now-heading {
-      &::before {
-        background-color: $color-grey;
-      }
-    }
-  }
+	&:last-of-type {
+		background-color: $color-offblack;
+		color: $color-offwhite;
+		padding-bottom: $spacing-unit-lg;
 
-  &:last-of-type {
-    background-color: $color-offblack;
-    color: $color-offwhite;
-    padding-bottom: $spacing-unit-lg;
+		.now-heading {
+			color: white;
 
-    .now-heading {
-      color: white;
+			&::after {
+				background-color: transparent;
+			}
 
-      &::after {
-        background-color: transparent;
-      }
-
-      > .direct-link { /* stylelint-disable-line selector-max-class */
-        @include hover-state {
-          color: white;
-        }
-      }
-    }
-  }
+			/* stylelint-disable selector-max-class */
+			> .direct-link {
+				/* stylelint-enable */
+				@include hover-state {
+					color: white;
+				}
+			}
+		}
+	}
 }
 
 // Goodreads widget
 .gr_grid_container {
-  display: flex;
+	display: flex;
 }
 
 .gr_grid_book_container {
-  margin-right: $spacing-unit;
+	margin-right: $spacing-unit;
 
-  img {
-    filter: grayscale(0.8);
-    transition: $transition-default;
-  }
+	img {
+		filter: grayscale(0.8);
+		transition: $transition-default;
+	}
 
-  a {
-    @include hover-state {
-      img {
-        filter: unset;
-      }
-    }
-  }
+	a {
+		@include hover-state {
+			img {
+				filter: unset;
+			}
+		}
+	}
 }

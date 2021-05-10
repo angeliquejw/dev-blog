@@ -1,102 +1,102 @@
 .bio-footer {
-  background-color: $color-tumeric;
-  font-style: italic;
-  font-weight: $font-semibold;
-  margin-left: (-$spacing-unit);
-  margin-right: (-$spacing-unit);
-  padding: $spacing-unit-sm $spacing-unit-sm $spacing-unit;
-  position: relative;
+	background-color: $color-tumeric;
+	font-style: italic;
+	font-weight: $font-semibold;
+	margin-left: (-$spacing-unit);
+	margin-right: (-$spacing-unit);
+	padding: $spacing-unit-sm $spacing-unit-sm $spacing-unit;
+	position: relative;
 
-  p:last-of-type {
-    margin-bottom: 0;
-  }
+	p:last-of-type {
+		margin-bottom: 0;
+	}
 
-  .link-wrapper {
-    @include z-index(mid);
-    position: relative;
+	.link-wrapper {
+		@include z-index(mid);
+		position: relative;
 
-    &::before {
-      background-color: white;
-      bottom: 0;
-      content: "";
-      height: 85%;
-      left: -4px;
-      opacity: 0.9;
-      position: absolute;
-      transition: width 400ms ease;
-      width: 160%;
-    }
+		&::before {
+			background-color: white;
+			bottom: 0;
+			content: "";
+			height: 85%;
+			left: -4px;
+			opacity: 0.9;
+			position: absolute;
+			transition: width 400ms ease;
+			width: 160%;
+		}
 
-    a {
-      color: $color-valentino;
-      position: relative;
-      text-decoration: none;
-    }
+		a {
+			color: $color-valentino;
+			position: relative;
+			text-decoration: none;
+		}
 
-    @include hover-state {
-      a {
-        color: $color-siren;
-      }
+		@include hover-state {
+			a {
+				color: $color-siren;
+			}
 
-      &::before {
-        opacity: 1;
-        width: 180%;
-      }
-    }
-  }
+			&::before {
+				opacity: 1;
+				width: 180%;
+			}
+		}
+	}
 
-  .photo-wrapper {
-    position: absolute;
+	.photo-wrapper {
+		position: absolute;
 
-    @media (max-width: 679px) {
-      @include z-index(low);
-      bottom: -128px;
-      right: 0;
-    }
+		@media (max-width: 679px) {
+			@include z-index(low);
+			bottom: -128px;
+			right: 0;
+		}
 
-    @media (min-width: 580px) and (max-width: 679px) {
-      bottom: -112px;
-    }
-  }
+		@media (min-width: 580px) and (max-width: 679px) {
+			bottom: -112px;
+		}
+	}
 
-  @media (min-width: 460px) {
-    padding-left: $spacing-unit;
-    padding-right: $spacing-unit;
-  }
+	@media (min-width: 460px) {
+		padding-left: $spacing-unit;
+		padding-right: $spacing-unit;
+	}
 
-  @media (min-width: 680px) {
-    @include z-index(low);
-    margin-right: 0;
-    margin-top: $spacing-unit-xl;
-    padding-left: $spacing-unit-xl * 2;
-    width: 75%;
+	@media (min-width: 680px) {
+		@include z-index(low);
+		margin-right: 0;
+		margin-top: $spacing-unit-xl;
+		padding-left: $spacing-unit-xl * 2;
+		width: 75%;
 
-    .photo-wrapper {
-      left: $spacing-unit-sm;
-      top: (-$spacing-unit-sm);
-    }
-  }
+		.photo-wrapper {
+			left: $spacing-unit-sm;
+			top: (-$spacing-unit-sm);
+		}
+	}
 
-  @media (min-width: 720px) {
-    margin-left: (-$spacing-unit-lg);
-    max-width: 500px; /* stylelint-disable-line plugin/8-point-grid */
-    width: 80%;
-  }
+	@media (min-width: 720px) {
+		margin-left: (-$spacing-unit-lg);
+		max-width: 500px; /* stylelint-disable-line plugin/8-point-grid */
+		width: 80%;
+	}
 
-  @media (min-width: 960px) {
-    margin-left: (-$spacing-unit-lg);
-    margin-right: (-$spacing-unit);
-    max-width: unset;
-    width: calc(100% + 80px); // both margins added together
-  }
+	@media (min-width: 960px) {
+		margin-left: (-$spacing-unit-lg);
+		margin-right: (-$spacing-unit);
+		max-width: unset;
+		width: calc(100% + 80px); // both margins added together
+	}
 
-  @media (min-width: 1140px) {
-    margin-left: -256px;
-    padding: $spacing-unit-lg 120px $spacing-unit-lg 240px;
-    width: calc(100% + 256px);
+	@media (min-width: 1140px) {
+		margin-left: -256px;
+		padding: $spacing-unit-lg 120px $spacing-unit-lg 240px;
+		width: calc(100% + 256px);
 
-    .photo-wrapper {
-      left: 60px;
-    }
-  }
+		.photo-wrapper {
+			left: 60px;
+		}
+	}
 }

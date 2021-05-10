@@ -1,21 +1,21 @@
 .site-header {
-  @media (min-width: 720px) {
-    @include z-index(mid);
-    align-items: center;
-    background-color: $color-offblack;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    justify-content: space-between;
-    left: 0;
-    padding-bottom: $spacing-unit-sm;
-    padding-top: $spacing-unit;
-    position: fixed;
-    top: 0;
-    width: 120px;
+	@media (min-width: 720px) {
+		@include z-index(mid);
+		align-items: center;
+		background-color: $color-offblack;
+		display: flex;
+		flex-direction: column;
+		height: 100vh;
+		justify-content: space-between;
+		left: 0;
+		padding-bottom: $spacing-unit-sm;
+		padding-top: $spacing-unit;
+		position: fixed;
+		top: 0;
+		width: 120px;
 
-    nav {
-      align-self: stretch;
-    }
-  }
+		nav {
+			align-self: stretch;
+		}
+	}
 }

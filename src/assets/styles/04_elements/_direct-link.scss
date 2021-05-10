@@ -1,33 +1,39 @@
-.blog-post, .pg-now {
-  .direct-link {
-    border-bottom: none;
-    color: white;
-    display: inline-block;
-    font-family: $font-barlow;
-    opacity: 0.6;
-    padding-left: $spacing-unit-xs;
-    padding-right: $spacing-unit-xs;
-    text-decoration: none;
-    transition: $transition-default;
-    visibility: hidden;
+.blog-post,
+.pg-now {
+	.direct-link {
+		border-bottom: none;
+		color: white;
+		display: inline-block;
+		font-family: $font-barlow;
+		opacity: 0.6;
+		padding-left: $spacing-unit-xs;
+		padding-right: $spacing-unit-xs;
+		text-decoration: none;
+		transition: $transition-default;
+		visibility: hidden;
 
-    &::before {
-      content: unset;
-    }
+		&::before {
+			content: unset;
+		}
 
-    &:hover,
-    &:focus {
-      background: unset;
-      color: $color-mulberry;
-      opacity: 1;
-    }
-  }
+		&:hover,
+		&:focus {
+			background: unset;
+			color: $color-mulberry;
+			opacity: 1;
+		}
+	}
 
-  h2, h3, h4, h5, h6 {
-    &:hover, &:focus {
-      > .direct-link {
-        visibility: unset;
-      }
-    }
-  }
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		&:hover,
+		&:focus {
+			> .direct-link {
+				visibility: unset;
+			}
+		}
+	}
 }

@@ -24,6 +24,6 @@ $line-height: $type-scale;
 $leading: $type-scale * $base-font-size * $line-height;
 
 $modularscale: (
-  base: $base-font-size,
-  ratio: $type-scale
+	base: $base-font-size,
+	ratio: $type-scale,
 );
