@@ -37,6 +37,6 @@ Since that realization, I've made it a point to join teams that are already expe
 
 At a time when more folks are working from home, as well as trying to figure out if they want to stick with this remote life, I thought it might be helpful to reflect on my experiences a bit. This is the first in a series of posts about working remotely. Later this week, I'll share additional posts about:
 
-- how working remotely in 2020 was different than than dozen years before it
+- [how working remotely in 2020 was different than than dozen years before it](/blog/2021/working-through-a-pandemic/)
 - an updated look at what working remotely looks like for me and what has stood the test of time to keep me productive and well
 - what teams can do to make remote work better
