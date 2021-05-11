@@ -35,7 +35,7 @@ article blockquote {
 
 	::selection {
 		/* stylelint-disable declaration-no-important */
-		background-color: $color-tumeric !important;
+		background-color: rgba($color-tumeric, 0.9) !important;
 		color: white !important;
 		/* stylelint-enable */
 	}
