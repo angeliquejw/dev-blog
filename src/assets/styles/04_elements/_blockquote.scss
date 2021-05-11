@@ -33,6 +33,13 @@ article blockquote {
 		margin-bottom: $spacing-unit;
 	}
 
+	::selection {
+		/* stylelint-disable declaration-no-important */
+		background-color: $color-tumeric !important;
+		color: white !important;
+		/* stylelint-enable */
+	}
+
 	/* stylelint-disable selector-max-type*/
 	p:first-child {
 		/* stylelint-enable */

@@ -1,6 +1,11 @@
 .blog-post {
 	font-family: $font-barlow;
 
+	::selection {
+		background-color: white;
+		color: $color-siren;
+	}
+
 	h2,
 	h3,
 	h4 {
