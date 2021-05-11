@@ -1,75 +1,78 @@
-[{
-    "topic": "personal web sites in 2021",
-    "links": {
-      "url": "https://www.vanschneider.com/a-love-letter-to-personal-websites"
-    }
-  },
-  {
-    "topic": "teaching web dev",
-    "notes": "What I've learned teaching web dev to graphic designers, tools I've used, applying learning science to teaching web dev"
-  },
-  {
-    "topic": "a11y things",
-    "notes": "Teaching accessibility, better alt text, making allies out of coworkers"
-  },
-  {
-    "topic": "lftm",
-    "notes": "How I appear to have it all together, most of the time",
-    "links": {
-      "url": "https://nesslabs.com/smart-goals-pact"
-    }
-  },
-  {
-    "topic": "goalfest",
-    "notes": "Getting shit done as a team"
-  },
-  {
-    "topic": "better productivity via Ruby and APIs",
-    "notes": "My various scripts to scrape Google calendar and JIRA"
-  },
-  {
-    "topic": "10 years of working remotely",
-    "links": {
-      "url": "https://dev.to/ben/the-best-remote-work-is-delightfully-unglamorous-4h5f"
-    }
-  },
-  {
-    "topic": "remote work + COVID",
-    "notes": "Working remotely during a pandemic is not the same as working remotely pre-COVID"
-  },
-  {
-    "topic": "the current dialog about CSS",
-    "links": [{
-        "url": "https://rachelandrew.co.uk/archives/2018/10/04/the-way-we-talk-about-css/"
-      },
-      {
-        "url": "https://css-tricks.com/the-great-divide/"
-      },
-      {
-        "url": "https://rachelandrew.co.uk/archives/2019/01/30/html-css-and-our-vanishing-industry-entry-points/"
-      },
-      {
-        "url": "https://twitter.com/messypixels/status/1063408356906422272"
-      }
-    ]
-  },
-  {
-    "topic": "you're training your replacements",
-    "notes": "Why people say this to me and how I respond"
-  },
-  {
-    "topic": "11ty",
-    "notes": "Migrated from Middleman to Eleventy, other code snippets from this blog",
-    "published": "2021/middleman-eleventy/"
-  },
-  {
-    "topic": "how long have you been coding",
-    "links": {
-      "url": "http://fionavoss.blog/2019/01/29/its-complicated/"
-    }
-  },
-  {
-    "topic": "salaries",
-    "notes": "#TalkPay and why it matters"
-  }
+[
+	{
+		"topic": "personal web sites in 2021",
+		"links": {
+			"url": "https://www.vanschneider.com/a-love-letter-to-personal-websites"
+		}
+	},
+	{
+		"topic": "teaching web dev",
+		"notes": "What I've learned teaching web dev to graphic designers, tools I've used, applying learning science to teaching web dev"
+	},
+	{
+		"topic": "a11y things",
+		"notes": "Teaching accessibility, better alt text, making allies out of coworkers"
+	},
+	{
+		"topic": "lftm",
+		"notes": "How I appear to have it all together, most of the time",
+		"links": {
+			"url": "https://nesslabs.com/smart-goals-pact"
+		}
+	},
+	{
+		"topic": "goalfest",
+		"notes": "Getting shit done as a team"
+	},
+	{
+		"topic": "better productivity via Ruby and APIs",
+		"notes": "My various scripts to scrape Google calendar and JIRA"
+	},
+	{
+		"topic": "10 years of working remotely",
+		"links": {
+			"url": "https://dev.to/ben/the-best-remote-work-is-delightfully-unglamorous-4h5f"
+		}
+	},
+	{
+		"topic": "remote work + COVID",
+		"notes": "Working remotely during a pandemic is not the same as working remotely pre-COVID",
+		"published": "2021/working-through-a-pandemic/"
+	},
+	{
+		"topic": "the current dialog about CSS",
+		"links": [
+			{
+				"url": "https://rachelandrew.co.uk/archives/2018/10/04/the-way-we-talk-about-css/"
+			},
+			{
+				"url": "https://css-tricks.com/the-great-divide/"
+			},
+			{
+				"url": "https://rachelandrew.co.uk/archives/2019/01/30/html-css-and-our-vanishing-industry-entry-points/"
+			},
+			{
+				"url": "https://twitter.com/messypixels/status/1063408356906422272"
+			}
+		]
+	},
+	{
+		"topic": "you're training your replacements",
+		"notes": "Why people say this to me and how I respond"
+	},
+	{
+		"topic": "11ty",
+		"notes": "Migrated from Middleman to Eleventy, other code snippets from this blog",
+		"published": "2021/middleman-eleventy/"
+	},
+	{
+		"topic": "how long have you been coding",
+		"links": {
+			"url": "http://fionavoss.blog/2019/01/29/its-complicated/"
+		}
+	},
+	{
+		"topic": "salaries",
+		"notes": "#TalkPay and why it matters"
+	}
 ]
