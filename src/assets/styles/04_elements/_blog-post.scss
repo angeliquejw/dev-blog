@@ -83,6 +83,31 @@
 		padding: $spacing-unit-xs;
 	}
 
+	.img {
+		@media (min-width: 620px) {
+			&-left,
+			&-right {
+				width: 48%;
+			}
+
+			&-left {
+				@include u-float(left);
+				padding-left: 0;
+			}
+
+			&-right {
+				@include u-float(right);
+				padding-right: 0;
+			}
+		}
+		@media (min-width: 1060px) {
+			&-left,
+			&-right {
+				width: 56%;
+			}
+		}
+	}
+
 	a {
 		@include link-effect();
 	}
