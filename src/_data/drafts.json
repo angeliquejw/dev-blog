@@ -30,9 +30,7 @@
 	},
 	{
 		"topic": "10 years of working remotely",
-		"links": {
-			"url": "https://dev.to/ben/the-best-remote-work-is-delightfully-unglamorous-4h5f"
-		}
+		"published": "2021/remote-lessons/"
 	},
 	{
 		"topic": "remote work + COVID",

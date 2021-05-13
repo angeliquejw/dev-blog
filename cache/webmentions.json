@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2021-05-11T15:19:56.296Z",
+  "lastFetched": "2021-05-13T14:09:37.800Z",
   "children": [
     {
       "type": "entry",
@@ -992,6 +992,92 @@
         "text": "Kicking off a series of blog posts about #remote work today with how I got into working remotely in the first place:\nangeliqueweger.com/blog/2021/my-r…"
       },
       "repost-of": "https://angeliqueweger.com/blog/2021/my-remote-journey/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Paige North",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/b9917024accd9f9748032f95413227d91d87151bd9eb498aa5b3dc032a455e40.jpg",
+        "url": "https://twitter.com/radmint"
+      },
+      "url": "https://twitter.com/radmint/status/1392492643649740802",
+      "published": "2021-05-12T14:51:32+00:00",
+      "wm-received": "2021-05-12T15:15:40Z",
+      "wm-id": 1153323,
+      "wm-source": "https://brid.gy/repost/twitter/messypixels/1391746557997899783/1392492643649740802",
+      "wm-target": "https://angeliqueweger.com/blog/2021/my-remote-journey/",
+      "content": {
+        "text": "Kicking off a series of blog posts about #remote work today with how I got into working remotely in the first place:\nangeliqueweger.com/blog/2021/my-r…"
+      },
+      "repost-of": "https://angeliqueweger.com/blog/2021/my-remote-journey/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Indoor Cat",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/45afdd759593b5f668d7a3e92f21dd6299eeaeaea7302065a27d6cb4fcb22169.jpg",
+        "url": "https://twitter.com/BlingtheCat"
+      },
+      "url": "https://twitter.com/BlingtheCat/status/1392140535448616962",
+      "published": "2021-05-11T15:32:23+00:00",
+      "wm-received": "2021-05-11T16:29:32Z",
+      "wm-id": 1151930,
+      "wm-source": "https://brid.gy/comment/twitter/messypixels/1391746557997899783/1392140535448616962",
+      "wm-target": "https://angeliqueweger.com/blog/2021/my-remote-journey/",
+      "content": {
+        "html": "Thanks for sharing! I'm about to become permanently remote, and am looking forward to figuring out how to work remotely while not in a pandemic.\n<a class=\"u-mention\" href=\"http://my.pronoun.is/she\"></a>\n<a class=\"u-mention\" href=\"http://www.angeliqueweger.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/messypixels\"></a>",
+        "text": "Thanks for sharing! I'm about to become permanently remote, and am looking forward to figuring out how to work remotely while not in a pandemic."
+      },
+      "in-reply-to": "https://angeliqueweger.com/blog/2021/my-remote-journey/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jemal Cole Loves You",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/24b4fcb3ddce4030c5b99dc5836a6901da08611a0c4e42a4d7de368b3abcff20.jpg",
+        "url": "https://twitter.com/jemaleddin"
+      },
+      "url": "https://twitter.com/jemaleddin/status/1392143550138232839",
+      "published": "2021-05-11T15:44:21+00:00",
+      "wm-received": "2021-05-11T16:29:26Z",
+      "wm-id": 1151929,
+      "wm-source": "https://brid.gy/comment/twitter/messypixels/1392139553469865987/1392143550138232839",
+      "wm-target": "https://angeliqueweger.com/blog/2021/working-through-a-pandemic/",
+      "content": {
+        "html": "When we all went remote I took a chair, monitor, and laptop stand from the office. Now that we are talking about going back to the office, I did the math on what it would take to maintain the same setup at home/work: $1540. If I want to duplicate my fancy camera setup: $1040. 👀\n<a class=\"u-mention\" href=\"http://my.pronoun.is/she\"></a>\n<a class=\"u-mention\" href=\"http://www.angeliqueweger.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/messypixels\"></a>",
+        "text": "When we all went remote I took a chair, monitor, and laptop stand from the office. Now that we are talking about going back to the office, I did the math on what it would take to maintain the same setup at home/work: $1540. If I want to duplicate my fancy camera setup: $1040. 👀"
+      },
+      "in-reply-to": "https://angeliqueweger.com/blog/2021/working-through-a-pandemic/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Remote Jobs by Career Vault",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0c492cbc3f7fdf1e87d7c208d46ff06a9b433fb0e13b2e254f7991a93febea5d.jpg",
+        "url": "https://twitter.com/career_vault"
+      },
+      "url": "https://twitter.com/career_vault/status/1392140466142040067",
+      "published": "2021-05-11T15:32:06+00:00",
+      "wm-received": "2021-05-11T16:28:57Z",
+      "wm-id": 1151928,
+      "wm-source": "https://brid.gy/repost/twitter/messypixels/1392139553469865987/1392140466142040067",
+      "wm-target": "https://angeliqueweger.com/blog/2021/working-through-a-pandemic/",
+      "content": {
+        "text": "Day 2 of my blog series on #remote work:\n\nangeliqueweger.com/blog/2021/work…"
+      },
+      "repost-of": "https://angeliqueweger.com/blog/2021/working-through-a-pandemic/",
       "wm-property": "repost-of",
       "wm-private": false
     }
