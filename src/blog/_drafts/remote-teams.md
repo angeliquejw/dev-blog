@@ -9,4 +9,9 @@ footnotes:
   - Go here.
 ---
 
-(use)[/uses]
+What can you do
+
+- embrace async
+- role model healthy boundaries, talk about what works for you
+- "pandemic tax" to your productivity estimates
+<!-- https://news.stanford.edu/2021/02/23/four-causes-zoom-fatigue-solutions/ -->
