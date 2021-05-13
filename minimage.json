@@ -2,22 +2,22 @@
     {
         "path": "src/assets/img/icon-email.svg",
         "hash": "aa7288090a1ca2422c8718bef1a7dd5b",
-        "size": "0.593kb"
+        "size": "1KB"
     },
     {
         "path": "src/assets/img/logo-github.svg",
         "hash": "c1c7ecd583be769a610858c4aab19cdd",
-        "size": "0.856kb"
+        "size": "1KB"
     },
     {
         "path": "src/assets/img/logo-linkedin.svg",
         "hash": "14da04d810251b238a9ce0a59c3b1bcb",
-        "size": "0.446kb"
+        "size": "1KB"
     },
     {
         "path": "src/assets/img/logo-twitter.svg",
         "hash": "65ae404f95abd6f22e1f3f2236641390",
-        "size": "0.574kb"
+        "size": "1KB"
     },
     {
         "path": "src/assets/img/blog/2015/campsass.png",
@@ -98,5 +98,50 @@
         "path": "src/assets/img/ajw-photo.png",
         "hash": "590127c45c1ecf0e51750aa8d441a5f9",
         "size": "9.955kb"
+    },
+    {
+        "path": "src/assets/img/avatar-default.jpg",
+        "hash": "20e5b92b36558905c647ab97cad1ba66",
+        "size": "7KB"
+    },
+    {
+        "path": "src/assets/img/heart-black.svg",
+        "hash": "6a11cc815935b81b9db8538051570605",
+        "size": "1KB"
+    },
+    {
+        "path": "src/assets/img/scribble.svg",
+        "hash": "09d2c3e369d51bc9a83e566b0e2a7004",
+        "size": "5KB"
+    },
+    {
+        "path": "src/assets/img/square.svg",
+        "hash": "b7498ddff6f8236c5b4632b03452bbe6",
+        "size": "1KB"
+    },
+    {
+        "path": "src/assets/img/blog/2021/digital-nomad.jpg",
+        "hash": "17f2a8f54820843d540e2062c3694df8",
+        "size": "125KB"
+    },
+    {
+        "path": "src/assets/img/blog/2021/mobify-button-test.png",
+        "hash": "2d9be13d9ddafec725acd3b0b740ebf0",
+        "size": "4KB"
+    },
+    {
+        "path": "src/assets/img/blog/2021/she-coded.png",
+        "hash": "a748fd6a375d61bbc8805134fe12db20",
+        "size": "447KB"
+    },
+    {
+        "path": "src/assets/img/blog/2021/wfh.jpg",
+        "hash": "dfab6b64856d6f4c75718ebb64bb8fe1",
+        "size": "156KB"
+    },
+    {
+        "path": "src/assets/img/blog/2021/wireframes-A.png",
+        "hash": "2cb4792e4c69fe087628cafbfaea928e",
+        "size": "73KB"
     }
 ]
