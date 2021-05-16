@@ -1,0 +1,10 @@
+.blog-post .callout {
+	background-color: rgba($color-offwhite, 0.2);
+	border-left: 4px solid $color-mulberry;
+	margin: $spacing-unit-sm (-$spacing-unit-sm);
+	padding: $spacing-unit-sm;
+
+	@media (min-width: 1140px) {
+		margin: $spacing-unit (-$spacing-unit);
+	}
+}

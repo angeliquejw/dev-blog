@@ -2,7 +2,7 @@
 title: Working remotely through a pandemic
 summary: "If you transitioned to working from home in 2020, your experience as a remote worker is in no way normal. I know because I've worked remotely for over a decade."
 tags: [remote, teams, empathy, zoom]
-date: 2021-05-11
+date: 2021-05-12
 location: Baltimore
 comments: I'd love to know if you've found this series on remote work helpful.
 ---

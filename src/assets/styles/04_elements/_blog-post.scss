@@ -87,16 +87,19 @@
 		@media (min-width: 620px) {
 			&-left,
 			&-right {
+				margin: 0;
 				width: 48%;
 			}
 
 			&-left {
 				@include u-float(left);
+				margin-right: $spacing-unit-sm;
 				padding-left: 0;
 			}
 
 			&-right {
 				@include u-float(right);
+				margin-left: $spacing-unit-sm;
 				padding-right: 0;
 			}
 		}
