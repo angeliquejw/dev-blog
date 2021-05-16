@@ -80,7 +80,13 @@
 
 	img {
 		@include u-margin-horizontal-auto();
+		filter: contrast(240%) grayscale(100%) opacity(42%);
 		padding: $spacing-unit-xs;
+		transition: $transition-default;
+
+		@include hover-state {
+			filter: unset;
+		}
 	}
 
 	.img {
