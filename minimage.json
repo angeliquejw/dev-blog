@@ -1,22 +1,22 @@
 [
     {
         "path": "src/assets/img/icon-email.svg",
-        "hash": "aa7288090a1ca2422c8718bef1a7dd5b",
+        "hash": "20b33859bc2009ac84438de761b96c0f",
         "size": "1KB"
     },
     {
         "path": "src/assets/img/logo-github.svg",
-        "hash": "c1c7ecd583be769a610858c4aab19cdd",
+        "hash": "6aacf5385db80dab841fcbbd213d461b",
         "size": "1KB"
     },
     {
         "path": "src/assets/img/logo-linkedin.svg",
-        "hash": "14da04d810251b238a9ce0a59c3b1bcb",
+        "hash": "ca5eb9a39d076fa64938fd849ca9e391",
         "size": "1KB"
     },
     {
         "path": "src/assets/img/logo-twitter.svg",
-        "hash": "65ae404f95abd6f22e1f3f2236641390",
+        "hash": "72546d1ec5a8df045819f721095ed520",
         "size": "1KB"
     },
     {
@@ -106,17 +106,17 @@
     },
     {
         "path": "src/assets/img/heart-black.svg",
-        "hash": "6a11cc815935b81b9db8538051570605",
+        "hash": "4d88ae8b9981a3b134e18aa77ef9a4cc",
         "size": "1KB"
     },
     {
         "path": "src/assets/img/scribble.svg",
-        "hash": "09d2c3e369d51bc9a83e566b0e2a7004",
+        "hash": "4c46cfc7b2857a793cee42e86e813591",
         "size": "5KB"
     },
     {
         "path": "src/assets/img/square.svg",
-        "hash": "b7498ddff6f8236c5b4632b03452bbe6",
+        "hash": "f907dd257d1570341340205ce7bb383b",
         "size": "1KB"
     },
     {
@@ -143,5 +143,10 @@
         "path": "src/assets/img/blog/2021/wireframes-A.png",
         "hash": "2cb4792e4c69fe087628cafbfaea928e",
         "size": "73KB"
+    },
+    {
+        "path": "src/assets/img/blog/2021/works-purpose.png",
+        "hash": "861a8434f0d5699c0fe7fef77d0466b1",
+        "size": "30KB"
     }
 ]
