@@ -1,6 +1,6 @@
 ---
 title: Lessons learned working remotely for over a decade
-summary:
+summary: "Real talk about my life and happiness as a remote worker."
 tags: [remote, productivity, standing desk]
 date: 2021-05-17
 location: Baltimore
