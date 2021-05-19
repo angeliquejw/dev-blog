@@ -34,7 +34,7 @@ Neither of these pictures represent my experience or ideal as a remote worker. W
 
 <figure>
 
-![My standing desk with its accoutrement: a MacBook and peripherals, like an external monitor, keyboard, vertical mouse and speakers. The walls are painted a soothing blue grey and are decorated with artwork and a corkboard, also covered in art and postcards.](/assets/img/blog/2021/home-office.jpeg)
+![My standing desk with its accoutrements: a MacBook and peripherals, like an external monitor, keyboard, vertical mouse and speakers. The walls are painted a soothing blue grey and are decorated with artwork and a corkboard, also covered in art and postcards.](/assets/img/blog/2021/home-office.jpeg)
 
 <figcaption>My workspace, circa 2019.</figcaption>
 </figure>
