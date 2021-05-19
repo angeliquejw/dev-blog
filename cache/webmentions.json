@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2021-05-16T21:17:31.480Z",
+  "lastFetched": "2021-05-19T14:42:17.504Z",
   "children": [
     {
       "type": "entry",
@@ -1079,6 +1079,125 @@
       },
       "repost-of": "https://angeliqueweger.com/blog/2021/working-through-a-pandemic/",
       "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Maureen McElaney",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/f98a131d7817129ff34ac1c0ef104914c8d9e01773d48e75e29c08c47b9110a6.png",
+        "url": "https://twitter.com/Mo_Mack"
+      },
+      "url": "https://twitter.com/Mo_Mack/status/1394663904740052997",
+      "published": "2021-05-18T14:39:21+00:00",
+      "wm-received": "2021-05-18T15:43:46Z",
+      "wm-id": 1162263,
+      "wm-source": "https://brid.gy/post/twitter/messypixels/1394663904740052997",
+      "wm-target": "https://angeliqueweger.com/blog/2021/my-remote-journey/",
+      "content": {
+        "html": "“If you've only worked remotely since March (2020), your experience has been 90% working through a pandemic* and 10% working remotely.\n\n*TBH, a series of crises”\n<a class=\"u-mention\" href=\"https://angeliqueweger.com/blog/2021/my-remote-journey/\"></a>",
+        "text": "“If you've only worked remotely since March (2020), your experience has been 90% working through a pandemic* and 10% working remotely.\n\n*TBH, a series of crises”"
+      },
+      "mention-of": "https://angeliqueweger.com/blog/2021/my-remote-journey/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "K ☁️",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c85b080900290e99a541f2231a3724173d3e843cbe8b9ecfbac66f53e6192cea.jpg",
+        "url": "https://twitter.com/K4y1s"
+      },
+      "url": "https://twitter.com/messypixels/status/1391746557997899783#favorited-by-3431498482",
+      "published": null,
+      "wm-received": "2021-05-18T15:43:45Z",
+      "wm-id": 1162262,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1391746557997899783/3431498482",
+      "wm-target": "https://angeliqueweger.com/blog/2021/my-remote-journey/",
+      "like-of": "https://angeliqueweger.com/blog/2021/my-remote-journey/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "K ☁️",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c85b080900290e99a541f2231a3724173d3e843cbe8b9ecfbac66f53e6192cea.jpg",
+        "url": "https://twitter.com/K4y1s"
+      },
+      "url": "https://twitter.com/K4y1s/status/1394670336592027648",
+      "published": "2021-05-18T15:04:54+00:00",
+      "wm-received": "2021-05-18T15:43:44Z",
+      "wm-id": 1162261,
+      "wm-source": "https://brid.gy/repost/twitter/messypixels/1391746557997899783/1394670336592027648",
+      "wm-target": "https://angeliqueweger.com/blog/2021/my-remote-journey/",
+      "content": {
+        "text": "Kicking off a series of blog posts about #remote work today with how I got into working remotely in the first place:\nangeliqueweger.com/blog/2021/my-r…"
+      },
+      "repost-of": "https://angeliqueweger.com/blog/2021/my-remote-journey/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Cake is Kate. Always has been. 💫",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/d86fc2503ef6f00ed67c0f821d2e8f90685a6a1bba594e3e324336770e8b903e.jpg",
+        "url": "https://twitter.com/kefimochi"
+      },
+      "url": "https://twitter.com/messypixels/status/1391746557997899783#favorited-by-1009594769817796608",
+      "published": null,
+      "wm-received": "2021-05-17T13:45:11Z",
+      "wm-id": 1160804,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1391746557997899783/1009594769817796608",
+      "wm-target": "https://angeliqueweger.com/blog/2021/my-remote-journey/",
+      "like-of": "https://angeliqueweger.com/blog/2021/my-remote-journey/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Aditya from kaapi.team",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/fcabacbcc136eb15c83a1a28b06f935921462cb7530cafb3d3e3c44c9b252c71.jpg",
+        "url": "https://twitter.com/adityarao310"
+      },
+      "url": "https://twitter.com/adityarao310/status/1394276935455318019",
+      "published": "2021-05-17T13:01:40+00:00",
+      "wm-received": "2021-05-17T13:45:10Z",
+      "wm-id": 1160803,
+      "wm-source": "https://brid.gy/comment/twitter/messypixels/1394275999551037441/1394276935455318019",
+      "wm-target": "https://angeliqueweger.com/blog/2021/remote-lessons/",
+      "content": {
+        "html": "Loved it. Especially the standing desk section! I need to do something like that too. Simple and DIY\n<a class=\"u-mention\" href=\"http://my.pronoun.is/she\"></a>\n<a class=\"u-mention\" href=\"http://www.angeliqueweger.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/messypixels\"></a>",
+        "text": "Loved it. Especially the standing desk section! I need to do something like that too. Simple and DIY"
+      },
+      "in-reply-to": "https://angeliqueweger.com/blog/2021/remote-lessons/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Aditya from kaapi.team",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/fcabacbcc136eb15c83a1a28b06f935921462cb7530cafb3d3e3c44c9b252c71.jpg",
+        "url": "https://twitter.com/adityarao310"
+      },
+      "url": "https://twitter.com/messypixels/status/1394275999551037441#favorited-by-16922531",
+      "published": null,
+      "wm-received": "2021-05-17T13:45:09Z",
+      "wm-id": 1160802,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1394275999551037441/16922531",
+      "wm-target": "https://angeliqueweger.com/blog/2021/remote-lessons/",
+      "like-of": "https://angeliqueweger.com/blog/2021/remote-lessons/",
+      "wm-property": "like-of",
       "wm-private": false
     }
   ]
