@@ -81,4 +81,6 @@ If work is your _primary_ place of social engagement, I definitely understand ho
 
 I used to say that in any month of working remotely, there's always one garbage day, where the inconvenience of being in my house versus an office or coworking space was really obvious. Maybe my dog made a mess or the folks I share my house with have an unreasonable case of _interruptitis_. That day is irritating, but it's not like that all the time, and the benefits definitely outweigh the frustrations.
 
+---
+
 Finally, it's worth reiterating that these are the things that have made being remote work for me. These are _my_ lessons and not hard-and-fast rules for anyone looking to be happy as a remote employee. A lot of articles about remote work are like that; full of DOs and DON'Ts, but not everyone needs the same things to be happy at work. Some folks, like me, need an office with a door, others are happy on the couch. What's important is to know yourself well enough to establish those wants and the fine tune your work day for them.
