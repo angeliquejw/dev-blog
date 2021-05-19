@@ -35,6 +35,25 @@
 		text-transform: uppercase;
 	}
 
+	hr {
+		background-color: $color-tumeric;
+		border: none;
+		height: 4px;
+		margin-bottom: $spacing-unit;
+		margin-left: -$spacing-unit;
+		margin-top: $spacing-unit;
+		width: 60%;
+
+		@media (min-width: 720px) {
+			margin-left: -$spacing-unit-lg;
+			width: 40%;
+		}
+
+		@media (min-width: 1140px) {
+			margin-left: -$spacing-unit-sm;
+		}
+	}
+
 	p,
 	li {
 		font-size: ms(1);
