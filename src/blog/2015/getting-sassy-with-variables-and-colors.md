@@ -9,12 +9,14 @@ comments: I'd love to see what awesome Sass stuff you've created!
 Back in the days when I was still intimidated by the command line, the lure of variables convinced me to figure out how to start using Sass in my projects. Just like I no longer memorize phone numbers because they're all pre-programmed into my cell phone, I also don't have to memorize the hex values of brand colors or entire web project color palettes due to the awesomeness of Sass.
 
 ## Intro to Sass
+
 If you're unfamiliar, Sass is a stylesheet language that is then compiled into standard CSS. As the [project page](http://sass-lang.com/) says, it's CSS with superpowers.
 
 Want to get started using Sass? Check out the [docs](http://sass-lang.com/install). Also, if you're not keen on using the command line, note that there are several apps you can use. Several are included in the docs; I used and had good experiences with [Prepros](https://prepros.io/), which runs on both Windows and Mac OSes.
 {: .note}
 
 ## So tell me about variables&hellip;
+
 In Sass, you declare identify a variable by starting with a `$`, like so:
 
 ```scss
@@ -38,10 +40,11 @@ While this was enough to make me jump to include Sass in my web development work
 </div>
 
 ## Easy color modifications with Sass
-With Sass, not only can you forgo memorizing hex values, sometimes you manage to use colors without *ever* having known the hex value. For example, if I style a button with a background color and want to either lighten or darken that color when that element is hovered over, I can sort that out easily in Sass:
+
+With Sass, not only can you forgo memorizing hex values, sometimes you manage to use colors without _ever_ having known the hex value. For example, if I style a button with a background color and want to either lighten or darken that color when that element is hovered over, I can sort that out easily in Sass:
 
 ```scss
-$base: #D4E744;
+$base: #d4e744;
 .lightDark {
   li {
     background: $base;
@@ -64,7 +67,7 @@ $base: #D4E744;
 You can also use Sass to generate RGB or RGBa values for colors, like so
 
 ```scss
-background: rgba($base,.5);
+background: rgba($base, 0.5);
 ```
 
 compiles to
@@ -120,6 +123,7 @@ You can also use Sass to saturate and desaturate colors, as well as generate gre
 </div>
 
 ## More complex Sass color functions
+
 If you're already using `lighten` and `adjust_hue` in your stylesheets, maybe you're interested in leveling up and trying to write your own color functions using Sass. My example above for generating RGBa values using Sass includes a basic Sass loop:
 
 <div class="code-embed-container">
@@ -134,7 +138,7 @@ Basically, this breaks down to:
 
 Depending on how much programming experience you have before jumping into Sass, this may take you a bit to wrap your head around (and playing around on [Sassmeister](http://sassmeister.com/) can be super helpful to understanding functions like this). Once you start, though, you'll be amazed at what you can do with Sass color functions. For inspiration, check out Elijah Manor's post on [dynamic repeating colors using Sass](http://www.elijahmanor.com/dynamic-repeating-sass-colors/) and Hugo Giraudel on [generating complex color palettes using Sass](http://www.sitepoint.com/using-sass-build-color-palettes/).
 
-My own recent contribution was re-configuring some code I wrote two years ago to be easier to fork and reuse. My original intent was to create a handy guide to what colors looked like after being lightened or darkened using Sass functions, including when light and dark text became illegible on the resulting colors. While my [original attempt](http://codepen.io/angeliquejw/details/BgrIs/) accomplished this, reusing the code was a fiddly affair. To change a single color in that palette, I had to update seven different values; to change the percent of a tint (say, to lighten and darken colors by 15% instead of 10%), I had to change four values *per color* in the HTML and two in the CSS. In comparison, my new version only requires 5 values to be updated when colors are swapped and 2 *total* values when changing or adding a percent value. (Honestly, I think even those numbers can be improved, so there may yet be a version 3!)
+My own recent contribution was re-configuring some code I wrote two years ago to be easier to fork and reuse. My original intent was to create a handy guide to what colors looked like after being lightened or darkened using Sass functions, including when light and dark text became illegible on the resulting colors. While my [original attempt](http://codepen.io/angeliquejw/details/BgrIs/) accomplished this, reusing the code was a fiddly affair. To change a single color in that palette, I had to update seven different values; to change the percent of a tint (say, to lighten and darken colors by 15% instead of 10%), I had to change four values _per color_ in the HTML and two in the CSS. In comparison, my new version only requires 5 values to be updated when colors are swapped and 2 _total_ values when changing or adding a percent value. (Honestly, I think even those numbers can be improved, so there may yet be a version 3!)
 
 <div class="code-embed-container">
 
@@ -200,5 +204,6 @@ Not all projects require or benefit from complex color functions like these exam
 *[CSS]: Cascading Stylesheets
 *[HTML]: Hypertext Markup Language; a basic building block of web pages
 *[IDE]: Integrated Developer Environment; essentially, an all-in-one solution for your code editor, compiler, version control, etc.
+
 <script src="http://cdn.sassmeister.com/js/embed.js" async></script>
 <script async src="//production-assets.codepen.io/assets/embed/ei.js"></script>

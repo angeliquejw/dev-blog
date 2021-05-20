@@ -1,5 +1,5 @@
 ---
-title: Mission Statement
+title: Mission statement
 tags: [first, women in tech]
 date: 2015-05-13
 location: Baltimore
@@ -14,7 +14,7 @@ I don't follow all the advice I receive via social media and blogs (because, oh,
 
 Of course, Garann wrote that post and I first saw it back in 2013. I immediately bookmarked it and started writing this initial post&hellip;and then I landed a few big freelance projects, got involved with [Girl Develop It](http://gdibaltimore.com), got a job, bought a house, sent a kid off to college&hellip;essentially, life happened. But Garran's words were bookmarked, both electronically and in my actual brainspace. And, in the interim, I've been extra aware when I've benefitted from [others writing](http://vaidehijoshi.github.io/) [about code](http://hugogiraudel.com/), their workflow, projects, tips and gripes. And that's made me grateful and motivated to give back, even while still being a bit intimidated. As Garann points out:
 
->The internet is full of horrible crap! If your horrible crap is at least well-intentioned, it's probably a step up from the other horrible crap. {: .no-cite }
+> The internet is full of horrible crap! If your horrible crap is at least well-intentioned, it's probably a step up from the other horrible crap. {: .no-cite }
 
 Admittedly, it can sometimes be a bit nerve-wracking to publicly be a woman doing your thing in the tech space. In general, coder culture has this vibe of always hacking, always improving, always questioning that I really love. I wish those values were enough to undo any sense of [imposter syndrome](http://geekfeminism.wikia.com/wiki/Impostor_syndrome) or [stereotype threat](http://geekfeminism.wikia.com/wiki/Stereotype_threat), but we're not there yet. If you've been paying attention to women's experiences online, I shouldn't have to cite examples here&mdash;it's been truly ugly and women have been harassed and threatened just for critiquing and participating in male-dominated spheres like tech and gaming. This has the understandable but completely shitty effect of making other women either not feel safe in tech at all or, do as I've been doing, just putting their heads down and doing the work without being very public about it.
 

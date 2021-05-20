@@ -22,6 +22,7 @@ Three things led me to redo things in Eleventy:
 3. Community -- I find the creator ([@ZachLeat](https://twitter.com/zachleat)) to be a stand-up dude (see, for example, [his enthusiasm when I tweeted about teaching with Eleventy](https://twitter.com/zachleat/status/1082429657683767296)) and the community around Eleventy to be friendly and encouraging.
 
 ## Setting up Eleventy
+
 Because I thought I might want to archive the previous version of the site (this migration also included a redesign), I opted to create a new GitHub repo for the blog. I'm not precious about my git history, so this was an easy choice for me to make.
 
 After creating a new repo, I copied the [Eleventy base blog template](https://github.com/11ty/eleventy-base-blog) for the basic structure.
@@ -48,7 +49,7 @@ Finally, actually deploying/publishing my Middleman blog had been a fairly wonky
 
 As my redesign was nearly complete, I explored deploying the site using [Vercel](https://vercel.com/docs#deploy-an-existing-project) and damn if it isn't simple and great. Other than adding my domain name (and sorting out my mail servers), I've had to do zero customization there -- it just works. After I merge changes into my main branch on GitHub, the site is live in about a minute. Legit, I used to spend more time than that verifying my old command line process. 🙀
 
-## Wrapping up 
+## Wrapping up
 
 There was a lot more involved in redesigning the site, tweaking Eleventy and using Nunjucks templating, but at this point in my process I had successfully migrated my content from Middleman to Eleventy. 🙌🏻 For the redesign, it's worth mentioning that I relied heavily on
 [Nunjucks documentation](https://mozilla.github.io/nunjucks/), [11ty Recipes](https://11ty.recipes/) and Andy Bell's [Learn Eleventy From Scratch course](https://piccalil.li/course/learn-eleventy-from-scratch).

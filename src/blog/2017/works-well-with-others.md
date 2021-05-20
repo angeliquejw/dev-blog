@@ -1,6 +1,16 @@
 ---
 title: Works well with others
-tags: [teams, empathy, safe space, communication, values, culture, tech culture, elm]
+tags:
+  [
+    teams,
+    empathy,
+    safe space,
+    communication,
+    values,
+    culture,
+    tech culture,
+    elm,
+  ]
 date: 2017-07-25
 location: Baltimore
 ---

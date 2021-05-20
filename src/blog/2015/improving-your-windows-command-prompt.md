@@ -1,6 +1,7 @@
 ---
 title: Improving Your Windows command prompt
-tags: [windows, command line, command prompt, terminal, cmder, cygwin, powershell]
+tags:
+  [windows, command line, command prompt, terminal, cmder, cygwin, powershell]
 date: 2015-07-16
 location: Baltimore
 comments: I'd love to know if you use an alternative program for the Windows command prompt and what your favorite tips are for improving your command prompt!
@@ -20,26 +21,29 @@ I'm using and writing about Windows 7, and specifics of this post may or may not
 {: .note}
 
 ## Google that shit
+
 My first instinct was to ask the Google bot this very obvious question:
 
 <div class="embed-container giphy">
     <iframe src="//giphy.com/embed/FRRK3vMJ4no52?html5=true" width="480" height="269" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 </div>
 
-This will give you [some](http://www.covingtoninnovations.com/mc/winforunix.html) [glossaries](http://www.lemoda.net/windows/windows2unix/windows2unix.html) of Windows equivalents to Unix commands. Which works fairly well, especially if you're not on the command line a lot or relying on tutorials and docs that assume a *nix-based system.
+This will give you [some](http://www.covingtoninnovations.com/mc/winforunix.html) [glossaries](http://www.lemoda.net/windows/windows2unix/windows2unix.html) of Windows equivalents to Unix commands. Which works fairly well, especially if you're not on the command line a lot or relying on tutorials and docs that assume a \*nix-based system.
 
 ## Switch to PowerShell
-Starting with Windows 7, there's a more powerful option to the default command prompt: PowerShell. PowerShell exposes some Windows admin stuff that you can't get to via the command prompt and also includes some of the *nix shell commands, like `pwd` and `ls`.
+
+Starting with Windows 7, there's a more powerful option to the default command prompt: PowerShell. PowerShell exposes some Windows admin stuff that you can't get to via the command prompt and also includes some of the \*nix shell commands, like `pwd` and `ls`.
 
 ![PWD works in PowerShell](/assets/img/blog/2015/ps-pwd-yay.png)
 
-Of course, I did say *some*&hellip;
+Of course, I did say _some_&hellip;
 
 ![Touch doesn't work in PowerShell](/assets/img/blog/2015/ps-touch-boo.png)
 
 I actually discovered PowerShell after I already dove into some other solutions, so I haven't spent a lot of time using it. If you think PowerShell may be for you or just want to learn more, How to Geek has a good post outlining [how PowerShell differs from the command prompt](http://www.howtogeek.com/163127/how-powershell-differs-from-the-windows-command-prompt/) and a [GeekSchool series devoted to PowerShell](http://www.howtogeek.com/137803/geek-school-learn-how-to-automate-windows-with-powershell/).
 
 ## Install an alternative command line
+
 Give up on the Windows default and go rogue with an app like [Cygwin](https://www.cygwin.com/) or [Cmder](http://gooseberrycreative.com/cmder/).
 
 <div class="embed-container giphy">
@@ -47,18 +51,20 @@ Give up on the Windows default and go rogue with an app like [Cygwin](https://ww
 </div>
 
 ### Cygwin
-Cygwin is free and open source software that provides a command-line shell that is compatible with *nix commands. I used this solution first as it was both recommended and described very well on Lifehacker:
 
-* [How can I make the Windows command prompt better?](http://lifehacker.com/5834755/how-can-i-make-the-windows-command-prompt-better)
-* [Introduction to Cygwin](http://lifehacker.com/179514/geek-to-live--introduction-to-cygwin-part-i)
+Cygwin is free and open source software that provides a command-line shell that is compatible with \*nix commands. I used this solution first as it was both recommended and described very well on Lifehacker:
+
+- [How can I make the Windows command prompt better?](http://lifehacker.com/5834755/how-can-i-make-the-windows-command-prompt-better)
+- [Introduction to Cygwin](http://lifehacker.com/179514/geek-to-live--introduction-to-cygwin-part-i)
 
 As noted by those articles, it's also worthwhile to install an alternate terminal as Cygwin replaces commands but doesn't actually improve the interface of the windows command prompt. [Mintty](https://code.google.com/p/mintty/) and [Console](http://sourceforge.net/projects/console/) are two popular options and Lifehacker also has articles about them, too.
 
 If you're using Cygwin, you can actually install Mintty as a package. Cygwin has [a lot of packages](https://cygwin.com/packages/package_list.html), which extend Cygwin in a variety of ways. This is awesome but, to start, it's also a bit overwhelming. Also, the way to install new packages is a bit wonky (you open the Cygwin install software, connect to servers and select packages).
 
-Definitely definitely *definitely* read all the way through a guide to installing Cygwin before jumping in. Things that seem innocuous (like choosing an [install directory](https://cygwin.com/faq.html#faq.setup.c)) actually have import, so you want to know that in advance.
+Definitely definitely _definitely_ read all the way through a guide to installing Cygwin before jumping in. Things that seem innocuous (like choosing an [install directory](https://cygwin.com/faq.html#faq.setup.c)) actually have import, so you want to know that in advance.
 
 ### Cmder
+
 After abandoning the command line for awhile, I had reason to jump back in when I went to [Bmore on Rails](http://bmoreonrails.org) workshop for women. I realized my Cygwin install was out of date at that time and it felt like a pain to get everything up and running properly again, so I decided to look for a command prompt replacement that didn't have the overhead and wonkiness of Cygwin.
 
 It's worth noting here that I'm sure Cygwin does things Cmder does not; in fact, it's this sense that Cygwin is a bit overpowered and complicated for my needs that, to me, is a downside.

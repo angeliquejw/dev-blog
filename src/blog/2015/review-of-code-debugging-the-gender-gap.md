@@ -1,11 +1,19 @@
 ---
 title: "Review of Code: Debugging the Gender Gap"
-tags: [documentary, gender gap, women in tech, diversity, computer science, tech culture]
+tags:
+  [
+    documentary,
+    gender gap,
+    women in tech,
+    diversity,
+    computer science,
+    tech culture,
+  ]
 date: 2015-07-13
 location: Baltimore
-footnotes: 
-    - The film, obvously, focuses on the lack of gender diversity in tech. Other diversity issues&mdash;ethnic, socio-economic&mdash;are discussed and some of the things that keep women out of tech&mdash;lack of role models, toxic culture&mdash;affect these other groups, too.
-    - 'Sources for CS education stats: <a href="https://code.org/stats">https://code.org/stats</a>, <a href="http://www.computinginthecore.org/facts-resources">http://www.computinginthecore.org/facts-resources</a>, <a href="http://www.exploringcs.org/resources/cs-statistics">http://www.exploringcs.org/resources/cs-statistics</a>'
+footnotes:
+  - The film, obvously, focuses on the lack of gender diversity in tech. Other diversity issues&mdash;ethnic, socio-economic&mdash;are discussed and some of the things that keep women out of tech&mdash;lack of role models, toxic culture&mdash;affect these other groups, too.
+  - 'Sources for CS education stats: <a href="https://code.org/stats">https://code.org/stats</a>, <a href="http://www.computinginthecore.org/facts-resources">http://www.computinginthecore.org/facts-resources</a>, <a href="http://www.exploringcs.org/resources/cs-statistics">http://www.exploringcs.org/resources/cs-statistics</a>'
 ---
 
 There's been enough coverage in the last year, that most folks accept tech has a diversity problem. The documentary <strong><em>Code: Debugging the Gender Gap</em></strong> looks at this issue<sup id="return-fn1"><a href="#fn1">1</a></sup>, it's history, causes and impact.
@@ -46,7 +54,7 @@ Something the film drove home for me, specifically, was the actual nuts and bolt
 
 </figure>
 
-For kids in school now, gearing up for those opportunities is not easy. In half of US states, computer science classes don't count toward students' graduation math and science requirements. And things are getting worse for CS at the high school level: Since 2005, introductory secondary school computer science courses have *decreased* in number&mdash;by 17 percent. This lack of exposure has an impact, as 98% of CS majors reported some exposure to CS prior to college (in the form of classes, camps, after-school programs, etc). <sup id="return-fn2"><a href="#fn2">2</a></sup>
+For kids in school now, gearing up for those opportunities is not easy. In half of US states, computer science classes don't count toward students' graduation math and science requirements. And things are getting worse for CS at the high school level: Since 2005, introductory secondary school computer science courses have _decreased_ in number&mdash;by 17 percent. This lack of exposure has an impact, as 98% of CS majors reported some exposure to CS prior to college (in the form of classes, camps, after-school programs, etc). <sup id="return-fn2"><a href="#fn2">2</a></sup>
 
 While some of this info was eye-opening and new to me, the overall themes of <strong><em>Code</em></strong> tie in to my personal motivations to get more women into tech/programming&mdash;
 

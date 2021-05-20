@@ -1,6 +1,6 @@
 ---
 title: Better remote teams
-summary:
+summary: Simple steps to make your remote teams better.
 tags:
   [
     remote,
