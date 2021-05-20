@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2021-05-19T14:42:17.504Z",
+  "lastFetched": "2021-05-20T14:29:00.147Z",
   "children": [
     {
       "type": "entry",
@@ -1198,6 +1198,28 @@
       "wm-target": "https://angeliqueweger.com/blog/2021/remote-lessons/",
       "like-of": "https://angeliqueweger.com/blog/2021/remote-lessons/",
       "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "feminism & sharks",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0c9765ae096b4fc4cbf09ac171d0d9c03ec3f226c12e01b9fb47aa001a43fde3.jpg",
+        "url": "https://twitter.com/messypixels"
+      },
+      "url": "https://twitter.com/messypixels/status/1395034351549751306",
+      "published": "2021-05-19T15:11:22+00:00",
+      "wm-received": "2021-05-19T15:14:15Z",
+      "wm-id": 1163817,
+      "wm-source": "https://brid.gy/comment/twitter/messypixels/1394275999551037441/1395034351549751306",
+      "wm-target": "https://angeliqueweger.com/blog/2021/remote-lessons/",
+      "content": {
+        "html": "It truly has made being at my desk better. Also, thanks for reading! :D\n<a class=\"u-mention\" href=\"https://twitter.com/adityarao310\"></a>",
+        "text": "It truly has made being at my desk better. Also, thanks for reading! :D"
+      },
+      "in-reply-to": "https://angeliqueweger.com/blog/2021/remote-lessons/",
+      "wm-property": "in-reply-to",
       "wm-private": false
     }
   ]
