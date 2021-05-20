@@ -30,15 +30,15 @@ I also polled the hive mind and got recommendations for other apps and settings 
 
 Other things I've installed and am enjoying:
 
-* [Bear](http://www.bear-writer.com/)&mdash;While I've been an avid user of Evernote for years, I liked the idea of keeping my work-related notes truly separate and also wanted to take the opportunity to try something new. I enjoy the baked-in Markdown of this app, and it's clean look and feel. While the app doesn't include the sharing features found in Evernote, it was a pretty trivial task to export [my notes on Elm](https://gist.github.com/angeliquejw/00199765483bbcebaf658f46aa464bfb) and add them to Gist to share with my team. (Also kinda think this is a thing I could possibly automate, but didn't need to go down that rabbit hole at exactly that moment. More on automating things on my Mac in a later post. Hopefully not in 2019.)
-* [itsycal](https://www.mowglii.com/itsycal/)&mdash;I appreciate having an at-a-glance calendar to easily coordinate meetings or suss out my after-work plans.
-* [LaunchBar](https://www.obdev.at/products/launchbar/)&mdash;Admittedly, I didn't do a detailed comparison of this versus Alfred or other launchers. Like Bear, time will tell if this is a choice I stick with.
-* [Vanilla](http://matthewpalmer.net/vanilla/)&mdash;While friends recommended Bartender, I couldn't wrap my head around paying $15 for something, again, that I was used to being default Windows functionality. I'm currently giving this smaller (and, yes, less pricey) app a whirl to see if it serves well enough.
+- [Bear](http://www.bear-writer.com/)&mdash;While I've been an avid user of Evernote for years, I liked the idea of keeping my work-related notes truly separate and also wanted to take the opportunity to try something new. I enjoy the baked-in Markdown of this app, and it's clean look and feel. While the app doesn't include the sharing features found in Evernote, it was a pretty trivial task to export [my notes on Elm](https://gist.github.com/angeliquejw/00199765483bbcebaf658f46aa464bfb) and add them to Gist to share with my team. (Also kinda think this is a thing I could possibly automate, but didn't need to go down that rabbit hole at exactly that moment. More on automating things on my Mac in a later post. Hopefully not in 2019.)
+- [itsycal](https://www.mowglii.com/itsycal/)&mdash;I appreciate having an at-a-glance calendar to easily coordinate meetings or suss out my after-work plans.
+- [LaunchBar](https://www.obdev.at/products/launchbar/)&mdash;Admittedly, I didn't do a detailed comparison of this versus Alfred or other launchers. Like Bear, time will tell if this is a choice I stick with.
+- [Vanilla](http://matthewpalmer.net/vanilla/)&mdash;While friends recommended Bartender, I couldn't wrap my head around paying $15 for something, again, that I was used to being default Windows functionality. I'm currently giving this smaller (and, yes, less pricey) app a whirl to see if it serves well enough.
 
 Two apps that migrated with me from my Windows days:
 
-* [Flux](https://justgetflux.com/)&mdash;I *always* notice when I'm using a machine sans Flux. After installing, I learned macOS has some eyestrain-reducing features baked in, but I haven't done a comparison, so flux is still there, running and being lovely
-* [Visual Studio Code](https://code.visualstudio.com/)&mdash;I may be the only dev on my team using this code editor, but I have really grown to love it. I find it to be zippy and the Git integration to be awesome. 👍
+- [Flux](https://justgetflux.com/)&mdash;I _always_ notice when I'm using a machine sans Flux. After installing, I learned macOS has some eyestrain-reducing features baked in, but I haven't done a comparison, so flux is still there, running and being lovely
+- [Visual Studio Code](https://code.visualstudio.com/)&mdash;I may be the only dev on my team using this code editor, but I have really grown to love it. I find it to be zippy and the Git integration to be awesome. 👍
 
 One week in, my only current major pain point is my Razer keyboard; the Razer software seems to hate macOS (my custom settings occasionally delete/reset themselves?). I'm trying, at this point, to avoid going down the rabbit hole of researching new Mac-friendly mechanical keyboards.
 
