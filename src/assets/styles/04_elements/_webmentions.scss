@@ -142,7 +142,7 @@
 		height: 56px;
 		object-fit: cover;
 		transition: $transition-default;
-		width: 100%;
+		width: 56px;
 	}
 
 	@include hover-state {
@@ -166,6 +166,7 @@
 
 		img {
 			height: 48px;
+			width: 48px;
 		}
 	}
 
