@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2021-05-20T14:29:00.147Z",
+  "lastFetched": "2021-07-01T14:35:25.522Z",
   "children": [
     {
       "type": "entry",
@@ -1220,6 +1220,139 @@
       },
       "in-reply-to": "https://angeliqueweger.com/blog/2021/remote-lessons/",
       "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "OpenSexism",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/973060e6918a527455508f077da8eedaf9e81651baac83574050ea454a00f2b0.png",
+        "url": "https://twitter.com/OpenSexism"
+      },
+      "url": "https://twitter.com/messypixels/status/1404544462118920195#favorited-by-1142299808331264002",
+      "published": null,
+      "wm-received": "2021-06-15T14:52:30Z",
+      "wm-id": 1190802,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1404544462118920195/1142299808331264002",
+      "wm-target": "https://angeliqueweger.com/blog/2021/hiring-lessons/",
+      "like-of": "https://angeliqueweger.com/blog/2021/hiring-lessons/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jennifer Riggins",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/d8671fa076eb4df6fc8f216c40b1d95cf061fc8e45a63b561fad04bbed630361.jpg",
+        "url": "https://twitter.com/jkriggins"
+      },
+      "url": "https://twitter.com/jkriggins/status/1404566699207241728",
+      "published": "2021-06-14T22:29:31+00:00",
+      "wm-received": "2021-06-15T01:35:43Z",
+      "wm-id": 1189973,
+      "wm-source": "https://brid.gy/comment/twitter/messypixels/1404544462118920195/1404566699207241728",
+      "wm-target": "https://angeliqueweger.com/blog/2021/hiring-lessons/",
+      "content": {
+        "html": "Thank you! And really shouldn’t we all be hiring as small teams to work toward full stack teams not the impossibility of full stack people?\n<a class=\"u-mention\" href=\"http://my.pronoun.is/she\"></a>\n<a class=\"u-mention\" href=\"http://www.angeliqueweger.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/messypixels\"></a>",
+        "text": "Thank you! And really shouldn’t we all be hiring as small teams to work toward full stack teams not the impossibility of full stack people?"
+      },
+      "in-reply-to": "https://angeliqueweger.com/blog/2021/hiring-lessons/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jennifer Riggins",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/d8671fa076eb4df6fc8f216c40b1d95cf061fc8e45a63b561fad04bbed630361.jpg",
+        "url": "https://twitter.com/jkriggins"
+      },
+      "url": "https://twitter.com/messypixels/status/1404544462118920195#favorited-by-16789906",
+      "published": null,
+      "wm-received": "2021-06-15T01:35:09Z",
+      "wm-id": 1189972,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1404544462118920195/16789906",
+      "wm-target": "https://angeliqueweger.com/blog/2021/hiring-lessons/",
+      "like-of": "https://angeliqueweger.com/blog/2021/hiring-lessons/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "⚖️Leah",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/aa5846603bbe47e5cdcf743e9ac63573d2e28d2c518fe130f4fa98040de04d79.jpg",
+        "url": "https://twitter.com/Justice4PwD"
+      },
+      "url": "https://twitter.com/messypixels/status/1395394838703583233#favorited-by-2332614032",
+      "published": null,
+      "wm-received": "2021-05-20T15:39:02Z",
+      "wm-id": 1164772,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1395394838703583233/2332614032",
+      "wm-target": "https://angeliqueweger.com/blog/2021/accessibility-resources-gaad2021/",
+      "like-of": "https://angeliqueweger.com/blog/2021/accessibility-resources-gaad2021/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Marissa Cummings 吳至佳",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/2f8a501288727dc94407f301d43457c32acc114e21823bcff5f3a87fbdceda75.jpg",
+        "url": "https://twitter.com/mcc_cummings"
+      },
+      "url": "https://twitter.com/mcc_cummings/status/1395396939630399496",
+      "published": "2021-05-20T15:12:10+00:00",
+      "wm-received": "2021-05-20T15:39:01Z",
+      "wm-id": 1164771,
+      "wm-source": "https://brid.gy/repost/twitter/messypixels/1395394838703583233/1395396939630399496",
+      "wm-target": "https://angeliqueweger.com/blog/2021/accessibility-resources-gaad2021/",
+      "content": {
+        "text": "For #GAAD , I'm sharing resources that have helped me along the way, from learning accessibility basics to being an advocate for inclusive design:\nangeliqueweger.com/blog/2021/acce…"
+      },
+      "repost-of": "https://angeliqueweger.com/blog/2021/accessibility-resources-gaad2021/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Michelle Martir",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/b4c42d434efc530da919dabbb5762fa2a7ec5bfa997bb73adff7fabff4180533.jpg",
+        "url": "https://twitter.com/martirology"
+      },
+      "url": "https://twitter.com/messypixels/status/1395394838703583233#favorited-by-54446356",
+      "published": null,
+      "wm-received": "2021-05-20T15:39:00Z",
+      "wm-id": 1164770,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1395394838703583233/54446356",
+      "wm-target": "https://angeliqueweger.com/blog/2021/accessibility-resources-gaad2021/",
+      "like-of": "https://angeliqueweger.com/blog/2021/accessibility-resources-gaad2021/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Marissa Cummings 吳至佳",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/2f8a501288727dc94407f301d43457c32acc114e21823bcff5f3a87fbdceda75.jpg",
+        "url": "https://twitter.com/mcc_cummings"
+      },
+      "url": "https://twitter.com/messypixels/status/1395394838703583233#favorited-by-848934777256280064",
+      "published": null,
+      "wm-received": "2021-05-20T15:38:59Z",
+      "wm-id": 1164769,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1395394838703583233/848934777256280064",
+      "wm-target": "https://angeliqueweger.com/blog/2021/accessibility-resources-gaad2021/",
+      "like-of": "https://angeliqueweger.com/blog/2021/accessibility-resources-gaad2021/",
+      "wm-property": "like-of",
       "wm-private": false
     }
   ]
