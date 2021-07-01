@@ -46,15 +46,15 @@ With Sass, not only can you forgo memorizing hex values, sometimes you manage to
 ```scss
 $base: #d4e744;
 .lightDark {
-  li {
-    background: $base;
-    &:first-of-type {
-      background: lighten($base, 20);
-    }
-    &:last-of-type {
-      background: darken($base, 20);
-    }
-  }
+	li {
+		background: $base;
+		&:first-of-type {
+			background: lighten($base, 20);
+		}
+		&:last-of-type {
+			background: darken($base, 20);
+		}
+	}
 }
 ```
 
@@ -88,23 +88,23 @@ While these are the color functions I use most often in Sass, they're not the on
 
 ```scss
 .complementary {
-  li {
-    background: $base;
-    &:nth-child(2) {
-      background: adjust_hue($base, 180);
-    }
-  }
+	li {
+		background: $base;
+		&:nth-child(2) {
+			background: adjust_hue($base, 180);
+		}
+	}
 }
 .triadic {
-  li {
-    background: $base;
-    &:first-of-type {
-      background: adjust_hue($base, 120);
-    }
-    &:last-of-type {
-      background: adjust_hue($base, -120);
-    }
-  }
+	li {
+		background: $base;
+		&:first-of-type {
+			background: adjust_hue($base, 120);
+		}
+		&:last-of-type {
+			background: adjust_hue($base, -120);
+		}
+	}
 }
 ```
 
@@ -134,7 +134,7 @@ Basically, this breaks down to:
 
 1. Go through the first nine `li` elements under the `rgba` class.
 2. Assign each one a background color based on the `$base` variable.
-3. For the opacity level, multiply the item number (ie, which child is it) by 0.1, thus the fourth item has an opacity of 0.4.
+3. For the opacity level, multiply the item number (i.e., which child is it) by 0.1, thus the fourth item has an opacity of 0.4.
 
 Depending on how much programming experience you have before jumping into Sass, this may take you a bit to wrap your head around (and playing around on [Sassmeister](http://sassmeister.com/) can be super helpful to understanding functions like this). Once you start, though, you'll be amazed at what you can do with Sass color functions. For inspiration, check out Elijah Manor's post on [dynamic repeating colors using Sass](http://www.elijahmanor.com/dynamic-repeating-sass-colors/) and Hugo Giraudel on [generating complex color palettes using Sass](http://www.sitepoint.com/using-sass-build-color-palettes/).
 
@@ -150,34 +150,34 @@ One of the awesome realizations I had in re-configuring this code was how smarte
 
 ```html
 <div class="row melon">
-  <div class="lightest">
-    <h2>10%</h2>
-    <h2 class="white">10%</h2>
-  </div>
-  <div class="lighter">
-    <h2>5%</h2>
-    <h2 class="white">5%</h2>
-  </div>
-  <div class="light">
-    <h2>3%</h2>
-    <h2 class="white">3%</h2>
-  </div>
-  <div class="main">
-    <h1>melon</h1>
-    <h1 class="white">melon</h1>
-  </div>
-  <div class="dark">
-    <h2>3%</h2>
-    <h2 class="white">3%</h2>
-  </div>
-  <div class="darker">
-    <h2>5%</h2>
-    <h2 class="white">5%</h2>
-  </div>
-  <div class="darkest">
-    <h2>10%</h2>
-    <h2 class="white">10%</h2>
-  </div>
+	<div class="lightest">
+		<h2>10%</h2>
+		<h2 class="white">10%</h2>
+	</div>
+	<div class="lighter">
+		<h2>5%</h2>
+		<h2 class="white">5%</h2>
+	</div>
+	<div class="light">
+		<h2>3%</h2>
+		<h2 class="white">3%</h2>
+	</div>
+	<div class="main">
+		<h1>melon</h1>
+		<h1 class="white">melon</h1>
+	</div>
+	<div class="dark">
+		<h2>3%</h2>
+		<h2 class="white">3%</h2>
+	</div>
+	<div class="darker">
+		<h2>5%</h2>
+		<h2 class="white">5%</h2>
+	</div>
+	<div class="darkest">
+		<h2>10%</h2>
+		<h2 class="white">10%</h2>
+	</div>
 </div>
 ```
 
@@ -185,13 +185,13 @@ HTML now:
 
 ```html
 <ul class="palette melon">
-  <li><span></span><span></span></li>
-  <li><span></span><span></span></li>
-  <li><span></span><span></span></li>
-  <li><span></span><span></span></li>
-  <li><span></span><span></span></li>
-  <li><span></span><span></span></li>
-  <li><span></span><span></span></li>
+	<li><span></span><span></span></li>
+	<li><span></span><span></span></li>
+	<li><span></span><span></span></li>
+	<li><span></span><span></span></li>
+	<li><span></span><span></span></li>
+	<li><span></span><span></span></li>
+	<li><span></span><span></span></li>
 </ul>
 ```
 
@@ -201,9 +201,8 @@ Not all projects require or benefit from complex color functions like these exam
   <iframe src="//giphy.com/embed/TfeXX34FFOoSI?html5=true" width="480" height="209" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 </div>
 
-*[CSS]: Cascading Stylesheets
-*[HTML]: Hypertext Markup Language; a basic building block of web pages
-*[IDE]: Integrated Developer Environment; essentially, an all-in-one solution for your code editor, compiler, version control, etc.
+_[CSS]: Cascading Stylesheets
+_[HTML]: Hypertext Markup Language; a basic building block of web pages \*[IDE]: Integrated Developer Environment; essentially, an all-in-one solution for your code editor, compiler, version control, etc.
 
 <script src="http://cdn.sassmeister.com/js/embed.js" async></script>
 <script async src="//production-assets.codepen.io/assets/embed/ei.js"></script>

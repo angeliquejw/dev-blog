@@ -49,7 +49,7 @@ None of this, I should note, is meant to be a slam on PHP or WordPress. I'm usin
 
 Also, to be entirely fair, WordPress offers some things out of the box that I don't get with Middleman or its equivalents (Oh, yeah, [there are _lots_ of static site generators out there](https://staticsitegenerators.net/).) There's no comments here (_yet_), no search (_yet_); most importantly, there's no GUI. One of the reasons I've promoted WordPress to so many clients is the ease of use for folks with little to no technical know how. The WordPress posting interface is similar enough to Microsoft Word that folks can handle creating posts and pages with little to no guidance.
 
-A Middleman-based blog is better suited for someone with some dev know how (eg, you know how to get to the command line) or someone willing to jump in and learn some extra stuff along the way.
+A Middleman-based blog is better suited for someone with some dev know how (e.g., you know how to get to the command line) or someone willing to jump in and learn some extra stuff along the way.
 
 ## So, you want to install Middleman
 
@@ -155,15 +155,15 @@ To display that data in my article templates is also super easy:
 
 I'll document more about customizing Middleman as I develop this blog and use it on other projects, but hopefully this is enough to get some folks interested and rolling.
 
-*[CMS]: Content Management System, like blogging software
-*[CSS]: Cascading Stylesheets
-*[ERb]: Ruby templating language
-*[GUI]: graphical user interface
-*[Haml]: HTML Abstraction Markup Language; it's a way to write more efficient HTML
-*[HTML]: Hypertext Markup Language; a basic building block of web pages
-*[Markdown]: A simple and lovely markup language
-*[Ruby gem]: A Ruby library or plugin
-*[Ruby on Rails]: popular Ruby framework
-*[Ruby-on-Rails]: popular Ruby framework
-*[Sass]: Syntastically Awesome Stylesheets, or, as the project site says, CSS with superpowers!
-*[URL]: Uniform Resource Locator
+_[CMS]: Content Management System, like blogging software
+_[CSS]: Cascading Stylesheets
+_[ERb]: Ruby templating language
+_[GUI]: graphical user interface
+_[Haml]: HTML Abstraction Markup Language; it's a way to write more efficient HTML
+_[HTML]: Hypertext Markup Language; a basic building block of web pages
+_[Markdown]: A simple and lovely markup language
+_[Ruby gem]: A Ruby library or plugin
+_[Ruby on Rails]: popular Ruby framework
+_[Ruby-on-Rails]: popular Ruby framework
+_[Sass]: Syntastically Awesome Stylesheets, or, as the project site says, CSS with superpowers!
+_[URL]: Uniform Resource Locator
