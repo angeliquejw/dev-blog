@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2021-07-01T14:35:25.522Z",
+  "lastFetched": "2021-07-05T20:22:31.734Z",
   "children": [
     {
       "type": "entry",
@@ -1352,6 +1352,42 @@
       "wm-source": "https://brid.gy/like/twitter/messypixels/1395394838703583233/848934777256280064",
       "wm-target": "https://angeliqueweger.com/blog/2021/accessibility-resources-gaad2021/",
       "like-of": "https://angeliqueweger.com/blog/2021/accessibility-resources-gaad2021/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Brian Holt",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/6aca8aeca264af63f0cd324f34f813a7c6a501dd35b0c443e1221c2b1847cd54.jpg",
+        "url": "https://twitter.com/holtbt"
+      },
+      "url": "https://twitter.com/messypixels/status/1410976369119535107#favorited-by-194479949",
+      "published": null,
+      "wm-received": "2021-07-02T20:43:38Z",
+      "wm-id": 1208404,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1410976369119535107/194479949",
+      "wm-target": "https://angeliqueweger.com/blog/2021/remote-lessons/#consistency",
+      "like-of": "https://angeliqueweger.com/blog/2021/remote-lessons/#consistency",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Dave Knapik",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/fa19c13791e8a2bc60073aa2ebdf99136ab8fca94b137a2d6d385782d1452459.jpg",
+        "url": "https://twitter.com/daveknapik"
+      },
+      "url": "https://twitter.com/messypixels/status/1410976369119535107#favorited-by-1108",
+      "published": null,
+      "wm-received": "2021-07-02T20:43:14Z",
+      "wm-id": 1208403,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1410976369119535107/1108",
+      "wm-target": "https://angeliqueweger.com/blog/2021/remote-lessons/#consistency",
+      "like-of": "https://angeliqueweger.com/blog/2021/remote-lessons/#consistency",
       "wm-property": "like-of",
       "wm-private": false
     }
