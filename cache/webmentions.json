@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2021-07-05T21:18:10.720Z",
+  "lastFetched": "2021-07-07T00:25:12.336Z",
   "children": [
     {
       "type": "entry",
@@ -1388,6 +1388,213 @@
       "wm-source": "https://brid.gy/like/twitter/messypixels/1410976369119535107/1108",
       "wm-target": "https://angeliqueweger.com/blog/2021/remote-lessons/#consistency",
       "like-of": "https://angeliqueweger.com/blog/2021/remote-lessons/#consistency",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Elise",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/a9f41e36d843aba522c664c17eadd1a7021e993bafeda0bc14db5d80002c9500.jpg",
+        "url": "https://twitter.com/Not_Pele"
+      },
+      "url": "https://twitter.com/Not_Pele/status/1412510522830843905",
+      "published": "2021-07-06T20:35:26+00:00",
+      "wm-received": "2021-07-06T21:07:55Z",
+      "wm-id": 1211793,
+      "wm-source": "https://brid.gy/repost/twitter/messypixels/1412421778971017217/1412510522830843905",
+      "wm-target": "https://angeliqueweger.com/blog/2021/skill-building-for-developers/",
+      "content": {
+        "text": "I know there's a lot of angst about how much there is to learn in web dev, so I wrote about the system I've used for years:\nangeliqueweger.com/blog/2021/skil…\n\nThere's also a template in the post, in case you want to use or adapt this system as your own."
+      },
+      "repost-of": "https://angeliqueweger.com/blog/2021/skill-building-for-developers/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Adam Bachman",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e096f84259e68ff06af4bf20af354f1d0479f1fcf767bee7de98881ee1d50e25.jpeg",
+        "url": "https://twitter.com/abachman"
+      },
+      "url": "https://twitter.com/messypixels/status/1412421778971017217#favorited-by-803627",
+      "published": null,
+      "wm-received": "2021-07-06T21:07:50Z",
+      "wm-id": 1211792,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1412421778971017217/803627",
+      "wm-target": "https://angeliqueweger.com/blog/2021/skill-building-for-developers/",
+      "like-of": "https://angeliqueweger.com/blog/2021/skill-building-for-developers/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "eviux 🔥",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/9d52364ea041539121d06a9de10d5057cb03302220aadfaf4087c16bea19b581.jpg",
+        "url": "https://twitter.com/evalienigena"
+      },
+      "url": "https://twitter.com/messypixels/status/1412421778971017217#favorited-by-3519588919",
+      "published": null,
+      "wm-received": "2021-07-06T16:59:37Z",
+      "wm-id": 1211569,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1412421778971017217/3519588919",
+      "wm-target": "https://angeliqueweger.com/blog/2021/skill-building-for-developers/",
+      "like-of": "https://angeliqueweger.com/blog/2021/skill-building-for-developers/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Vaidehi Joshi",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/f6adf8316be5b5f84fb789256eaae7af965cd75935b823303169a298f776a7bd.jpg",
+        "url": "https://twitter.com/vaidehijoshi"
+      },
+      "url": "https://twitter.com/messypixels/status/1412421778971017217#favorited-by-166415915",
+      "published": null,
+      "wm-received": "2021-07-06T15:43:16Z",
+      "wm-id": 1211528,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1412421778971017217/166415915",
+      "wm-target": "https://angeliqueweger.com/blog/2021/skill-building-for-developers/",
+      "like-of": "https://angeliqueweger.com/blog/2021/skill-building-for-developers/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Feminigoose wants to defund the police",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/bea341f29643ab0f044d785b6bc8739fec00f4b6a1e10b445dcaf2e42e6a1ddd.jpg",
+        "url": "https://twitter.com/maryloulenhart"
+      },
+      "url": "https://twitter.com/maryloulenhart/status/1412422265287893000",
+      "published": "2021-07-06T14:44:44+00:00",
+      "wm-received": "2021-07-06T15:43:15Z",
+      "wm-id": 1211527,
+      "wm-source": "https://brid.gy/repost/twitter/messypixels/1412421778971017217/1412422265287893000",
+      "wm-target": "https://angeliqueweger.com/blog/2021/skill-building-for-developers/",
+      "content": {
+        "text": "I know there's a lot of angst about how much there is to learn in web dev, so I wrote about the system I've used for years:\nangeliqueweger.com/blog/2021/skil…\n\nThere's also a template in the post, in case you want to use or adapt this system as your own."
+      },
+      "repost-of": "https://angeliqueweger.com/blog/2021/skill-building-for-developers/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Kristen Seversky",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/1873510a6a2d593b0db21a4069fc2e8a4c036a1915391a19455a4a6aa4c7763f.jpg",
+        "url": "https://twitter.com/KR1573N"
+      },
+      "url": "https://twitter.com/KR1573N/status/1412422559472271368",
+      "published": "2021-07-06T14:45:54+00:00",
+      "wm-received": "2021-07-06T15:43:14Z",
+      "wm-id": 1211526,
+      "wm-source": "https://brid.gy/repost/twitter/messypixels/1412421778971017217/1412422559472271368",
+      "wm-target": "https://angeliqueweger.com/blog/2021/skill-building-for-developers/",
+      "content": {
+        "text": "I know there's a lot of angst about how much there is to learn in web dev, so I wrote about the system I've used for years:\nangeliqueweger.com/blog/2021/skil…\n\nThere's also a template in the post, in case you want to use or adapt this system as your own."
+      },
+      "repost-of": "https://angeliqueweger.com/blog/2021/skill-building-for-developers/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Trezy 💫 Hire me!",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/e4d4f4b76fdc4fc8adb318aa2c360a71a472bf634fcb1934f7d295732e60c3b4.jpg",
+        "url": "https://twitter.com/TrezyCodes"
+      },
+      "url": "https://twitter.com/messypixels/status/1412421778971017217#favorited-by-87254848",
+      "published": null,
+      "wm-received": "2021-07-06T15:43:13Z",
+      "wm-id": 1211525,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1412421778971017217/87254848",
+      "wm-target": "https://angeliqueweger.com/blog/2021/skill-building-for-developers/",
+      "like-of": "https://angeliqueweger.com/blog/2021/skill-building-for-developers/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "ree-zal-dee",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/90eaf0c2c3665afeca8bfff70112d174d107ef0dc72c16ababac13028865520d.jpg",
+        "url": "https://twitter.com/_rizaldi_m_"
+      },
+      "url": "https://twitter.com/messypixels/status/1412421778971017217#favorited-by-3705891138",
+      "published": null,
+      "wm-received": "2021-07-06T15:43:12Z",
+      "wm-id": 1211524,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1412421778971017217/3705891138",
+      "wm-target": "https://angeliqueweger.com/blog/2021/skill-building-for-developers/",
+      "like-of": "https://angeliqueweger.com/blog/2021/skill-building-for-developers/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Feminigoose wants to defund the police",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/bea341f29643ab0f044d785b6bc8739fec00f4b6a1e10b445dcaf2e42e6a1ddd.jpg",
+        "url": "https://twitter.com/maryloulenhart"
+      },
+      "url": "https://twitter.com/messypixels/status/1412421778971017217#favorited-by-73231837",
+      "published": null,
+      "wm-received": "2021-07-06T15:43:11Z",
+      "wm-id": 1211523,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1412421778971017217/73231837",
+      "wm-target": "https://angeliqueweger.com/blog/2021/skill-building-for-developers/",
+      "like-of": "https://angeliqueweger.com/blog/2021/skill-building-for-developers/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "majid",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/f64e842f42659334761c3c831f69b695c884a856eb9d7248692a3edd7440cc8f.jpg",
+        "url": "https://twitter.com/majidrazvi"
+      },
+      "url": "https://twitter.com/messypixels/status/1412421778971017217#favorited-by-17081398",
+      "published": null,
+      "wm-received": "2021-07-06T15:43:10Z",
+      "wm-id": 1211522,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1412421778971017217/17081398",
+      "wm-target": "https://angeliqueweger.com/blog/2021/skill-building-for-developers/",
+      "like-of": "https://angeliqueweger.com/blog/2021/skill-building-for-developers/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Kristen Seversky",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/1873510a6a2d593b0db21a4069fc2e8a4c036a1915391a19455a4a6aa4c7763f.jpg",
+        "url": "https://twitter.com/KR1573N"
+      },
+      "url": "https://twitter.com/messypixels/status/1412421778971017217#favorited-by-15012998",
+      "published": null,
+      "wm-received": "2021-07-06T15:41:13Z",
+      "wm-id": 1211512,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1412421778971017217/15012998",
+      "wm-target": "https://angeliqueweger.com/blog/2021/skill-building-for-developers/",
+      "like-of": "https://angeliqueweger.com/blog/2021/skill-building-for-developers/",
       "wm-property": "like-of",
       "wm-private": false
     }
