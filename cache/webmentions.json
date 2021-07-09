@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2021-07-07T00:25:12.336Z",
+  "lastFetched": "2021-07-09T01:32:40.763Z",
   "children": [
     {
       "type": "entry",
@@ -1593,6 +1593,45 @@
       "wm-received": "2021-07-06T15:41:13Z",
       "wm-id": 1211512,
       "wm-source": "https://brid.gy/like/twitter/messypixels/1412421778971017217/15012998",
+      "wm-target": "https://angeliqueweger.com/blog/2021/skill-building-for-developers/",
+      "like-of": "https://angeliqueweger.com/blog/2021/skill-building-for-developers/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Mikaela",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/52c84f98c60fdc54a844a700f29062fe279996be914017d910d89e38a5a49d7c.jpg",
+        "url": "https://twitter.com/lexakami"
+      },
+      "url": "https://twitter.com/lexakami/status/1413248801847062532",
+      "published": "2021-07-08T21:29:05+00:00",
+      "wm-received": "2021-07-08T22:04:53Z",
+      "wm-id": 1214340,
+      "wm-source": "https://brid.gy/repost/twitter/messypixels/1412421778971017217/1413248801847062532",
+      "wm-target": "https://angeliqueweger.com/blog/2021/skill-building-for-developers/",
+      "content": {
+        "text": "I know there's a lot of angst about how much there is to learn in web dev, so I wrote about the system I've used for years:\nangeliqueweger.com/blog/2021/skil…\n\nThere's also a template in the post, in case you want to use or adapt this system as your own."
+      },
+      "repost-of": "https://angeliqueweger.com/blog/2021/skill-building-for-developers/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Mikaela",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/52c84f98c60fdc54a844a700f29062fe279996be914017d910d89e38a5a49d7c.jpg",
+        "url": "https://twitter.com/lexakami"
+      },
+      "url": "https://twitter.com/messypixels/status/1412421778971017217#favorited-by-97581383",
+      "published": null,
+      "wm-received": "2021-07-08T22:04:52Z",
+      "wm-id": 1214339,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1412421778971017217/97581383",
       "wm-target": "https://angeliqueweger.com/blog/2021/skill-building-for-developers/",
       "like-of": "https://angeliqueweger.com/blog/2021/skill-building-for-developers/",
       "wm-property": "like-of",
