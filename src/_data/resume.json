@@ -280,25 +280,7 @@
 				"description": "2015 Baltimore Innovation Awards"
 			},
 			{
-				"title": "Von Hess Graduate Fellowship in Museum Education"
-			},
-			{
 				"title": "PASSHE Women's Consortium Annual Undergraduate Women's Leadership Institution Scholarship"
-			}
-		]
-	},
-	{
-		"section": "Education",
-		"slug": "edu",
-		"short_name": "Edu",
-		"items": [
-			{
-				"title": "The University of the Arts",
-				"description": "MA, Museum Communication <small>(pending thesis completion)</small>"
-			},
-			{
-				"title": "Indiana University of Pennsylvania",
-				"description": "BA, Journalism"
 			}
 		]
 	}
