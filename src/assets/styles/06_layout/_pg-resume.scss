@@ -544,8 +544,8 @@ $icon-size: 32px;
 			}
 
 			&-subheading {
-				font-family: $font-barlow;
-				font-size: 14pt;
+				font-size: 13pt;
+				font-weight: $font-semibold;
 			}
 		}
 	}
@@ -563,8 +563,10 @@ $icon-size: 32px;
 		&__org-name,
 		&__dates {
 			font-size: 15pt;
+			font-weight: unset;
 			margin-bottom: 4pt;
 			margin-top: 0;
+			opacity: 1;
 		}
 
 		&__org-name + .work__dates {
@@ -589,6 +591,7 @@ $icon-size: 32px;
 		&__resp {
 			&-heading {
 				font-family: $font-barlow;
+				font-weight: unset;
 			}
 
 			&-list-item {
