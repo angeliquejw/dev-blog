@@ -12,7 +12,8 @@ layout: layouts/page.njk
 <section class="now-section">
 
 ## Currently{: .now-heading}
-I'm living in Baltimore, working as the front-end lead for Lumen Learning and teaching front-end web development at MICA.
+
+I'm living in Baltimore, working as the engineering manager for Lumen Learning's front-end team and teaching front-end web development at MICA.
 
 </section>
 
@@ -22,7 +23,6 @@ I'm living in Baltimore, working as the front-end lead for Lumen Learning and te
 
 - porch life ☀️
 - feminist comic book club 🤓
-- getting back into embroidery thanks to patterns from [Cozy Blue](https://cozybluehandmade.com/)
 
 </section>
 
@@ -39,8 +39,8 @@ I'm living in Baltimore, working as the front-end lead for Lumen Learning and te
 
 ### I am looking forward to{: .now-heading}
 
-- onboarding two new front-end developers on my team
-- seeing family and friends in person again...soon 👀
+- launching a major redesign project at work
+- grilling all my veggies for the next two months
 
 </section>
 
