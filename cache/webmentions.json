@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2021-07-13T02:36:05.897Z",
+  "lastFetched": "2021-07-22T13:44:53.592Z",
   "children": [
     {
       "type": "entry",
@@ -1635,6 +1635,164 @@
       "wm-target": "https://angeliqueweger.com/blog/2021/skill-building-for-developers/",
       "like-of": "https://angeliqueweger.com/blog/2021/skill-building-for-developers/",
       "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Adam Ness @ Work",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/ef6bafaf02b54931ebb3eb4b9c98366574d3c2f56bef590f37d832094acdbfdb.png",
+        "url": "https://twitter.com/greylurk"
+      },
+      "url": "https://twitter.com/messypixels/status/1417865952264347658#favorited-by-810504",
+      "published": null,
+      "wm-received": "2021-07-21T19:47:23Z",
+      "wm-id": 1226645,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1417865952264347658/810504",
+      "wm-target": "https://angeliqueweger.com/blog/2021/hiring-lessons/",
+      "like-of": "https://angeliqueweger.com/blog/2021/hiring-lessons/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "paris",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/00dd38338fd9c4809c569af845f06ff9cd04cbf24a88c2cb4ebfe331f4e9b5ba.jpg",
+        "url": "https://twitter.com/ParisInBmore"
+      },
+      "url": "https://twitter.com/ParisInBmore/status/1417867121376194565",
+      "published": "2021-07-21T15:20:39+00:00",
+      "wm-received": "2021-07-21T19:46:59Z",
+      "wm-id": 1226643,
+      "wm-source": "https://brid.gy/repost/twitter/messypixels/1417865952264347658/1417867121376194565",
+      "wm-target": "https://angeliqueweger.com/blog/2021/hiring-lessons/",
+      "content": {
+        "text": "Pretty excited to say, I do, in fact, have content about that: angeliqueweger.com/blog/2021/hiri…"
+      },
+      "repost-of": "https://angeliqueweger.com/blog/2021/hiring-lessons/",
+      "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Michelle Martir",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/b4c42d434efc530da919dabbb5762fa2a7ec5bfa997bb73adff7fabff4180533.jpg",
+        "url": "https://twitter.com/martirology"
+      },
+      "url": "https://twitter.com/messypixels/status/1417865952264347658#favorited-by-54446356",
+      "published": null,
+      "wm-received": "2021-07-21T19:46:58Z",
+      "wm-id": 1226642,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1417865952264347658/54446356",
+      "wm-target": "https://angeliqueweger.com/blog/2021/hiring-lessons/",
+      "like-of": "https://angeliqueweger.com/blog/2021/hiring-lessons/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Mike Cripps",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/526eb50e019f0580b934fbd9cf32b148afcc243d08d2d707bc19c4aef268d98e.jpg",
+        "url": "https://twitter.com/_mikecripps_"
+      },
+      "url": "https://twitter.com/messypixels/status/1417865952264347658#favorited-by-28102898",
+      "published": null,
+      "wm-received": "2021-07-21T19:46:57Z",
+      "wm-id": 1226641,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1417865952264347658/28102898",
+      "wm-target": "https://angeliqueweger.com/blog/2021/hiring-lessons/",
+      "like-of": "https://angeliqueweger.com/blog/2021/hiring-lessons/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Angie Jones",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/9a8db37a28b757bf5bd532d12911856db01b5b69870d908b3d2525d589d121bc.jpg",
+        "url": "https://twitter.com/techgirl1908"
+      },
+      "url": "https://twitter.com/messypixels/status/1417865952264347658#favorited-by-2932738834",
+      "published": null,
+      "wm-received": "2021-07-21T19:46:51Z",
+      "wm-id": 1226640,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1417865952264347658/2932738834",
+      "wm-target": "https://angeliqueweger.com/blog/2021/hiring-lessons/",
+      "like-of": "https://angeliqueweger.com/blog/2021/hiring-lessons/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "paris",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/00dd38338fd9c4809c569af845f06ff9cd04cbf24a88c2cb4ebfe331f4e9b5ba.jpg",
+        "url": "https://twitter.com/ParisInBmore"
+      },
+      "url": "https://twitter.com/messypixels/status/1417865952264347658#favorited-by-81538231",
+      "published": null,
+      "wm-received": "2021-07-21T19:46:50Z",
+      "wm-id": 1226639,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1417865952264347658/81538231",
+      "wm-target": "https://angeliqueweger.com/blog/2021/hiring-lessons/",
+      "like-of": "https://angeliqueweger.com/blog/2021/hiring-lessons/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Deepa",
+        "photo": "",
+        "url": "https://flyntrok.com/author/deepa/"
+      },
+      "url": "https://flyntrok.com/2021/07/20/agile-and-entrepreneurship-through-iteration/",
+      "published": "2021-07-20T00:00:00+00:00",
+      "wm-received": "2021-07-20T14:54:49Z",
+      "wm-id": 1225419,
+      "wm-source": "https://flyntrok.com/2021/07/20/agile-and-entrepreneurship-through-iteration/",
+      "wm-target": "https://angeliqueweger.com/blog/2021/skill-building-for-developers/",
+      "name": "Agile And Entrepreneurship",
+      "content": {
+        "html": "<p>Agile helps companies and artists <a href=\"https://flyntrok.com/2021/07/06/being-agile-and-in-perpetual-beta/\"><strong><span style=\"color:#0071a1;\">stay in perpetual beta</span></strong></a>. This means products are fixed and companies get a chance to keep improving them in iterations. Product decisions are generally high stakes game. One where you need most certainty and clarity when you launch. It’s ok to improve a product but not change it completely. Or is it? This edition we carry a story of a company which completely changed its product line, by being agile and entrepreneurial. This is a story of Graze and its employees.</p><img src=\"https://flyntrok.com/wp-content/uploads/2020/08/Agile-Stories.png\" alt=\"\" width=\"379\" height=\"154\" /><h4>Agile Stories</h4><p><a href=\"https://www.graze.com/uk/about/press\"><strong><span style=\"color:#0071a1;\">Graze</span></strong></a> is a subscription-based snack company based out of UK. They expanded to brick-and-mortar retailing, and were <a href=\"https://www.foodbusinessnews.net/articles/13265-unilever-acquires-healthy-snack-brand-graze\"><strong><span style=\"color:#0071a1;\">acquired by Unilever in 2019</span></strong></a>. Graze has an interesting story of origin (watch for more in the trivia section at the end of this post). <a href=\"https://www.mentalfloss.com/article/71233/snacks-mail-company-graze-turns-snacking-science\"><strong><span style=\"color:#0071a1;\">It was started by 7 friends</span></strong></a> who were fed up with chips and candy being the only snacks in office. They saw an opportunity to provide bite sized healthy snack options for office goers. They started Graze in 2007, and would deliver a mix of snacks by mail to home or office. Today Graze is a 500 employees, 500+ products and 94 million pounds in revenue organisation.</p><h6>Let’s explore how an employee experiences agile ways of working at Graze.</h6><p>An employee is part of a cross functional team working on a product. Employees have access to the massive amounts of data Graze collects on consumer preferences. They even have their own <strong><a href=\"https://www.wired.co.uk/article/graze-anatomy\"><span style=\"color:#0071a1;\">proprietary algorithm called DARWIN</span></a></strong>. This cross functional team has all the skills and expertise needed for product development.</p><p>So what, you may ask.</p><p>Well, this prevents inter departmental delays and collaboration struggles. Besides, the cross functional team has the empowerment to make changes to the product, based on data trends.  Enabling teams at Graze to quickly respond to customer preferences. They have been able to get a product out to customers in <a href=\"https://www.businessmodelzoo.com/exemplars/graze/\"><strong><span style=\"color:#0071a1;\">less than 24 hours</span></strong></a>!</p><p>All <a href=\"https://www.hrmagazine.co.uk/content/news/hr-s-role-in-maintaining-entrepreneurship-at-graze\"><strong><span style=\"color:#0071a1;\">teams in Graze work in sprints</span></strong></a>. These sprints are coordinated every quarter so everyone knows what to expect. At the end of each sprint, the cross functional team members get together to reflect on their work and ways of working. This helps the team get better each sprint, and thereby the products get better.</p><p><a href=\"https://en.wikipedia.org/wiki/Graze_(company)\"><strong><span style=\"color:#0071a1;\">Graze</span></strong></a> found that such agile and iterative ways of working gave employees an increased sense of satisfaction. The satisfaction of creating in collaboration, constantly. Employees also stopped thinking of mistakes as failures or disasters. They began to think of it as new information which needs future decisions. This has led to <a href=\"https://www.hrmagazine.co.uk/content/news/hr-s-role-in-maintaining-entrepreneurship-at-graze\"><strong><span style=\"color:#0071a1;\">improved morale and reduced attrition in Graze</span></strong></a>.</p><h5>Agile and Entrepreneurship</h5><p>Every company worries that the energy and risk taking of the start-up phase will reduce in the scaling up phase. Agile and its core principle of iteration gives companies an opportunity to remain in an entrepreneurial mode, even as they scale. As the story from Graze has shown, even something as critical as a company’s core product can benefit with iteration. Agile with its iterative approach, helps remove stigma from failure and unleashes the Intrapreneur in employees.</p><p><strong><em>Apart from one story which captures the human centric change in the world of Agile, the Agile OWL brings to you every fortnight, the latest reads, books, trivia, and quote from the world of Agile and its methodologies. Stuff that caught our attention. This is edition 27 and we carry seven useful links for you. Tell us what you thought of them.</em></strong></p><img width=\"1024\" height=\"311\" src=\"https://flyntrok.com/wp-content/uploads/2020/08/You-are-reading-the-3-1024x311.png\" alt=\"Agile OWL\" /><h5>From social media:</h5><p>1.This week one of our finds from social media focusses on how teams can adopt pair programming for hybrid working. <strong><a href=\"https://www.infoq.com/articles/remote-pair-programming/\"><span style=\"color:#0071a1;\">Read more here</span></a></strong><a href=\"https://www.infoq.com/articles/remote-pair-programming/\">.</a></p><p>2. How do you learn, when there is so much new to learn every day in software? This article focusses on the steps of learning to learn and not be overwhelmed. It has many interesting links too. <a href=\"https://angeliqueweger.com/blog/2021/skill-building-for-developers/\"><strong><span style=\"color:#0071a1;\">Check it out</span></strong></a>.</p><h5>From the bookshelf:</h5><p>In keeping with the theme of iteration, the book recommendation this edition is, <a href=\"https://www.amazon.in/Agile-Iterative-Development-Managers-Software/dp/0131111558/\"><strong><span style=\"color:#0071a1;\">Agile and Iterative Development: A Manager’s Guide</span></strong></a> by Craig Larman.  It has an entire detailed chapter on the benefits and power of iterative development.</p><h5>From the tool box:</h5><p><a href=\"https://www.shapeways.com/blog/archives/37980-7-tips-tricks-tools-iterate-product-perfection.html\"><strong><span style=\"color:#0071a1;\">This link carries</span></strong></a> 7 tips and tools to iterate your product, without breaking the bank.</p><h5>From the trivia &amp; fact box:</h5><p>Graze was founded and shipped its first box the same day that Lehman brothers collapsed. And one more, while their snack boxes cost approximately between 4-9 pounds each, the Michelin starred chef Simon Rogan, <a href=\"https://www.standard.co.uk/news/uk/michelin-chef-creates-ps223-graze-snack-box-a3112781.html\"><strong><span style=\"color:#0071a1;\">created a limited edition snack box</span></strong></a> for 223.70 pounds!</p><h5>#AgileQuotes to sign off:</h5><img width=\"1080\" height=\"1080\" src=\"https://flyntrok.com/wp-content/uploads/2021/07/Agile-Quotes-3.png\" alt=\"\" /><p><em>Note : This post is Edition 27 of the Agile OWL from the</em><a href=\"https://flyntrok.com/the-owl/\"> <strong><span style=\"color:#0071a1;\">OWL</span></strong></a><em> umbrella. The Agile OWL is a newsletter focused on the human experiences and stories within agile transformations.</em><a href=\"https://owl.substack.com/welcome\"><strong><span style=\"color:#0071a1;\"> Sign up to receive the newsletter here</span></strong></a></p>",
+        "text": "Agile helps companies and artists stay in perpetual beta. This means products are fixed and companies get a chance to keep improving them in iterations. Product decisions are generally high stakes game. One where you need most certainty and clarity when you launch. It’s ok to improve a product but not change it completely. Or is it? This edition we carry a story of a company which completely changed its product line, by being agile and entrepreneurial. This is a story of Graze and its employees.Agile StoriesGraze is a subscription-based snack company based out of UK. They expanded to brick-and-mortar retailing, and were acquired by Unilever in 2019. Graze has an interesting story of origin (watch for more in the trivia section at the end of this post). It was started by 7 friends who were fed up with chips and candy being the only snacks in office. They saw an opportunity to provide bite sized healthy snack options for office goers. They started Graze in 2007, and would deliver a mix of snacks by mail to home or office. Today Graze is a 500 employees, 500+ products and 94 million pounds in revenue organisation.Let’s explore how an employee experiences agile ways of working at Graze.An employee is part of a cross functional team working on a product. Employees have access to the massive amounts of data Graze collects on consumer preferences. They even have their own proprietary algorithm called DARWIN. This cross functional team has all the skills and expertise needed for product development.So what, you may ask.Well, this prevents inter departmental delays and collaboration struggles. Besides, the cross functional team has the empowerment to make changes to the product, based on data trends.  Enabling teams at Graze to quickly respond to customer preferences. They have been able to get a product out to customers in less than 24 hours!All teams in Graze work in sprints. These sprints are coordinated every quarter so everyone knows what to expect. At the end of each sprint, the cross functional team members get together to reflect on their work and ways of working. This helps the team get better each sprint, and thereby the products get better.Graze found that such agile and iterative ways of working gave employees an increased sense of satisfaction. The satisfaction of creating in collaboration, constantly. Employees also stopped thinking of mistakes as failures or disasters. They began to think of it as new information which needs future decisions. This has led to improved morale and reduced attrition in Graze.Agile and EntrepreneurshipEvery company worries that the energy and risk taking of the start-up phase will reduce in the scaling up phase. Agile and its core principle of iteration gives companies an opportunity to remain in an entrepreneurial mode, even as they scale. As the story from Graze has shown, even something as critical as a company’s core product can benefit with iteration. Agile with its iterative approach, helps remove stigma from failure and unleashes the Intrapreneur in employees.Apart from one story which captures the human centric change in the world of Agile, the Agile OWL brings to you every fortnight, the latest reads, books, trivia, and quote from the world of Agile and its methodologies. Stuff that caught our attention. This is edition 27 and we carry seven useful links for you. Tell us what you thought of them.From social media:1.This week one of our finds from social media focusses on how teams can adopt pair programming for hybrid working. Read more here.2. How do you learn, when there is so much new to learn every day in software? This article focusses on the steps of learning to learn and not be overwhelmed. It has many interesting links too. Check it out.From the bookshelf:In keeping with the theme of iteration, the book recommendation this edition is, Agile and Iterative Development: A Manager’s Guide by Craig Larman.  It has an entire detailed chapter on the benefits and power of iterative development.From the tool box:This link carries 7 tips and tools to iterate your product, without breaking the bank.From the trivia & fact box:Graze was founded and shipped its first box the same day that Lehman brothers collapsed. And one more, while their snack boxes cost approximately between 4-9 pounds each, the Michelin starred chef Simon Rogan, created a limited edition snack box for 223.70 pounds!#AgileQuotes to sign off:Note : This post is Edition 27 of the Agile OWL from the OWL umbrella. The Agile OWL is a newsletter focused on the human experiences and stories within agile transformations. Sign up to receive the newsletter here"
+      },
+      "mention-of": "https://angeliqueweger.com/blog/2021/skill-building-for-developers/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://flyntrok.com/2021/07/20/agile-and-entrepreneurship-through-iteration/"
+      }
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "i said what the fuck i said",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/dc707168789f4346a7ee689acc8af84eaaf000d0fe8c5e25cddb3f1b2c65edd2.jpg",
+        "url": "https://twitter.com/inpoco"
+      },
+      "url": "https://twitter.com/inpoco/status/1417996466702925828",
+      "published": "2021-07-21T23:54:37+00:00",
+      "wm-received": "2021-07-22T00:23:23Z",
+      "wm-id": 1226828,
+      "wm-source": "https://brid.gy/repost/twitter/messypixels/1417865952264347658/1417996466702925828",
+      "wm-target": "https://angeliqueweger.com/blog/2021/hiring-lessons/",
+      "content": {
+        "text": "Pretty excited to say, I do, in fact, have content about that: angeliqueweger.com/blog/2021/hiri…"
+      },
+      "repost-of": "https://angeliqueweger.com/blog/2021/hiring-lessons/",
+      "wm-property": "repost-of",
       "wm-private": false
     }
   ]
