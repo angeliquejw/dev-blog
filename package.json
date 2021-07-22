@@ -5,7 +5,7 @@
 	"scripts": {
 		"clean": "rm -rf _site && rm -rf .cache && rm -rf _dev",
 		"start": "npm-run-all --parallel dev:*",
-		"dev:eleventy": "ELEVENTY_ENV=development eleventy --serve --output=./_dev",
+		"dev:eleventy": "ELEVENTY_ENV=development eleventy --quiet --serve --output=./_dev",
 		"dev:parcel": "parcel watch src/assets/img/* src/assets/img/*/* src/assets/img/*/*/* src/assets/styles/styles.scss src/assets/scripts/index.js --out-dir _dev/assets",
 		"build": "run-s clean prod:*",
 		"prod:eleventy": "ELEVENTY_ENV=production eleventy",
