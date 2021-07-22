@@ -50,7 +50,7 @@
                         <a {% if webmention.url %}href="{{ webmention.url }}"{% endif %} target="_blank" rel="noopener noreferrer" title="{{ webmention.author.name }}">{{ webmention.author.name }}</a>
                         <time datetime="{{ webmention.published }}">{{ webmention.published | readableDateFromISO }}</time>
                     </header>
-                    <p class="u-margin-none">{{ webmention.content.html | safe }}</p>
+                    <p class="u-margin-none">{{ webmention.content.value | safe }}</p>
                 </li>
             {% endfor %}
             </ol>

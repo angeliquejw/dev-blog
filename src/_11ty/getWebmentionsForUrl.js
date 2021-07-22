@@ -16,11 +16,25 @@ module.exports = function getWebmentionsForUrl(webmentions, url) {
 		const { author, published, content } = entry;
 		return author.name && published && content;
 	};
+	const allowedHTML = {
+		allowedTags: ["b", "i", "em", "strong", "a"],
+		allowedAttributes: {
+			a: ["href"],
+		},
+	};
 	const sanitize = (entry) => {
-		const { content } = entry;
-		if (content["content-type"] === "text/html") {
-			content.value = sanitizeHTML(content.value);
+		const { html, text } = entry.content;
+
+		if (html) {
+			// really long html mentions, usually newsletters or compilations
+			entry.content.value =
+				html.length > 2000
+					? `Mentioned this post in <a href="${entry["wm-source"]}">${entry["wm-source"]}</a>`
+					: sanitizeHTML(html, allowedHTML);
+		} else {
+			entry.content.value = sanitizeHTML(text, allowedHTML);
 		}
+
 		return entry;
 	};
 
@@ -30,9 +44,9 @@ module.exports = function getWebmentionsForUrl(webmentions, url) {
 			.filter((entry) => likes.includes(entry["wm-property"])),
 		retweets: webmentions
 			.filter((entry) => entry["wm-target"] === url)
-			.filter((entry) => retweets.includes(entry["wm-property"]))
-			.filter(hasRequiredFields)
-			.map(sanitize),
+			.filter((entry) => retweets.includes(entry["wm-property"])),
+		// .filter(hasRequiredFields)
+		// .map(sanitize),
 		messages: webmentions
 			.filter((entry) => entry["wm-target"] === url)
 			.filter((entry) => messages.includes(entry["wm-property"]))
