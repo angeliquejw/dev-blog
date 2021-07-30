@@ -9,7 +9,8 @@ layout: layouts/minimal.njk
 
 <header class="resume__header">
   <h1 class="resume__name"><span>{{ metadata.title }}</span></h1>
-  <p class="resume__headline">Front-end lead + manager</h1>
+  <p class="resume__headline">Engineering Manager</p>
+  
   <ul class="u-list-reset resume__contact-list">
   	{%- for item in metadata.author.social %}
     {%- if item.mailto %}
@@ -52,9 +53,9 @@ layout: layouts/minimal.njk
       <h4 class="work__org-name">{{ item.org }}</h4>
       {%- endif %}
       <p class="work__dates">{{ item.start | dateMoYr }} &ndash; {{ (item.end | dateMoYr) if item.end else "present" }}</p>
-      <p class="work__description">
+      {# <p class="work__description">
         {{ item.description | safe }}
-      </p>
+      </p> #}
       {%- if item.responsibilities %}
       <ul class="work__resp-list">
         {%- for resp in item.responsibilities %}

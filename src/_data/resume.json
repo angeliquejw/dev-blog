@@ -1,39 +1,5 @@
 [
 	{
-		"section": "Technical Expertise",
-		"slug": "skills",
-		"short_name": "Skills",
-		"mid_name": "Tech Expertise",
-		"items": [
-			{
-				"title": "Languages",
-				"details": ["Sass/CSS", "JavaScript", "HTML", "PHP", "Ruby"]
-			},
-			{
-				"title": "Frameworks + Libraries",
-				"details": [
-					"Vue.js",
-					"React",
-					"Bootstrap",
-					"Middleman",
-					"Ruby on Rails"
-				]
-			},
-			{
-				"title": "Tools",
-				"details": [
-					"Version control",
-					"Screen readers",
-					"Jira",
-					"InVision",
-					"Google Analytics",
-					"Mixpanel",
-					"Optimizely"
-				]
-			}
-		]
-	},
-	{
 		"section": "Work + Experience",
 		"slug": "work",
 		"short_name": "Work",
@@ -56,14 +22,16 @@
 				],
 				"description": "Founded in 2012, Lumen Learning uses open educational resources (OER) to provide affordable course materials that improve learning and replace expensive textbooks in high-enrollment college courses. Over 400 institutions across the U.S. use Lumen's award-winning digital courseware for in-person, online, and blended courses.",
 				"leadership": [
-					"Holding 1:1s for a cohort of 5 team members at all skill levels",
-					"Managing hiring for the front-end team, as well as updating engineering hiring and onboarding processes",
+					"Developed career progression strategy, providing engineering team with meaningful titles and clear expectations for each level",
+					"Responsible for growing front-end team from 2 to 4, including developing hiring and onboarding processes that were then adopted by entire engineering team",
+					"Improving and reconciling fragmented team workflows",
+					"Collaborating closely with product managers, developers and designer to scope and estimate work to achieve our product roadmap",
+					"Coaching 5 team members at a variety of skill levels via regular 1:1s",
 					"Organizing and running team meetings, including sprint planning and retrospectives"
 				],
 				"technical": [
-					"Responsible for scoping, planning and implementing front-end features and bug fixes across our products",
-					"Providing guidelines to developers and content team for creating inclusive and accessible markup and testing with screen readers",
-					"Collaborating with product owners and designers to successfully estimate and complete projects",
+					"Planning and implementing front-end features and bug fixes across our products",
+					"Providing guidelines to developers and content team for creating inclusive and accessible markup and about testing with screen readers",
 					"Writing documentation and participating in code review"
 				],
 				"culture": [
@@ -83,7 +51,7 @@
 				]
 			},
 			{
-				"title": "Senior UX Engineer",
+				"title": "Front-end Lead + Manager",
 				"org": "Fractured Atlas",
 				"start": "2017-05",
 				"end": "2019-10",
@@ -99,7 +67,7 @@
 				],
 				"description": "Fractured Atlas builds software and provides services to help over 500,000 artists and arts organizations handle the business side of their work, like raising money, tracking donors and selling event tickets.",
 				"leadership": [
-					"Managed UX team, including holding 1:1s and setting team priorities",
+					"Managed UX engineering team, including holding 1:1s and setting team priorities",
 					"Served as project lead for crowdfunding and fundraising tool, including organizing and running team meetings and retrospectives"
 				],
 				"technical": [
@@ -169,6 +137,40 @@
 			{
 				"title": "StackOverflow",
 				"url": "http://stackoverflow.com/users/2309380/angelique"
+			}
+		]
+	},
+	{
+		"section": "Technical Expertise",
+		"slug": "skills",
+		"short_name": "Skills",
+		"mid_name": "Tech Expertise",
+		"items": [
+			{
+				"title": "Languages",
+				"details": ["Sass/CSS", "JavaScript", "HTML", "PHP", "Ruby"]
+			},
+			{
+				"title": "Frameworks + Libraries",
+				"details": [
+					"Vue.js",
+					"React",
+					"Bootstrap",
+					"Middleman",
+					"Ruby on Rails"
+				]
+			},
+			{
+				"title": "Tools",
+				"details": [
+					"Version control",
+					"Screen readers",
+					"Jira",
+					"InVision",
+					"Google Analytics",
+					"Mixpanel",
+					"Optimizely"
+				]
 			}
 		]
 	},
