@@ -10,13 +10,14 @@ layout: layouts/minimal.njk
 <header>
 
 # No thanks to "Business as usual"
+
 ## Teams and companies that made an effort to treat their employees humanely on Jan 6, 2021
 
 </header>
 
 <div class="content-container">
 
-In the evening of January 6, 2021, I sent out [a tweet](https://twitter.com/messypixels/status/1346992491577401344){:target=_blank} asking which companies or managers had acknowledged the day's events. This list compiles the info from the public and private responses I received from that tweet.
+In the evening of January 6, 2021, I sent out [a tweet](https://twitter.com/messypixels/status/1346992491577401344){:target=\_blank} asking which companies or managers had acknowledged the day's events. This list compiles the info from the public and private responses I received from that tweet.
 
 [This blog post](/blog/2021/leading-with-humanity/) provides some additional context and details for this data. But this is the crucial bit:
 
@@ -31,6 +32,7 @@ In the evening of January 6, 2021, I sent out [a tweet](https://twitter.com/mess
 
 </div>
 </div>
+<p><strong>This data was true as of January 2021 when I originally gathered it (more info about this in <a href="/blog/2021/leading-with-humanity/">my blog</a>). It is not woefully out of date and I recommend instead viewing the <a href="/bits/company-list-2021/#company-data">entire list of companies</a> instead.</strong></p>
 <div id="company-data" class="embed-container">
 <iframe class="airtable-embed" src="https://airtable.com/embed/shr5wmxSDvzLkMY0s?backgroundColor=pink&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
 </div>
@@ -38,9 +40,11 @@ In the evening of January 6, 2021, I sent out [a tweet](https://twitter.com/mess
 <aside class="content-container">
 
 ## 💡 A note
+
 I did hear from employees of FB and GOOG about how their teams handled things on this day. I've made the personal decision to **not** include them in the list above because, not only do they not need my assistance with recruitment, but also their products played a very serious role in the day's events. I'm not in the business of awarding out gold stars and doubly so in those cases. 🤷🏻‍♀️
 
 ## Update this info
 
 Do you want to update the info seen here or provide additional context? Please [use this form](https://forms.gle/HChqkumuXGWizr638). 🙏🏻 Thanks for sharing your info!
+
 </aside>
