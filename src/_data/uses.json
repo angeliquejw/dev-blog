@@ -1,338 +1,357 @@
-[{
-    "section": "Tools",
-    "items": [{
-        "description": "browsers",
-        "details": "I use <a href='https://www.mozilla.org/en-US/firefox/new/'>Firefox</a> as my daily driver on my laptop and mobile devices because I value their stance on user privacy <em>and</em> think their dev tools are top notch. At work, I use Chrome because we're already deep into the Google ecosystem. I use the developer versons of both browsers for testing purposes, too."
-      },
-      {
-        "description": "terminal",
-        "details": "MacOS's default terminal 🤷🏻‍♀️"
-      },
-      {
-        "description": "editor",
-        "name": "VS Code Insiders",
-        "url": "https://code.visualstudio.com/insiders/"
-      },
-      {
-        "description": "theme",
-        "name": "Nebula",
-        "url": "https://marketplace.visualstudio.com/items?itemName=ChirtleLovesDolls.nebula-theme"
-      },
-      {
-        "description": "font",
-        "name": "Input",
-        "url": "https://input.djr.com/info/"
-      },
-      {
-        "subsection": "plugins",
-        "items": [{
-            "name": "Auto Rename Tag",
-            "itemName": "formulahendry.auto-rename-tag"
-          },
-          {
-            "name": "Beautify",
-            "itemName": "HookyQR.beautify"
-          },
-          {
-            "name": "Bracket Pair Colorizer",
-            "itemName": "CoenraadS.bracket-pair-colorizer"
-          },
-          {
-            "name": "GitLens",
-            "itemName": "eamodio.gitlens"
-          },
-          {
-            "name": "Prettier",
-            "itemName": "esbenp.prettier-vscode"
-          },
-          {
-            "name": "Stylelint",
-            "itemName": "Daosro.stylelint"
-          },
-          {
-            "name": "VS Code Spotify",
-            "itemName": "shyykoserhiy.vscode-spotify"
-          },
-          {
-            "name": "WakaTime",
-            "itemName": "WakaTime.vscode-wakatime"
-          },
-          {
-            "name": "Webhint",
-            "itemName": "webhint.vscode-webhint"
-          }
-        ]
-      },
-      {
-        "subsection": "macOS",
-        "items": [{
-            "description": "see my day at a glance",
-            "name": "Itsycal",
-            "url": "https://www.mowglii.com/itsycal/"
-          },
-          {
-            "description": "be an emoji wizard ✨",
-            "name": "Rocket",
-            "url": "https://matthewpalmer.net/rocket/"
-          },
-          {
-            "description": "hide notifications, update Bluetooth",
-            "name": "One Switch",
-            "url": "https://fireball.studio/oneswitch"
-          },
-          {
-            "description": "organize and tile windows",
-            "name": "Magnet",
-            "url": "https://magnet.crowdcafe.com/"
-          },
-          {
-            "description": "clean up the menu bar",
-            "name": "Bartender",
-            "url": "https://www.macbartender.com/"
-          }
-        ]
-      },
-      {
-        "subsection": "command line",
-        "items": [{
-            "description": "never have to remember directory structures or if a directory name is capitalized",
-            "name": "z",
-            "url": "https://github.com/rupa/z/"
-          }, {
-            "description": "get a sense of how fast my fans are cranking when I run <code>npm i<\/code>",
-            "name": "iStats",
-            "url": "http://chris911.github.io/iStats/"
-          },
-          {
-            "description": "optimize GIFs",
-            "name": "Gifsicle",
-            "url": "https://www.lcdf.org/gifsicle/"
-          },
-          {
-            "description": "replace <code>ls<\/code>",
-            "name": "exa",
-            "url": "https://the.exa.website/"
-          }
-        ]
-      },
-      {
-        "subsection": "android",
-        "items": [{
-            "description": "delightful and simple mood tracking",
-            "name": "Daylio",
-            "url": "https://daylio.net/"
-          },
-          {
-            "description": "two-factor authentication",
-            "name": "Authy",
-            "url": "https://authy.com/"
-          },
-          {
-            "description": "getting ebooks from our local library",
-            "name": "Libby",
-            "url": "https://libbyapp.com/"
-          },
-          {
-            "description": "amusing myself by taking over the world",
-            "name": "Polytopia",
-            "url": "https://polytopia.io/"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "section": "This site",
-    "items": [{
-        "description": "writing posts",
-        "details": "Markdown"
-      },
-      {
-        "description": "site generator",
-        "name": "Eleventy",
-        "url": "https://www.11ty.dev/"
-      },
-      {
-        "description": "tracking comments",
-        "name": "Webmentions",
-        "url": "https://webmention.io/"
-      },
-      {
-        "description": "building and hosting",
-        "name": "Vercel",
-        "url": "https://vercel.com/"
-      },
-      {
-        "description": "analytics",
-        "name": "TheseMetrics",
-        "url": "https://thesemetrics.org/"
-      }
-    ]
-  },
-  {
-    "section": "Hardware",
-    "items": [{
-        "description": "work",
-        "details": "2019 MBP 13\""
-      },
-      {
-        "description": "personal",
-        "details": "2014 MBP 15\""
-      },
-      {
-        "description": "additional",
-        "details": "2011? Lenovo ThinkPad T420s for running NVDA and JAWS"
-      },
-      {
-        "subsection": "peripherals",
-        "items": [{
-            "description": "clicky keyboard",
-            "name": "CM Storm QuickFire Rapid",
-            "url": "https://www.coolermaster.com/catalog/peripheral/keyboards/quick-fire-rapid/"
-          },
-          {
-            "description": "keycaps",
-            "name": "Matt3o MT3 /dev/tty keycaps",
-            "url": "https://drop.com/buy/drop-matt3o-mt3-dev-tty-keycap-set"
-          },
-          {
-            "description": "monitor",
-            "name": "Acer 24\" R240HY",
-            "url": "https://www.newegg.com/acer-r240hy-bidx-23-8/p/0V4-0031-00014"
-          },
-          {
-            "description": "mouse",
-            "name": "Sharkk vertical",
-            "url": "https://www.newegg.com/sharkk-sk137g/p/N82E16826957004"
-          },
-          {
-            "description": "headphones",
-            "name": "Sony wireless + noise-cancelling (WHCH710N/B)",
-            "url": "https://electronics.sony.com/audio/headphones/headband/p/whch710n-b"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "section": "Desk",
-    "notes": "For the last decade, I've been using a standing desk made of a butcher-block IKEA countertop and some telescoping legs. It's not fancy, but it's a wonderfully huge, open space and does the trick. In addition, I also regularly use the following:",
-    "items": [{
-        "description": "surprising mood enhancers",
-        "subitems": [{
-            "name": "Verilux Happy Light Luxe",
-            "url": "https://verilux.com/collections/happylight-therapy-lamps-boxes/products/happylight-luxe"
-          },
-          {
-            "name": "Kikkerland solar-powered rainbow maker",
-            "url": "https://kikkerland.com/products/solar-powered-rainbowmaker-with-swarovski-crystal"
-          }
-        ]
-      },
-      {
-        "description": "notebooks",
-        "notes": "a variety of graph or dot grid notebooks from ",
-        "subitems": [{
-            "name": "JetPens",
-            "url": "https://www.jetpens.com/"
-          },
-          {
-            "name": "FieldNotes",
-            "url": "https://fieldnotesbrand.com/"
-          }
-        ]
-      },
-      {
-        "description": "pen",
-        "name": "Zebra Sarasa Gel Pens",
-        "url": "https://www.jetpens.com/Zebra-Sarasa-Gel-Pens/ct/2577"
-      },
-      {
-        "description": "pencil",
-        "name": "Blackwing XIX",
-        "url": "https://www.jetpens.com/Blackwing-Pencils/ct/1334"
-      },
-      {
-        "description": "when I don't quite stand at my standing desk",
-        "name": "Wobble stool by Uncaged Ergonomics",
-        "url": "https://uncagedergonomics.com/wobble-stool/"
-      }, {
-        "description": "for being kind to my feet",
-        "details": "Imprint CumulusPRO anti-fatigue mat"
-      }
-    ]
-  },
-  {
-    "section": "Misc",
-    "items": [{
-        "description": "getting shit done, tracking what matters",
-        "name": "lftm (low-friction task management system)",
-        "url": "https://github.com/CoralineAda/lftm"
-      },
-      {
-        "description": "web search",
-        "name": "Duck Duck Go",
-        "url": "https://duckduckgo.com/about"
-      },
-      {
-        "description": "increasing and motivating my focus",
-        "subitems": [{
-            "name": "Focus@Will",
-            "url": "https://www.focusatwill.com/"
-          },
-          {
-            "name": "Forest",
-            "url": "https://www.forestapp.cc/"
-          }
-        ]
-      },
-      {
-        "description": "secure messaging",
-        "name": "Keybase",
-        "url": "https://keybase.io/"
-      },
-      {
-        "description": "optimizing SVGs",
-        "name": "SVGOMG",
-        "url": "https://jakearchibald.github.io/svgomg"
-      }, {
-        "description": "reading ebooks",
-        "details": "Kindle Paperwhite"
-      },
-      {
-        "description": "logging my media consumption",
-        "subitems": [{
-            "name": "Goodreads",
-            "url": "https://www.goodreads.com/user/show/50922548-angelique-weger"
-          },
-          {
-            "name": "Letterboxd",
-            "url": "https://letterboxd.com/artgeek/"
-          }
-        ]
-      },
-      {
-        "description": "screen and video recording",
-        "name": "Loom",
-        "url": "https://www.loom.com/"
-      },
-      {
-        "description": "buying and managing domain names",
-        "name": "Namecheap",
-        "url": "https://www.namecheap.com/"
-      },
-      {
-        "description": "writing and sending newsletters",
-        "subitems": [{
-            "name": "Buttondown",
-            "url": "https://buttondown.email/"
-          },
-          {
-            "name": "TinyLetter",
-            "url": "https://tinyletter.com/"
-          }
-        ]
-      }
-    ]
-  }
+[
+	{
+		"section": "Tools",
+		"items": [
+			{
+				"description": "browsers",
+				"details": "I use <a href='https://www.mozilla.org/en-US/firefox/new/'>Firefox</a> as my daily driver on my laptop and mobile devices because I value their stance on user privacy <em>and</em> think their dev tools are top notch. At work, I use Chrome because we're already deep into the Google ecosystem. I use the developer versons of both browsers for testing purposes, too."
+			},
+			{
+				"description": "terminal",
+				"details": "MacOS's default terminal 🤷🏻‍♀️"
+			},
+			{
+				"description": "editor",
+				"name": "VS Code Insiders",
+				"url": "https://code.visualstudio.com/insiders/"
+			},
+			{
+				"description": "theme",
+				"name": "Nebula",
+				"url": "https://marketplace.visualstudio.com/items?itemName=ChirtleLovesDolls.nebula-theme"
+			},
+			{
+				"description": "font",
+				"name": "Input",
+				"url": "https://input.djr.com/info/"
+			},
+			{
+				"subsection": "plugins",
+				"items": [
+					{
+						"name": "Auto Rename Tag",
+						"itemName": "formulahendry.auto-rename-tag"
+					},
+					{
+						"name": "Beautify",
+						"itemName": "HookyQR.beautify"
+					},
+					{
+						"name": "Bracket Pair Colorizer",
+						"itemName": "CoenraadS.bracket-pair-colorizer"
+					},
+					{
+						"name": "GitLens",
+						"itemName": "eamodio.gitlens"
+					},
+					{
+						"name": "Prettier",
+						"itemName": "esbenp.prettier-vscode"
+					},
+					{
+						"name": "Stylelint",
+						"itemName": "Daosro.stylelint"
+					},
+					{
+						"name": "VS Code Spotify",
+						"itemName": "shyykoserhiy.vscode-spotify"
+					},
+					{
+						"name": "WakaTime",
+						"itemName": "WakaTime.vscode-wakatime"
+					},
+					{
+						"name": "Webhint",
+						"itemName": "webhint.vscode-webhint"
+					}
+				]
+			},
+			{
+				"subsection": "macOS",
+				"items": [
+					{
+						"description": "see my day at a glance",
+						"name": "Itsycal",
+						"url": "https://www.mowglii.com/itsycal/"
+					},
+					{
+						"description": "be an emoji wizard ✨",
+						"name": "Rocket",
+						"url": "https://matthewpalmer.net/rocket/"
+					},
+					{
+						"description": "hide notifications, update Bluetooth",
+						"name": "One Switch",
+						"url": "https://fireball.studio/oneswitch"
+					},
+					{
+						"description": "organize and tile windows",
+						"name": "Magnet",
+						"url": "https://magnet.crowdcafe.com/"
+					},
+					{
+						"description": "clean up the menu bar",
+						"name": "Bartender",
+						"url": "https://www.macbartender.com/"
+					}
+				]
+			},
+			{
+				"subsection": "command line",
+				"items": [
+					{
+						"description": "never have to remember directory structures or if a directory name is capitalized",
+						"name": "z",
+						"url": "https://github.com/rupa/z/"
+					},
+					{
+						"description": "get a sense of how fast my fans are cranking when I run <code>npm i</code>",
+						"name": "iStats",
+						"url": "http://chris911.github.io/iStats/"
+					},
+					{
+						"description": "optimize GIFs",
+						"name": "Gifsicle",
+						"url": "https://www.lcdf.org/gifsicle/"
+					},
+					{
+						"description": "replace <code>ls</code>",
+						"name": "exa",
+						"url": "https://the.exa.website/"
+					}
+				]
+			},
+			{
+				"subsection": "android",
+				"items": [
+					{
+						"description": "delightful and simple mood tracking",
+						"name": "Daylio",
+						"url": "https://daylio.net/"
+					},
+					{
+						"description": "two-factor authentication",
+						"name": "Authy",
+						"url": "https://authy.com/"
+					},
+					{
+						"description": "getting ebooks from our local library",
+						"name": "Libby",
+						"url": "https://libbyapp.com/"
+					},
+					{
+						"description": "amusing myself by taking over the world",
+						"name": "Polytopia",
+						"url": "https://polytopia.io/"
+					}
+				]
+			}
+		]
+	},
+	{
+		"section": "This site",
+		"items": [
+			{
+				"description": "writing posts",
+				"details": "Markdown"
+			},
+			{
+				"description": "site generator",
+				"name": "Eleventy",
+				"url": "https://www.11ty.dev/"
+			},
+			{
+				"description": "tracking comments",
+				"name": "Webmentions",
+				"url": "https://webmention.io/"
+			},
+			{
+				"description": "building and hosting",
+				"name": "Vercel",
+				"url": "https://vercel.com/"
+			},
+			{
+				"description": "analytics",
+				"name": "TheseMetrics",
+				"url": "https://thesemetrics.org/"
+			}
+		]
+	},
+	{
+		"section": "Hardware",
+		"items": [
+			{
+				"description": "work",
+				"details": "2019 MBP 13\""
+			},
+			{
+				"description": "personal",
+				"details": "2014 MBP 15\""
+			},
+			{
+				"description": "additional",
+				"details": "2011? Lenovo ThinkPad T420s for running NVDA and JAWS"
+			},
+			{
+				"subsection": "peripherals",
+				"items": [
+					{
+						"description": "clicky keyboard",
+						"name": "CM Storm QuickFire Rapid",
+						"url": "https://www.coolermaster.com/catalog/peripheral/keyboards/quick-fire-rapid/"
+					},
+					{
+						"description": "keycaps",
+						"name": "Matt3o MT3 /dev/tty keycaps",
+						"url": "https://drop.com/buy/drop-matt3o-mt3-dev-tty-keycap-set"
+					},
+					{
+						"description": "monitor",
+						"name": "Samsung 34\" 21:9 Curved FreeSync VA Monitor",
+						"url": "https://www.samsung.com/us/computing/monitors/uhd-and-wqhd/34-ultra-wqhd-monitor-with-1000r-curvature-ls34a650uxnxgo/"
+					},
+					{
+						"description": "mouse",
+						"name": "Sharkk vertical",
+						"url": "https://www.newegg.com/sharkk-sk137g/p/N82E16826957004"
+					},
+					{
+						"description": "headphones",
+						"name": "Sony wireless + noise-cancelling (WHCH710N/B)",
+						"url": "https://electronics.sony.com/audio/headphones/headband/p/whch710n-b"
+					}
+				]
+			}
+		]
+	},
+	{
+		"section": "Desk",
+		"notes": "For the last decade, I've been using a standing desk made of a butcher-block IKEA countertop (so much beautiful space!) and some telescoping legs. In 2021, I upgraded to electric legs that provide sit-stand options. In addition, I also regularly use the following:",
+		"items": [
+			{
+				"description": "surprising mood enhancers",
+				"subitems": [
+					{
+						"name": "Verilux Happy Light Luxe",
+						"url": "https://verilux.com/collections/happylight-therapy-lamps-boxes/products/happylight-luxe"
+					},
+					{
+						"name": "Kikkerland solar-powered rainbow maker",
+						"url": "https://kikkerland.com/products/solar-powered-rainbowmaker-with-swarovski-crystal"
+					}
+				]
+			},
+			{
+				"description": "notebooks",
+				"notes": "a variety of graph or dot grid notebooks from ",
+				"subitems": [
+					{
+						"name": "JetPens",
+						"url": "https://www.jetpens.com/"
+					},
+					{
+						"name": "FieldNotes",
+						"url": "https://fieldnotesbrand.com/"
+					}
+				]
+			},
+			{
+				"description": "pen",
+				"name": "Zebra Sarasa Gel Pens",
+				"url": "https://www.jetpens.com/Zebra-Sarasa-Gel-Pens/ct/2577"
+			},
+			{
+				"description": "pencil",
+				"name": "Blackwing XIX",
+				"url": "https://www.jetpens.com/Blackwing-Pencils/ct/1334"
+			},
+			{
+				"description": "when I don't quite stand at my standing desk",
+				"name": "Wobble stool by Uncaged Ergonomics",
+				"url": "https://uncagedergonomics.com/wobble-stool/"
+			},
+			{
+				"description": "for being kind to my feet",
+				"details": "Imprint CumulusPRO anti-fatigue mat"
+			}
+		]
+	},
+	{
+		"section": "Misc",
+		"items": [
+			{
+				"description": "getting shit done, tracking what matters",
+				"name": "lftm (low-friction task management system)",
+				"url": "https://github.com/CoralineAda/lftm"
+			},
+			{
+				"description": "web search",
+				"name": "Duck Duck Go",
+				"url": "https://duckduckgo.com/about"
+			},
+			{
+				"description": "increasing and motivating my focus",
+				"subitems": [
+					{
+						"name": "Focus@Will",
+						"url": "https://www.focusatwill.com/"
+					},
+					{
+						"name": "Forest",
+						"url": "https://www.forestapp.cc/"
+					}
+				]
+			},
+			{
+				"description": "secure messaging",
+				"name": "Keybase",
+				"url": "https://keybase.io/"
+			},
+			{
+				"description": "optimizing SVGs",
+				"name": "SVGOMG",
+				"url": "https://jakearchibald.github.io/svgomg"
+			},
+			{
+				"description": "reading ebooks",
+				"details": "Kindle Paperwhite"
+			},
+			{
+				"description": "logging my media consumption",
+				"subitems": [
+					{
+						"name": "Goodreads",
+						"url": "https://www.goodreads.com/user/show/50922548-angelique-weger"
+					},
+					{
+						"name": "Letterboxd",
+						"url": "https://letterboxd.com/artgeek/"
+					}
+				]
+			},
+			{
+				"description": "screen and video recording",
+				"name": "Loom",
+				"url": "https://www.loom.com/"
+			},
+			{
+				"description": "buying and managing domain names",
+				"name": "Namecheap",
+				"url": "https://www.namecheap.com/"
+			},
+			{
+				"description": "writing and sending newsletters",
+				"subitems": [
+					{
+						"name": "Buttondown",
+						"url": "https://buttondown.email/"
+					},
+					{
+						"name": "TinyLetter",
+						"url": "https://tinyletter.com/"
+					}
+				]
+			}
+		]
+	}
 ]
