@@ -148,5 +148,30 @@
         "path": "src/assets/img/blog/2021/works-purpose.png",
         "hash": "861a8434f0d5699c0fe7fef77d0466b1",
         "size": "30KB"
+    },
+    {
+        "path": "src/assets/img/blog/2021/GAAD-logo.svg",
+        "hash": "6f2b055ab7f257754d20803160be4f2b",
+        "size": "21KB"
+    },
+    {
+        "path": "src/assets/img/blog/2021/js-meme1.jpg",
+        "hash": "d824f033f555bd41e6302cab6c094793",
+        "size": "34KB"
+    },
+    {
+        "path": "src/assets/img/blog/2021/js-meme2.jpg",
+        "hash": "aca7c566a067bf1a653e353a0d434c8c",
+        "size": "35KB"
+    },
+    {
+        "path": "src/assets/img/blog/2021/js-meme3.jpg",
+        "hash": "45123b33a8176a8a3c5be2453d43504a",
+        "size": "32KB"
+    },
+    {
+        "path": "src/assets/img/blog/2021/lftm-md.png",
+        "hash": "276d85f31b1863c7022cc635990a7c99",
+        "size": "16KB"
     }
 ]
