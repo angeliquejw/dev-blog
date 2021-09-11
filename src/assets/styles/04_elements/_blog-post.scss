@@ -60,12 +60,7 @@
 		line-height: 1.4;
 
 		> code {
-			background-color: rgba($color-offwhite, 0.4);
-			color: $color-patina;
-			font-family: $font-plex-mono;
-			font-size: ms(-1);
-			font-weight: $font-light;
-			padding: 2px;
+			@include code-effect();
 		}
 	}
 
@@ -138,6 +133,10 @@
 
 	a {
 		@include link-effect();
+
+		> code {
+			@include code-effect($color-mulberry);
+		}
 	}
 
 	cite,

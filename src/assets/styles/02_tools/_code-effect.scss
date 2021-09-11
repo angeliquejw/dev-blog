@@ -1,0 +1,10 @@
+@mixin code-effect($color: $color-patina, $bg: true) {
+	@if $bg {
+		background-color: rgba($color-offwhite, 0.4);
+		padding: 2px;
+	}
+	color: $color;
+	font-family: $font-plex-mono;
+	font-size: ms(-1);
+	font-weight: $font-light;
+}
