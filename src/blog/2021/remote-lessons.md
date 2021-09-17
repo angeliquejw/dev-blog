@@ -1,7 +1,7 @@
 ---
 title: Lessons learned working remotely for over a decade
 summary: "Real talk about my life and happiness as a remote worker."
-tags: [remote, productivity, standing desk]
+tags: [remote, productivity, lftm, standing desk]
 date: 2021-05-17
 location: Baltimore
 comments: Happy to hear what your needs are as a remote worker or which standard DO or DON'T doesn't apply to your experiences.
