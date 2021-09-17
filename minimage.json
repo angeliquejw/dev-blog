@@ -173,5 +173,20 @@
         "path": "src/assets/img/blog/2021/lftm-md.png",
         "hash": "276d85f31b1863c7022cc635990a7c99",
         "size": "16KB"
+    },
+    {
+        "path": "src/assets/img/blog/2015/code-doc-2015.jpg",
+        "hash": "7876e0f680667eb8f38d270654ff7737",
+        "size": "63KB"
+    },
+    {
+        "path": "src/assets/img/blog/2021/bujo-2018.jpeg",
+        "hash": "d7e6f769aadcd73b5e2a16f1a86e945b",
+        "size": "101KB"
+    },
+    {
+        "path": "src/assets/img/blog/2021/home-office.jpeg",
+        "hash": "737c4d0061485c4ab9d1edc0509ca7b3",
+        "size": "65KB"
     }
 ]
