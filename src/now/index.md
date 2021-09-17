@@ -13,7 +13,7 @@ layout: layouts/page.njk
 
 ## Currently{: .now-heading}
 
-I'm living in Baltimore, working as the engineering manager for Lumen Learning's front-end team and teaching front-end web development at MICA.
+I'm living in Baltimore and working as an engineering manager.
 
 </section>
 
@@ -21,8 +21,8 @@ I'm living in Baltimore, working as the engineering manager for Lumen Learning's
 
 ### I am enjoying{: .now-heading}
 
-- porch life ☀️
 - feminist comic book club 🤓
+- actually playing some of the games in my Steam library 🎮
 
 </section>
 
@@ -39,8 +39,8 @@ I'm living in Baltimore, working as the engineering manager for Lumen Learning's
 
 ### I am looking forward to{: .now-heading}
 
-- launching a major redesign project at work
-- grilling all my veggies for the next two months
+- taking a couple of weeks off at the end of September
+- starting a new job in October 🎉
 
 </section>
 
