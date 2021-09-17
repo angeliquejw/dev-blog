@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2021-07-30T13:56:42.748Z",
+  "lastFetched": "2021-09-17T13:28:49.597Z",
   "children": [
     {
       "type": "entry",
@@ -1810,6 +1810,42 @@
       "wm-source": "https://brid.gy/like/twitter/messypixels/1417865952264347658/14227758",
       "wm-target": "https://angeliqueweger.com/blog/2021/hiring-lessons/",
       "like-of": "https://angeliqueweger.com/blog/2021/hiring-lessons/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Niall Murphy",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/c4875117111cf0fc75238b3ea957480e761f032663d4f19837773215de6f2c91.jpg",
+        "url": "https://twitter.com/niallm"
+      },
+      "url": "https://twitter.com/messypixels/status/1437043471332806657#favorited-by-6297992",
+      "published": null,
+      "wm-received": "2021-09-13T08:09:08Z",
+      "wm-id": 1268237,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1437043471332806657/6297992",
+      "wm-target": "https://angeliqueweger.com/blog/2021/working-through-a-pandemic/",
+      "like-of": "https://angeliqueweger.com/blog/2021/working-through-a-pandemic/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Nick Stenning",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/4efbd57ae0c61be199178417f93210a2d830131675c42ba3530e2a45f0b17437.jpg",
+        "url": "https://twitter.com/nickstenning"
+      },
+      "url": "https://twitter.com/messypixels/status/1437043471332806657#favorited-by-14128688",
+      "published": null,
+      "wm-received": "2021-09-13T08:09:08Z",
+      "wm-id": 1268238,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1437043471332806657/14128688",
+      "wm-target": "https://angeliqueweger.com/blog/2021/working-through-a-pandemic/",
+      "like-of": "https://angeliqueweger.com/blog/2021/working-through-a-pandemic/",
       "wm-property": "like-of",
       "wm-private": false
     }
