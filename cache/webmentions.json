@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2021-09-17T13:28:49.597Z",
+  "lastFetched": "2021-09-18T19:45:54.755Z",
   "children": [
     {
       "type": "entry",
@@ -1846,6 +1846,104 @@
       "wm-source": "https://brid.gy/like/twitter/messypixels/1437043471332806657/14128688",
       "wm-target": "https://angeliqueweger.com/blog/2021/working-through-a-pandemic/",
       "like-of": "https://angeliqueweger.com/blog/2021/working-through-a-pandemic/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "André Blackman",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/5948d014165db7074c0da075e55351b9bfa55cdba7869c630e7576ff67ffc6bb.jpg",
+        "url": "https://twitter.com/mindofandre"
+      },
+      "url": "https://twitter.com/mindofandre/status/1439232853502566401",
+      "published": "2021-09-18T14:20:26+00:00",
+      "wm-received": "2021-09-18T14:36:25Z",
+      "wm-id": 1271502,
+      "wm-source": "https://brid.gy/comment/twitter/messypixels/1438864423314153473/1439232853502566401",
+      "wm-target": "https://angeliqueweger.com/blog/2021/love-letter-to-lftm/",
+      "content": {
+        "html": "Whoa. I’m totally checking this out. I’ve realized I don’t always stay consistent for my own stuff with a complex digital tool but this does feel like a nice middle ground with bullet journaling (which I saw you referenced — I’m not consistent with that either). Thanks!\n<a class=\"u-mention\" href=\"http://my.pronoun.is/she\"></a>\n<a class=\"u-mention\" href=\"http://www.angeliqueweger.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/CoralineAda\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/messypixels\"></a>",
+        "text": "Whoa. I’m totally checking this out. I’ve realized I don’t always stay consistent for my own stuff with a complex digital tool but this does feel like a nice middle ground with bullet journaling (which I saw you referenced — I’m not consistent with that either). Thanks!"
+      },
+      "in-reply-to": "https://angeliqueweger.com/blog/2021/love-letter-to-lftm/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Dave Dash",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/dec5c9174db5011bda65670e763bb7e1824c84b0a3e0e4f2ad952bdcfaa66ff0.jpg",
+        "url": "https://twitter.com/davedash"
+      },
+      "url": "https://twitter.com/messypixels/status/1438864423314153473#favorited-by-13634662",
+      "published": null,
+      "wm-received": "2021-09-17T16:10:39Z",
+      "wm-id": 1271076,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1438864423314153473/13634662",
+      "wm-target": "https://angeliqueweger.com/blog/2021/love-letter-to-lftm/",
+      "like-of": "https://angeliqueweger.com/blog/2021/love-letter-to-lftm/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "M",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/bb8a940d2450125c66640391582df4938c67ef4f8cb88c63232139739bb35c2f.jpg",
+        "url": "https://twitter.com/oldroot07"
+      },
+      "url": "https://twitter.com/messypixels/status/1438864423314153473#favorited-by-117228587",
+      "published": null,
+      "wm-received": "2021-09-17T16:10:37Z",
+      "wm-id": 1271075,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1438864423314153473/117228587",
+      "wm-target": "https://angeliqueweger.com/blog/2021/love-letter-to-lftm/",
+      "like-of": "https://angeliqueweger.com/blog/2021/love-letter-to-lftm/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Dave Dash",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/dec5c9174db5011bda65670e763bb7e1824c84b0a3e0e4f2ad952bdcfaa66ff0.jpg",
+        "url": "https://twitter.com/davedash"
+      },
+      "url": "https://twitter.com/davedash/status/1438894765546766336",
+      "published": "2021-09-17T15:57:00+00:00",
+      "wm-received": "2021-09-17T16:10:36Z",
+      "wm-id": 1271074,
+      "wm-source": "https://brid.gy/comment/twitter/messypixels/1438864423314153473/1438894765546766336",
+      "wm-target": "https://angeliqueweger.com/blog/2021/love-letter-to-lftm/",
+      "content": {
+        "html": "K that screenshot was a good hook for me. I might try this next week. I wonder if you retweeted this in Monday god get some people to actually start it.\n<a class=\"u-mention\" href=\"http://my.pronoun.is/she\"></a>\n<a class=\"u-mention\" href=\"http://www.angeliqueweger.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/CoralineAda\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/messypixels\"></a>",
+        "text": "K that screenshot was a good hook for me. I might try this next week. I wonder if you retweeted this in Monday god get some people to actually start it."
+      },
+      "in-reply-to": "https://angeliqueweger.com/blog/2021/love-letter-to-lftm/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Brittney Braxton",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/2e47b05a31465cbcf1eb041da463a520cee39065d48e34e452b8f2f597cc2423.png",
+        "url": "https://twitter.com/mintiiB"
+      },
+      "url": "https://twitter.com/messypixels/status/1438864423314153473#favorited-by-171772351",
+      "published": null,
+      "wm-received": "2021-09-17T16:10:08Z",
+      "wm-id": 1271073,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1438864423314153473/171772351",
+      "wm-target": "https://angeliqueweger.com/blog/2021/love-letter-to-lftm/",
+      "like-of": "https://angeliqueweger.com/blog/2021/love-letter-to-lftm/",
       "wm-property": "like-of",
       "wm-private": false
     }
