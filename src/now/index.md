@@ -21,8 +21,9 @@ I'm living in Baltimore and working as an engineering manager.
 
 ### I am enjoying{: .now-heading}
 
+- some time off before starting a new job in October
+- playing Valheim
 - feminist comic book club 🤓
-- actually playing some of the games in my Steam library 🎮
 
 </section>
 
@@ -39,8 +40,9 @@ I'm living in Baltimore and working as an engineering manager.
 
 ### I am looking forward to{: .now-heading}
 
-- taking a couple of weeks off at the end of September
-- starting a new job in October 🎉
+- new job 🎉
+- new team 😻
+- new challenges 💪🏻
 
 </section>
 
