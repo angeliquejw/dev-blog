@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2021-09-27T13:23:13.236Z",
+  "lastFetched": "2021-10-13T03:33:55.513Z",
   "children": [
     {
       "type": "entry",
@@ -2013,6 +2013,50 @@
       },
       "repost-of": "https://angeliqueweger.com/blog/2021/love-letter-to-lftm/",
       "wm-property": "repost-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Coraline Ada Ehmke",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/a785310a0cba2fa804d8c2191ee30b41709ff74e38d33b24e154ecd049a18ea7.jpg",
+        "url": "https://twitter.com/CoralineAda"
+      },
+      "url": "https://twitter.com/CoralineAda/status/1445502959333347329",
+      "published": "2021-10-05T21:35:36+00:00",
+      "wm-received": "2021-10-05T22:24:10Z",
+      "wm-id": 1282558,
+      "wm-source": "https://brid.gy/comment/twitter/messypixels/1438864423314153473/1445502959333347329",
+      "wm-target": "https://angeliqueweger.com/blog/2021/love-letter-to-lftm/",
+      "content": {
+        "html": "Also: since I shifted from being a full-time engineer to being a full-time revolutionary, I don’t spend as much time in text editors. So I adapted lftm to Omni Outliner… happy to share if you’re curious.\n<a class=\"u-mention\" href=\"http://my.pronoun.is/she\"></a>\n<a class=\"u-mention\" href=\"http://www.angeliqueweger.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/messypixels\"></a>",
+        "text": "Also: since I shifted from being a full-time engineer to being a full-time revolutionary, I don’t spend as much time in text editors. So I adapted lftm to Omni Outliner… happy to share if you’re curious."
+      },
+      "in-reply-to": "https://angeliqueweger.com/blog/2021/love-letter-to-lftm/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Coraline Ada Ehmke",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/a785310a0cba2fa804d8c2191ee30b41709ff74e38d33b24e154ecd049a18ea7.jpg",
+        "url": "https://twitter.com/CoralineAda"
+      },
+      "url": "https://twitter.com/CoralineAda/status/1445502613634437126",
+      "published": "2021-10-05T21:34:13+00:00",
+      "wm-received": "2021-10-05T22:23:42Z",
+      "wm-id": 1282557,
+      "wm-source": "https://brid.gy/post/twitter/messypixels/1445502613634437126",
+      "wm-target": "https://angeliqueweger.com/blog/2021/love-letter-to-lftm/",
+      "content": {
+        "html": "I will be remembered for Contributor Covenant, the Hippocratic License, and… lftm. :)\n\nIt makes me happy to see that folks find it useful!\n\n<a href=\"https://github.com/coralineada/lftm\">github.com/coralineada/lf…</a>\n\n<a class=\"u-mention\" href=\"https://angeliqueweger.com/blog/2021/love-letter-to-lftm/\"></a>",
+        "text": "I will be remembered for Contributor Covenant, the Hippocratic License, and… lftm. :)\n\nIt makes me happy to see that folks find it useful!\n\ngithub.com/coralineada/lf…"
+      },
+      "mention-of": "https://angeliqueweger.com/blog/2021/love-letter-to-lftm/",
+      "wm-property": "mention-of",
       "wm-private": false
     }
   ]
