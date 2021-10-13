@@ -6,9 +6,17 @@
 		"mid_name": "Work + Exp",
 		"items": [
 			{
+				"title": "Engineering Manager",
+				"org": "Panorama Education",
+				"start": "2021-10",
+				"tech": ["Vue", "Ruby on Rails", "Git + GitHub"],
+				"description": "🆕 Just started here; more details forthcoming 🆕"
+			},
+			{
 				"title": "Engineering Manager, Front-end",
 				"org": "Lumen Learning",
 				"start": "2019-10",
+				"end": "2021-09",
 				"tech": [
 					"React",
 					"Vue",

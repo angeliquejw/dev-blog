@@ -53,9 +53,11 @@ layout: layouts/minimal.njk
       <h4 class="work__org-name">{{ item.org }}</h4>
       {%- endif %}
       <p class="work__dates">{{ item.start | dateMoYr }} &ndash; {{ (item.end | dateMoYr) if item.end else "present" }}</p>
-      {# <p class="work__description">
+      {%- if item.org === "Panorama Education" %}
+      <p class="work__description">
         {{ item.description | safe }}
-      </p> #}
+      </p>
+      {%- endif %}
       {%- if item.responsibilities %}
       <ul class="work__resp-list">
         {%- for resp in item.responsibilities %}
