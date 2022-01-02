@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2021-10-13T03:33:55.513Z",
+  "lastFetched": "2022-01-02T23:33:47.443Z",
   "children": [
     {
       "type": "entry",
@@ -2054,6 +2054,28 @@
       "content": {
         "html": "I will be remembered for Contributor Covenant, the Hippocratic License, and… lftm. :)\n\nIt makes me happy to see that folks find it useful!\n\n<a href=\"https://github.com/coralineada/lftm\">github.com/coralineada/lf…</a>\n\n<a class=\"u-mention\" href=\"https://angeliqueweger.com/blog/2021/love-letter-to-lftm/\"></a>",
         "text": "I will be remembered for Contributor Covenant, the Hippocratic License, and… lftm. :)\n\nIt makes me happy to see that folks find it useful!\n\ngithub.com/coralineada/lf…"
+      },
+      "mention-of": "https://angeliqueweger.com/blog/2021/love-letter-to-lftm/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Ilija",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0ba4ca5fa79a9f31d22772ad186bcf8172dff7104e6df35870de6d6c88b393ba.jpg",
+        "url": "https://twitter.com/itsilija"
+      },
+      "url": "https://twitter.com/itsilija/status/1449673442408771584",
+      "published": "2021-10-17T09:47:36+00:00",
+      "wm-received": "2021-10-17T12:45:28Z",
+      "wm-id": 1291809,
+      "wm-source": "https://brid.gy/post/twitter/messypixels/1449673442408771584",
+      "wm-target": "https://angeliqueweger.com/blog/2021/love-letter-to-lftm/",
+      "content": {
+        "html": "I enjoyed reading about <a href=\"https://twitter.com/messypixels\">@messypixels</a>'s use of her low-friction task management system, with automation sprinkled on it. ✨\n\nI've been looking for an easy note taking system for a while, and I think I will give LTFM a shot.\n<a class=\"u-mention\" href=\"https://angeliqueweger.com/blog/2021/love-letter-to-lftm/\"></a>",
+        "text": "I enjoyed reading about @messypixels's use of her low-friction task management system, with automation sprinkled on it. ✨\n\nI've been looking for an easy note taking system for a while, and I think I will give LTFM a shot."
       },
       "mention-of": "https://angeliqueweger.com/blog/2021/love-letter-to-lftm/",
       "wm-property": "mention-of",
