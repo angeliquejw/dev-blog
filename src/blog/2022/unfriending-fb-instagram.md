@@ -2,9 +2,9 @@
 title: Unfriending Facebook, Instagram and Goodreads
 summary: "Deleting Meta and Amazon's social networks in 2022 and the alternatives I'm excited about."
 tags: [values, storygraph]
-date: 2022-01-03
+date: 2022-01-04
 location: Baltimore
-comments: I'd be happy to answer any questions you have about the process as I experienced it or to hear your thoughts about Instagram and Goodreads alteratives.
+comments: I'd be happy to answer any questions you have about the process as I experienced it or to hear your thoughts about Instagram and Goodreads alternatives.
 footnotes:
   - My reasons, if it's helpful, aren't about all social networks being terrible and are much more about the values and impact of Meta and Amazon (which acquired Goodreads in 2013) specifically.
   - Consider it collateral damage from Bezos launching himself into space. 🚀
