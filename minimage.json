@@ -1,192 +1,157 @@
 [
-    {
-        "path": "src/assets/img/icon-email.svg",
-        "hash": "20b33859bc2009ac84438de761b96c0f",
-        "size": "1KB"
-    },
-    {
-        "path": "src/assets/img/logo-github.svg",
-        "hash": "6aacf5385db80dab841fcbbd213d461b",
-        "size": "1KB"
-    },
-    {
-        "path": "src/assets/img/logo-linkedin.svg",
-        "hash": "ca5eb9a39d076fa64938fd849ca9e391",
-        "size": "1KB"
-    },
-    {
-        "path": "src/assets/img/logo-twitter.svg",
-        "hash": "72546d1ec5a8df045819f721095ed520",
-        "size": "1KB"
-    },
-    {
-        "path": "src/assets/img/blog/2015/campsass.png",
-        "hash": "3553fdb21842ca1954c890a67682fc65",
-        "size": "3.162kb"
-    },
-    {
-        "path": "src/assets/img/blog/2015/cmder-cmd.png",
-        "hash": "3408cef6f089a34f26f4e000d8792c64",
-        "size": "19.439kb"
-    },
-    {
-        "path": "src/assets/img/blog/2015/cmder-confounded.png",
-        "hash": "fb13fb6d064921bc8224de5ce6dc1192",
-        "size": "6.381kb"
-    },
-    {
-        "path": "src/assets/img/blog/2015/cmder-yay.png",
-        "hash": "1c7790eed0361f113a190ea6ad5e4ea8",
-        "size": "4.188kb"
-    },
-    {
-        "path": "src/assets/img/blog/2015/codepen.png",
-        "hash": "7e7138c6deed72c020b618cb98ac06e0",
-        "size": "14.444kb"
-    },
-    {
-        "path": "src/assets/img/blog/2015/cs-jobs-vs-students.png",
-        "hash": "d0a6b7b8fe9d9619de1dd5707f1b454c",
-        "size": "38.551kb"
-    },
-    {
-        "path": "src/assets/img/blog/2015/mm-running.jpg",
-        "hash": "c22cd9d99383a52243f405a00bcd8ea7",
-        "size": "39.929kb"
-    },
-    {
-        "path": "src/assets/img/blog/2015/no-dice.png",
-        "hash": "3b2585b0a4ba096ccf5d6d0cfbe2bd0b",
-        "size": "1.569kb"
-    },
-    {
-        "path": "src/assets/img/blog/2015/ps-pwd-yay.png",
-        "hash": "f111bbcf975566b465b66f4142095d3d",
-        "size": "4.163kb"
-    },
-    {
-        "path": "src/assets/img/blog/2015/ps-touch-boo.png",
-        "hash": "311f52292a1db3e4767eb94c7e80d1d8",
-        "size": "6.06kb"
-    },
-    {
-        "path": "src/assets/img/blog/2015/sassconf.png",
-        "hash": "46159ee8e3c24a29fdda10937e52c6d9",
-        "size": "10.089kb"
-    },
-    {
-        "path": "src/assets/img/blog/2015/sassmeister.png",
-        "hash": "5494c1dac9465def151b2ecfec811a96",
-        "size": "8.434kb"
-    },
-    {
-        "path": "src/assets/img/blog/2015/solarized.png",
-        "hash": "20ad1b3a61956554715d96ca19cbd67d",
-        "size": "25.702kb"
-    },
-    {
-        "path": "src/assets/img/triangle-black.svg",
-        "hash": "7ff8cc0320a9363c2922609c97ade6eb",
-        "size": "0.214kb"
-    },
-    {
-        "path": "src/assets/img/triangle-white.svg",
-        "hash": "878dd90a0fcdc918ce2648d27dfc9741",
-        "size": "0.247kb"
-    },
-    {
-        "path": "src/assets/img/ajw-photo.png",
-        "hash": "590127c45c1ecf0e51750aa8d441a5f9",
-        "size": "9.955kb"
-    },
-    {
-        "path": "src/assets/img/avatar-default.jpg",
-        "hash": "20e5b92b36558905c647ab97cad1ba66",
-        "size": "7KB"
-    },
-    {
-        "path": "src/assets/img/heart-black.svg",
-        "hash": "4d88ae8b9981a3b134e18aa77ef9a4cc",
-        "size": "1KB"
-    },
-    {
-        "path": "src/assets/img/scribble.svg",
-        "hash": "4c46cfc7b2857a793cee42e86e813591",
-        "size": "5KB"
-    },
-    {
-        "path": "src/assets/img/square.svg",
-        "hash": "f907dd257d1570341340205ce7bb383b",
-        "size": "1KB"
-    },
-    {
-        "path": "src/assets/img/blog/2021/digital-nomad.jpg",
-        "hash": "17f2a8f54820843d540e2062c3694df8",
-        "size": "125KB"
-    },
-    {
-        "path": "src/assets/img/blog/2021/mobify-button-test.png",
-        "hash": "2d9be13d9ddafec725acd3b0b740ebf0",
-        "size": "4KB"
-    },
-    {
-        "path": "src/assets/img/blog/2021/she-coded.png",
-        "hash": "a748fd6a375d61bbc8805134fe12db20",
-        "size": "447KB"
-    },
-    {
-        "path": "src/assets/img/blog/2021/wfh.jpg",
-        "hash": "dfab6b64856d6f4c75718ebb64bb8fe1",
-        "size": "156KB"
-    },
-    {
-        "path": "src/assets/img/blog/2021/wireframes-A.png",
-        "hash": "2cb4792e4c69fe087628cafbfaea928e",
-        "size": "73KB"
-    },
-    {
-        "path": "src/assets/img/blog/2021/works-purpose.png",
-        "hash": "861a8434f0d5699c0fe7fef77d0466b1",
-        "size": "30KB"
-    },
-    {
-        "path": "src/assets/img/blog/2021/GAAD-logo.svg",
-        "hash": "6f2b055ab7f257754d20803160be4f2b",
-        "size": "21KB"
-    },
-    {
-        "path": "src/assets/img/blog/2021/js-meme1.jpg",
-        "hash": "d824f033f555bd41e6302cab6c094793",
-        "size": "34KB"
-    },
-    {
-        "path": "src/assets/img/blog/2021/js-meme2.jpg",
-        "hash": "aca7c566a067bf1a653e353a0d434c8c",
-        "size": "35KB"
-    },
-    {
-        "path": "src/assets/img/blog/2021/js-meme3.jpg",
-        "hash": "45123b33a8176a8a3c5be2453d43504a",
-        "size": "32KB"
-    },
-    {
-        "path": "src/assets/img/blog/2021/lftm-md.png",
-        "hash": "276d85f31b1863c7022cc635990a7c99",
-        "size": "16KB"
-    },
-    {
-        "path": "src/assets/img/blog/2015/code-doc-2015.jpg",
-        "hash": "7876e0f680667eb8f38d270654ff7737",
-        "size": "63KB"
-    },
-    {
-        "path": "src/assets/img/blog/2021/bujo-2018.jpeg",
-        "hash": "d7e6f769aadcd73b5e2a16f1a86e945b",
-        "size": "101KB"
-    },
-    {
-        "path": "src/assets/img/blog/2021/home-office.jpeg",
-        "hash": "737c4d0061485c4ab9d1edc0509ca7b3",
-        "size": "65KB"
-    }
+	{
+		"path": "src/assets/img/blog/2015/campsass.png",
+		"hash": "3553fdb21842ca1954c890a67682fc65",
+		"size": "3.162kb"
+	},
+	{
+		"path": "src/assets/img/blog/2015/cmder-cmd.png",
+		"hash": "3408cef6f089a34f26f4e000d8792c64",
+		"size": "19.439kb"
+	},
+	{
+		"path": "src/assets/img/blog/2015/cmder-confounded.png",
+		"hash": "fb13fb6d064921bc8224de5ce6dc1192",
+		"size": "6.381kb"
+	},
+	{
+		"path": "src/assets/img/blog/2015/cmder-yay.png",
+		"hash": "1c7790eed0361f113a190ea6ad5e4ea8",
+		"size": "4.188kb"
+	},
+	{
+		"path": "src/assets/img/blog/2015/codepen.png",
+		"hash": "7e7138c6deed72c020b618cb98ac06e0",
+		"size": "14.444kb"
+	},
+	{
+		"path": "src/assets/img/blog/2015/cs-jobs-vs-students.png",
+		"hash": "d0a6b7b8fe9d9619de1dd5707f1b454c",
+		"size": "38.551kb"
+	},
+	{
+		"path": "src/assets/img/blog/2015/mm-running.jpg",
+		"hash": "c22cd9d99383a52243f405a00bcd8ea7",
+		"size": "39.929kb"
+	},
+	{
+		"path": "src/assets/img/blog/2015/no-dice.png",
+		"hash": "3b2585b0a4ba096ccf5d6d0cfbe2bd0b",
+		"size": "1.569kb"
+	},
+	{
+		"path": "src/assets/img/blog/2015/ps-pwd-yay.png",
+		"hash": "f111bbcf975566b465b66f4142095d3d",
+		"size": "4.163kb"
+	},
+	{
+		"path": "src/assets/img/blog/2015/ps-touch-boo.png",
+		"hash": "311f52292a1db3e4767eb94c7e80d1d8",
+		"size": "6.06kb"
+	},
+	{
+		"path": "src/assets/img/blog/2015/sassconf.png",
+		"hash": "46159ee8e3c24a29fdda10937e52c6d9",
+		"size": "10.089kb"
+	},
+	{
+		"path": "src/assets/img/blog/2015/sassmeister.png",
+		"hash": "5494c1dac9465def151b2ecfec811a96",
+		"size": "8.434kb"
+	},
+	{
+		"path": "src/assets/img/blog/2015/solarized.png",
+		"hash": "20ad1b3a61956554715d96ca19cbd67d",
+		"size": "25.702kb"
+	},
+	{
+		"path": "src/assets/img/ajw-photo.png",
+		"hash": "590127c45c1ecf0e51750aa8d441a5f9",
+		"size": "9.955kb"
+	},
+	{
+		"path": "src/assets/img/avatar-default.jpg",
+		"hash": "20e5b92b36558905c647ab97cad1ba66",
+		"size": "7KB"
+	},
+	{
+		"path": "src/assets/img/blog/2021/digital-nomad.jpg",
+		"hash": "17f2a8f54820843d540e2062c3694df8",
+		"size": "125KB"
+	},
+	{
+		"path": "src/assets/img/blog/2021/mobify-button-test.png",
+		"hash": "2d9be13d9ddafec725acd3b0b740ebf0",
+		"size": "4KB"
+	},
+	{
+		"path": "src/assets/img/blog/2021/she-coded.png",
+		"hash": "a748fd6a375d61bbc8805134fe12db20",
+		"size": "447KB"
+	},
+	{
+		"path": "src/assets/img/blog/2021/wfh.jpg",
+		"hash": "dfab6b64856d6f4c75718ebb64bb8fe1",
+		"size": "156KB"
+	},
+	{
+		"path": "src/assets/img/blog/2021/wireframes-A.png",
+		"hash": "2cb4792e4c69fe087628cafbfaea928e",
+		"size": "73KB"
+	},
+	{
+		"path": "src/assets/img/blog/2021/works-purpose.png",
+		"hash": "861a8434f0d5699c0fe7fef77d0466b1",
+		"size": "30KB"
+	},
+	{
+		"path": "src/assets/img/blog/2021/GAAD-logo.svg",
+		"hash": "6f2b055ab7f257754d20803160be4f2b",
+		"size": "21KB"
+	},
+	{
+		"path": "src/assets/img/blog/2021/js-meme1.jpg",
+		"hash": "d824f033f555bd41e6302cab6c094793",
+		"size": "34KB"
+	},
+	{
+		"path": "src/assets/img/blog/2021/js-meme2.jpg",
+		"hash": "aca7c566a067bf1a653e353a0d434c8c",
+		"size": "35KB"
+	},
+	{
+		"path": "src/assets/img/blog/2021/js-meme3.jpg",
+		"hash": "45123b33a8176a8a3c5be2453d43504a",
+		"size": "32KB"
+	},
+	{
+		"path": "src/assets/img/blog/2021/lftm-md.png",
+		"hash": "276d85f31b1863c7022cc635990a7c99",
+		"size": "16KB"
+	},
+	{
+		"path": "src/assets/img/blog/2015/code-doc-2015.jpg",
+		"hash": "7876e0f680667eb8f38d270654ff7737",
+		"size": "63KB"
+	},
+	{
+		"path": "src/assets/img/blog/2021/bujo-2018.jpeg",
+		"hash": "d7e6f769aadcd73b5e2a16f1a86e945b",
+		"size": "101KB"
+	},
+	{
+		"path": "src/assets/img/blog/2021/home-office.jpeg",
+		"hash": "737c4d0061485c4ab9d1edc0509ca7b3",
+		"size": "65KB"
+	},
+	{
+		"path": "src/assets/img/blog/2022/empty-to-read.png",
+		"hash": "4a69691f1025193b2a74bfe31f70acaf",
+		"size": "5KB"
+	},
+	{
+		"path": "src/assets/img/blog/2022/fb-scheduled-for-deletion.png",
+		"hash": "803dd4a8c139db2d99d6c67a9b001528",
+		"size": "26KB"
+	}
 ]
