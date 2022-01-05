@@ -21,21 +21,21 @@ footnotes:
 
 In this series, I've shared [how and why I started working remotely](/blog/2021/my-remote-journey/), what has made me a [successful remote employee for over a decade](/blog/2021/remote-lessons/), and why I think 2020 was more about [working through a pandemic than a great experiment in remote work](/blog/2021/working-through-a-pandemic/). Hopefully this was good, relevant or even validating information and now we're left with: What, therefore, should I do?<sup id="return-fn1"><a href="#fn1">1</a></sup>
 
-Working&mdash;and, more specifically, collaborating&mdash;remotely can be improved in some fairly simple ways.
+Working --- and, more specifically, collaborating --- remotely can be improved in some fairly simple ways.
 
 ## Be real and realistic
 
-First and foremost, we need to be real about the fact that folks are working from their home or, as COVID restrictions ease up, their local coffeeshop or on the road. Tech glitches, interruptions will happen.
+First and foremost, we need to be real about the fact that folx are working from their home or, as COVID restrictions ease up, their local coffeeshop or on the road. Tech glitches, interruptions will happen.
 
 <div class="embed-container giphy">
   <iframe src="https://giphy.com/embed/8HEDXbMiz8EcZEY024" width="480" height="307" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 </div>
 
-Though I was already working remotely, the Portland HQ of Lumen Learning&mdash;like many others&mdash;transitioned to remote last spring with great urgency. During one of the first team meetings after that switch, the CEO straight up stated that we should all expect meeting and workday interruptions (from partners, children, critters) while working from home, and that they were _not_ a reflection on anyone's professionalism. That felt both realistic and kind, which to me is some of the best of leadership.
+Though I was already working remotely, the Portland HQ of Lumen Learning --- like many others --- transitioned to remote last spring with great urgency. During one of the first team meetings after that switch, the CEO straight up stated that we should all expect meeting and workday interruptions (from partners, children, critters) while working from home, and that they were _not_ a reflection on anyone's professionalism. That felt both realistic and kind, which to me is some of the best of leadership.
 
 ## Meetings and not meetings
 
-Speaking of meetings, all the things we already know about running efficient meetings&mdash;as well as when something is _not_ meeting worthy&mdash;is extra important when your team is remote. Honestly, it's easy to multitask or tune out on meetings as a remote employee, so it's worth the effort to make meetings worthwhile and relevant.
+Speaking of meetings, all the things we already know about running efficient meetings --- as well as when something is _not_ meeting worthy --- is extra important when your team is remote. Honestly, it's easy to multitask or tune out on meetings as a remote employee, so it's worth the effort to make meetings worthwhile and relevant.
 
 > It's easy to multitask or tune out on meetings as a remote employee, so it's worth the effort to make meetings worthwhile and relevant.{: .no-cite }
 
@@ -50,7 +50,7 @@ In my experience, two quick changes can make massive improvements to your team m
   <iframe src="https://giphy.com/embed/g1GEdGnaknFyP7JBOz" width="480" height="262" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 </div>
 
-I know this is the source of many [flowcharts](https://blog.doist.com/meeting-vs-email/) and memes&mdash;and yet, here we are. It's still true.
+I know this is the source of many [flowcharts](https://blog.doist.com/meeting-vs-email/) and memes --- and yet, here we are. It's still true.
 
 If the meeting is a straightforward announcement or status update, it's really just better to share via email, Slack or whatever broadcast, async tool your team favors. If something requires a decision and is either simple or well documented, try getting to that decision in an async method.
 
@@ -60,7 +60,7 @@ Building up the muscle of asking this on your team is likely to get you characte
 
 A simple agenda accomplishes so much:
 
-- Folks can establish if the meeting is relevant to them and opt out
+- folx can establish if the meeting is relevant to them and opt out
 - Those attending know how to prepare, setting everyone up for success
 - Sets expectations about the meeting style: brainstorming, deciding
 - Keeps the meeting on topic because _aha!_ 💡 you have agreed-upon topics of discussion
@@ -69,7 +69,7 @@ Once you've gotten into the habit of doing these two things, look into other met
 
 ## Wellness and boundaries
 
-Another key way you can improve your remote teams is by having open conversations about wellness and role modeling healthy boundaries. Especially if your team operates across time zones, folks may feel the pressure to always be on, always be available. Even as a manager or leader, this is not realistic and certainly isn't sustainable.
+Another key way you can improve your remote teams is by having open conversations about wellness and role modeling healthy boundaries. Especially if your team operates across time zones, folx may feel the pressure to always be on, always be available. Even as a manager or leader, this is not realistic and certainly isn't sustainable.
 
 On my team at Lumen, we've added information into our onboarding process about setting available hours on your calendar, and we use similar features in Slack to disable notifications. It's important to document things like this because it sets an expectation of team norms.
 
