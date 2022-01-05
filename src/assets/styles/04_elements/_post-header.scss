@@ -5,7 +5,7 @@
 	h1 {
 		color: $color-valentino;
 		font-family: $font-plex-sans;
-		font-size: ms(9);
+		font-size: ms(7);
 		font-weight: $font-bold;
 		line-height: 1.2;
 		margin-bottom: $spacing-unit-sm;
@@ -39,12 +39,18 @@
 		}
 	}
 
+	@media (min-width: 680px) {
+		h1 {
+			font-size: ms(8);
+		}
+	}
+
 	@media (min-width: 1140px) {
 		margin-left: -120px;
 		max-width: 544px;
 
 		h1 {
-			font-size: ms(12);
+			font-size: ms(10);
 		}
 	}
 }
