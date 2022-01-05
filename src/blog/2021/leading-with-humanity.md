@@ -86,6 +86,6 @@ We need more folx who are leading with their heart, not just during a pandemic a
 
 Companies do _not_ have be like families to be run and organized as if they depend on **human beings**. I implore you to look at your current organization, your current team and think about what could be improved in this regard to make your work together more humane.
 
-<div class="embed-container giphy"><div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/SwgDkKT9au9MhVEMB6" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div></div>
+<div class="embed-container giphy"><div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/SwgDkKT9au9MhVEMB6" width="100%" height="100%" style="position:absolute;" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div></div>
 
 Finally, extra special thanks to everyone who replied to my tweet, publicly or privately, for making this list possible. Let your team leads, managers and CEOs know what they did right this month.

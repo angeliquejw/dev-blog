@@ -21,7 +21,7 @@ While this could easily be a commitment to a new year, a reboot for my blog (I k
 
 Professionally, 2015 was the best year I've ever had, better than any I would have given myself permission to imagine, honestly. I have a great job with an awesome team who I've now worked with for 18 months. We've launched projects I'm proud of, I've learned new things and have contributed my own expertise.
 
-During Baltimore Innovation Week, [I was voted Technologist of the Year and our Girl Develop It chapter was named Tech Mission Org of the Year](http://technical.ly/baltimore/2015/10/02/baltimore-innovation-week-awards-2015/). I also presented a 3-hour intro to Sass workshop and a lightning talk with examples of what I've learned about themeing with Sass that was really well received.
+During Baltimore Innovation Week, [I was voted Technologist of the Year and our Girl Develop It chapter was named Tech Mission Org of the Year](http://technical.ly/baltimore/2015/10/02/baltimore-innovation-week-awards-2015/). I also presented a 3-hour intro to Sass workshop and a lightning talk with examples of what I've learned about theming with Sass that was really well received.
 
 <div class="embed-container twitter">
 	<blockquote class="twitter-tweet" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/BIW15?src=hash">#BIW15</a> <a href="https://twitter.com/messypixels">@messypixels</a> talking SASS and SMACSS <a href="http://t.co/NchaBC3b0r">pic.twitter.com/NchaBC3b0r</a></p>&mdash;Yet Developers (@YetDevs) <a href="https://twitter.com/YetDevs/status/649311349290303488">September 30, 2015</a></blockquote>

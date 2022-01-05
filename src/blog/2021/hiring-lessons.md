@@ -55,7 +55,7 @@ I wrote just under 100 lines of HTML, 125 lines of Sass and 40 lines of JS in th
 
 More importantly, while some of the interview questions I was asked did touch on my opinions about tech topics, the vast majority of the questions were about how I approached problem solving overall and how I collaborated with others. The interview, as a result, felt more like a conversation than a quiz.
 
-After being hired, I participated in the hiring process for coworkers both on and off the dev team and gained new appreciation for how this thoughtful process came to be. As a member of hiring committees, I was asked to take [implicit association tests](https://implicit.harvard.edu/implicit/index.jsp) to understand my unconscious biases and also given rubrics by which to grade candidates, helping us keep the important criteria for the role front of mind and providing some quantitative data to a process that can be ruled --- disasterously so --- by instinct.
+After being hired, I participated in the hiring process for coworkers both on and off the dev team and gained new appreciation for how this thoughtful process came to be. As a member of hiring committees, I was asked to take [implicit association tests](https://implicit.harvard.edu/implicit/index.jsp) to understand my unconscious biases and also given rubrics by which to grade candidates, helping us keep the important criteria for the role front of mind and providing some quantitative data to a process that can be ruled --- disastrously so --- by instinct.
 
 ### Lessons learned{: #lessons-2 }
 

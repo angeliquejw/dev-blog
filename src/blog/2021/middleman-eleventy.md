@@ -13,7 +13,7 @@ footnotes:
 
 Before sharing some of the details and process I used to migrate this site from Middleman to Eleventy, I think it's helpful to provide some context behind my choice.
 
-First and foremost, there's not a damn thing wrong with Middleman. 🤷🏻‍♀️ Honestly, working on Middleman had only gotten easier for me since I had been developing on Windows back when I started the site in 2015 and had since [moved to a Macbook](/blog/2017/first-week-on-macos/). While I was running on an out-of-date version of Middleman<sup id="return-fn1"><a href="#fn1">1</a></sup>, I didn't foresee problems updating the Middleman gem or the site.
+First and foremost, there's not a damn thing wrong with Middleman. 🤷🏻‍♀️ Honestly, working on Middleman had only gotten easier for me since I had been developing on Windows back when I started the site in 2015 and had since [moved to a MacBook](/blog/2017/first-week-on-macos/). While I was running on an out-of-date version of Middleman<sup id="return-fn1"><a href="#fn1">1</a></sup>, I didn't foresee problems updating the Middleman gem or the site.
 
 Three things led me to redo things in Eleventy:
 
