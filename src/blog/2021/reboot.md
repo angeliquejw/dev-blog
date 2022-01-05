@@ -16,7 +16,7 @@ I got sidetracked by a freelance project, teaching a workshop and then, yep, a p
 
 > I immediately bookmarked it and started writing this initial post…and then I landed a few big freelance projects, got involved with Girl Develop It, got a job, bought a house, sent a kid off to college…essentially, life happened.
 
-<cite>&mdash;Adorable Past Me</cite>
+<cite>--Adorable Past Me</cite>
 
 This blog is essentially just for me, so I'm not raking myself over the coals here--mostly just amused at how consistent I am about having ✨very good intentions✨ about blogging.
 

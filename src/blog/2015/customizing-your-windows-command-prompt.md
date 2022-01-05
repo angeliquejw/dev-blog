@@ -10,7 +10,7 @@ I wrote previously about how to [set up your Windows command prompt to work bett
 
 ## Changing the appearance
 
-First, as with all things&mdash;including this blog!&mdash;I get things displaying using [Solarized Dark](http://observer.com/2015/02/meet-the-man-behind-solarized-the-most-important-color-scheme-in-computer-history/). Solarized is color theme for text editors and it's my theme of choice.
+First, as with all things --- including this blog! --- I get things displaying using [Solarized Dark](http://observer.com/2015/02/meet-the-man-behind-solarized-the-most-important-color-scheme-in-computer-history/). Solarized is color theme for text editors and it's my theme of choice.
 
 ![Solarized for Cmder](/assets/img/blog/2015/solarized.png)
 

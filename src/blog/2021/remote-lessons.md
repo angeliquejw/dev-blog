@@ -19,7 +19,7 @@ First, a reality check about what working remotely has looked like for me.
 </figcaption>
 </figure>
 
-Pre-COVID, your social media streams may have been filled with images of folks with their laptops at airports, on beaches, in coffeeshops, in Airstream trailers. Remote work was seen as a means into a ✨ digital nomad ✨ lifestyle.
+Pre-COVID, your social media streams may have been filled with images of folx with their laptops at airports, on beaches, in coffeeshops, in Airstream trailers. Remote work was seen as a means into a ✨ digital nomad ✨ lifestyle.
 
 <figure class="img-right">
 
@@ -43,9 +43,9 @@ Ben Halpern of Dev.to has written something about this as well:
 
 > I have been able to dramatically optimize for the 95% of the time I get to be sitting at the same desk with the same peripherals all hooked up. [...] The 5% of the time I find myself away from this setup and still fully in work mode is a rather unideal scenario.
 
-<cite>&mdash;Ben Halpern, [The Best Remote Work is Delightfully Unglamorous](https://dev.to/ben/the-best-remote-work-is-delightfully-unglamorous-4h5f)</cite>
+<cite>--Ben Halpern, [The Best Remote Work is Delightfully Unglamorous](https://dev.to/ben/the-best-remote-work-is-delightfully-unglamorous-4h5f)</cite>
 
-This isn't to say I don't unplug and roam at times (I'm writing this blog post from my couch with a snoring pitbull at my feet), but the vast majority of my work&mdash;both coding and interacting with my team&mdash;is done at my desk.
+This isn't to say I don't unplug and roam at times (I'm writing this blog post from my couch with a snoring pitbull at my feet), but the vast majority of my work --- both coding and interacting with my team --- is done at my desk.
 
 While we're talking about my desk, let's dive into some specifics about what keeps me happy as a remote worker:
 
@@ -59,7 +59,7 @@ My set up is fairly simple: a wooden IKEA countertop and a set of telescoping le
 
 ## Consistency
 
-While remote work is often lauded for its flexibility, what I appreciate is the flexibility to create a consistent schedule that works _for me_. The structure of my workdays is very consistent&mdash;including when I start and stop&mdash;while the content of those days and what the work itself looks like is quite changeable.
+While remote work is often lauded for its flexibility, what I appreciate is the flexibility to create a consistent schedule that works _for me_. The structure of my workdays is very consistent --- including when I start and stop --- while the content of those days and what the work itself looks like is quite changeable.
 
 I start each workday by running a Ruby script that pulls data from my Google calendar and our team's Jira board, presenting me with a list of scheduled events and tickets assigned to me. Reviewing this means I'm ready for meetings and can set reasonable expectations for myself about how much head's-down time I'll have for coding. I organize all this info in Markdown files, a hybrid system inspired by Coraline Ada's [lftm (low-friction task management) system](https://github.com/CoralineAda/lftm) and bullet journaling.
 
@@ -79,8 +79,8 @@ If work is your _primary_ place of social engagement, I definitely understand ho
 
 ## It's not always rosy
 
-I used to say that in any month of working remotely, there's always one garbage day, where the inconvenience of being in my house versus an office or coworking space was really obvious. Maybe my dog made a mess or the folks I share my house with have an unreasonable case of _interruptitis_. That day is irritating, but it's not like that all the time, and the benefits definitely outweigh the frustrations.
+I used to say that in any month of working remotely, there's always one garbage day, where the inconvenience of being in my house versus an office or coworking space was really obvious. Maybe my dog made a mess or the folx I share my house with have an unreasonable case of _interruptitis_. That day is irritating, but it's not like that all the time, and the benefits definitely outweigh the frustrations.
 
 ---
 
-Finally, it's worth reiterating that these are the things that have made being remote work for me. These are _my_ lessons and not hard-and-fast rules for anyone looking to be happy as a remote employee. A lot of articles about remote work are like that; full of DOs and DON'Ts, but not everyone needs the same things to be happy at work. Some folks, like me, need an office with a door, others are happy on the couch. What's important is to know yourself well enough to establish those wants and the fine tune your work day for them.
+Finally, it's worth reiterating that these are the things that have made being remote work for me. These are _my_ lessons and not hard-and-fast rules for anyone looking to be happy as a remote employee. A lot of articles about remote work are like that; full of DOs and DON'Ts, but not everyone needs the same things to be happy at work. Some folx, like me, need an office with a door, others are happy on the couch. What's important is to know yourself well enough to establish those wants and the fine tune your work day for them.

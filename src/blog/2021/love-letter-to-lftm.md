@@ -4,7 +4,7 @@ summary: Details of the note-taking and productivity system I've been using for 
 tags: [lftm, productivity, resources, ruby]
 date: 2021-09-17
 location: Baltimore
-comments: I love hearing about the systems that help folks be productive and would be interested in any feedback about my changes to LFTM or my scripts.
+comments: I love hearing about the systems that help folx be productive and would be interested in any feedback about my changes to LFTM or my scripts.
 footnotes:
   - For me. It works for me. YMMV.
   - There's some detail included in this file, but Meaghan's Mondaze sessions are free, and I really encourage you to check them out and <a href="https://www.meaghanwagner.com/work-with-me/">learn from her directly</a>!
@@ -35,7 +35,7 @@ It's a repo with folders and files. There's some structure provided by the folde
 >
 >   {: .no-cite }
 
-Also, because it's _text_, it's so very searchable. Because it's _local_ text, searching is also fast and customizable -- I can search using the tools in my text editor or the command line.
+Also, because it's _text_, it's so very searchable. Because it's _local_ text, searching is also fast and customizable --- I can search using the tools in my text editor or the command line.
 
 ## My mods
 
@@ -72,7 +72,7 @@ Since I have a pretty [clicky keyboard](/uses/), I often take meeting notes by h
 
 ## Benefits
 
-While I've adequately explained how I add to and track things in LFTM, where the system really shines is when I almost very nearly remember something...and then search and _voilà!_ have the information I'm looking for immediately at hand. Similarly, I also use my LFTM notes to review things -- before 1:1s, before reviews, before meetings. In general, the system makes me feel like I always have the proper context for something and rarely am the person in a meeting who can't remember our goals or action items.
+While I've adequately explained how I add to and track things in LFTM, where the system really shines is when I almost very nearly remember something...and then search and _voilà!_ have the information I'm looking for immediately at hand. Similarly, I also use my LFTM notes to review things --- before 1:1s, before reviews, before meetings. In general, the system makes me feel like I always have the proper context for something and rarely am the person in a meeting who can't remember our goals or action items.
 
 Combined with the Monday kickoff, the system allows me to organize tasks, take notes _and_ to reflect on things. Together, it lets me be a person who has her shit together and gets shit done.
 
@@ -80,13 +80,13 @@ Combined with the Monday kickoff, the system allows me to organize tasks, take n
 
 I've always been an avid note taker, so I shouldn't be surprised that this system works for me. Mostly it harnesses something I do automatically and make it more meaningful and long lasting.
 
-Also, it allows me to take notes and create tasks where I already am -- in a text editor. There's no app version of this system, so if I'm not immediately in front of my laptop, I absolutely have to rely on a secondary system (like a notebook) until such time as I'm back at my computer. I know for many folks this would be a dealbreaker, but as someone who works from home _and_ uses this system mainly for work tasks, it's actually perfect.
+Also, it allows me to take notes and create tasks where I already am --- in a text editor. There's no app version of this system, so if I'm not immediately in front of my laptop, I absolutely have to rely on a secondary system (like a notebook) until such time as I'm back at my computer. I know for many folx this would be a dealbreaker, but as someone who works from home _and_ uses this system mainly for work tasks, it's actually perfect.
 
 While there isn't an app, by saving my notes to a private repo, I do have a cloud backup of my notes and am able to use them on multiple machines. Again, for me, this is enough.
 
 Finally, as I've said before, I mostly use this system for work tasks--both my day job and teaching. I haven't been as successful using it for personal tasks, which end up mostly living on my calendar, or personal reflection, which I still do mostly by hand. Sometimes I even give into the lure of fancier bullet journaling.
 
-![](/assets/img/blog/2021/bujo-2018.jpeg)
+![Grid paper notebook with handwritten calendar for the week of January 15-21](/assets/img/blog/2021/bujo-2018.jpeg)
 
 While I've started up a pen-and-paper (and markers! and washi tape! and stamps!) bullet journal on several occasions, I've never kept it going longer than three months and _certainly_ not three years. I hope the longevity of me maintaining and getting benefit out of LFTM inspires you to check it out to, if organization is something you struggle with.
 

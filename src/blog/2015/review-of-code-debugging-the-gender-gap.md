@@ -12,11 +12,11 @@ tags:
 date: 2015-07-13
 location: Baltimore
 footnotes:
-  - The film, obvously, focuses on the lack of gender diversity in tech. Other diversity issues&mdash;ethnic, socio-economic&mdash;are discussed and some of the things that keep women out of tech&mdash;lack of role models, toxic culture&mdash;affect these other groups, too.
+  - The film, obviously, focuses on the lack of gender diversity in tech. Other diversity issues --- ethnic, socio-economic --- are discussed and some of the things that keep women out of tech --- lack of role models, toxic culture --- affect these other groups, too.
   - 'Sources for CS education stats: <a href="https://code.org/stats">https://code.org/stats</a>, <a href="http://www.computinginthecore.org/facts-resources">http://www.computinginthecore.org/facts-resources</a>, <a href="http://www.exploringcs.org/resources/cs-statistics">http://www.exploringcs.org/resources/cs-statistics</a>'
 ---
 
-There's been enough coverage in the last year, that most folks accept tech has a diversity problem. The documentary <strong><em>Code: Debugging the Gender Gap</em></strong> looks at this issue<sup id="return-fn1"><a href="#fn1">1</a></sup>, it's history, causes and impact.
+There's been enough coverage in the last year, that most folx accept tech has a diversity problem. The documentary <strong><em>Code: Debugging the Gender Gap</em></strong> looks at this issue<sup id="return-fn1"><a href="#fn1">1</a></sup>, it's history, causes and impact.
 
 <div class="embed-container yt">
     <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_QcBV6-7fJg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -30,7 +30,7 @@ Director Robin Hauser Reynolds interviews people like Megan Smith, CTO of the Un
 
 - [Danielle Feinberg](http://www.seas.harvard.edu/news-events/publications/qa/danielle-feinberg) ([@dafeinberg](https://twitter.com/dafeinberg)), director of photography at Pixar, who is so clearly enthused about her work, but realistic about what it means to be a woman in tech.
 - [Tracy Chou](http://www.vogue.com/4537369/pinterest-tracy-chou-silicon-valley) ([@triketora](https://twitter.com/triketora)), the Pinterest engineer who got companies to start sharing actual numbers about their diversity ([read more](http://www.wired.com/2015/04/tracy-chou/)).
-- [Roz Ho](http://www.forbes.com/2010/05/18/microsoft-jobs-computer-science-engineering-math-forbes-woman-leadership-tech.html), the senior vice-president of engineering at Ericsson and a former Microsoft executive who relates how a majority male leadership team ignored focus group results that said Microsoft's animated assistants&mdash;yes, I'm talking about Clippy&mdash;appeared to be leering at users and made female users uncomfortable.
+- [Roz Ho](http://www.forbes.com/2010/05/18/microsoft-jobs-computer-science-engineering-math-forbes-woman-leadership-tech.html), the senior vice-president of engineering at Ericsson and a former Microsoft executive who relates how a majority male leadership team ignored focus group results that said Microsoft's animated assistants --- yes, I'm talking about Clippy --- appeared to be leering at users and made female users uncomfortable.
 
 <div class="embed-container giphy">
   <div style="width:100%;height:0;padding-bottom:94%;position:relative;"><iframe src="https://giphy.com/embed/13V60VgE2ED7oc" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
@@ -46,17 +46,17 @@ Something the film drove home for me, specifically, was the actual nuts and bolt
 
 ![1 million computer science jobs for 400,000 students](/assets/img/blog/2015/cs-jobs-vs-students.png)
 
-<figcaption>&mdash;Infographic by Code.org; <a href="https://code.org/stats">see full image</a></figcaption>
+<figcaption>--- Infographic by Code.org; <a href="https://code.org/stats">see full image</a></figcaption>
 
 </figure>
 
-For kids in school now, gearing up for those opportunities is not easy. In half of US states, computer science classes don't count toward students' graduation math and science requirements. And things are getting worse for CS at the high school level: Since 2005, introductory secondary school computer science courses have _decreased_ in number&mdash;by 17 percent. This lack of exposure has an impact, as 98% of CS majors reported some exposure to CS prior to college (in the form of classes, camps, after-school programs, etc). <sup id="return-fn2"><a href="#fn2">2</a></sup>
+For kids in school now, gearing up for those opportunities is not easy. In half of US states, computer science classes don't count toward students' graduation math and science requirements. And things are getting worse for CS at the high school level: Since 2005, introductory secondary school computer science courses have _decreased_ in number --- by 17 percent. This lack of exposure has an impact, as 98% of CS majors reported some exposure to CS prior to college (in the form of classes, camps, after-school programs, etc). <sup id="return-fn2"><a href="#fn2">2</a></sup>
 
-While some of this info was eye-opening and new to me, the overall themes of <strong><em>Code</em></strong> tie in to my personal motivations to get more women into tech/programming&mdash;
+While some of this info was eye-opening and new to me, the overall themes of <strong><em>Code</em></strong> tie in to my personal motivations to get more women into tech/programming:
 
-- the need for coders is great, therefore their compensation is also great (and, for women, PoC and economically disadvantaged folks, really potentially life changing)
+- the need for coders is great, therefore their compensation is also great (and, for women, PoC and economically disadvantaged folx, really potentially life changing)
 - tech plays an ever-greater part of our lives, and it's meaningful for women to be makers, not just users/consumers, of that tech
 
 Overall, I would recommend the documentary to those interested in an overview about the issues women in tech face. I hope we have an opportunity to have a screening here in Baltimore for the women in tech and Girl Develop It communities.
 
-![](/assets/img/blog/2015/code-doc-2015.jpg)
+![Promotional postcard for the documentary](/assets/img/blog/2015/code-doc-2015.jpg)

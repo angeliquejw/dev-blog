@@ -19,11 +19,11 @@ Working from home gave me the opportunity to be there when my brother got out of
   <iframe src="https://giphy.com/embed/jpPo90LFJY9D2nb7Y9" width="480" height="269" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
 </div>
 
-I left that role when my freelance web development work was taking off. Since I already had a functional home office, I didn't see any benefit to letting an office or even joining a co-working space. And, then, when a client asked if I would join their team full-time, it was with the understanding that I would remain remote &mdash; their team was in Detroit and I was living in Baltimore. Again, a choice of convenience or practicality, but it was definitely this experience that made me realize I was actually committed to working remotely.
+I left that role when my freelance web development work was taking off. Since I already had a functional home office, I didn't see any benefit to letting an office or even joining a co-working space. And, then, when a client asked if I would join their team full-time, it was with the understanding that I would remain remote --- their team was in Detroit and I was living in Baltimore. Again, a choice of convenience or practicality, but it was definitely this experience that made me realize I was actually committed to working remotely.
 
-> Meeting rooms, team lunches&mdash;all great! 👍🏻<br> Sitting in a cubicle or standing at a counter to code for hours on end&mdash;meh! 👎🏻 {: .no-cite aria-hidden="true"}
+> Meeting rooms, team lunches --- all great! 👍🏻<br> Sitting in a cubicle or standing at a counter to code for hours on end --- meh! 👎🏻 {: .no-cite aria-hidden="true"}
 
-Like most remote workers, I was required to show up at the office on occasion&mdash;in this case, on a cadence of every 2-3 months. While I **always** enjoyed the face time with my team, I quickly realized how uncomfortable and unproductive most office spaces are. Meeting rooms, team lunches&mdash;all great! 👍🏻 Sitting in a cubicle or standing at a counter to code for hours on end&mdash;meh! 👎🏻
+Like most remote workers, I was required to show up at the office on occasion --- in this case, on a cadence of every 2-3 months. While I **always** enjoyed the face time with my team, I quickly realized how uncomfortable and unproductive most office spaces are. Meeting rooms, team lunches --- all great! 👍🏻 Sitting in a cubicle or standing at a counter to code for hours on end --- meh! 👎🏻
 
 I realized that in my home office I had a far greater control over my focus and interruptions. In shared work spaces, even when wearing decent headphones, there's the opportunity for a steady stream of distractions, especially in the dreaded open office floor plan.
 
@@ -35,7 +35,7 @@ When I started looking for my next role, I considered whether or not I wanted to
 
 Since that realization, I've made it a point to join teams that are already experienced with remote work and have invested in the tools to make remote workers successful. At Fractured Atlas, I used tools like Zoom, Slack and Mural for the first time professionally, all of which make remote collaboration significantly better. During my time on that team, the decision was made to transition the organization to fully virtual, which gave me the opportunity to share my decade-plus of experiences working from home in individual and group conversations and on [the company blog](https://blog.fracturedatlas.org/how-we-work-virtually-featuring-angelique-weger-ded335653265).
 
-At a time when more folks are working from home, as well as trying to figure out if they want to stick with this remote life, I thought it might be helpful to reflect on my experiences a bit. This is the first in a series of posts about working remotely. Later this week, I'll share additional posts about:
+At a time when more folx are working from home, as well as trying to figure out if they want to stick with this remote life, I thought it might be helpful to reflect on my experiences a bit. This is the first in a series of posts about working remotely. Later this week, I'll share additional posts about:
 
 - [how working remotely in 2020 was different than than dozen years before it](/blog/2021/working-through-a-pandemic/)
 - [an updated look at what working remotely looks like for me and what has stood the test of time to keep me productive and well](/blog/2021/remote-lessons/)

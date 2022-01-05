@@ -18,8 +18,8 @@ First and foremost, there's not a damn thing wrong with Middleman. 🤷🏻‍�
 Three things led me to redo things in Eleventy:
 
 1. I had elected to use Eleventy in the advanced web development course I teach at MICA<sup id="return-fn2"><a href="#fn2">2</a></sup> and running my site on the same generator would give me more experience using and configuring Eleventy.
-2. Eleventy is so _awesomely_ flexible. While I was initially sold on the minimal configuration, with Eleventy that only means you don't have to customize things, but you certainly can. The ability to use multiple templating languages, to use JavaScript for all sorts of logic, to work with data in a variety of formats--Eleventy is simple to set up, adaptable and powerful. It's a great choice for what I'm doing now with the site and really anything I want to do in the future.
-3. Community -- I find the creator ([@ZachLeat](https://twitter.com/zachleat)) to be a stand-up dude (see, for example, [his enthusiasm when I tweeted about teaching with Eleventy](https://twitter.com/zachleat/status/1082429657683767296)) and the community around Eleventy to be friendly and encouraging.
+2. Eleventy is so _awesomely_ flexible. While I was initially sold on the minimal configuration, with Eleventy that only means you don't have to customize things, but you certainly can. The ability to use multiple templating languages, to use JavaScript for all sorts of logic, to work with data in a variety of formats --- Eleventy is simple to set up, adaptable and powerful. It's a great choice for what I'm doing now with the site and really anything I want to do in the future.
+3. Community --- I find the creator ([@ZachLeat](https://twitter.com/zachleat)) to be a stand-up dude (see, for example, [his enthusiasm when I tweeted about teaching with Eleventy](https://twitter.com/zachleat/status/1082429657683767296)) and the community around Eleventy to be friendly and encouraging.
 
 ## Setting up Eleventy
 
@@ -47,7 +47,7 @@ One of the things Eleventy gives me more control over is my asset and build pipe
 
 Finally, actually deploying/publishing my Middleman blog had been a fairly wonky, almost embarrassing process<sup id="return-fn3"><a href="#fn3">3</a></sup> where I built the site locally and then used the command line to push the static output to my web server. Just wholesale copying over the whole directory. I did it infrequently enough that it always felt fraught and required several "notes to self." I knew there were other options, like hosting on S3 and having a pipeline based on merging into my git repo, but hadn't gotten beyond the research stage about how to do that (well, and [tweeting about it](https://twitter.com/messypixels/status/1065561900996616200) and soliciting help from my great pals).
 
-As my redesign was nearly complete, I explored deploying the site using [Vercel](https://vercel.com/docs#deploy-an-existing-project) and damn if it isn't simple and great. Other than adding my domain name (and sorting out my mail servers), I've had to do zero customization there -- it just works. After I merge changes into my main branch on GitHub, the site is live in about a minute. Legit, I used to spend more time than that verifying my old command line process. 🙀
+As my redesign was nearly complete, I explored deploying the site using [Vercel](https://vercel.com/docs#deploy-an-existing-project) and damn if it isn't simple and great. Other than adding my domain name (and sorting out my mail servers), I've had to do zero customization there --- it just works. After I merge changes into my main branch on GitHub, the site is live in about a minute. Legit, I used to spend more time than that verifying my old command line process. 🙀
 
 ## Wrapping up
 
