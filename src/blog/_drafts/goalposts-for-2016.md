@@ -17,15 +17,14 @@ The first step I toward making my new year look different was to sign up for a c
 	<figcaption>#CBDrawADay doodles to date</figcaption>
 </figure>
 
-
-Currently, I have 36 of 38 goals for the year set and then intention to add two more goals before I turn 38 at the end of March and to complete the entire list before I turn 39 in 2017 (yes, this means I'm giving myself 15 months instead of 12; call it a perk of getting older&mdash;it makes my list longer, but also makes me more flexible about these sort of things!).
+Currently, I have 36 of 38 goals for the year set and then intention to add two more goals before I turn 38 at the end of March and to complete the entire list before I turn 39 in 2017 (yes, this means I'm giving myself 15 months instead of 12; call it a perk of getting older --- it makes my list longer, but also makes me more flexible about these sort of things!).
 
 You can view the full list of goals [here](http://angeliqueweger.com/2016-goals), along with some description of how/why I chose these goals. Throughout the year, I'll be updating that page with my progress. A couple of my goals relate directly to coding and this blog, so I'll call them out here:
 
-* Publish 50 blog posts
-* Submit a talk to [SassConf](sassconf.com)
+- Publish 50 blog posts
+- Submit a talk to [SassConf](sassconf.com)
 
-I feel writing this blog and giving talks last year helped cement my understanding of things and challenged me to be more thoughtful about my choices&mdash;because the best posts and talks don't just say what you did, but why. I want to encourage more of that in myself, as well as giving back some of what I have learned and benefited from others who share their experiences. Specifically, I benefited from the expertise and community at SassConf in November and would like to plan to participate and attend again this year.
+I feel writing this blog and giving talks last year helped cement my understanding of things and challenged me to be more thoughtful about my choices --- because the best posts and talks don't just say what you did, but why. I want to encourage more of that in myself, as well as giving back some of what I have learned and benefited from others who share their experiences. Specifically, I benefited from the expertise and community at SassConf in November and would like to plan to participate and attend again this year.
 
 The remainder of my goals are not specific to coding, but I know even just the challenge of writing 50 blog posts will keep me inspired in that direction. Also, inspiration comes in funny places; even just the act of setting these goals led me to figure out how to import JSON data into my Middleman site, which is where my list of goals comes from (see [here](https://github.com/angeliquejw/devj/blob/master/data/goals.json)) and could, of course, be fodder for a future blog post. Who knows what else will inspire me this year!
 

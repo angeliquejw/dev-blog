@@ -12,10 +12,11 @@ Using variables for colors is awesome; naming those variables can be&hellip;comp
 <iframe src="//giphy.com/embed/LmXk21sZShSa4?html5=true" width="480" height="259" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 </div>
 
-Need an into to *WHY* colors and Sass are awesome? I wrote about this and gave some examples in [a previous post](/blog/2015/getting-sassy-with-variables-and-colors/).
+Need an into to _WHY_ colors and Sass are awesome? I wrote about this and gave some examples in [a previous post](/blog/2015/getting-sassy-with-variables-and-colors/).
 {: .note}
 
 ## Why name colors
+
 Regardless of what system you use, the goal is usually the same: To make it easier to remember and manipulate the main colors in your site's palette. When I was just using straight CSS, that usually meant doing something like this at the top of my stylesheet:
 
 ```css
@@ -38,32 +39,36 @@ Without a master colors list like this, your color variations can easily get out
 Once you have your palette, whether it has 8, 14 or more colors, you have to figure out how you're going to refer to them.
 
 ### The CSS way
+
 Here, in general, you don't have a lot of choices. Mainly, you have to decide what kind of color notation you'll use:
-* Hexadecimal <code>#c0c0c0</code>
-* HSL <code>hsl(0, 0%, 75%)</code>
-* RGB <code>rgb(192,192,192)</code>
-* keywords <code>silver</code>
+
+- Hexadecimal <code>#c0c0c0</code>
+- HSL <code>hsl(0, 0%, 75%)</code>
+- RGB <code>rgb(192,192,192)</code>
+- keywords <code>silver</code>
 
 The rest of my examples will use hexadecimal notation, but HSL and RGB are also valid choices; while using keywords feels easy, the implementation of those colors can vary by browsers and, therefore, isn't recommended beyond "black" or "white."
 
 ```css
 .myClass {
-    background-color:#00c9ff;
+	background-color: #00c9ff;
 }
 .myClass a {
-    color:#666;
+	color: #666;
 }
 .myClass a:hover {
-    color:#333;
+	color: #333;
 }
 ```
 
 This is familiar and, no doubt, works. However, I found I often had to refer back to my color palette to keep straight which were the light and dark variations.
 
 ### The Sass way
+
 Sass allows us to use variables to make these color codes easier to remember and use. There are several common ways of naming these variables.
 
 #### Color names
+
 Using your own creativity or leaning on [Name That Color](http://chir.ag/projects/name-that-color/#00ACF1), you can assign recognizable names to the color variables, like so:
 
 ```scss
@@ -73,13 +78,13 @@ $color-grey: #666;
 $color-blue: #00c9ff;
 
 .myClass {
-    background-color:$color-blue;
-    a {
-        color:$color-grey;
-        &:hover {
-            color:$color-greydk;
-        }
-    }
+	background-color: $color-blue;
+	a {
+		color: $color-grey;
+		&:hover {
+			color: $color-greydk;
+		}
+	}
 }
 ```
 
@@ -89,6 +94,7 @@ As in the example above, I opt to prefix my color names with `color-` because th
 {: .note }
 
 #### Functional names
+
 One way of avoiding this switcheroo is to instead name things based on the function of the color, like so:
 
 ```scss
@@ -98,13 +104,13 @@ $color-link-hover: #333;
 $color-link: #666;
 
 .myClass {
-    background-color:$color-background;
-    a {
-        color:$color-link;
-        &:hover {
-            color:$color-link-hover;
-        }
-    }
+	background-color: $color-background;
+	a {
+		color: $color-link;
+		&:hover {
+			color: $color-link-hover;
+		}
+	}
 }
 ```
 
@@ -112,20 +118,21 @@ While wordy, this feels like a very clear way to organize things and easy for ot
 
 ```scss
 .myClass {
-    background-color:$color-background;
-    border-color:$color-link; // WUT IS HAPPENING
-    a {
-        color:$color-text;
-        &:hover {
-            color:$color-link-hover;
-        }
-    }
+	background-color: $color-background;
+	border-color: $color-link; // WUT IS HAPPENING
+	a {
+		color: $color-text;
+		&:hover {
+			color: $color-link-hover;
+		}
+	}
 }
 ```
 
 This clear system no longer makes sense. There's gotta be a better way, right?
 
 #### The hybrid naming system
+
 By combining the color and functional naming systems, you can avoid the problems of both:
 
 ```scss
@@ -141,14 +148,14 @@ $color-link-hover: $greydk;
 $color-link: $grey;
 
 .myClass {
-    background-color:$color-background;
-    border-color:$color-border; // SWEET!
-    a {
-        color:$color-link;
-        &:hover {
-            color:$color-link-hover;
-        }
-    }
+	background-color: $color-background;
+	border-color: $color-border; // SWEET!
+	a {
+		color: $color-link;
+		&:hover {
+			color: $color-link-hover;
+		}
+	}
 }
 ```
 
@@ -158,27 +165,28 @@ Eh, for some, I'd say. While this seems like the holy grail, in practice, I actu
 
 1. When I work on simple sites, like this one, there really aren't that many color variables to keep track of and I find that color name variables work just fine for me.
 2. When I work on large, complex sites, I find color names to still be more memorable than multiple versions of those functional names (e.g., `$color-light-border` to go on my `$color-dark-background` versus `$color-dark-border` for `$color-light-background`).
-3. When working in teams, folks are guaranteed to always use color name variables correctly; not so with functional variables.
+3. When working in teams, folx are guaranteed to always use color name variables correctly; not so with functional variables.
 
 Overall, I just don't feel the benefits of functional naming are there for me. And the one downside to color name variables (having to replace a variable across all my files) is both uncommon in my projects and just not that much of a hassle with find-and-replace functions.
 
-Also, a huge caveat here: Our brains just work differently, people. I know some folks struggle with keeping their `$color-midnight-blue` separate from their `$color-navy-blue`. If this sounds like you, the functional or hybrid systems may, in fact, be more efficient for your workflow.
+Also, a huge caveat here: Our brains just work differently, people. I know some folx struggle with keeping their `$color-midnight-blue` separate from their `$color-navy-blue`. If this sounds like you, the functional or hybrid systems may, in fact, be more efficient for your workflow.
 
 ### There's always an exception
-Despite my feeling that variables based on function are an overcomplicated system, there's one time when I rely on them and absolutely appreciate them:  theming. If you're creating a set of styles and templates that you'll want to adapt in different color palettes (e.g., seasonal or holiday themes for your blog or a white-label app that you'll want to add brand colors to), functional labels will likely save you several project hours.
+
+Despite my feeling that variables based on function are an overcomplicated system, there's one time when I rely on them and absolutely appreciate them: theming. If you're creating a set of styles and templates that you'll want to adapt in different color palettes (e.g., seasonal or holiday themes for your blog or a white-label app that you'll want to add brand colors to), functional labels will likely save you several project hours.
 
 ## Other tips for dealing with color variables
 
 ### Black & white in variables
 
-[Some folks](http://createstopbecreative.com/2015/05/06/sass-stop-defining-useless-color-variables/) get bent out of shape about defining black and white as variables in Sass:
+[Some folx](http://createstopbecreative.com/2015/05/06/sass-stop-defining-useless-color-variables/) get bent out of shape about defining black and white as variables in Sass:
 
 > 1. It’s quicker to type #FFF or #000 instead of $White or $Black.
 > 2. There is never a time where you will update the variables $White or $Black to be anything other then #FFF or #000. If you do update these to be anything else, then you clearly are not writing semantic code.
-> 
+>
 > With these two truths being the case, then I see absolutely no reason to define them.
 
-<cite>&mdash;[Jono Herrington](http://createstopbecreative.com/2015/05/06/sass-stop-defining-useless-color-variables/)</cite>
+<cite>--[Jono Herrington](http://createstopbecreative.com/2015/05/06/sass-stop-defining-useless-color-variables/)</cite>
 
 Personally, I still do this because the second "truth" innit even remarkably true for me. I often use shades of black and white in place of the true colors (because they're both a bit unnatural and harsh; [learn more](http://ianstormtaylor.com/design-tip-never-use-black/)). However, I am a bit moved by the semantic argument and have opted to name my variables `$color-offblack` and `$color-offwhite` in the hopes this will make my code and logic clearer to other people working on projects with me (i.e., they won't assume `$color-offblack` means `#000`).
 
@@ -189,15 +197,17 @@ Personally, I still do this because the second "truth" innit even remarkably tru
 </div>
 
 ### When to create a variable
-How do you decide when to hard code a color and when to create a variable? Dan Denney asked this question via Twitter and [posted the responses](http://dandenney.com/posts/front-end-dev/sass-color-variable-pop-quiz), which makes for interesting reading and also provides more info about how different folks name their variables. For me, the answer used to be that I'd create a variable around the second or third use of a color. Today, it's more likely that I'll create a variable on the first use and, if the color happens to only be used in one spot, use that as an excuse to evaluate how necessary that color is. Using variables consistently throughout my project forces me to rely on my palette (or variations thereof) and not make up new colors on the spot, which I also feel is a good practice.
+
+How do you decide when to hard code a color and when to create a variable? Dan Denney asked this question via Twitter and [posted the responses](http://dandenney.com/posts/front-end-dev/sass-color-variable-pop-quiz), which makes for interesting reading and also provides more info about how different folx name their variables. For me, the answer used to be that I'd create a variable around the second or third use of a color. Today, it's more likely that I'll create a variable on the first use and, if the color happens to only be used in one spot, use that as an excuse to evaluate how necessary that color is. Using variables consistently throughout my project forces me to rely on my palette (or variations thereof) and not make up new colors on the spot, which I also feel is a good practice.
 
 ### Plan for sloppiness
+
 I work on a lot of projects that involve many, many shades of grey (see earlier example), and I remain wildly inconsistent about whether I type gray or grey in any given instance. While this is something I always try to clean up before a major push goes to production, in the regular writing of code, I don't really want to be slowed down because my compiler threw an error because `$color-grey` doesn't exist but `$color-gray` does. Simple solution? Decide on one implementation of the spelling of grey and make variables to cover up my sloppiness:
 
 ```scss
-$color-grey:#bbb;
-$color-greyli:#ddd;
-$color-greydk:#333;
+$color-grey: #bbb;
+$color-greyli: #ddd;
+$color-greydk: #333;
 $color-gray: $color-grey;
 $color-grayli: $color-greyli;
 $color-graydk: $color-greydk;
