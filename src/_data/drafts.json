@@ -26,10 +26,6 @@
 		"published": "2021/love-letter-to-lftm/"
 	},
 	{
-		"topic": "goalfest",
-		"notes": "Getting shit done as a team"
-	},
-	{
 		"topic": "better productivity via Ruby and APIs",
 		"notes": "My various scripts to scrape Google calendar and JIRA"
 	},
@@ -41,23 +37,6 @@
 		"topic": "remote work + COVID",
 		"notes": "Working remotely during a pandemic is not the same as working remotely pre-COVID",
 		"published": "2021/working-through-a-pandemic/"
-	},
-	{
-		"topic": "the current dialog about CSS",
-		"links": [
-			{
-				"url": "https://rachelandrew.co.uk/archives/2018/10/04/the-way-we-talk-about-css/"
-			},
-			{
-				"url": "https://css-tricks.com/the-great-divide/"
-			},
-			{
-				"url": "https://rachelandrew.co.uk/archives/2019/01/30/html-css-and-our-vanishing-industry-entry-points/"
-			},
-			{
-				"url": "https://twitter.com/messypixels/status/1063408356906422272"
-			}
-		]
 	},
 	{
 		"topic": "you're training your replacements",
