@@ -3,6 +3,7 @@ title: "/now"
 custom_title: What I'm doing now
 summary: "Current status. Inspired by <a href='https://nownownow.com/about'>https://nownownow.com/about</a>."
 tags: [bits]
+date: Last Modified
 pageClass: pg-now
 layout: layouts/page.njk
 ---
@@ -57,5 +58,5 @@ I'm living in Baltimore and working as an engineering manager.
 </section>
 
 <footer class="now-footer">
-  <p>This 'now' page is part of the bigger project <a href="https://nownownow.com/about">Nownownow</a> by Derek Sivers.</p>
+  <p>This 'now' page is part of the bigger project <a href="https://nownownow.com/about">Nownownow</a> by Derek Sivers and was last updated on <time datetime="{{ page.date | htmlDateString }}" itemprop="datePublished">{{ page.date | readableDate }}</time>.</p>
 </footer>
