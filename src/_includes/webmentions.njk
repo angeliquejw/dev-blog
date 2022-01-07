@@ -44,7 +44,7 @@
             <h3 class="webmentions-heading--comments">{{ commentCount }} Comments</h3>
             <ol class="u-list-reset">
             {% for webmention in mentions.messages | sort(attribute='published') %}
-                <li class="webmention u-margin-bottom">
+                <li class="webmention{% if webmention.author.url === "https://twitter.com/messypixels" %} webmention--mine{% endif %} u-margin-bottom">
                     <header class="u-margin-bottom-xs webmention-header">
                         {% include "webmention-avatar.njk" %}
                         <a {% if webmention.url %}href="{{ webmention.url }}"{% endif %} target="_blank" rel="noopener noreferrer" title="{{ webmention.author.name }}">{{ webmention.author.name }}</a>

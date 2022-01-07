@@ -116,6 +116,35 @@
 			font-weight: 600;
 		}
 	}
+
+	&--mine {
+		$height1: 12px;
+		$height2: 36px;
+		border-image: linear-gradient(
+				to bottom,
+				transparent 0,
+				transparent $height1,
+				rgba($color-valentino, 0.4) $height1,
+				rgba($color-valentino, 0.4) $height2,
+				transparent $height2
+			)
+			1 100%;
+		border-left-style: solid;
+		border-left-width: 1px;
+		border-right: none;
+		padding-left: $spacing-unit;
+		position: relative;
+
+		&::before {
+			background-color: rgba($color-valentino, 0.4);
+			content: "";
+			height: 1px;
+			left: 0;
+			position: absolute;
+			top: calc(#{$height2} - 1px);
+			width: $spacing-unit-sm;
+		}
+	}
 }
 
 .avatar-link {
