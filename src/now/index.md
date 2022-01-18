@@ -32,10 +32,7 @@ I'm living in Baltimore and working as an engineering manager.
 
 ### I am reading{: .now-heading}
 
-- [Empire of Ivory](https://app.thestorygraph.com/books/1f92b5c0-2ed2-4889-8fa7-8e2179559001) by Naomi Novik
-- [Emergent Strategy: Shaping Change, Changing Worlds](https://app.thestorygraph.com/books/3557c300-b722-4e21-a276-2b52729ef063) by adrienne maree brown
-
-💡 _This section used to be a GoodReads widget, but I stopped using that service in 2021. I'm now using [The StoryGraph](https://thestorygraph.com/) to log reading, but they don't have widgets or an API, so this is an artisinally hand-updated version of my [reading log](https://app.thestorygraph.com/currently-reading/angeliquejw)._
+{% include "reads.njk" %}
 
 </section>
 

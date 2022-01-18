@@ -32,6 +32,7 @@
 		"@11ty/eleventy-plugin-syntaxhighlight": "^3.0.6",
 		"caniuse-lite": "^1.0.30001194",
 		"eleventy-plugin-reading-time": "0.0.1",
+		"jsdom": "^19.0.0",
 		"luxon": "^1.26.0",
 		"markdown-it": "^11.0.0",
 		"markdown-it-abbr": "^1.0.4",

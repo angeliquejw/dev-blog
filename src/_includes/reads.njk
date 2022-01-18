@@ -1,0 +1,22 @@
+{%- if books -%}
+<ul class="u-list-reset book-list">
+  {%- for title, author, img, url in books -%}
+
+    <li>
+      <a href="{{ url }}">
+        <img src="{{ img }}" alt="" class="u-margin-horizontal-auto">
+      </a>
+      <a href="{{ url }}">
+        {{ title }}
+      </a>
+      by {{ author }}
+    </li>
+
+  {%- endfor -%}
+</ul>
+{%- else -%}
+
+<p>Sorry, my <a href="https://app.thestorygraph.com/currently-reading/angeliquejw">current reads list</a> isn't loading properly. 👎🏻  If you have a GitHub account, you can report this as an <a href="https://github.com/angeliquejw/dev-blog/issues/">Issue</a>.</p>
+{%- endif -%}
+
+<p>📚 I share my current and past reads on <a href="https://app.thestorygraph.com/profile/angeliquejw/">The StoryGraph</a>.</p>
