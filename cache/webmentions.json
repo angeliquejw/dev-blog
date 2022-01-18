@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2022-01-07T03:35:34.800Z",
+  "lastFetched": "2022-01-18T06:08:27.148Z",
   "children": [
     {
       "type": "entry",
@@ -2433,6 +2433,42 @@
       },
       "in-reply-to": "https://angeliqueweger.com/blog/2022/unfriending-fb-instagram/",
       "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Delba",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/fe7ead675296a2e76b202cd03d2ce3b725005e8b1c289aec2bd493a7f337d6a6.jpg",
+        "url": "https://twitter.com/delba_oliveira"
+      },
+      "url": "https://twitter.com/messypixels/status/1479312965467881475#favorited-by-893035359474524161",
+      "published": null,
+      "wm-received": "2022-01-07T16:54:44Z",
+      "wm-id": 1328013,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1479312965467881475/893035359474524161",
+      "wm-target": "https://angeliqueweger.com/blog/drafts/",
+      "like-of": "https://angeliqueweger.com/blog/drafts/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Olu (they/them)",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/d92fe2e951e24ac2b489c2cbf78c8c6dc33f52a49e747897809a7e14d5f0a9b2.jpg",
+        "url": "https://twitter.com/oluoluoxenfree"
+      },
+      "url": "https://twitter.com/messypixels/status/1479312965467881475#favorited-by-16426333",
+      "published": null,
+      "wm-received": "2022-01-07T05:46:00Z",
+      "wm-id": 1327725,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1479312965467881475/16426333",
+      "wm-target": "https://angeliqueweger.com/blog/drafts/",
+      "like-of": "https://angeliqueweger.com/blog/drafts/",
+      "wm-property": "like-of",
       "wm-private": false
     }
   ]
