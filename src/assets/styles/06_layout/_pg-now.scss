@@ -89,8 +89,11 @@
 		padding: $spacing-unit-xs $spacing-unit-sm;
 	}
 
-	li {
+	ul:not(.u-list-reset) {
 		list-style: square;
+	}
+
+	li {
 		margin-bottom: $spacing-unit-sm;
 	}
 
@@ -172,24 +175,39 @@
 	}
 }
 
-// Goodreads widget
-.gr_grid_container {
-	display: flex;
-}
+.book-list {
+	li {
+		text-align: center;
 
-.gr_grid_book_container {
-	margin-right: $spacing-unit;
-
-	img {
-		filter: grayscale(0.8);
-		transition: $transition-default;
-	}
-
-	a {
 		@include hover-state {
 			img {
 				filter: unset;
 			}
+		}
+	}
+
+	a {
+		&::before {
+			content: none;
+		}
+	}
+
+	img {
+		filter: grayscale(0.8);
+		margin-bottom: $spacing-unit-sm;
+		max-width: 120px;
+		transition: $transition-default;
+	}
+
+	@media (min-width: 420px) {
+		display: grid;
+		grid-auto-flow: column;
+		grid-column-gap: $spacing-unit-sm;
+	}
+
+	@media (min-width: 580px) {
+		img {
+			max-width: 160px;
 		}
 	}
 }
