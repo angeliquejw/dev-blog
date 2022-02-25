@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2022-01-18T06:08:27.148Z",
+  "lastFetched": "2022-02-25T21:58:28.635Z",
   "children": [
     {
       "type": "entry",
@@ -2469,6 +2469,152 @@
       "wm-target": "https://angeliqueweger.com/blog/drafts/",
       "like-of": "https://angeliqueweger.com/blog/drafts/",
       "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Olu (they/them)",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/d92fe2e951e24ac2b489c2cbf78c8c6dc33f52a49e747897809a7e14d5f0a9b2.jpg",
+        "url": "https://twitter.com/oluoluoxenfree"
+      },
+      "url": "https://twitter.com/oluoluoxenfree/status/1493622963605807120",
+      "published": "2022-02-15T16:27:19+00:00",
+      "wm-received": "2022-02-15T20:44:57Z",
+      "wm-id": 1352140,
+      "wm-source": "https://brid.gy/comment/twitter/messypixels/1493584853811531783/1493622963605807120",
+      "wm-target": "https://angeliqueweger.com/blog/drafts/",
+      "content": {
+        "html": "thanks for replying!\n<a class=\"u-mention\" href=\"http://my.pronoun.is/she\"></a>\n<a class=\"u-mention\" href=\"http://www.angeliqueweger.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/messypixels\"></a>",
+        "text": "thanks for replying!"
+      },
+      "in-reply-to": "https://angeliqueweger.com/blog/drafts/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Olu (they/them)",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/d92fe2e951e24ac2b489c2cbf78c8c6dc33f52a49e747897809a7e14d5f0a9b2.jpg",
+        "url": "https://twitter.com/oluoluoxenfree"
+      },
+      "url": "https://twitter.com/messypixels/status/1493584853811531783#favorited-by-16426333",
+      "published": null,
+      "wm-received": "2022-02-15T20:44:28Z",
+      "wm-id": 1352139,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1493584853811531783/16426333",
+      "wm-target": "https://angeliqueweger.com/blog/drafts/",
+      "like-of": "https://angeliqueweger.com/blog/drafts/",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "feminism & sharks",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0c9765ae096b4fc4cbf09ac171d0d9c03ec3f226c12e01b9fb47aa001a43fde3.jpg",
+        "url": "https://twitter.com/messypixels"
+      },
+      "url": "https://twitter.com/messypixels/status/1483428430922371077",
+      "published": "2022-01-18T13:17:53+00:00",
+      "wm-received": "2022-01-18T17:54:59Z",
+      "wm-id": 1334459,
+      "wm-source": "https://brid.gy/comment/twitter/messypixels/1483322115176734721/1483428430922371077",
+      "wm-target": "https://angeliqueweger.com/now",
+      "content": {
+        "html": "Straight up JavaScript scraping of my public profile (so, uh, very brittle). Needs a more elegant way to handle images, but was pleased it was even doable.\n<a class=\"u-mention\" href=\"https://twitter.com/jsonbecker\"></a>",
+        "text": "Straight up JavaScript scraping of my public profile (so, uh, very brittle). Needs a more elegant way to handle images, but was pleased it was even doable."
+      },
+      "in-reply-to": "https://angeliqueweger.com/now",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jason Becker",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/70e9775ecca05b278f5faf1cf94000d66ff9a173fcd9894d8969a4a8729a3389.jpg",
+        "url": "https://twitter.com/jsonbecker"
+      },
+      "url": "https://twitter.com/messypixels/status/1483322115176734721#favorited-by-127042185",
+      "published": null,
+      "wm-received": "2022-01-18T17:54:59Z",
+      "wm-id": 1334460,
+      "wm-source": "https://brid.gy/like/twitter/messypixels/1483322115176734721/127042185",
+      "wm-target": "https://angeliqueweger.com/now",
+      "like-of": "https://angeliqueweger.com/now",
+      "wm-property": "like-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "feminism & sharks",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0c9765ae096b4fc4cbf09ac171d0d9c03ec3f226c12e01b9fb47aa001a43fde3.jpg",
+        "url": "https://twitter.com/messypixels"
+      },
+      "url": "https://twitter.com/messypixels/status/1483431028857442311",
+      "published": "2022-01-18T13:28:12+00:00",
+      "wm-received": "2022-01-18T17:54:58Z",
+      "wm-id": 1334457,
+      "wm-source": "https://brid.gy/comment/twitter/messypixels/1483322115176734721/1483431028857442311",
+      "wm-target": "https://angeliqueweger.com/now",
+      "content": {
+        "html": "I made the mistake of not joining Literal until after I had shut down Goodreads and they expect an active account to import your info 🙃 Someone else logged the issue with them, so maybe it will get added to their roadmap.\n<a class=\"u-mention\" href=\"https://twitter.com/jsonbecker\"></a>",
+        "text": "I made the mistake of not joining Literal until after I had shut down Goodreads and they expect an active account to import your info 🙃 Someone else logged the issue with them, so maybe it will get added to their roadmap."
+      },
+      "in-reply-to": "https://angeliqueweger.com/now",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jason Becker",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/70e9775ecca05b278f5faf1cf94000d66ff9a173fcd9894d8969a4a8729a3389.jpg",
+        "url": "https://twitter.com/jsonbecker"
+      },
+      "url": "https://twitter.com/jsonbecker/status/1483422172748124166",
+      "published": "2022-01-18T12:53:01+00:00",
+      "wm-received": "2022-01-18T17:54:58Z",
+      "wm-id": 1334458,
+      "wm-source": "https://brid.gy/comment/twitter/messypixels/1483322115176734721/1483422172748124166",
+      "wm-target": "https://angeliqueweger.com/now",
+      "content": {
+        "html": "Oh curious how you did this— StoryGraph has no API I thought.\n<a class=\"u-mention\" href=\"http://my.pronoun.is/she\"></a>\n<a class=\"u-mention\" href=\"http://www.angeliqueweger.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/messypixels\"></a>",
+        "text": "Oh curious how you did this— StoryGraph has no API I thought."
+      },
+      "in-reply-to": "https://angeliqueweger.com/now",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Jason Becker",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/70e9775ecca05b278f5faf1cf94000d66ff9a173fcd9894d8969a4a8729a3389.jpg",
+        "url": "https://twitter.com/jsonbecker"
+      },
+      "url": "https://twitter.com/jsonbecker/status/1483428980178960388",
+      "published": "2022-01-18T13:20:04+00:00",
+      "wm-received": "2022-01-18T17:54:57Z",
+      "wm-id": 1334456,
+      "wm-source": "https://brid.gy/comment/twitter/messypixels/1483322115176734721/1483428980178960388",
+      "wm-target": "https://angeliqueweger.com/now",
+      "content": {
+        "html": "yeah, scraping does seem like the best option for a lot of this. The API availability. especially for cover images, is super brittle. This is why <a href=\"http://literal.club\">literal.club</a>’s pretty good graphql based API is interesting.\n<a class=\"u-mention\" href=\"http://my.pronoun.is/she\"></a>\n<a class=\"u-mention\" href=\"http://www.angeliqueweger.com/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/messypixels\"></a>",
+        "text": "yeah, scraping does seem like the best option for a lot of this. The API availability. especially for cover images, is super brittle. This is why literal.club’s pretty good graphql based API is interesting."
+      },
+      "in-reply-to": "https://angeliqueweger.com/now",
+      "wm-property": "in-reply-to",
       "wm-private": false
     }
   ]
