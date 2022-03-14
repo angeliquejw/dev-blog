@@ -212,8 +212,8 @@
 					},
 					{
 						"description": "mouse",
-						"name": "Sharkk vertical",
-						"url": "https://www.newegg.com/sharkk-sk137g/p/N82E16826957004"
+						"name": "Evoluent wireless vertical",
+						"url": "https://evoluent.com/"
 					},
 					{
 						"description": "headphones",
@@ -320,12 +320,16 @@
 				"description": "logging my media consumption",
 				"subitems": [
 					{
-						"name": "Goodreads",
-						"url": "https://www.goodreads.com/user/show/50922548-angelique-weger"
+						"name": "The StoryGraph",
+						"url": "https://app.thestorygraph.com/profile/angeliquejw/"
 					},
 					{
 						"name": "Letterboxd",
 						"url": "https://letterboxd.com/artgeek/"
+					},
+					{
+						"name": "Reading.am",
+						"url": "https://www.reading.am/angelique"
 					}
 				]
 			},
