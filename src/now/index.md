@@ -22,9 +22,8 @@ I'm living in Baltimore and working as an engineering manager.
 
 ### I am enjoying{: .now-heading}
 
-- 🍕 my husband's new-found hobby of making homemade pizza
-- ⚔️🚘 playing Valheim and Mini Motorways
-- 🤓 feminist comic book club
+- 🎨 decorating and generally nesting in my new home office
+- ⚔️ playing Core Keeper
 
 </section>
 
@@ -40,8 +39,8 @@ I'm living in Baltimore and working as an engineering manager.
 
 ### I am looking forward to{: .now-heading}
 
-- whole 🎉 new 🎉 year
-- building things with my new squad
+- more regular ✒️ drawing and 🧘🏻‍♀️ meditation practices
+- learning my way around Ubuntu via [WSL](https://ubuntu.com/wsl)
 
 </section>
 
