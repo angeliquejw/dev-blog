@@ -22,8 +22,9 @@ I'm living in Baltimore and working as an engineering manager.
 
 ### I am enjoying{: .now-heading}
 
-- 🎨 decorating and generally nesting in my new home office
-- ⚔️ playing Core Keeper
+- ✒️ a set of brand new, fresh notebooks for Q4
+- 🆕 new squad organization at work
+- 👾🚀 playing Starfield
 
 </section>
 
@@ -39,8 +40,8 @@ I'm living in Baltimore and working as an engineering manager.
 
 ### I am looking forward to{: .now-heading}
 
-- more regular ✒️ drawing and 🧘🏻‍♀️ meditation practices
-- learning my way around Ubuntu via [WSL](https://ubuntu.com/wsl)
+- 🛬 some upcoming travel
+- 🎃 pumpkin beer eason
 
 </section>
 
@@ -48,7 +49,6 @@ I'm living in Baltimore and working as an engineering manager.
 
 ### I can be reached{: .now-heading}
 
-- via [Twitter](http://twitter.com/messypixels)
 - via [email](mailto:hello@angeliqueweger.com)
 
 </section>
