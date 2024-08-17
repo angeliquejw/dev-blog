@@ -28,7 +28,7 @@
 	}
 
 	&__old {
-		padding-left: ($spacing-unit-xs / 2);
+		padding-left: calc($spacing-unit-xs / 2);
 
 		&::before {
 			right: 0;
@@ -41,7 +41,7 @@
 	}
 
 	&__new {
-		padding-right: ($spacing-unit-xs / 2);
+		padding-right: calc($spacing-unit-xs / 2);
 
 		&::before {
 			left: 0;

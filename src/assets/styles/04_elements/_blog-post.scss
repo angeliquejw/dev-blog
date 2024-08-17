@@ -77,7 +77,7 @@
 	}
 
 	li + li {
-		margin-top: $spacing-unit-xs/2;
+		margin-top: calc($spacing-unit-xs/2);
 	}
 
 	pre {

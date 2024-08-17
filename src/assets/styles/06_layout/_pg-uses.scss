@@ -95,16 +95,16 @@
 
 			&::before {
 				background-color: $color-valentino-lt48;
-				border-left: ($spacing-unit-xs/2) solid $color-grey;
-				bottom: -$spacing-unit-xs/2;
+				border-left: calc($spacing-unit-xs/2) solid $color-grey;
+				bottom: calc(-1 * $spacing-unit-xs/2);
 				left: 0;
-				width: calc(100% + #{$spacing-unit-xs/2});
+				width: calc(100% + calc(#{$spacing-unit-xs}/2));
 			}
 
 			&::after {
 				border: 1px solid $highlight-color;
 				left: 0;
-				top: -$spacing-unit-xs/2;
+				top: calc(-1 * $spacing-unit-xs/2);
 				top: 0;
 			}
 		}
