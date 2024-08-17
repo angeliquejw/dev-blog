@@ -14,7 +14,7 @@ layout: layouts/page.njk
 
 ## Currently{: .now-heading}
 
-I'm living in Baltimore and working as an engineering manager.
+I'm living in Baltimore and working on the team building out Maryland's paid family and medical leave digital services, ensuring that workers across the state can thrive even during life's most vulnerable moments.
 
 </section>
 
@@ -22,9 +22,9 @@ I'm living in Baltimore and working as an engineering manager.
 
 ### I am enjoying{: .now-heading}
 
-- ✒️ a set of brand new, fresh notebooks for Q4
-- 🆕 new squad organization at work
-- 👾🚀 playing Starfield
+- 🏛️ Learning all about civic tech
+- 🪡 Cross-stitching so many projects
+- 👾 Hanging with friends on Twitch
 
 </section>
 
@@ -40,8 +40,8 @@ I'm living in Baltimore and working as an engineering manager.
 
 ### I am looking forward to{: .now-heading}
 
-- 🛬 some upcoming travel
-- 🎃 pumpkin beer eason
+- 👩🏻‍💻 Contributing to the state design system
+- 🥾 Getting out and hiking more often
 
 </section>
 
