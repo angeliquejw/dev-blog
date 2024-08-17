@@ -200,9 +200,14 @@
 	}
 
 	@media (min-width: 420px) {
-		display: grid;
-		grid-auto-flow: column;
-		grid-column-gap: $spacing-unit-sm;
+		display: flex;
+		flex-wrap: wrap;
+
+		li {
+			flex: min-content;
+			margin-left: $spacing-unit-sm;
+			margin-right: $spacing-unit-sm;
+		}
 	}
 
 	@media (min-width: 580px) {

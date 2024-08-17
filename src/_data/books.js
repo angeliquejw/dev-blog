@@ -14,23 +14,21 @@ async function getBooks() {
 	bookPane.forEach(function (book) {
 		// the following code is v brittle and based on page markup and my page being public
 		const title = book
-			.querySelector(".book-title-author-and-series h3")
+			.querySelector(".book-title-author-and-series a[href^='/books/']")
 			.textContent.trim();
 		const author = book
-			.querySelector(".book-title-author-and-series")
-			.lastElementChild.textContent.trim();
+			.querySelector(".book-title-author-and-series a[href^='/authors/']")
+			.textContent.trim();
 		const img = book.querySelector(".book-cover img").src;
 		const url =
 			"https://app.thestorygraph.com" +
 			book.querySelector(".book-cover a").href;
 
-		books.push([title, author, img, url]);
+		if (!books.flat().includes(title)) { books.push([title, author, img, url]); }
 	});
 	// console.log(books);
 	return books;
 }
-
-// getBooks();
 
 module.exports = async function () {
 	return await getBooks();
