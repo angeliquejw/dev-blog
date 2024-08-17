@@ -8,7 +8,13 @@
 			},
 			{
 				"description": "terminal",
-				"details": "MacOS's default terminal 🤷🏻‍♀️"
+				"name": "oh my zsh",
+				"url": "https://ohmyz.sh/"
+			},
+			{
+				"description": "theme",
+				"name": "mgutz",
+				"url": "https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#mgutz"
 			},
 			{
 				"description": "editor",
@@ -29,18 +35,6 @@
 				"subsection": "plugins",
 				"items": [
 					{
-						"name": "Auto Rename Tag",
-						"itemName": "formulahendry.auto-rename-tag"
-					},
-					{
-						"name": "Beautify",
-						"itemName": "HookyQR.beautify"
-					},
-					{
-						"name": "Bracket Pair Colorizer",
-						"itemName": "CoenraadS.bracket-pair-colorizer"
-					},
-					{
 						"name": "GitLens",
 						"itemName": "eamodio.gitlens"
 					},
@@ -49,20 +43,8 @@
 						"itemName": "esbenp.prettier-vscode"
 					},
 					{
-						"name": "Stylelint",
-						"itemName": "Daosro.stylelint"
-					},
-					{
-						"name": "VS Code Spotify",
-						"itemName": "shyykoserhiy.vscode-spotify"
-					},
-					{
-						"name": "WakaTime",
-						"itemName": "WakaTime.vscode-wakatime"
-					},
-					{
-						"name": "Webhint",
-						"itemName": "webhint.vscode-webhint"
+						"name": "WSL",
+						"itemName": "ms-vscode-remote.remote-wsl"
 					}
 				]
 			},
@@ -186,7 +168,7 @@
 			},
 			{
 				"description": "personal",
-				"details": "2014 MBP 15\""
+				"details": "Win 11 desktop w/ i5 6-core"
 			},
 			{
 				"description": "additional",
@@ -257,8 +239,8 @@
 			},
 			{
 				"description": "pen",
-				"name": "Zebra Sarasa Gel Pens",
-				"url": "https://www.jetpens.com/Zebra-Sarasa-Gel-Pens/ct/2577"
+				"name": "LAMY Safari",
+				"url": "https://www.jetpens.com/LAMY-Safari-Fountain-Pens/ct/1185"
 			},
 			{
 				"description": "pencil",
@@ -267,8 +249,8 @@
 			},
 			{
 				"description": "when I don't quite stand at my standing desk",
-				"name": "Wobble stool by Uncaged Ergonomics",
-				"url": "https://uncagedergonomics.com/wobble-stool/"
+				"name": "NeueChair",
+				"url": "https://neuechair.com/"
 			},
 			{
 				"description": "for being kind to my feet",
@@ -317,21 +299,9 @@
 				"details": "Kindle Paperwhite"
 			},
 			{
-				"description": "logging my media consumption",
-				"subitems": [
-					{
-						"name": "The StoryGraph",
-						"url": "https://app.thestorygraph.com/profile/angeliquejw/"
-					},
-					{
-						"name": "Letterboxd",
-						"url": "https://letterboxd.com/artgeek/"
-					},
-					{
-						"name": "Reading.am",
-						"url": "https://www.reading.am/angelique"
-					}
-				]
+				"description": "reading log",
+				"name": "The StoryGraph",
+				"url": "https://app.thestorygraph.com/profile/angeliquejw/"
 			},
 			{
 				"description": "screen and video recording",
@@ -345,16 +315,8 @@
 			},
 			{
 				"description": "writing and sending newsletters",
-				"subitems": [
-					{
-						"name": "Buttondown",
-						"url": "https://buttondown.email/"
-					},
-					{
-						"name": "TinyLetter",
-						"url": "https://tinyletter.com/"
-					}
-				]
+				"name": "Buttondown",
+				"url": "https://buttondown.email/"
 			}
 		]
 	}
