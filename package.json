@@ -27,7 +27,7 @@
 		"@babel/preset-env": "7.13.8"
 	},
 	"devDependencies": {
-		"@11ty/eleventy": "^0.11.1",
+		"@11ty/eleventy": "^2.0.1",
 		"@11ty/eleventy-plugin-rss": "^1.1.0",
 		"@11ty/eleventy-plugin-syntaxhighlight": "^3.0.6",
 		"caniuse-lite": "^1.0.30001194",

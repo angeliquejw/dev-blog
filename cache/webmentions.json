@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2022-04-13T00:11:34.859Z",
+  "lastFetched": "2024-08-17T20:16:38.487Z",
   "children": [
     {
       "type": "entry",
@@ -2616,6 +2616,28 @@
       "in-reply-to": "https://angeliqueweger.com/now",
       "wm-property": "in-reply-to",
       "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "",
+        "photo": "",
+        "url": ""
+      },
+      "url": "https://lacienciadejaun.com/anuncio-de-ribbity-un-proyecto-hacky-para-crear-sitios-web-a-partir-de-rastreadores-de-problemas-de-github/",
+      "published": null,
+      "wm-received": "2022-10-05T19:32:39Z",
+      "wm-id": 1533410,
+      "wm-source": "https://lacienciadejaun.com/anuncio-de-ribbity-un-proyecto-hacky-para-crear-sitios-web-a-partir-de-rastreadores-de-problemas-de-github/",
+      "wm-target": "https://angeliqueweger.com/blog/2021/love-letter-to-lftm/",
+      "wm-protocol": "pingback",
+      "mention-of": "https://angeliqueweger.com/blog/2021/love-letter-to-lftm/",
+      "wm-property": "mention-of",
+      "wm-private": false,
+      "rels": {
+        "canonical": "https://lacienciadejaun.com/anuncio-de-ribbity-un-proyecto-hacky-para-crear-sitios-web-a-partir-de-rastreadores-de-problemas-de-github/"
+      }
     }
   ]
 }

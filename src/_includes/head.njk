@@ -2,15 +2,15 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>
-    {%- set pageTitle = renderData.title or custom_title or title %}
+    {%- set pageTitle = eleventyComputed.title or custom_title or title %}
     {{ pageTitle }}
     {{ " | " if pageTitle }}
     {{ metadata.title }}
   </title>
-  <meta name="Description" content="{{ renderData.description or description or metadata.description }}">
+  <meta name="Description" content="{{ eleventyComputed.description or description or metadata.description }}">
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="{{ renderData.title or title }}">
-  <meta property="og:description" content="{{ renderData.description or summary or metadata.description }}">
+  <meta property="og:title" content="{{ eleventyComputed.title or title }}">
+  <meta property="og:description" content="{{ eleventyComputed.description or summary or metadata.description }}">
   <meta property="og:site_name" content="[ Dev Journal of Angelique Weger ]">
   {# <meta property="og:image" content="" /> #}
   {# <meta property="og:image:alt" content="" /> #}
