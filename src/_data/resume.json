@@ -6,11 +6,34 @@
 		"mid_name": "Work + Exp",
 		"items": [
 			{
+				"title": "Principal Engineer for Front-end & Accessibility",
+				"org": "Family & Medical Leave Insurance (FAMLI), Maryland Department of Labor",
+				"start": "2024-03",
+				"tech": ["Ruby on Rails", "USWDS", "Git + GitHub", "Jira"],
+				"description": "Third hire to the Digital Service team building out a greenfield application to support Maryland workers and employers in the rollout of paid family and medical leave for the state. 🆕 Still early days here, so the accomplishments below are a WIP.",
+				"leadership": [
+					"Developed the hiring process for key roles on the team and served as hiring manger for 5 of the team's early hires"
+				],
+				"technical": [
+					"Established standards and documentation for the engineering team, specifically around accessibility and front-end performance"
+				]
+			},
+			{
 				"title": "Engineering Manager",
 				"org": "Panorama Education",
 				"start": "2021-10",
-				"tech": ["Vue", "Ruby on Rails", "Git + GitHub"],
-				"description": "🆕 Just started here; more details forthcoming 🆕"
+				"end": "2024-02",
+				"tech": ["Vue", "Ruby on Rails", "Git + GitHub", "Jira"],
+				"description": "Founded in 2012, Panorama Education helps students achieve academic success and well-being, and gives schools and school districts a platform to hear what families, students and teachers need in the classroom.",
+				"leadership": [
+					"Refined how the engineering team supported customer support requests, including improvements to our cross-functional communication and tools",
+					"Strateged on zone-wide plans and collaborated on change management for those plans",
+					"Updated the promotion process for all engineers and led the biannual review process",
+					"Coached mainly senior engineers via 1x1s, including facilitating promotions for 4 engineers over 3 quarters"
+				],
+				"culture": [
+					"Rebooted a dormant affinity group for women, gender-nonconforming and nonbinary employees, providing a point of connection and support for team members"
+				]
 			},
 			{
 				"title": "Engineering Manager, Front-end",
@@ -163,8 +186,6 @@
 				"details": [
 					"Vue.js",
 					"React",
-					"Bootstrap",
-					"Middleman",
 					"Ruby on Rails"
 				]
 			},
@@ -174,10 +195,7 @@
 					"Version control",
 					"Screen readers",
 					"Jira",
-					"InVision",
-					"Google Analytics",
-					"Mixpanel",
-					"Optimizely"
+					"Google Analytics"
 				]
 			}
 		]
