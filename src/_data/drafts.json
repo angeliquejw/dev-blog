@@ -1,5 +1,17 @@
 [
 	{
+		"topic": "blogging as a manager",
+		"notes": "Why I didn't blog for several years and how I'm approaching eng leadership blogging now"
+	},
+	{
+		"topic": "civic tech",
+		"notes": "Learning about and joining civic tech"
+	},
+	{
+		"topic": "front-end development",
+		"notes": "JS frameworks, craft, judgement and reality checks"
+	},
+	{
 		"topic": "personal web sites in 2021",
 		"links": {
 			"url": "https://www.vanschneider.com/a-love-letter-to-personal-websites"
