@@ -7,7 +7,7 @@ async function getBooks() {
 	const response = await fetch(SGurl);
 	const text = await response.text();
 	const dom = await new JSDOM(text);
-	const bookPane = dom.window.document.querySelectorAll(".book-pane-content");
+	const bookPane = dom.window.document.querySelectorAll(".read-books .book-pane-content");
 
 	const books = [];
 
