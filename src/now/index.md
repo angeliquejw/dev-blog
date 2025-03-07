@@ -14,7 +14,7 @@ layout: layouts/page.njk
 
 ## Currently{: .now-heading}
 
-I'm living in Baltimore and working on the team building out Maryland's paid family and medical leave digital services, ensuring that workers across the state can thrive even during life's most vulnerable moments.
+I'm living in Baltimore and leading the team designing and building Maryland's paid family and medical leave digital services, ensuring that workers across the state can thrive even during life's most vulnerable moments.
 
 </section>
 
@@ -24,7 +24,7 @@ I'm living in Baltimore and working on the team building out Maryland's paid fam
 
 - 🏛️ Learning all about civic tech
 - 🪡 Cross-stitching so many projects
-- 👾 Hanging with friends on Twitch
+- 🧶 Remembering how to knit socks
 
 </section>
 
@@ -33,15 +33,6 @@ I'm living in Baltimore and working on the team building out Maryland's paid fam
 ### I am reading{: .now-heading}
 
 {% include "reads.njk" %}
-
-</section>
-
-<section class="now-section">
-
-### I am looking forward to{: .now-heading}
-
-- 👩🏻‍💻 Contributing to the state design system
-- 🥾 Getting out and hiking more often
 
 </section>
 
