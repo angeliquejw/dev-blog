@@ -1,3 +1,5 @@
+[wish you would step back from that ledge my friend](http://garann.com/dev/2016/wish-you-would-step-back-from-that-ledge-my-friend/) -- really connecting the dots here, since garann wrote a post that inspired my initial blog
+
 [Burnout is breaking a sacred pact](https://usefulfictions.substack.com/p/burnout-is-breaking-a-sacred-pact)
 including [this comment](https://open.substack.com/pub/usefulfictions/p/burnout-is-breaking-a-sacred-pact?utm_campaign=comment-list-share-cta&utm_medium=web&comments=true&commentId=196913814): "Stress is everyone screaming. Exhaustion is everyone flopping over. Burnout is the strangely dissociative experience of one half of your brain screaming and flailing and digging in the spurs to a totally unresponsive other part."
 [And some action items](https://ponderingperspectives.substack.com/p/no-but-how-do-you-stop-burnout-really)
