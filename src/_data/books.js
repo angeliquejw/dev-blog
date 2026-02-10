@@ -1,4 +1,4 @@
-const fetch = require("node-fetch");
+const fetch = require("node-fetch").default;
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
 const SGurl = "https://app.thestorygraph.com/currently-reading/angeliquejw/";

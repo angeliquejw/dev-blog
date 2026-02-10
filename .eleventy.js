@@ -1,11 +1,19 @@
-const { DateTime } = require("luxon");
-const fs = require("fs");
-const pluginRss = require("@11ty/eleventy-plugin-rss");
-const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-const readingTime = require("eleventy-plugin-reading-time");
-const getWebmentionsForUrl = require("./src/_11ty/getWebmentionsForUrl");
+import path from "node:path";
+import { DateTime } from "luxon";
+import eleventyPluginSass from "@jgarber/eleventy-plugin-sass";
+import pluginRss from "@11ty/eleventy-plugin-rss";
+import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
+import readingTime from "eleventy-plugin-reading-time";
+import getWebmentionsForUrl from "./src/_11ty/getWebmentionsForUrl.js";
+import markdownIt from "markdown-it";
+import markdownItAbbr from "markdown-it-abbr";
+import markdownItAnchor from "markdown-it-anchor";
+import markdownItAttr from "markdown-it-attrs";
+import markdownItCodePen from "markdown-it-code-embed";
+import markdownItPrism from "markdown-it-prism";
 
-module.exports = function (eleventyConfig) {
+export default function (eleventyConfig) {
+	eleventyConfig.addPlugin(eleventyPluginSass);
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(pluginSyntaxHighlight);
 	eleventyConfig.addPlugin(readingTime);
@@ -14,7 +22,7 @@ module.exports = function (eleventyConfig) {
 
 	eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
 
-	eleventyConfig.addPassthroughCopy("assets/img");
+	eleventyConfig.addPassthroughCopy("src/assets/img");
 
 	eleventyConfig.addShortcode(
 		"currentYear",
@@ -56,15 +64,79 @@ module.exports = function (eleventyConfig) {
 		return array.slice(0, n);
 	});
 
-	eleventyConfig.addCollection("tagList", require("./src/_11ty/getTagList"));
-	eleventyConfig.addCollection("tagCount", require("./src/_11ty/getTagCount"));
+	eleventyConfig.addCollection("tagList", function(collectionsApi) {
+		let tagSet = new Set();
+		collectionsApi.getAll().forEach(function(item) {
+			if( "tags" in item.data ) {
+			let tags = item.data.tags;
 
-	eleventyConfig.addCollection("bits", function (collection) {
-		return collection.getFilteredByTag("bits");
+			tags = tags.filter(function(item) {
+				switch(item) {
+				// this list should match the `filter` list in tags.njk
+				case "all":
+				case "nav":
+				case "post":
+				case "posts":
+					return false;
+				}
+
+				return true;
+			});
+
+			for (const tag of tags) {
+				tagSet.add(tag);
+			}
+			}
+		});
+
+		// returning an array in addCollection works in Eleventy 0.5.3
+		return [...tagSet];
+
+	});
+	eleventyConfig.addCollection("tagCount", function(collectionsApi) {
+		let tagCountMap = new Map();
+		collectionsApi.getAllSorted().forEach(function(item) {
+			if( "tags" in item.data ) {
+				let tags = item.data.tags;
+				if( typeof tags === "string" ) {
+				tags = [tags];
+				}
+		
+				tags = tags.filter(function(item) {
+				switch(item) {
+					// this list should match the `filter` list in tags.njk
+					case "all":
+					case "nav":
+					case "post":
+					case "posts":
+					return false;
+				}
+		
+				return true;
+				});
+		
+				for (const tag of tags) {
+					if (tagCountMap.has(tag)) {
+						let cnt = tagCountMap.get(tag);
+						tagCountMap.set(tag, cnt+1);
+					} else {
+						tagCountMap.set(tag, 1);
+					}
+				}
+			}
+		});
+		//val sort desc
+		return new Map([...tagCountMap.entries()].sort((a, b) => b[1] - a[1]));
+		//key sort asc
+		// return new Map([...tagCountMap.entries()].sort());
 	});
 
-	eleventyConfig.addCollection("posts", function (collection) {
-		const coll = collection.getFilteredByTag("posts");
+	eleventyConfig.addCollection("bits", function (collectionsApi) {
+		return collectionsApi.getFilteredByTag("bits");
+	});
+
+	eleventyConfig.addCollection("posts", function (collectionsApi) {
+		const coll = collectionsApi.getFilteredByTag("posts");
 
 		for (let i = 0; i < coll.length; i++) {
 			const prevPost = coll[i - 1];
@@ -78,13 +150,6 @@ module.exports = function (eleventyConfig) {
 	});
 
 	/* Markdown Overrides */
-	const markdownIt = require("markdown-it");
-	const markdownItAbbr = require("markdown-it-abbr");
-	const markdownItAnchor = require("markdown-it-anchor");
-	const markdownItAttr = require("markdown-it-attrs");
-	const markdownItCodePen = require("markdown-it-code-embed");
-	const markdownItPrism = require("markdown-it-prism");
-
 	let markdownOptions = {
 		html: true,
 		linkify: true,
