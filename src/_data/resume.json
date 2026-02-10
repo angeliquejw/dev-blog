@@ -6,16 +6,24 @@
 		"mid_name": "Work + Exp",
 		"items": [
 			{
-				"title": "Principal Engineer for Front-end & Accessibility",
+				"title": "Chief of Digital Services",
 				"org": "Family & Medical Leave Insurance (FAMLI), Maryland Department of Labor",
 				"start": "2024-03",
+				"end": "2026-02",
 				"tech": ["Ruby on Rails", "USWDS", "Git + GitHub", "Jira"],
-				"description": "Third hire to the Digital Service team building out a greenfield application to support Maryland workers and employers in the rollout of paid family and medical leave for the state. 🆕 Still early days here, so the accomplishments below are a WIP.",
+				"description": "Third hire to the Digital Service team building out a greenfield digital-first service to support Maryland workers and employers in the rollout of paid family and medical leave for the state. Initially hired as tech lead for front-end and accessibility, then promoted to lead the overall team of 15 state employees with expertise in product leadership, service design, content strategy, engineering, accessibility and devops and oversee our agile vendor contracts worth $15.6 million annually.",
 				"leadership": [
-					"Developed the hiring process for key roles on the team and served as hiring manger for 5 of the team's early hires"
+					"Guided cross-functional team in exploration of complex program requirements, including documentation for shared understanding across the division and shaped the program strategy to deliver on them",
+					"Created and implemented collaborative planning processes to break down the work of this multi-year endeavor, including regular transparent updates to key leadership partners and stakeholders",
+					"Developed the hiring process for key roles on the team and served as hiring manager for 6 of the team's early hires",
+					"Coached and managed 9 senior members of the Digital Services team, including other managers"
 				],
 				"technical": [
+					"Led build vs buy strategy for the program and partnered with product, design and engineering leads on foundational decisions around tech stack, tooling and third-party tools/services",
 					"Established standards and documentation for the engineering team, specifically around accessibility and front-end performance"
+				],
+				"culture": [
+					"Established team processes and promoted team culture of exploration, iteration and collaboration"
 				]
 			},
 			{
@@ -29,7 +37,10 @@
 					"Refined how the engineering team supported customer support requests, including improvements to our cross-functional communication and tools",
 					"Strateged on zone-wide plans and collaborated on change management for those plans",
 					"Updated the promotion process for all engineers and led the biannual review process",
-					"Coached mainly senior engineers via 1x1s, including facilitating promotions for 4 engineers over 3 quarters"
+					"Coached and developed mainly senior engineers, including facilitating promotions for 4 engineers over 3 quarters"
+				],
+				"technical": [
+					"Led strategy and delivery for 3 separate cross-functional teams in partnership with product and design, assuring efficiency and impact for our users in over 1500 school systems in all 50 states"
 				],
 				"culture": [
 					"Rebooted a dormant affinity group for women, gender-nonconforming and nonbinary employees, providing a point of connection and support for team members"
@@ -57,7 +68,7 @@
 					"Responsible for growing front-end team from 2 to 4, including developing hiring and onboarding processes that were then adopted by entire engineering team",
 					"Improving and reconciling fragmented team workflows",
 					"Collaborating closely with product managers, developers and designer to scope and estimate work to achieve our product roadmap",
-					"Coaching 5 team members at a variety of skill levels via regular 1:1s",
+					"Coaching 5 team members at a variety of skill levels",
 					"Organizing and running team meetings, including sprint planning and retrospectives"
 				],
 				"technical": [
@@ -74,10 +85,11 @@
 				"title": "Adjunct Professor",
 				"org": "MICA",
 				"start": "2018-08",
+				"end": "2021-02",
 				"tech": ["Sass", "HTML5", "JavaScript", "Eleventy", "Git + GitHub"],
 				"responsibilities": [
 					"Instructing undergraduate students in GD 220 (Graphic Design 2) and GD 431 (Front End Web development)",
-					"Developing curriculum and assignments for each 16-week course",
+					"Developing <a href='https://mica-web.github.io/'>curriculum</a> and assignments for each 16-week course",
 					"Working 1:1 with students and providing detailed code review in response to assignments"
 				]
 			},
@@ -98,12 +110,11 @@
 				],
 				"description": "Fractured Atlas builds software and provides services to help over 500,000 artists and arts organizations handle the business side of their work, like raising money, tracking donors and selling event tickets.",
 				"leadership": [
-					"Managed UX engineering team, including holding 1:1s and setting team priorities",
-					"Served as project lead for crowdfunding and fundraising tool, including organizing and running team meetings and retrospectives"
+					"Served as project lead for crowdfunding and fundraising tool (over $25 million annually)",
+					"Managed UX engineering team, including holding 1:1s and setting team priorities"
 				],
 				"technical": [
 					"Provided coding guidelines for writing maintainable Sass and inclusive and accessible markup",
-					"Wrote and reviewed front-end code",
 					"Built and deployed design system to establish a consistent look and feel across a variety of applications",
 					"Created site wireframes and prototypes to improve internal discussions and planning about site features and organization"
 				],
@@ -133,9 +144,9 @@
 				],
 				"technical": [
 					"Led A-B testing of lead-generation forms to increase engagement and conversion. Lead funnel conversion increased from ~5% to more than 10% through improvements to copy, design and mobile layout.",
-					"Responsible for front-end development of our brand sites (car.show and usedca.rs), online automotive shopping tools (for brands such as Time, AutoGuide, CNET and Kmart) and data-driven dashboards for our clients",
+					"Responsible for front-end development of our brand sites, online automotive shopping tools (for brands such as Time, AutoGuide, CNET and Kmart) and data-driven dashboards for our clients",
 					"Created brand style guide and built component-based Sass stylesheets to make development more efficient",
-					"Prepared site wireframes and prototypes to improve internal discussions and planning about site features and organization"
+					"Developed wireframes and prototypes to improve internal discussions and planning about site features and organization"
 				]
 			},
 			{
@@ -194,8 +205,7 @@
 				"details": [
 					"Version control",
 					"Screen readers",
-					"Jira",
-					"Google Analytics"
+					"Jira"
 				]
 			}
 		]

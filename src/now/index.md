@@ -14,7 +14,7 @@ layout: layouts/page.njk
 
 ## Currently{: .now-heading}
 
-I'm living in Baltimore and leading the team designing and building Maryland's paid family and medical leave digital services, ensuring that workers across the state can thrive even during life's most vulnerable moments.
+I'm living in Baltimore and taking a pause from work, enjoying a short personal reset.
 
 </section>
 
@@ -22,9 +22,9 @@ I'm living in Baltimore and leading the team designing and building Maryland's p
 
 ### I am enjoying{: .now-heading}
 
-- 🏛️ Learning all about civic tech
-- 🪡 Cross-stitching so many projects
-- 🧶 Remembering how to knit socks
+- 🐶 Teaching my pupper new tricks
+- 🪡 Designing and stitching cross-stitch patterns
+- 🧘🏻‍♀️ Building back up my meditation and journaling practice
 
 </section>
 
@@ -41,6 +41,7 @@ I'm living in Baltimore and leading the team designing and building Maryland's p
 ### I can be reached{: .now-heading}
 
 - via [email](mailto:hello@angeliqueweger.com)
+- or [LinkedIn DMs](https://www.linkedin.com/in/angeliqueweger)
 
 </section>
 

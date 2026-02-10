@@ -100,7 +100,7 @@
 	}
 }
 
-.bmore-link {
+.bmore-luv {
 	svg {
 		display: inline-block;
 		fill: $color-mulberry;
@@ -108,10 +108,5 @@
 		position: relative;
 		top: 4px;
 		transition: $transition-default;
-	}
-	@include hover-state {
-		svg {
-			transform: scale(1.3);
-		}
 	}
 }

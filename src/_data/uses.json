@@ -4,7 +4,7 @@
 		"items": [
 			{
 				"description": "browsers",
-				"details": "I use <a href='https://www.mozilla.org/en-US/firefox/new/'>Firefox</a> as my daily driver on my laptop and mobile devices because I value their stance on user privacy <em>and</em> think their dev tools are top notch. At work, I use Chrome because we're already deep into the Google ecosystem. I use the developer versons of both browsers for testing purposes, too."
+				"details": "I use <a href='https://www.mozilla.org/en-US/firefox/new/'>Firefox</a> as my daily driver on my laptop and mobile devices because I value their stance on user privacy <em>and</em> think their dev tools are top notch."
 			},
 			{
 				"description": "terminal",
@@ -107,9 +107,9 @@
 				"subsection": "android",
 				"items": [
 					{
-						"description": "delightful and simple mood tracking",
-						"name": "Daylio",
-						"url": "https://daylio.net/"
+						"description": "daily self-care reminders with friends",
+						"name": "Finch",
+						"url": "https://finchcare.com/"
 					},
 					{
 						"description": "two-factor authentication",
@@ -120,11 +120,6 @@
 						"description": "getting ebooks from our local library",
 						"name": "Libby",
 						"url": "https://libbyapp.com/"
-					},
-					{
-						"description": "amusing myself by taking over the world",
-						"name": "Polytopia",
-						"url": "https://polytopia.io/"
 					}
 				]
 			}
