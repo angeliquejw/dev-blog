@@ -2,10 +2,11 @@ const SGurl = "https://app.thestorygraph.com/currently-reading/angeliquejw/";
 
 import puppeteer from "puppeteer-extra";
 import StealthPlugin from "puppeteer-extra-plugin-stealth";
+import fs from "fs";
 
 puppeteer.use(StealthPlugin());
 
-async function getBooks() {
+(async () => {
 	const browser = await puppeteer.launch();
 	const page = await browser.newPage();
 
@@ -34,16 +35,16 @@ async function getBooks() {
 		});
 	});
 
-	const books = [...new Set(bookData.map(JSON.stringify))].map(JSON.parse);;
+	const books = [...new Set(bookData.map(JSON.stringify))].map(JSON.parse);
 
 	// console.log(books);
 
+	const filePath = "src/_data/reading.json";
+
+	fs.writeFile(filePath, JSON.stringify(books), (error) => {
+		if (error) throw error;
+		console.log("Updated reading.json");
+	});
+
 	await browser.close();
-
-	return books;
-};
-
-export default async function () {
-	const bookList = await getBooks();
-	return bookList;
-}
+})();

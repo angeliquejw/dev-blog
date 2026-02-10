@@ -5,6 +5,7 @@
 	"type": "module",
 	"scripts": {
 		"clean": "rm -rf _site && rm -rf .cache && rm -rf _dev",
+		"get-books": "node src/assets/scripts/bookList.js",
 		"start": "npm-run-all --parallel dev:*",
 		"dev:eleventy": "ELEVENTY_ENV=development eleventy --quiet --serve --output=./_dev",
 		"dev:styles": "sass --watch src/assets/styles/styles.scss _dev/assets/styles/styles.css",

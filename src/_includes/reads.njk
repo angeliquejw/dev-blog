@@ -1,6 +1,6 @@
-{%- if bookList -%}
+{%- if reading -%}
 <ul class="u-list-reset book-list">
-  {%- asyncEach book in bookList -%}
+  {%- for book in reading -%}
 
     <li>
       <a href="{{ book.url }}">
@@ -12,7 +12,7 @@
       by {{ book.author }}
     </li>
 
-  {%- endeach -%}
+  {%- endfor -%}
 </ul>
 {%- else -%}
 
