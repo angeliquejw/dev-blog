@@ -1,3 +1,5 @@
-module.exports = {
-  environment: process.env.ELEVENTY_ENV
-};
+export default function () {
+	return {
+    environment: process.env.ELEVENTY_ENV
+  };
+}

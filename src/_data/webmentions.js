@@ -1,4 +1,4 @@
-const fs = require('fs')
+import fs from 'fs';
 
 // Define Cache Location and API Endpoint
 const CACHE_DIR = 'cache'
@@ -19,7 +19,7 @@ function readFromCache() {
   }
 }
 
-module.exports = async function () {
+export default async function () {
   const cache = readFromCache()
 
   if (cache.children.length) {

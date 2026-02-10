@@ -1,9 +1,9 @@
-import path from "node:path";
 import { DateTime } from "luxon";
-import eleventyPluginSass from "@jgarber/eleventy-plugin-sass";
 import pluginRss from "@11ty/eleventy-plugin-rss";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import readingTime from "eleventy-plugin-reading-time";
+import getTagCount from "./src/_11ty/getTagCount.js";
+import getTagList from "./src/_11ty/getTagList.js";
 import getWebmentionsForUrl from "./src/_11ty/getWebmentionsForUrl.js";
 import markdownIt from "markdown-it";
 import markdownItAbbr from "markdown-it-abbr";
@@ -13,7 +13,9 @@ import markdownItCodePen from "markdown-it-code-embed";
 import markdownItPrism from "markdown-it-prism";
 
 export default function (eleventyConfig) {
-	eleventyConfig.addPlugin(eleventyPluginSass);
+	eleventyConfig.addPlugin(getTagCount);
+	eleventyConfig.addPlugin(getTagList);
+	eleventyConfig.addPlugin(getWebmentionsForUrl);
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(pluginSyntaxHighlight);
 	eleventyConfig.addPlugin(readingTime);
@@ -28,8 +30,6 @@ export default function (eleventyConfig) {
 		"currentYear",
 		() => `${new Date().getFullYear()}`
 	);
-
-	eleventyConfig.addFilter("getWebmentionsForUrl", getWebmentionsForUrl);
 
 	eleventyConfig.addFilter("outOfDate", (dateObj) => {
 		return (
@@ -62,73 +62,6 @@ export default function (eleventyConfig) {
 		}
 
 		return array.slice(0, n);
-	});
-
-	eleventyConfig.addCollection("tagList", function(collectionsApi) {
-		let tagSet = new Set();
-		collectionsApi.getAll().forEach(function(item) {
-			if( "tags" in item.data ) {
-			let tags = item.data.tags;
-
-			tags = tags.filter(function(item) {
-				switch(item) {
-				// this list should match the `filter` list in tags.njk
-				case "all":
-				case "nav":
-				case "post":
-				case "posts":
-					return false;
-				}
-
-				return true;
-			});
-
-			for (const tag of tags) {
-				tagSet.add(tag);
-			}
-			}
-		});
-
-		// returning an array in addCollection works in Eleventy 0.5.3
-		return [...tagSet];
-
-	});
-	eleventyConfig.addCollection("tagCount", function(collectionsApi) {
-		let tagCountMap = new Map();
-		collectionsApi.getAllSorted().forEach(function(item) {
-			if( "tags" in item.data ) {
-				let tags = item.data.tags;
-				if( typeof tags === "string" ) {
-				tags = [tags];
-				}
-		
-				tags = tags.filter(function(item) {
-				switch(item) {
-					// this list should match the `filter` list in tags.njk
-					case "all":
-					case "nav":
-					case "post":
-					case "posts":
-					return false;
-				}
-		
-				return true;
-				});
-		
-				for (const tag of tags) {
-					if (tagCountMap.has(tag)) {
-						let cnt = tagCountMap.get(tag);
-						tagCountMap.set(tag, cnt+1);
-					} else {
-						tagCountMap.set(tag, 1);
-					}
-				}
-			}
-		});
-		//val sort desc
-		return new Map([...tagCountMap.entries()].sort((a, b) => b[1] - a[1]));
-		//key sort asc
-		// return new Map([...tagCountMap.entries()].sort());
 	});
 
 	eleventyConfig.addCollection("bits", function (collectionsApi) {

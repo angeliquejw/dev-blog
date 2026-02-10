@@ -2,6 +2,7 @@
 	"name": "angeliqueweger.com",
 	"version": "2.0.0",
 	"private": true,
+	"type": "module",
 	"scripts": {
 		"clean": "rm -rf _site && rm -rf .cache && rm -rf _dev",
 		"start": "npm-run-all --parallel dev:*",
