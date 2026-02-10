@@ -1,18 +1,18 @@
-{%- if books -%}
+{%- if bookList -%}
 <ul class="u-list-reset book-list">
-  {%- for title, author, img, url in books -%}
+  {%- asyncEach book in bookList -%}
 
     <li>
-      <a href="{{ url }}">
-        <img src="{{ img }}" alt="" class="u-margin-horizontal-auto">
+      <a href="{{ book.url }}">
+        <img src="{{ book.img }}" alt="" class="u-margin-horizontal-auto">
       </a>
-      <a href="{{ url }}">
-        {{ title }}
+      <a href="{{ book.url }}">
+        {{ book.title }}
       </a>
-      by {{ author }}
+      by {{ book.author }}
     </li>
 
-  {%- endfor -%}
+  {%- endeach -%}
 </ul>
 {%- else -%}
 
