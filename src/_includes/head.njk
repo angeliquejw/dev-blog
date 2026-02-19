@@ -16,10 +16,8 @@
   {# <meta property="og:image" content="" /> #}
   {# <meta property="og:image:alt" content="" /> #}
   {% if site.environment == "production" %}
-  <script 
-    async
-    src="https://unpkg.com/thesemetrics@latest"
-  ></script>
+  <script data-goatcounter="https://ajw.goatcounter.com/count"
+    async src="//gc.zgo.at/count.js"></script>
   {% endif %}
   <link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
   <link rel="webmention" href="https://webmention.io/{{ metadata.domain }}/webmention" />
