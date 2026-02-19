@@ -10,7 +10,12 @@
 				"org": "Family & Medical Leave Insurance (FAMLI), Maryland Department of Labor",
 				"start": "2024-03",
 				"end": "2026-02",
-				"tech": ["Ruby on Rails", "USWDS", "Git + GitHub", "Jira"],
+				"tech": [
+					"Ruby on Rails",
+					"USWDS",
+					"Git + GitHub",
+					"Jira"
+				],
 				"description": "Third hire to the Digital Service team building out a greenfield digital-first service to support Maryland workers and employers in the rollout of paid family and medical leave for the state. Initially hired as tech lead for front-end and accessibility, then promoted to lead the overall team of 15 state employees with expertise in product leadership, service design, content strategy, engineering, accessibility and devops and oversee our agile vendor contracts worth $15.6 million annually.",
 				"leadership": [
 					"Guided cross-functional team in exploration of complex program requirements, including documentation for shared understanding across the division and shaped the program strategy to deliver on them",
@@ -31,7 +36,12 @@
 				"org": "Panorama Education",
 				"start": "2021-10",
 				"end": "2024-02",
-				"tech": ["Vue", "Ruby on Rails", "Git + GitHub", "Jira"],
+				"tech": [
+					"Vue",
+					"Ruby on Rails",
+					"Git + GitHub",
+					"Jira"
+				],
 				"description": "Founded in 2012, Panorama Education helps students achieve academic success and well-being, and gives schools and school districts a platform to hear what families, students and teachers need in the classroom.",
 				"leadership": [
 					"Refined how the engineering team supported customer support requests, including improvements to our cross-functional communication and tools",
@@ -86,7 +96,13 @@
 				"org": "MICA",
 				"start": "2018-08",
 				"end": "2021-02",
-				"tech": ["Sass", "HTML5", "JavaScript", "Eleventy", "Git + GitHub"],
+				"tech": [
+					"Sass",
+					"HTML5",
+					"JavaScript",
+					"Eleventy",
+					"Git + GitHub"
+				],
 				"responsibilities": [
 					"Instructing undergraduate students in GD 220 (Graphic Design 2) and GD 431 (Front End Web development)",
 					"Developing <a href='https://mica-web.github.io/'>curriculum</a> and assignments for each 16-week course",
@@ -190,7 +206,13 @@
 		"items": [
 			{
 				"title": "Languages",
-				"details": ["Sass/CSS", "JavaScript", "HTML", "PHP", "Ruby"]
+				"details": [
+					"Sass/CSS",
+					"JavaScript",
+					"HTML",
+					"PHP",
+					"Ruby"
+				]
 			},
 			{
 				"title": "Frameworks + Libraries",
