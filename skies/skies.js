@@ -13,6 +13,8 @@ const postsFilePath = "temp-sky.json";
 const localData = JSON.parse(fs.readFileSync(postsFilePath));
 const localPosts = localData.length;
 
+console.log(`Reading env variables: ${process.env.TUMBLR_BLOG}`);
+
 console.log(`Existing sky photos: ${localPosts}`);
 
 const client = createClient({
