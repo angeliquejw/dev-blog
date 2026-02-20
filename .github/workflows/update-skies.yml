@@ -11,13 +11,15 @@ on:
 
 # The workflow to run
 jobs:
-  build:
+  get-data:
       runs-on: ubuntu-latest
+      defaults:
+        run:
+          working-directory: skies
       steps:
         - uses: actions/checkout@v6
         - uses: bahmutov/npm-install@v1
           with:
-            working-directory: skies
             useLockFile: false
         - name: Run a skies.js
           env:
