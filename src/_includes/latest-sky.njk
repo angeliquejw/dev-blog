@@ -3,7 +3,7 @@
 {%- if loop.last -%}
     <figure class="latest-sky">
         <img src="{{post.img_url}}" alt="The sky on {{ post.timestamp | readableDateFromUNIX }}" class="u-z-high">
-        <figcaption>My view on {{ post.timestamp | readableDateFromUNIX }}. See snaps from other dates in my <a href="/the-sky/">gallery of sky photos</a>.</figcaption>
+        <figcaption>My view on {{ post.timestamp | readableDateFromUNIX }}. See snaps from other dates in my <a href="/bits/the-sky/">gallery of sky photos</a>.</figcaption>
     </figure>
 {%- endif -%}
 {%- endfor -%}
