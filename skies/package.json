@@ -16,6 +16,7 @@
     "tumblr-api"
   ],
   "dependencies": {
+    "@actions/core": "^3.0.0",
     "dotenv": "^17.3.1",
     "tumblr.js": "^5.0.1"
   }

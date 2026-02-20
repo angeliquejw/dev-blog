@@ -1,3 +1,4 @@
+import * as core from '@actions/core';
 import dotenv from "dotenv";
 import fs from "fs";
 import { createClient } from "tumblr.js";
@@ -29,6 +30,8 @@ const remotePosts = blogInfo.blog.total_posts;
 
 const numMissing = remotePosts - localPosts;
 console.log(`Missing photos: ${numMissing}`);
+
+core.setOutput("missing-photos", numMissing);
 
 // step 3: if we have missing posts, get their data
 if (numMissing > 0) {
