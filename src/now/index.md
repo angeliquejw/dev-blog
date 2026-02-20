@@ -14,7 +14,13 @@ layout: layouts/page.njk
 
 ## Currently{: .now-heading}
 
+<div class="now-currently">
+
 I'm living in Baltimore and taking a pause from work, enjoying a short personal reset.
+
+{% include "latest-sky.njk" %}
+
+</div>
 
 </section>
 

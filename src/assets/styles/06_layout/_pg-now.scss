@@ -2,7 +2,8 @@
 	padding-bottom: 0;
 
 	/* stylelint-disable selector-max-class */
-	+ .site-footer .top-link {
+	+.site-footer .top-link {
+
 		/* stylelint-enable */
 		@media (max-width: 1089px) {
 			filter: invert(0.62) contrast(3) hue-rotate(100deg);
@@ -13,37 +14,39 @@
 .now-heading {
 	background-color: $color-offblack;
 	color: $color-offwhite;
-	margin: 0 0 $spacing-unit (-$spacing-unit-sm);
-	position: relative;
-	top: -2px;
+	margin: 0 0 $spacing-unit (
+		-$spacing-unit-sm
+	);
+position: relative;
+top: -2px;
 
-	&::before,
-	&::after {
-		content: "";
-		position: absolute;
-	}
+&::before,
+&::after {
+	content: "";
+	position: absolute;
+}
 
-	&::before {
-		background-color: $color-tumeric;
-		height: 2px;
-		left: 0;
-		top: 0;
-		width: 60%;
-	}
+&::before {
+	background-color: $color-tumeric;
+	height: 2px;
+	left: 0;
+	top: 0;
+	width: 60%;
+}
 
-	&::after {
-		background-color: $color-patina;
-		bottom: 0;
-		height: 4px;
-		right: 0;
-		width: 15%;
-	}
+&::after {
+	background-color: $color-patina;
+	bottom: 0;
+	height: 4px;
+	right: 0;
+	width: 15%;
+}
 
-	> .direct-link {
-		@include hover-state {
-			color: $color-patina;
-		}
+>.direct-link {
+	@include hover-state {
+		color: $color-patina;
 	}
+}
 }
 
 .now-section,
@@ -135,7 +138,8 @@
 			}
 
 			/* stylelint-disable selector-max-class */
-			> .direct-link {
+			>.direct-link {
+
 				/* stylelint-enable */
 				@include hover-state {
 					color: $color-tumeric;
@@ -165,13 +169,53 @@
 			}
 
 			/* stylelint-disable selector-max-class */
-			> .direct-link {
+			>.direct-link {
+
 				/* stylelint-enable */
 				@include hover-state {
 					color: white;
 				}
 			}
 		}
+	}
+}
+
+.now-currently {
+	@media (min-width:840px) {
+		display: grid;
+		grid-template-areas: "text1 img" "text2 img";
+		grid-template-rows: auto 1fr;
+
+		.latest-sky {
+			display: contents;
+		}
+
+		img {
+			grid-area: img;
+			margin-top: (-$spacing-unit-xl);
+			margin-left: $spacing-unit-sm;
+		}
+	}
+}
+
+.latest-sky {
+	width: unset;
+	max-width: unset;
+
+	img {
+		border: 1px solid $color-offwhite;
+		max-height: 320px;
+		position: relative;
+
+		@media (min-width: 720px) and (max-width: 839px) {
+			float: right;
+			margin-top: (-$spacing-unit);
+			margin-left: $spacing-unit-sm;
+		}
+	}
+
+	figcaption {
+		background-color: unset;
 	}
 }
 
