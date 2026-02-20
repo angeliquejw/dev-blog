@@ -13,7 +13,7 @@ const postsFilePath = "src/_data/sky.json";
 const localData = JSON.parse(fs.readFileSync(postsFilePath));
 const localPosts = localData.length;
 
-// console.log(`Local posts: ${localPosts}`);
+console.log(`Existing sky photos: ${localPosts}`);
 
 const client = createClient({
   consumer_key: process.env.TUMBLR_CONSUMER_KEY,
@@ -26,7 +26,7 @@ const blogInfo = await client.blogInfo(process.env.TUMBLR_BLOG);
 const remotePosts = blogInfo.blog.total_posts;
 
 const numMissing = remotePosts - localPosts;
-// console.log(`Missing posts: ${numMissing}`);
+console.log(`Missing photos: ${numMissing}`);
 
 // step 3: if we have missing posts, get their data
 if (numMissing > 0) {
@@ -58,6 +58,8 @@ if (numMissing > 0) {
 
   fs.writeFile(postsFilePath, JSON.stringify(localData, null, 2), (error) => {
     if (error) throw error;
-    // console.log(`Updated posts: ${localPosts}`);
+    console.log(`New total of sky photos: ${localPosts}`);
   });
+} else {
+  console.log("Already up to date, no changes needed.");
 }
