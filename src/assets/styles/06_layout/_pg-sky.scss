@@ -1,0 +1,42 @@
+.sky-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    max-width: 1600px;
+
+    li {
+        align-self: end;
+    }
+
+    figure {
+        border: 0;
+        margin: 0;
+
+        @include hover-state {
+            img {
+                filter: unset;
+            }
+
+            figcaption {
+                color: $color-patina;
+                background-color: $color-offwhite;
+            }
+        }
+    }
+
+    img,
+    figcaption {
+        transition: $transition-default;
+    }
+
+    img {
+        filter: grayscale(100%) opacity(80%);
+    }
+
+    figcaption {
+        background-color: unset;
+        color: $color-siren-dk36;
+        font-size: ms(-2);
+        font-weight: $font-semibold;
+        text-align: right;
+    }
+}

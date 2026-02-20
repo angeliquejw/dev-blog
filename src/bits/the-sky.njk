@@ -1,0 +1,24 @@
+---
+title: The Sky
+custom_title: "Looking up"
+summary: "My view of the sky, updated as I remember to look up."
+tags: [bits]
+pageClass: pg-sky
+layout: layouts/page.njk
+---
+
+{%- if sky -%}
+<h1>{{ custom_title}}</h1>
+<ul class="u-list-reset sky-gallery">
+    {%- for post in sky | sort(true,false,"timestamp") -%}
+    <li>
+        <figure>
+            <img src="{{post.img_url}}" alt="The sky on {{ post.timestamp | readableDateFromUNIX }}">
+            <figcaption>{{ post.timestamp | shortDateFromUNIX }}</figcaption>
+        </figure>
+    </li>
+    {%- endfor -%}
+</ul>
+{%- endif -%}
+
+<p>Images originally posted on <a href="https://messypixels.tumblr.com/">Tumblr</a>.</p>
