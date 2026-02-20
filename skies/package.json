@@ -1,0 +1,22 @@
+{
+  "name": "fetch-sky-photos",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angeliquejw/dev-blog.git"
+  },
+  "author": {
+    "name": "Angélique Weger",
+    "email": "hello@angeliqueweger.com",
+    "url": "https://angeliqueweger.com/"
+  },
+  "keywords": [
+    "tumblr-api"
+  ],
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "tumblr.js": "^5.0.1"
+  }
+}
