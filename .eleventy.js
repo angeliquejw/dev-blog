@@ -56,6 +56,14 @@ export default function (eleventyConfig) {
 		return DateTime.fromISO(dateObj).toFormat("LLL dd yyyy");
 	});
 
+	eleventyConfig.addFilter("shortDateFromUNIX", (dateObj) => {
+		return DateTime.fromSeconds(dateObj).toFormat("yyyy LLL dd");
+	});
+
+	eleventyConfig.addFilter("readableDateFromUNIX", (dateObj) => {
+		return DateTime.fromSeconds(dateObj).toFormat("LLLL dd, yyyy");
+	});
+
 	// Get the first `n` elements of a collection.
 	eleventyConfig.addFilter("head", (array, n) => {
 		if (n < 0) {
