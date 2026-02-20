@@ -22,4 +22,4 @@ jobs:
             TUMBLR_SECRET_KEY: ${{ secrets.TUMBLR_SECRET_KEY }}
             TUMBLR_OATH_TOKEN: ${{ secrets.TUMBLR_OATH_TOKEN }}
             TUMBLR_OATH_TOKEN_SECRET: ${{ secrets.TUMBLR_OATH_TOKEN_SECRET }} 
-          run: node /src/assets/scripts/skies.js
+          run: node src/assets/scripts/skies.js
