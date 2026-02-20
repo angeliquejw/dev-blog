@@ -41,7 +41,7 @@ puppeteer.use(StealthPlugin());
 
 	const filePath = "src/_data/reading.json";
 
-	fs.writeFile(filePath, JSON.stringify(books), (error) => {
+	fs.writeFile(filePath, JSON.stringify(books, null, 2), (error) => {
 		if (error) throw error;
 		console.log("Updated reading.json");
 	});

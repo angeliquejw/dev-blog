@@ -19,7 +19,7 @@ layout: layouts/minimal.njk
 
 <div class="content-container">
 
-In the evening of January 6, 2021, I sent out [a tweet](https://twitter.com/messypixels/status/1346992491577401344){:target=\_blank} asking which companies or managers had acknowledged the day's events. This list compiles the info from the public and private responses I received from that tweet.
+In the evening of January 6, 2021, I sent out [a tweet](https://twitter.com/messypixels/status/1346992491577401344) asking which companies or managers had acknowledged the day's events. This list compiles the info from the public and private responses I received from that tweet.
 
 [This blog post](/blog/2021/leading-with-humanity/) provides some additional context and details for this data. But this is the crucial bit:
 
