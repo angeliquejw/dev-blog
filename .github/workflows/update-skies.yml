@@ -16,8 +16,6 @@ jobs:
       defaults:
         run:
           working-directory: skies
-      outputs:
-        missing-photos:
       steps:
         - name: Check out repo
           uses: actions/checkout@v6
