@@ -68,3 +68,5 @@ if (numMissing > 0) {
 } else {
   console.log("Already up to date, no changes needed.");
 }
+
+return numMissing;
