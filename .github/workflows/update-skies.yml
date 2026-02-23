@@ -32,9 +32,7 @@ jobs:
               TUMBLR_SECRET_KEY: ${{ secrets.TUMBLR_SECRET_KEY }}
               TUMBLR_OATH_TOKEN: ${{ secrets.TUMBLR_OATH_TOKEN }}
               TUMBLR_OATH_TOKEN_SECRET: ${{ secrets.TUMBLR_OATH_TOKEN_SECRET }}
-          run: |
-            MISSING_PHOTOS=$(node skies.js)
-            echo "missing-photos=$MISSING_PHOTOS" >> $GITHUB_OUTPUT
+          run: node skies.js
         - name: Check output
           run: echo "From get-data ${{ steps.run-script.outputs.missing-photos }}"
   handle-data:
