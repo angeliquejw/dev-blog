@@ -37,7 +37,7 @@ jobs:
   handle-data:
       needs: get-data
       # Only run this job if there are missing photos
-      if: needs.get-data.outputs.missing-photos > 0
+      if: ${{needs.get-data.outputs.missing-photos > 0 }}
       runs-on: ubuntu-latest
       steps:
         - name: Check out repo
