@@ -13,9 +13,6 @@ on:
 jobs:
   get-data:
       runs-on: ubuntu-latest
-      defaults:
-        run:
-          working-directory: skies
       steps:
         - name: Check out repo
           uses: actions/checkout@v6
@@ -26,6 +23,7 @@ jobs:
             useLockFile: false
         - name: Run script
           id: run-script
+          working-directory: skies
           env:
               TUMBLR_BLOG: ${{ secrets.TUMBLR_BLOG }}
               TUMBLR_CONSUMER_KEY: ${{ secrets.TUMBLR_CONSUMER_KEY }}
@@ -35,9 +33,6 @@ jobs:
           run: node skies.js
         - name: Check output
           run: echo "From get-data ${{ steps.run-script.outputs.missing-photos }}"
-  handle-data:
-      needs: get-data
-      runs-on: ubuntu-latest
-      steps:
-      - name: Check output from last job
-        run: echo "In handle-data ${{ needs.get-data.outputs.missing-photos }}"
+        - name: Copy JSON file
+          if: steps.run-script.outputs.missing-photos > 0
+          run: cp skies/temp-sky.json src/_data/sky.json
