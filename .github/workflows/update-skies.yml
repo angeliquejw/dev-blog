@@ -27,6 +27,7 @@ jobs:
             working-directory: skies
             useLockFile: false
         - name: Run script
+          id: run-script
           env:
               TUMBLR_BLOG: ${{ secrets.TUMBLR_BLOG }}
               TUMBLR_CONSUMER_KEY: ${{ secrets.TUMBLR_CONSUMER_KEY }}
@@ -34,10 +35,12 @@ jobs:
               TUMBLR_OATH_TOKEN: ${{ secrets.TUMBLR_OATH_TOKEN }}
               TUMBLR_OATH_TOKEN_SECRET: ${{ secrets.TUMBLR_OATH_TOKEN_SECRET }}
           run: node skies.js
+        - name: Check output
+          run:  echo "${{steps.run-script.outputs.missing-photos}}"
   handle-data:
       needs: get-data
       # Only run this job if there are missing photos
-      if: ${{needs.get-data.outputs.missing-photos > 0 }}
+      if: needs.get-data.outputs.missing-photos != '0'
       runs-on: ubuntu-latest
       steps:
         - name: Check out repo
