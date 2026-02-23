@@ -35,20 +35,9 @@ jobs:
               TUMBLR_OATH_TOKEN: ${{ secrets.TUMBLR_OATH_TOKEN }}
               TUMBLR_OATH_TOKEN_SECRET: ${{ secrets.TUMBLR_OATH_TOKEN_SECRET }}
           run: node skies.js
-        - name: Check output
-          run:  echo "${{steps.run-script.outputs.missing-photos}}"
   handle-data:
       needs: get-data
-      # Only run this job if there are missing photos
-      if: needs.get-data.outputs.missing-photos != '0'
       runs-on: ubuntu-latest
       steps:
-        - name: Check out repo
-          uses: actions/checkout@v6
-        - name: Copy JSON file
-          run: cp skies/temp-sky.json src/_data/sky.json
-        - name: Commit changes
-          uses: stefanzweifel/git-auto-commit-action@v4
-          with:
-            commit_message: "Automagically add latest sky photos"
-            commit_user_name: "Update Skies GH Action"
+      - name: Check output from last job
+        run: echo "${{ needs.get-data.outputs.missing-photos }}"
