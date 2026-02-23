@@ -4,14 +4,14 @@ name: Scheduled check for new sky photo
 # Controls when the workflow will run
 on:
   schedule:
-    # Runs at 9:10am every weekday
-    - cron: "10 9 * * *"
+    # Runs daily at 10:10am EST
+    - cron: "10 15 * * *"
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 # The workflow to run
 jobs:
-  get-data:
+  update-sky-photos:
       runs-on: ubuntu-latest
       steps:
         - name: Check out repo
@@ -36,3 +36,9 @@ jobs:
         - name: Copy JSON file
           if: steps.run-script.outputs.missing-photos > 0
           run: cp skies/temp-sky.json src/_data/sky.json
+        - name: Commit changes
+          uses: stefanzweifel/git-auto-commit-action@v4
+          if: steps.run-script.outputs.missing-photos > 0
+          with:
+            commit_message: "Automagically add latest sky photos"
+            commit_user_name: "Update Skies GH Action"
