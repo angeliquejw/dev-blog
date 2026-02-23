@@ -35,9 +35,11 @@ jobs:
               TUMBLR_OATH_TOKEN: ${{ secrets.TUMBLR_OATH_TOKEN }}
               TUMBLR_OATH_TOKEN_SECRET: ${{ secrets.TUMBLR_OATH_TOKEN_SECRET }}
           run: node skies.js
+        - name: Check output
+          run: echo "From get-data ${{ steps.run-script.outputs.missing-photos }}"
   handle-data:
       needs: get-data
       runs-on: ubuntu-latest
       steps:
       - name: Check output from last job
-        run: echo "${{ needs.get-data.outputs.missing-photos }}"
+        run: echo "In handle-data ${{ needs.get-data.outputs.missing-photos }}"
