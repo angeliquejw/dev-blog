@@ -11,8 +11,10 @@ on:
 
 # The workflow to run
 jobs:
-  update-sky-photos:
+  get-data:
       runs-on: ubuntu-latest
+      outputs:
+        missing-photos: ${{ steps.run-script.outputs.missing-photos }}
       steps:
         - name: Check out repo
           uses: actions/checkout@v6
@@ -33,12 +35,9 @@ jobs:
           run: node skies.js
         - name: Check output
           run: echo "From get-data ${{ steps.run-script.outputs.missing-photos }}"
-        - name: Copy JSON file
-          if: steps.run-script.outputs.missing-photos > 0
-          run: cp skies/temp-sky.json src/_data/sky.json
-        - name: Commit changes
-          uses: stefanzweifel/git-auto-commit-action@v4
-          if: steps.run-script.outputs.missing-photos > 0
-          with:
-            commit_message: "Automagically add latest sky photos"
-            commit_user_name: "Update Skies GH Action"
+  handle-data:
+      needs: get-data
+      runs-on: ubuntu-latest
+      steps:
+        - name: Check output
+          run: echo "From get-data ${{ outputs.missing-photos }}"
