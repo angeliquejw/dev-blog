@@ -40,4 +40,4 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - name: Check output
-          run: echo "From get-data ${{ outputs.missing-photos }}"
+          run: echo "From get-data ${{ needs.get-data.outputs.missing-photos }}"
