@@ -32,7 +32,7 @@ jobs:
               TUMBLR_OATH_TOKEN_SECRET: ${{ secrets.TUMBLR_OATH_TOKEN_SECRET }}
           run: node skies.js
         - name: Check output
-          run: echo "From get-data ${{ steps.run-script.outputs.missing-photos }}"
+          run: echo "Missing photos -> ${{ steps.run-script.outputs.missing-photos }}"
         - name: Copy JSON file
           if: steps.run-script.outputs.missing-photos > 0
           run: cp skies/temp-sky.json src/_data/sky.json
