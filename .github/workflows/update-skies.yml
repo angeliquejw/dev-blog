@@ -1,15 +1,12 @@
-# This action triggers the build hook
 name: Scheduled check for new sky photo
 
-# Controls when the workflow will run
 on:
   schedule:
-    # Runs daily at 10:10am EST
+    # Run daily ~10:10am EST
     - cron: "10 15 * * *"
-  # Allows you to run this workflow manually from the Actions tab
+  # Run the workflow manually from the Actions tab
   workflow_dispatch:
 
-# The workflow to run
 jobs:
   update-sky-photos:
       runs-on: ubuntu-latest
