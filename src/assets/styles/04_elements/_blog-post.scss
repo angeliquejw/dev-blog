@@ -148,7 +148,7 @@
 }
 
 // Styles for first graph and drop cap
-.content > p:first-of-type {
+.content > p:first-of-type, .content p.drop-cap {
 	font-family: $font-plex-sans;
 	font-size: ms(2);
 	font-weight: $font-semibold;
