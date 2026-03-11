@@ -11,6 +11,7 @@ footnotes:
 
 ## Also sentence case for headings
 
+- Never search alone process
 - How I evaluated organizations
 - Questions I asked in interviews
 - Aligning offers is hard

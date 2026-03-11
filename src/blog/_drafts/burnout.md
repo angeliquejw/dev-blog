@@ -18,3 +18,5 @@ Some books:
 - [The trauma of burnout](https://bookshop.org/p/books/the-trauma-of-burnout-how-to-manage-your-nervous-system-before-it-manages-you-dr-claire-plumbly/ab7cd3d0c514eaf3)
 
 [Test](https://theburnout.app/)
+
+[Change management, burn rate of org changes](https://rlsutter.substack.com/p/change-has-a-burn-rate-too)
