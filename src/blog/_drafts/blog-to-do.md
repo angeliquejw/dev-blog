@@ -1,6 +1,6 @@
 Quick wins:
-* Reduce font size on code blocks
-* Change color of inline code text
+[x] Reduce font size on code blocks
+[x] Change color of inline code text
 * Fix margins on first line after a blockquote; example here: http://localhost:8080/blog/2021/love-letter-to-lftm/
 
 Also:
