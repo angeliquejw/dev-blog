@@ -22,14 +22,13 @@ I think folx are pretty used to the idea --- and, instead, mostly had to come to
 
 I think FOMO pretty accurately describes my answer. Those networks are where my friends and family are. Through Facebook, I see my nieces and nephew growing up, I stay connected to a larger pool of people across the globe, and am made aware of local social events. Instagram let me see friends' families, holidays and creations and also benefit from insights from authors and others I respect. Goodreads introduced me to new books and let me bond with friends over shared reads.
 
-> Leaving those platforms makes me feel disconnected from all that, and that's no small thing.{: .no-cite }
+> Leaving those platforms makes me feel disconnected from all that, and that's no small thing.
 
 It's not great to think I'll miss out on a friend's party or birth announcement because I'm not on the platform where that info gets shared. This let me continue on, even as the news and implications about Facebook/Meta got more and more dire.
 
 Over the last year, hearing about friends who are struggling with family members deep into conspiracy theories, watching Facebook fumble decisions around the January 6th insurrection (and then attempt to minimize their impact) all had their toll. And then came Frances Haugen's testimony and the documents she released --- learning that Facebook had put in place changes to _decrease_ the promotion of inflammatory content leading up to the election and then chose to **undo** those changes really did me in. That was the proverbial straw on this camel's back.
 
 > “Facebook has realized that if they change the algorithm to be safer, people will spend less time on the site, they’ll click on less ads, they’ll make less money.”
-
 <cite>--[Frances Haugen](https://gizmodo.com/9-horrifying-facts-from-the-facebook-whistleblowers-new-1847791184)</cite>
 
 Maybe it's because of my own experience as a software engineer, but I really felt I understood the _process_ to specifically undo those changes; I understood that there were meetings and Jira tickets enabling this. And yet it still happened. Something about that just made Facebook irredeemable in my eyes.

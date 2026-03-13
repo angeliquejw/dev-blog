@@ -40,7 +40,7 @@ In terms of addressing the sometimes toxic culture women face in tech, I felt th
 
 Something the film drove home for me, specifically, was the actual nuts and bolts of our pipeline problem, even aside from the issue of diversity. In terms of computer science education, we, as a nation, are woefully unprepared for the engineering jobs available. In [an interview with the Washington Post](http://www.washingtonpost.com/blogs/innovations/wp/2015/05/12/11-questions-for-robin-hauser-reynolds-director-of-the-code-documentary/), Reynolds summarized the issue:
 
-> By the year 2020, there are going to be 1 million unfilled computer engineering jobs in the U.S. We can’t fill the spots if we’re only filling from half of the population. It’s a great opportunity for women. We have all these jobs, and we need more people to fill them. It’s the same thing with people of color. There are jobs, let’s go!{: .no-cite }
+> By the year 2020, there are going to be 1 million unfilled computer engineering jobs in the U.S. We can’t fill the spots if we’re only filling from half of the population. It’s a great opportunity for women. We have all these jobs, and we need more people to fill them. It’s the same thing with people of color. There are jobs, let’s go!
 
 <figure>
 

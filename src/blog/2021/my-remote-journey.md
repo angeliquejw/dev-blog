@@ -21,7 +21,7 @@ Working from home gave me the opportunity to be there when my brother got out of
 
 I left that role when my freelance web development work was taking off. Since I already had a functional home office, I didn't see any benefit to letting an office or even joining a co-working space. And, then, when a client asked if I would join their team full-time, it was with the understanding that I would remain remote --- their team was in Detroit and I was living in Baltimore. Again, a choice of convenience or practicality, but it was definitely this experience that made me realize I was actually committed to working remotely.
 
-> Meeting rooms, team lunches --- all great! 👍🏻<br> Sitting in a cubicle or standing at a counter to code for hours on end --- meh! 👎🏻 {: .no-cite aria-hidden="true"}
+> Meeting rooms, team lunches --- all great! 👍🏻<br> Sitting in a cubicle or standing at a counter to code for hours on end --- meh! 👎🏻 {: aria-hidden="true"}
 
 Like most remote workers, I was required to show up at the office on occasion --- in this case, on a cadence of every 2-3 months. While I **always** enjoyed the face time with my team, I quickly realized how uncomfortable and unproductive most office spaces are. Meeting rooms, team lunches --- all great! 👍🏻 Sitting in a cubicle or standing at a counter to code for hours on end --- meh! 👎🏻
 

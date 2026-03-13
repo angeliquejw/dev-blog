@@ -15,7 +15,6 @@ Like so many others, 2020 made a wreck of my best-laid plans (I even had a GitHu
 I got sidetracked by a freelance project, teaching a workshop and then, yep, a pandemic. Evidently, this is also pretty par for the course for this blog, too. I just went back and read [my original post](/blog/2015/mission-statement/) and discovered that I started writing that post in 2013...only to publish it in 2015:
 
 > I immediately bookmarked it and started writing this initial post…and then I landed a few big freelance projects, got involved with Girl Develop It, got a job, bought a house, sent a kid off to college…essentially, life happened.
-
 <cite>--Adorable Past Me</cite>
 
 This blog is essentially just for me, so I'm not raking myself over the coals here--mostly just amused at how consistent I am about having ✨very good intentions✨ about blogging.

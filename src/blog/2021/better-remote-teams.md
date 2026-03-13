@@ -37,7 +37,7 @@ Though I was already working remotely, the Portland HQ of Lumen Learning --- lik
 
 Speaking of meetings, all the things we already know about running efficient meetings --- as well as when something is _not_ meeting worthy --- is extra important when your team is remote. Honestly, it's easy to multitask or tune out on meetings as a remote employee, so it's worth the effort to make meetings worthwhile and relevant.
 
-> It's easy to multitask or tune out on meetings as a remote employee, so it's worth the effort to make meetings worthwhile and relevant.{: .no-cite }
+> It's easy to multitask or tune out on meetings as a remote employee, so it's worth the effort to make meetings worthwhile and relevant. {: aria-hidden="true"}
 
 In my experience, two quick changes can make massive improvements to your team meetings:
 

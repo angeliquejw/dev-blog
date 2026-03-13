@@ -185,7 +185,6 @@ Despite my feeling that variables based on function are an overcomplicated syste
 > 2. There is never a time where you will update the variables $White or $Black to be anything other then #FFF or #000. If you do update these to be anything else, then you clearly are not writing semantic code.
 >
 > With these two truths being the case, then I see absolutely no reason to define them.
-
 <cite>--[Jono Herrington](http://createstopbecreative.com/2015/05/06/sass-stop-defining-useless-color-variables/)</cite>
 
 Personally, I still do this because the second "truth" innit even remarkably true for me. I often use shades of black and white in place of the true colors (because they're both a bit unnatural and harsh; [learn more](http://ianstormtaylor.com/design-tip-never-use-black/)). However, I am a bit moved by the semantic argument and have opted to name my variables `$color-offblack` and `$color-offwhite` in the hopes this will make my code and logic clearer to other people working on projects with me (i.e., they won't assume `$color-offblack` means `#000`).

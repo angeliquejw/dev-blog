@@ -69,7 +69,7 @@ After being hired, I participated in the hiring process for coworkers both on an
 
 For my current role, I had an informal conversation with the hiring manager followed by an all-day on-site interview with members of the dev team and the organization overall, including the CEO. The phone screen felt like a conversation, while the team interview clearly worked from a script of questions. Additionally, a couple of days before the on-site, I was presented with a JavaScript code sample and a matching test, and asked to review the code and be prepared to discuss it. The email introducing this code included this note, which I found to be a great display of kindness:
 
-> Please don't overanalyze the code too much - we're not here to ask trick questions, but to instead engage with you as you read this code and share thoughts about it.{: .no-cite }
+> Please don't overanalyze the code too much - we're not here to ask trick questions, but to instead engage with you as you read this code and share thoughts about it.
 
 It's rare for _anything_ in an interview process to put candidates at ease --- but this did it for me. I probably read this sentence ten times before my interview. I remember it now, over a year later. Not only did it make me feel comfortable with the code review, it made me excited to meet the people at the other end of the email who were invested in treating candidates so kindly.
 

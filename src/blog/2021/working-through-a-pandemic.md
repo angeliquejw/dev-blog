@@ -24,7 +24,6 @@ So, let's break it down: how is working through a pandemic different than workin
 Because this shift to remote work was in response to a health crisis, it was done with a speed that remains shocking:
 
 > Within just three weeks (mid-March to early April), the percentage of Americans working from home doubled from 31% to 62% as offices and schools shuttered to help curb the spread of COVID-19.
-
 <cite>--Ellyn Maese and Lydia Saad, [Gallup Panel Data (April 2020)](https://news.gallup.com/poll/339824/pandemic-affected-work-life.aspx)</cite>
 
 No question, this is how things _needed_ to happen, but that speed also came at a cost.

@@ -63,7 +63,6 @@ And those moments were gifts. Which, reflecting on 2015, makes my heart swell an
 > who pull like water buffalo, with massive patience,  
 > who strain in the mud and the muck to move things forward,  
 > who do what has to be done, again and again.
-
 <cite>--Marge Piercy, <a href="http://www.poetryfoundation.org/poem/249346">To Be Of Use</a></cite>
 
 Which, of course, is a huge part of what I've enjoyed about being part of Girl Develop It. It's also why I'm always eager to help folx navigating the early stages of their freelance careers by offering up examples of my proposals, contracts, etc. I was sorting all that out while still dragging around the concrete block of my depression on a daily basis, so being offer to make any of that easier for the next person (whether depressed or not, whether they're struggling with imposter syndrome or not) is actually a bit of a relief and joy to me.

@@ -1,7 +1,7 @@
 Quick wins:
 [x] Reduce font size on code blocks
 [x] Change color of inline code text
-* Fix margins on first line after a blockquote; example here: http://localhost:8080/blog/2021/love-letter-to-lftm/
+[x] Fix margins on first line after a blockquote; example here: http://localhost:8080/blog/2021/love-letter-to-lftm/
 
 Also:
 * Create GH Action for Storygraph script.

@@ -5,8 +5,8 @@ article blockquote {
 	font-style: italic;
 	font-weight: $font-semibold;
 	line-height: 1.6;
-	margin: $spacing-unit-sm (-$spacing-unit) 0;
-	padding: $spacing-unit 24px;
+	margin: $spacing-unit-sm (-$spacing-unit) $spacing-unit-xs;
+	padding: $spacing-unit;
 	position: relative;
 
 	&::before,
@@ -25,12 +25,6 @@ article blockquote {
 
 	&::after {
 		bottom: 0;
-	}
-
-	/* stylelint-disable selector-no-qualifying-type */
-	&.no-cite {
-		/* stylelint-enable */
-		margin-bottom: $spacing-unit;
 	}
 
 	::selection {
@@ -63,7 +57,7 @@ article blockquote {
 	}
 
 	@media (min-width: 1140px) {
-		margin-bottom: $spacing-unit-lg;
+		margin-bottom: $spacing-unit-sm;
 		margin-left: -256px;
 		margin-right: -264px;
 		padding-left: 256px;

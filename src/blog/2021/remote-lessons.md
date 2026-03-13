@@ -42,7 +42,6 @@ Neither of these pictures represent my experience or ideal as a remote worker. W
 Ben Halpern of Dev.to has written something about this as well:
 
 > I have been able to dramatically optimize for the 95% of the time I get to be sitting at the same desk with the same peripherals all hooked up. [...] The 5% of the time I find myself away from this setup and still fully in work mode is a rather unideal scenario.
-
 <cite>--Ben Halpern, [The Best Remote Work is Delightfully Unglamorous](https://dev.to/ben/the-best-remote-work-is-delightfully-unglamorous-4h5f)</cite>
 
 This isn't to say I don't unplug and roam at times (I'm writing this blog post from my couch with a snoring pitbull at my feet), but the vast majority of my work --- both coding and interacting with my team --- is done at my desk.

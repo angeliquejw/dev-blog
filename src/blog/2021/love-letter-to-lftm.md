@@ -21,7 +21,7 @@ LFTM stands for low-friction task management system, and I've [mentioned it befo
 
 The README in Coraline's repo really spells out the simplicity of this system:
 
-> The system consists of a number of folders, each containing a specific kind of text file. {: .no-cite }
+> The system consists of a number of folders, each containing a specific kind of text file.
 
 It's a repo with folders and files. There's some structure provided by the folders, but that's it.
 
@@ -32,8 +32,6 @@ It's a repo with folders and files. There's some structure provided by the folde
 > - Keeps me from um'ing during my daily standups. I always know what I worked on yesterday.
 > - Is a handy record of accomplishments that I can reference when it's time for my review, I want to ask for a raise, or I'm updating my resume.
 > - Provides a reminder that I do, in fact, get things done and that I don't, in fact, suck at my job.
->
->   {: .no-cite }
 
 Also, because it's _text_, it's so very searchable. Because it's _local_ text, searching is also fast and customizable --- I can search using the tools in my text editor or the command line.
 
