@@ -18,3 +18,4 @@ footnotes:
 - Salary BS
 
 https://kathkeating-cto.medium.com/does-trust-contribute-to-biased-hiring-12a3d3575087
+https://kevingoldsmith.substack.com/p/taking-a-thoughtful-approach-to-the

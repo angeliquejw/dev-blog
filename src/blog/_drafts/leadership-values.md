@@ -1,0 +1,6 @@
+- Why _not_ servant leadership
+- https://kevingoldsmith.substack.com/p/values-culture-everything
+- Leadership driving, believing in culture
+    - "Onboarding X can't be your #1 priority"
+    - "CTO who moved from questioning/curiosity about team culture to being opposed to it"
+- Culture changes. Finding the right culture doesn't lock you in.
