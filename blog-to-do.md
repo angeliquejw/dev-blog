@@ -1,8 +1,8 @@
-Quick wins:
+# Quick wins
 [ ] Remove Twitter links from comments.
 [ ] Tags options -- default sort by # but also alpha?
 
-Also:
+# Also
 [] Remarkbox? 
 ```
 <!-- Remarkbox - Your readers want to communicate with you -->
@@ -57,7 +57,7 @@ Also:
     [] DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0. Use map.get instead.
 [] Attempt switching from Sass to CSS?
 
-☑️ Done
+# ☑️ Done
 [x] Reduce font size on code blocks
 [x] Change color of inline code text
 [x] Fix margins on first line after a blockquote; example here: http://localhost:8080/blog/2021/love-letter-to-lftm/
