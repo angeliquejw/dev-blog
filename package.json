@@ -9,6 +9,7 @@
 		"start": "npm-run-all --parallel dev:*",
 		"dev:eleventy": "ELEVENTY_ENV=development eleventy --quiet --serve --output=./_dev",
 		"dev:styles": "sass --watch src/assets/styles/styles.scss _dev/assets/styles/styles.css",
+		"dev:v2": "cp ./src/v2/assets/ ./_dev/v2/ -r",
 		"build": "run-s clean prod:*",
 		"prod:eleventy": "ELEVENTY_ENV=production eleventy",
 		"prod:styles": "sass src/assets/styles/styles.scss _site/assets/styles/styles.css",
