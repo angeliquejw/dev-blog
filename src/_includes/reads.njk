@@ -1,10 +1,10 @@
 {%- if reading -%}
-<ul class="u-list-reset book-list">
+<ul class="u-list-reset">
   {%- for book in reading -%}
 
     <li>
       <a href="{{ book.url }}">
-        <img src="{{ book.img }}" alt="" class="u-margin-horizontal-auto">
+        <img src="{{ book.img }}" alt="">
       </a>
       <a href="{{ book.url }}">
         {{ book.title }}

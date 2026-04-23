@@ -4,7 +4,6 @@ import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import readingTime from "eleventy-plugin-reading-time";
 import getTagCount from "./src/_11ty/getTagCount.js";
 import getTagList from "./src/_11ty/getTagList.js";
-import getWebmentionsForUrl from "./src/_11ty/getWebmentionsForUrl.js";
 import markdownIt from "markdown-it";
 import markdownItAbbr from "markdown-it-abbr";
 import markdownItAnchor from "markdown-it-anchor";
@@ -15,7 +14,6 @@ import markdownItPrism from "markdown-it-prism";
 export default function (eleventyConfig) {
 	eleventyConfig.addPlugin(getTagCount);
 	eleventyConfig.addPlugin(getTagList);
-	eleventyConfig.addPlugin(getWebmentionsForUrl);
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(pluginSyntaxHighlight);
 	eleventyConfig.addPlugin(readingTime);

@@ -8,10 +8,6 @@ pageClass: pg-uses
 layout: layouts/page.njk
 ---
 
-{%- set divider %}
-<span class="uses-divider"> ⟼ </span>
-{%- endset %}
-
 {%- macro link(name, url) %}
 <a href="{{ url }} ">{{ name }}</a>
 {%- endmacro %}
@@ -20,15 +16,12 @@ layout: layouts/page.njk
 <a href="https://marketplace.visualstudio.com/items?itemName={{ url }}">{{ name }}</a>
 {%- endmacro %}
 
-<div class="uses-intro">
-  <h1 class="uses-heading">{{custom_title}}</h1>
-
-  <p>Some details about the tech and tools I use at work, teaching and when building personal projects, like this site. This list was last updated on <time datetime="{{ page.date | htmlDateString }}" itemprop="datePublished">{{ page.date | readableDate }}</time>, and includes <em>zero</em> affiliate links.</p>
-</div>
+<h1>{{custom_title}}</h1>
+<p>Some details about the tech and tools I use at work, teaching and when building personal projects, like this site. This list was last updated on <time datetime="{{ page.date | htmlDateString }}" itemprop="datePublished">{{ page.date | readableDate }}</time>, and includes <em>zero</em> affiliate links.</p>
 
 {%- for use in uses %}
-<section class="uses-section uses-section--{{ use.section | slug }}">
-  <h2 class="uses-section-heading"><span>{{ use.section }}</span></h2>
+<section>
+  <h2>{{ use.section }}</h2>
 
   {%- if use.notes %}
   <p>{{ use.notes }}</p>
@@ -37,21 +30,17 @@ layout: layouts/page.njk
   <ul class="u-list-reset">
     {%- for item in use.items %}
       {%- if item.subsection %}
-      <li class="uses-subsection uses-subsection--{{item.subsection | slug }}">
+      <li>
 
         {%- set pluginslist = (item.subsection === "plugins") %}
-        <h3 class="{{ "uses-section-subheading--alt" if pluginslist else "uses-section-subheading" }}">
-          {{ item.subsection }}
-          {{ divider | safe if pluginslist }}
-        </h3>
-        <ul class="u-list-reset{{ " uses-plugins-list" if pluginslist }}">
+        <h3>{{ item.subsection }}</h3>
+        <ul class="u-list-reset">
           {%- for listitem in item.items %}
           <li>
             {%- if pluginslist %}
             {{ pluginlink(listitem.name, listitem.itemName) }}
             {%- else %}
-            <span class="uses-desc">{{ listitem.description | safe }}</span>
-            {{ divider | safe }}
+            {{ listitem.description | safe }}
             {{ listitem.notes if listitem.notes }}
             {%- if listitem.subitems %}
             {%- for listitem in listitem.subitems %}
@@ -70,8 +59,7 @@ layout: layouts/page.njk
         </ul>
       {%- else %}
       <li>
-        <span class="uses-desc">{{ item.description | safe }}</span>
-        {{ divider | safe }}
+        {{ item.description | safe }}
         {{ item.notes if item.notes }}
         {%- if item.subitems %}
         {%- for listitem in item.subitems %}
@@ -91,6 +79,6 @@ layout: layouts/page.njk
 </section>
 {%- endfor %}
 
-<footer class="uses-footer">
+<footer>
   <p>This 'uses' page is part of the bigger project <a href="https://uses.tech/">Uses.Tech</a> by Wes Bos.</p>
 </footer>

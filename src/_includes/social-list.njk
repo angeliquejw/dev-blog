@@ -1,14 +1,12 @@
-<ul class="social-list u-list-reset">
+<ul class="u-list-reset">
 	{%- for item in metadata.author.social %}
   <li>
     {%- if item.type == "email" %}
     <a href="mailto:{{ item.mailto }}" target="_blank" itemprop="email">
-    {% include "../assets/img/icon-email.svg" %}
     {%- else %}
     <a href="{{ item.url }}" target="_blank" itemprop="sameAs" rel="me">
-    {% include "../assets/img/logo-" + item.type + ".svg" %}
     {%- endif %}
     <span class="u-sr-only">{{ item.type }}</span>
-    </a></<li>
+    </a></li>
 	{%- endfor %}
 </ul>

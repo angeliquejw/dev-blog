@@ -8,25 +8,21 @@ pageClass: pg-now
 layout: layouts/page.njk
 ---
 
-<h1 class="page-heading page-heading--alt">What I'm Doing <em class="u-block">Now</em></h1>
+<h1>What I'm Doing Now</h1>
 
-<section class="now-section">
+<section>
 
-## Currently{: .now-heading}
-
-<div class="now-currently">
+## Currently
 
 I'm living in Baltimore and taking a pause from work, enjoying a short personal reset.
 
 {% include "latest-sky.njk" %}
 
-</div>
-
 </section>
 
-<section class="now-section">
+<section>
 
-### I am enjoying{: .now-heading}
+### I am enjoying
 
 - 🐶 Teaching my pupper new tricks
 - 🪡 Designing and stitching cross-stitch patterns
@@ -34,23 +30,23 @@ I'm living in Baltimore and taking a pause from work, enjoying a short personal 
 
 </section>
 
-<section class="now-section">
+<section>
 
-### I am reading{: .now-heading}
+### I am reading
 
 {% include "reads.njk" %}
 
 </section>
 
-<section class="now-section">
+<section>
 
-### I can be reached{: .now-heading}
+### I can be reached
 
 - via [email](mailto:hello@angeliqueweger.com)
 - or [LinkedIn DMs](https://www.linkedin.com/in/angeliqueweger)
 
 </section>
 
-<footer class="now-footer">
+<footer>
   <p>This 'now' page is part of the bigger project <a href="https://nownownow.com/about">Nownownow</a> by Derek Sivers and was last updated on <time datetime="{{ page.date | htmlDateString }}" itemprop="datePublished">{{ page.date | readableDate }}</time>.</p>
 </footer>

@@ -138,11 +138,6 @@
 				"url": "https://www.11ty.dev/"
 			},
 			{
-				"description": "tracking comments",
-				"name": "Webmentions",
-				"url": "https://webmention.io/"
-			},
-			{
 				"description": "building and hosting",
 				"name": "Vercel",
 				"url": "https://vercel.com/"

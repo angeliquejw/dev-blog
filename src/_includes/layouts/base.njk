@@ -7,17 +7,5 @@
 
 
     {# <script src="/assets/scripts/index.js"></script> #}
-    {% if homepage %}
-    <script>
-      (function () {
-        const el = document.getElementById("glitch-photo");
-        let gifPath = "/assets/img/glitches/";
-        const gifs = 5;
-        let randomGif = Math.floor(Math.random() * gifs) + 1;
-        el.src = gifPath + "0" + randomGif + ".gif";
-      })();
-    </script>
-    {% endif %}
-
   </body>
 </html>

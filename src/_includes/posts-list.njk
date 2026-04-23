@@ -1,33 +1,29 @@
-<div class="posts-list">
+<div>
   {%- if (title == "Blog") and pagination.href.previous %}
-    <nav class="button-tile">
-      <a class="button" href="{{ pagination.href.previous }}">
-        <em>◀ Previous</em>
-      </a>
+    <nav>
+      <a href="{{ pagination.href.previous }}">Previous</a>
     </nav>
   {%- endif %}
   <ol class="u-list-reset">
     {% for post in postslist %}
     <li>
       {%- if (templateClass == "tmpl-home") %}
-      <h3 class="post-title">{{ post.data.title }}</h3>
+      <h3>{{ post.data.title }}</h3>
       {%- else %}
-      <h2 class="post-title">{{ post.data.title }}</h2>
+      <h2>{{ post.data.title }}</h2>
       {%- endif %}
       <time datetime="{{ post.date | htmlDateString }}" class="u-block">{{ post.date | readableDate }}</time>
-      <a href="{{ post.url }}" class="u-block post-cta"><em class="u-block post-cta-text">Read More</em></a>
+      <a href="{{ post.url }}" class="u-block">Read More</a>
     </li>
     {% endfor %}
   </ol>
   {%- if (templateClass == "tmpl-home") %}
-    <nav class="button-tile">
-      <a href="/blog/" class="button"><em>View All</em></a>
+    <nav>
+      <a href="/blog/">View All</a>
     </nav>
   {%- elif (title == "Blog") and pagination.href.next %}
-    <nav class="button-tile">
-      <a class="button" href="{{ pagination.href.next }}">
-        <em>Next ▶</em>
-      </a>
+    <nav>
+      <a href="{{ pagination.href.next }}">Next</a>
     </nav>
   {%- endif %}
  </div>
