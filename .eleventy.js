@@ -22,8 +22,9 @@ export default function (eleventyConfig) {
 
 	eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
 
+	eleventyConfig.addPassthroughCopy("src/assets/styles/styles.css");
 	eleventyConfig.addPassthroughCopy("src/assets/img");
-	eleventyConfig.addPassthroughCopy({"src/robots.txt": "/robots.txt"});
+	eleventyConfig.addPassthroughCopy({ "src/robots.txt": "/robots.txt" });
 
 	eleventyConfig.addShortcode(
 		"currentYear",
