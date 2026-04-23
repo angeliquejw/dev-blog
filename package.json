@@ -12,6 +12,7 @@
 		"build": "run-s clean prod:*",
 		"prod:eleventy": "ELEVENTY_ENV=production eleventy",
 		"prod:styles": "sass src/assets/styles/styles.scss _site/assets/styles/styles.css",
+		"prod:v2": "cp ./src/v2/assets/ ./_site/v2/ -r",
 		"prod:proof": "cp ./src/keybase.txt ./_site/",
 		"lint": "npx stylelint 'src/assets/styles/**/*scss'",
 		"debug": "run-s clean && DEBUG=* eleventy"
