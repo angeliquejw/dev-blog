@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    Lessons learned hiring in tech
+     | 
+    Angélique Weger
+  </title>
+  <meta name="Description" content="Angélique Weger is a coder, designer, teacher, learner and overall enthusiast. This is her blog.">
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Lessons learned hiring in tech">
+  <meta property="og:description" content="What I&#39;ve learned about hiring via my reflections on the processes I&#39;ve participated in.">
+  <meta property="og:site_name" content="[ Personal site of Angelique Weger ]">
+  <meta name="robots" content="noai, noimageai">
+  
+  
+  
+  <script data-goatcounter="https://ajw.goatcounter.com/count"
+    async src="//gc.zgo.at/count.js"></script>
+  
+  <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Angélique Weger">
+  <link rel="stylesheet" href="/v2/assets/styles/styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=IBM+Plex+Mono:ital,wght@0,100;0,300;0,400;0,600;0,700;1,400;1,600&family=IBM+Plex+Sans:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="/v2/favicon.ico?v=2">
+
+<link rel="apple-touch-icon" sizes="180x180" href="/v2/assets/img/favicons/apple-touch-icon.png?v=2">
+<link rel="icon" type="image/png" sizes="32x32" href="/v2/assets/img/favicons/favicon-32x32.png?v=2">
+<link rel="icon" type="image/png" sizes="16x16" href="/v2/assets/img/favicons/favicon-16x16.png?v=2">
+
+<meta name="msapplication-TileColor" content="#5b9a95">
+
+<link rel="manifest" href="/web.manifest">
+<meta name="theme-color" content="#372839">
+
+</head>
+
+  <body id="top" class="tmpl-post">
+
+    
+<header class="site-header" itemprop="hasPart" itemscope itemtype="http://schema.org/WPHeader">
+
+  <div class="mobile-row" itemscope itemtype="https://schema.org/Person">
+    <div class="site-name">
+  <meta itemprop="name" content="Angélique Weger">
+  <a href="/v2/" class="home-link u-flex">
+    <span class="u-sr-only">Angélique Weger</span>
+    <span class="site-logo u-block" aria-hidden="true" title="Angélique Weger">a</span>
+  </a>
+</div>
+
+    
+    <ul class="social-list u-list-reset">
+  <li>
+    <a href="https://github.com/angeliquejw" target="_blank" itemprop="sameAs" rel="me">
+    <svg xmlns="http://www.w3.org/2000/svg" role="img" width="28" height="23" viewBox="0 0 28 23"><title>GitHub</title><path d="M25.725 5.717c.228-.548.963-2.722-.227-5.667 0 0-1.838-.565-6.02 2.226-1.75-.48-3.623-.548-5.478-.548-1.855 0-3.727.068-5.477.548C4.34-.532 2.503.05 2.503.05c-1.19 2.945-.455 5.12-.228 5.667C.858 7.207 0 9.124 0 11.453c0 8.817 5.828 10.803 13.965 10.803C22.103 22.256 28 20.27 28 11.453c0-2.329-.857-4.246-2.275-5.736zM14 20.58c-5.775 0-10.465-.257-10.465-5.736 0-1.301.665-2.534 1.785-3.544 1.873-1.678 5.075-.788 8.68-.788 3.623 0 6.79-.89 8.68.788 1.138 1.01 1.785 2.226 1.785 3.544 0 5.462-4.69 5.736-10.465 5.736zM9.608 12c-1.155 0-2.1 1.37-2.1 3.047 0 1.678.945 3.065 2.1 3.065 1.155 0 2.1-1.37 2.1-3.065 0-1.695-.945-3.047-2.1-3.047zm8.785 0c-1.155 0-2.1 1.352-2.1 3.047s.945 3.065 2.1 3.065c1.155 0 2.1-1.37 2.1-3.065 0-1.695-.928-3.047-2.1-3.047z"/></svg>
+
+    <span class="u-sr-only">github</span>
+    </a></<li>
+  <li>
+    <a href="https://www.linkedin.com/in/angeliqueweger" target="_blank" itemprop="sameAs" rel="me">
+    <svg xmlns="http://www.w3.org/2000/svg" role="img" width="28" height="28" viewBox="0 0 28 28"><title>LinkedIn</title><path d="M6.125 9.619v18.375H0V9.619h6.125zm14.813-.875c5.964 0 7.062 3.887 7.062 8.933v10.315h-.007v.002H22.11V18.69c-.004-2.153-.119-4.812-3.065-4.812-3.064 0-3.533 2.367-3.533 4.815v9.298H9.625V9.215h5.654v2.56h.083c.786-1.475 2.71-3.031 5.576-3.031zM3.5-.006A3.494 3.494 0 017 3.477C7 5.4 5.432 6.994 3.5 6.994S0 5.4 0 3.477A3.493 3.493 0 013.5-.006z"/></svg>
+
+    <span class="u-sr-only">linkedin</span>
+    </a></<li>
+  <li>
+    <a href="mailto:hello@angeliqueweger.com" target="_blank" itemprop="email">
+    <svg xmlns="http://www.w3.org/2000/svg" role="img" width="28" height="19" viewBox="0 0 28 19"><title>Email</title><path d="M2 .794c-1.108 0-2 .89-2 1.994v13.96c0 1.105.892 1.995 2 1.995h24c1.108 0 2-.89 2-1.994V2.789a1.993 1.993 0 00-2-1.995H2zm1.5 3.314a.68.68 0 01.531.176l8.99 8.092a1.422 1.422 0 001.937 0l9.01-8.092a.695.695 0 01.943.047.69.69 0 01-.046.94L19.77 9.85l5.083 4.394c.266.228.3.678.07.942a.696.696 0 01-.945.066l-5.208-4.508-2.917 2.628a2.797 2.797 0 01-3.729-.01l-2.906-2.618-5.198 4.508a.696.696 0 01-.945-.066.691.691 0 01.07-.942l5.073-4.393L3.135 5.27a.68.68 0 01-.2-.7.682.682 0 01.565-.463z"/></svg>
+
+    <span class="u-sr-only">email</span>
+    </a></<li>
+</ul>
+
+  </div>
+
+    <nav class="page-list-nav" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
+  <ul class="page-list u-list-reset">
+    <li class=" --active"><a href="/v2/blog" class="u-block" itemprop="url"><span itemprop="name">Blog</span></a></li>
+    <li class=""><a href="/v2/bits" class="u-block" itemprop="url"><span itemprop="name">Bits</span></a></li>      <li class=""><a href="/v2/" class="u-block" itemprop="url"><span itemprop="name">About</span></a></li>
+  </ul>
+</nav>
+
+</header>
+
+
+<main itemprop="mainEntity" itemscope itemtype="http://schema.org/Blog">
+  <meta itemprop="name" content="Angelique Weger's blog">
+  
+<p class="notice--out-of-date">
+  <strong>Head's Up</strong> Any technical info in this post is now several years out of date.
+</p>
+
+
+<div itemscope="itemscope" itemtype="http://schema.org/blogPost">
+  <article class="blog-post">
+    <header class="post-header u-flex">
+      <h1 itemprop="headline">Lessons learned hiring in tech</h1>
+      <time datetime="2021-02-06" itemprop="datePublished">February 06, 2021</time>
+    </header>
+
+    <div class="content" itemprop="text">
+      <p>Since my team is currently hiring, how we go about hiring for tech roles is very much on my mind right now. I’ve participated in hiring on three different teams now (on both sides of the hiring equation), and my own thinking and process has evolved.</p>
+<h2 id="designing-an-interview-gauntlet" tabindex="-1">Designing an interview gauntlet <a class="direct-link" href="#designing-an-interview-gauntlet" aria-label="Link to this heading">#</a></h2>
+<p>On my first team, I transitioned from being a freelance contractor to a full-time hire and never experienced their interview process. So, when I was asked to hire additional front-end talent, I was a bit overwhelmed with the task. I had heard of the whiteboard interviews that are common in tech (and were used by the back-end team), but that activity seemed so far removed from the daily job as to be meaningless. While I’m proud of that choice, I also admit that my sense of what <em>was</em> useful to ask in an interview was still pretty underdeveloped. Desperate for guidance, much of the process I used was informed by a <a href="https://css-tricks.com/interview-questions-css/">CSS-Tricks article on front-end interviews</a>.</p>
+<p>Looking back over these interview questions, I see now that they focus mainly on testing a candidate’s knowledge and tactics:</p>
+<ul>
+<li>Name 3 ways to decrease page load (perceived or actual load time).</li>
+<li>Let’s say you start a new project right now –- what solution would you choose for adding custom icons to the project?</li>
+<li>What CSS units do you commonly use?</li>
+<li>List as many values for the display property that you can remember. (This one <em>really</em> makes me wince now.)</li>
+</ul>
+<p>After enduring a gauntlet of quiz questions, candidates were invited to an in-person interview which included more quiz-style questions and a coding activity, also cribbed from the CSS-Tricks article. We provided candidates the image below and a set amount of time to recreate the button in CodePen (with explicit free reign to search the web for anything they normally would look up):</p>
+<figure>
+<p><img src="/v2/assets/img/blog/2021/mobify-button-test.png" alt="A grey checkout button with multiple borders and star icons"></p>
+<figcaption class="u-margin-top-sm">Exercise: Recreate this button using only CSS.<figcaption>
+</figure>
+<p>While I wouldn’t be keen to use this activity now, it <em>was</em> relevant to the job at hand, where both being able to spot important details in comps and recreate them with pixel-perfect precision was a requirement. It definitely tested candidates and even enraged one who, after twenty minutes, <strong>glared</strong> directly at me and then my boss and said, “It’s not like she could do this either.”</p>
+<p>The candidate <em>was</em> wrong (I had timed myself recreating the button), but I didn’t feel good about pushing someone to that point of frustration and definitely felt the interview process could be improved. We eventually replaced this specific activity with recreating a nav element that existed in one of our products — it had similar complexity to the button, but it was spread out over more elements and somehow didn’t feel as grueling.</p>
+<h3 id="lessons-1" tabindex="-1">Lessons learned <a class="direct-link" href="#lessons-1" aria-label="Link to this heading">#</a></h3>
+<ul>
+<li>Anything I ask a candidate to do during the interview should have immediate relevance to what the job asks of them. Essentially, no whiteboarding; if you ask a candidate to write code, they should be able to do so in a familiar code editor with the tooling they’re accustomed to.</li>
+<li>Avoid questions that can and should be resolved with a web search or a visit to MDN. Knowing stuff is definitely important to the job, but outright quizzing candidates isn’t as revealing as one might hope and adds extra stress into an already fraught process.</li>
+<li>Tricky “gotcha questions” don’t feel good as a candidate <em>or</em> as an interviewer.</li>
+</ul>
+<h2 id="a-better-understanding-of-the-interview-process" tabindex="-1">A better understanding of the interview process <a class="direct-link" href="#a-better-understanding-of-the-interview-process" aria-label="Link to this heading">#</a></h2>
+<p>Interviewing for my next role, I had my first experience of being on the other side of an interview activity. After two screening interviews, I did a series of remote interviews and was given a timed activity. I was given a problem spec sheet that outlined a variety of information that might be included on an organization’s profile and asked to design wireframes for two different organizations, showing how I would handle the competing needs of the information.</p>
+<p>While it was not explicit that this would be a coding exercise, I work faster in HTML and familiar CSS frameworks than I do in programs like Figma or Sketch, so I created two HTML documents using a combination of the Skeleton CSS framework, jQuery and <a href="http://placeimg.com/">PlaceIMG</a>:</p>
+<figure>
+<p><img src="/v2/assets/img/blog/2021/wireframes-A.png" alt="Screenshot of a wireframe done using HTML and CSS."></p>
+<figcaption>One of two wireframes I presented.</figcaption>
+</figure>
+<p>I wrote just under 100 lines of HTML, 125 lines of Sass and 40 lines of JS in the allotted time, which seems like a minuscule effort in comparison to some of the take-home activities assigned to candidates these days. However, the hiring committee wasn’t expecting any code at all, so presenting a wireframe that had animations and hover effects definitely made me stand out.</p>
+<p>More importantly, while some of the interview questions I was asked did touch on my opinions about tech topics, the vast majority of the questions were about how I approached problem solving overall and how I collaborated with others. The interview, as a result, felt more like a conversation than a quiz.</p>
+<p>After being hired, I participated in the hiring process for coworkers both on and off the dev team and gained new appreciation for how this thoughtful process came to be. As a member of hiring committees, I was asked to take <a href="https://implicit.harvard.edu/implicit/index.jsp">implicit association tests</a> to understand my unconscious biases and also given rubrics by which to grade candidates, helping us keep the important criteria for the role front of mind and providing some quantitative data to a process that can be ruled — disastrously so — by instinct.</p>
+<h3 id="lessons-2" tabindex="-1">Lessons learned <a class="direct-link" href="#lessons-2" aria-label="Link to this heading">#</a></h3>
+<ul>
+<li>Good hiring processes come out of very thoughtful consideration about the outcomes you want and the things that might get in the way of those outcomes. For example:
+<ul>
+<li>For many folx participating in the hiring process, it’s on top of their normal job, so providing guidance is necessary to steer things in the right direction.</li>
+<li>Bias has the potential to affect every stage of a hiring process. Deal with that head on vs pretending otherwise.</li>
+</ul>
+</li>
+<li>Hiring conversations should feel exactly like that — conversations — and not oral exams.</li>
+<li>Bonus lesson: Avoid asking candidates to solve design problems your team is currently working on. While the activity presented to me in my interview for this job wasn’t a source of frustration at the time, I soon learned that it was something that was in the upcoming work queue for the team. In retrospect, I would avoid interview problems like this because it’s entirely possible to create a conflict where you don’t hire the candidate with the best solution (for a variety of valid reasons). If you go forward using anything suggested or created by an un-hired candidate during the interview process, you’ve essentially gotten free work out of them. Better to avoid this possibility alltogether.</li>
+</ul>
+<h2 id="my-best%2C-current-thinking-on-hiring" tabindex="-1">My best, current thinking on hiring <a class="direct-link" href="#my-best%2C-current-thinking-on-hiring" aria-label="Link to this heading">#</a></h2>
+<p>For my current role, I had an informal conversation with the hiring manager followed by an all-day on-site interview with members of the dev team and the organization overall, including the CEO. The phone screen felt like a conversation, while the team interview clearly worked from a script of questions. Additionally, a couple of days before the on-site, I was presented with a JavaScript code sample and a matching test, and asked to review the code and be prepared to discuss it. The email introducing this code included this note, which I found to be a great display of kindness:</p>
+<blockquote>
+<p>Please don’t overanalyze the code too much - we’re not here to ask trick questions, but to instead engage with you as you read this code and share thoughts about it.</p>
+</blockquote>
+<p>It’s rare for <em>anything</em> in an interview process to put candidates at ease — but this did it for me. I probably read this sentence ten times before my interview. I remember it now, over a year later. Not only did it make me feel comfortable with the code review, it made me excited to meet the people at the other end of the email who were invested in treating candidates so kindly.</p>
+<p>I’m currently doing my first round of hiring for Lumen’s front-end team and am grateful for my years of experience — hiring and as a candidate — that have informed this process. I’m building onto a process that has been updated since I was hired and hope my changes improve the process for candidates and, assuming we make a successful hire, are adopted by the rest of the team.</p>
+<p>Things I’ve added to our process:</p>
+<ul>
+<li>Inspired by our VP of Product who included specific references to Lumen’s company values of commitment, openness, generosity and creativity in a recent job description, I’ve done the same for our engineering team (see <a href="https://lumenlearning.com/front-end-engineer/">the job description</a>). Being successful at Lumen means being invested in those values and our educational mission.</li>
+<li>Created documentation about the process for the hiring committee and others involved in the hiring process. This provides a consolidated, shared resource for everyone and also allows me to remind folx of the importance of hiring. It’s easy for it to feel like an add-on, an extra ask on your work day, but I truly believe it’s some of the most important work we’ll do this month.</li>
+<li>Requirement for all involved in the hiring process to complete a handful of implicit association tests and read two articles, one about <a href="https://www.fastcompany.com/90358626/culture-fit-vs-culture-add">the downsides of hiring for “culture fit”</a> and <a href="https://blog.criteriacorp.com/8-examples-of-unconscious-bias-in-hiring/">examples of unconscious bias in hiring</a>.</li>
+<li>Added a request for a candidate’s pronouns before the first interview. This prevents interviewers from doing any guesswork and hopefully signals to candidates that we care about having a respectful working relationship.</li>
+<li>Instead of scouring online lists of “front-end interview questions,” as I did in my first hiring role, I’ve taken inspiration from how our learning team thinks about assessments. Before writing exam questions, first there’s an understanding of the learning outcomes of the chapter. So, I got clear about what I want to learn about a candidate at each stage of our interview process and created a document with those headings. Only after I knew what knowledge I was after did I look at our existing interview questions, selecting those that help us learn those things or drafting new questions/discussion points when none of the existing questions proved useful to my goals.</li>
+<li>We’ve adapted the original code conversation to instead be a <a href="https://twitter.com/messypixels/status/1356668023470448641">take-home code review exercise</a> and, for this search, I updated that to have a front-end component. Additionally, I added some more specific prompts and questions as part of the code review to better understand a candidate’s previous experience with code review.</li>
+<li>Provide a rubric/scale for evaluation from the hiring committee, in addition to our more standard conversational evaluation. My goal here is to prevent the hiring committee from being too swayed by who speaks first or a good candidate from being skipped over because of bias.</li>
+</ul>
+<h3 id="lessons-3" tabindex="-1">Lessons learned <a class="direct-link" href="#lessons-3" aria-label="Link to this heading">#</a></h3>
+<p>This process is ongoing — as in, we’re currently conducting interviews — so it’s too early to sum things up in a tidy bow. However, two things stand out to me at this point:</p>
+<ul>
+<li>Like so many other things, the hiring process is iterative. I’m learning things all the time, which allows me to refine and improve whatever my current best guess about how to do this. You also get to a better result faster if you get insight from more folx. Listen to your team if they say they would be put off by a question or request or express that they wouldn’t be succeed at your activity; none of these are good signs.</li>
+<li>Know your <strong>WHY</strong>. Why are we asking this question? What do we want to learn? Also: Why are we asking for pronouns? Why do we need to do this bias exercise? I haven’t been asked these questions in our current process, but I’m prepared for them — most specifically because I didn’t ask for permission for these changes to our process, I just implemented them.</li>
+</ul>
+<p>And that really touches on part of why I think hiring is so important. It’s not just adding new team members, it’s also a moment for the current team to reflect on about what they value, what the team culture is — to celebrate that and to make adjustments. Especially on the smaller teams I love to lead and work on, hiring has a huge impact on all of us, which is why I spend so much time thinking about it…and, now, writing about it.</p>
+
+    </div>
+
+    
+      <p><strike>As always, feel free to send comments to me via Twitter</strike>. (NB: As of 2025, I am no longer using Twitter.) </p>
+
+    
+
+    
+  </article>
+
+  <div class="meta-wrapper">
+    <div class="blog-meta">
+      <p>Reading time: <em>11 min</em></p>
+      <p>Written in <em itemprop="locationCreated">Baltimore</em> and tagged as:</p>
+      <ul class="u-list-reset" itemprop="keywords">
+      
+        <li><a href="/v2/tags/teams/">teams</a></li>
+        <li><a href="/v2/tags/hiring/">hiring</a></li>
+        <li><a href="/v2/tags/interviews/">interviews</a></li>
+        <li><a href="/v2/tags/values/">values</a></li>
+        <li><a href="/v2/tags/culture/">culture</a></li>
+        <li><a href="/v2/tags/empathy/">empathy</a></li>
+        <li><a href="/v2/tags/tech-culture/">tech culture</a></li>
+      </ul>
+    </div>
+
+    <nav class="post-nav" aria-label="Pagination links">
+      <ol class="u-list-reset u-flex">
+      
+        <li>
+          <a class="post-nav--link post-nav--link__old u-block" href="/v2/blog/2021/leading-with-humanity/"><em>Older</em> Post</a>
+        </li>
+      
+      
+        <li>
+          <a class="post-nav--link post-nav--link__new u-block" href="/v2/blog/2021/middleman-eleventy/"><em>Newer</em> Post</a>
+        </li>
+      
+      </ol>
+    </nav>
+  </div>
+
+  
+
+    <section class="webmentions-container">
+        <h2 class="webmentions-heading"><em>19</em> Responses</h2>
+
+        
+
+        <div id="comments" class="webmentions--likes">
+            <h3 class="u-margin-top-none webmentions-heading--likes">15 Likes</h3>
+            <ol class="u-list-reset">
+            
+                <li class="webmention u-margin-horizontal-xs u-margin-bottom-xs">
+                    <a href="https://twitter.com/messypixels/status/1358802932557357058#favorited-by-13634662" target="_blank" rel="noopener noreferrer" title="Dave Dash" class="avatar-link">
+    
+        <img src="https://webmention.io/avatar/pbs.twimg.com/6a681ee42021be33c290d3f5eb911c463f6ab1c0764c96f2ec1e224a334baeb4.jpg" alt="Dave Dash" loading="lazy">
+    
+</a>
+
+                </li>
+            
+                <li class="webmention u-margin-horizontal-xs u-margin-bottom-xs">
+                    <a href="https://twitter.com/messypixels/status/1358802932557357058#favorited-by-9282292" target="_blank" rel="noopener noreferrer" title="Vanessa" class="avatar-link">
+    
+        <img src="https://webmention.io/avatar/pbs.twimg.com/1c95070d81dc47437da4c743a39bfe3afa67869a17df4f912c11933ea12d97ea.jpg" alt="Vanessa" loading="lazy">
+    
+</a>
+
+                </li>
+            
+                <li class="webmention u-margin-horizontal-xs u-margin-bottom-xs">
+                    <a href="https://twitter.com/messypixels/status/1358802932557357058#favorited-by-11282242" target="_blank" rel="noopener noreferrer" title="xenolon" class="avatar-link">
+    
+        <img src="https://webmention.io/avatar/pbs.twimg.com/dd6b00e7519af6756bf1baa45bc96d68ca96f73c6cc003110b512694cebc26f2.jpg" alt="xenolon" loading="lazy">
+    
+</a>
+
+                </li>
+            
+                <li class="webmention u-margin-horizontal-xs u-margin-bottom-xs">
+                    <a href="https://twitter.com/messypixels/status/1358607419945996289#favorited-by-852871441" target="_blank" rel="noopener noreferrer" title="Amy Gebhardt (she / her)" class="avatar-link">
+    
+        <img src="https://webmention.io/avatar/pbs.twimg.com/56b92ca85aa5bb0f74d08d3300ba1a02196814dfa813bf586451f503923cabe2.jpg" alt="Amy Gebhardt (she / her)" loading="lazy">
+    
+</a>
+
+                </li>
+            
+                <li class="webmention u-margin-horizontal-xs u-margin-bottom-xs">
+                    <a href="https://twitter.com/messypixels/status/1358607419945996289#favorited-by-205457825" target="_blank" rel="noopener noreferrer" title="Courtney Harge" class="avatar-link">
+    
+        <img src="https://webmention.io/avatar/pbs.twimg.com/68934d6dd5facbd0d9221971cb793f8c02725cb66edc510cc4f6652fc7e645bc.jpg" alt="Courtney Harge" loading="lazy">
+    
+</a>
+
+                </li>
+            
+                <li class="webmention u-margin-horizontal-xs u-margin-bottom-xs">
+                    <a href="https://twitter.com/messypixels/status/1358607419945996289#favorited-by-261250076" target="_blank" rel="noopener noreferrer" title="Meg Em Dub" class="avatar-link">
+    
+        <img src="https://webmention.io/avatar/pbs.twimg.com/cc07f7045a7bdeeddfb66cdd7773ea276f10281c203cdfa52898b1d4e5096ee9.jpg" alt="Meg Em Dub" loading="lazy">
+    
+</a>
+
+                </li>
+            
+                <li class="webmention u-margin-horizontal-xs u-margin-bottom-xs">
+                    <a href="https://twitter.com/messypixels/status/1358607419945996289#favorited-by-89791384" target="_blank" rel="noopener noreferrer" title="Nick Canzoneri" class="avatar-link">
+    
+        <img src="https://webmention.io/avatar/pbs.twimg.com/bd7be9150b9704897426c48f8889e1949371108fad31c4f54d59a95fe14c5952.jpg" alt="Nick Canzoneri" loading="lazy">
+    
+</a>
+
+                </li>
+            
+                <li class="webmention u-margin-horizontal-xs u-margin-bottom-xs">
+                    <a href="https://twitter.com/messypixels/status/1404544462118920195#favorited-by-1142299808331264002" target="_blank" rel="noopener noreferrer" title="OpenSexism" class="avatar-link">
+    
+        <img src="https://webmention.io/avatar/pbs.twimg.com/973060e6918a527455508f077da8eedaf9e81651baac83574050ea454a00f2b0.png" alt="OpenSexism" loading="lazy">
+    
+</a>
+
+                </li>
+            
+                <li class="webmention u-margin-horizontal-xs u-margin-bottom-xs">
+                    <a href="https://twitter.com/messypixels/status/1404544462118920195#favorited-by-16789906" target="_blank" rel="noopener noreferrer" title="Jennifer Riggins" class="avatar-link">
+    
+        <img src="https://webmention.io/avatar/pbs.twimg.com/d8671fa076eb4df6fc8f216c40b1d95cf061fc8e45a63b561fad04bbed630361.jpg" alt="Jennifer Riggins" loading="lazy">
+    
+</a>
+
+                </li>
+            
+                <li class="webmention u-margin-horizontal-xs u-margin-bottom-xs">
+                    <a href="https://twitter.com/messypixels/status/1417865952264347658#favorited-by-810504" target="_blank" rel="noopener noreferrer" title="Adam Ness @ Work" class="avatar-link">
+    
+        <img src="https://webmention.io/avatar/pbs.twimg.com/ef6bafaf02b54931ebb3eb4b9c98366574d3c2f56bef590f37d832094acdbfdb.png" alt="Adam Ness @ Work" loading="lazy">
+    
+</a>
+
+                </li>
+            
+                <li class="webmention u-margin-horizontal-xs u-margin-bottom-xs">
+                    <a href="https://twitter.com/messypixels/status/1417865952264347658#favorited-by-54446356" target="_blank" rel="noopener noreferrer" title="Michelle Martir" class="avatar-link">
+    
+        <img src="https://webmention.io/avatar/pbs.twimg.com/b4c42d434efc530da919dabbb5762fa2a7ec5bfa997bb73adff7fabff4180533.jpg" alt="Michelle Martir" loading="lazy">
+    
+</a>
+
+                </li>
+            
+                <li class="webmention u-margin-horizontal-xs u-margin-bottom-xs">
+                    <a href="https://twitter.com/messypixels/status/1417865952264347658#favorited-by-28102898" target="_blank" rel="noopener noreferrer" title="Mike Cripps" class="avatar-link">
+    
+        <img src="https://webmention.io/avatar/pbs.twimg.com/526eb50e019f0580b934fbd9cf32b148afcc243d08d2d707bc19c4aef268d98e.jpg" alt="Mike Cripps" loading="lazy">
+    
+</a>
+
+                </li>
+            
+                <li class="webmention u-margin-horizontal-xs u-margin-bottom-xs">
+                    <a href="https://twitter.com/messypixels/status/1417865952264347658#favorited-by-2932738834" target="_blank" rel="noopener noreferrer" title="Angie Jones" class="avatar-link">
+    
+        <img src="https://webmention.io/avatar/pbs.twimg.com/9a8db37a28b757bf5bd532d12911856db01b5b69870d908b3d2525d589d121bc.jpg" alt="Angie Jones" loading="lazy">
+    
+</a>
+
+                </li>
+            
+                <li class="webmention u-margin-horizontal-xs u-margin-bottom-xs">
+                    <a href="https://twitter.com/messypixels/status/1417865952264347658#favorited-by-81538231" target="_blank" rel="noopener noreferrer" title="paris" class="avatar-link">
+    
+        <img src="https://webmention.io/avatar/pbs.twimg.com/00dd38338fd9c4809c569af845f06ff9cd04cbf24a88c2cb4ebfe331f4e9b5ba.jpg" alt="paris" loading="lazy">
+    
+</a>
+
+                </li>
+            
+                <li class="webmention u-margin-horizontal-xs u-margin-bottom-xs">
+                    <a href="https://twitter.com/messypixels/status/1417865952264347658#favorited-by-14227758" target="_blank" rel="noopener noreferrer" title="Dianne Conley" class="avatar-link">
+    
+        <img src="https://webmention.io/avatar/pbs.twimg.com/e0d12f4f3d47c433e2ecb9a34dfec1cc19e647a4353609d1311cdde47aff7049.jpg" alt="Dianne Conley" loading="lazy">
+    
+</a>
+
+                </li>
+            
+            </ol>
+        </div>
+
+        
+
+        
+
+        <div class="webmentions--rts">
+            <h3 class="u-margin-top-none webmentions-heading--rts">3 Retweets</h3>
+            <ol class="u-list-reset">
+            
+                <li class="webmention u-margin-horizontal-xs u-margin-bottom-xs">
+                    <a href="https://twitter.com/nick_canz/status/1358620837843267585" target="_blank" rel="noopener noreferrer" title="Nick Canzoneri" class="avatar-link">
+    
+        <img src="https://webmention.io/avatar/pbs.twimg.com/bd7be9150b9704897426c48f8889e1949371108fad31c4f54d59a95fe14c5952.jpg" alt="Nick Canzoneri" loading="lazy">
+    
+</a>
+
+                </li>
+            
+                <li class="webmention u-margin-horizontal-xs u-margin-bottom-xs">
+                    <a href="https://twitter.com/ParisInBmore/status/1417867121376194565" target="_blank" rel="noopener noreferrer" title="paris" class="avatar-link">
+    
+        <img src="https://webmention.io/avatar/pbs.twimg.com/00dd38338fd9c4809c569af845f06ff9cd04cbf24a88c2cb4ebfe331f4e9b5ba.jpg" alt="paris" loading="lazy">
+    
+</a>
+
+                </li>
+            
+                <li class="webmention u-margin-horizontal-xs u-margin-bottom-xs">
+                    <a href="https://twitter.com/inpoco/status/1417996466702925828" target="_blank" rel="noopener noreferrer" title="i said what the fuck i said" class="avatar-link">
+    
+        <img src="https://webmention.io/avatar/pbs.twimg.com/dc707168789f4346a7ee689acc8af84eaaf000d0fe8c5e25cddb3f1b2c65edd2.jpg" alt="i said what the fuck i said" loading="lazy">
+    
+</a>
+
+                </li>
+            
+            </ol>
+        </div>
+        
+
+        
+        <div class="webmentions--comments">
+            <h3 class="webmentions-heading--comments">1 Comments</h3>
+            <ol class="u-list-reset">
+            
+                <li class="webmention u-margin-bottom">
+                    <header class="u-margin-bottom-xs webmention-header">
+                        <a href="https://twitter.com/jkriggins/status/1404566699207241728" target="_blank" rel="noopener noreferrer" title="Jennifer Riggins" class="avatar-link">
+    
+        <img src="https://webmention.io/avatar/pbs.twimg.com/d8671fa076eb4df6fc8f216c40b1d95cf061fc8e45a63b561fad04bbed630361.jpg" alt="Jennifer Riggins" loading="lazy">
+    
+</a>
+
+                        <a href="https://twitter.com/jkriggins/status/1404566699207241728" target="_blank" rel="noopener noreferrer" title="Jennifer Riggins">Jennifer Riggins</a>
+                        <time datetime="2021-06-14T22:29:31+00:00">Jun 14 2021</time>
+                    </header>
+                    <p class="u-margin-none">Thank you! And really shouldn’t we all be hiring as small teams to work toward full stack teams not the impossibility of full stack people?
+<a href="http://my.pronoun.is/she"></a>
+<a href="http://www.angeliqueweger.com/"></a>
+<a href="https://twitter.com/messypixels"></a></p>
+                </li>
+            
+            </ol>
+        </div>
+        
+
+    </section>
+
+
+
+
+</div>
+
+<footer class="bio-footer" itemscope itemtype="https://schema.org/Person">
+  <p>I’m <span itemprop="name">Angélique Weger</span>, and I’m an enthusiastic crafter—of the code, user experiences, and teams I write about here, but also of hands-on DIY projects, like making yoghurt, paper, and yarn.</p>
+
+<p>See what I'm up to <span class="link-wrapper u-inline-block"><a href="/v2/now" class="u-block">now.</a></span></p>
+
+  <span class="photo-wrapper">
+    
+<img src="/v2/assets/img/ajw-photo.png" alt="Black and white headshot of Angélique glancing upward." itemprop="image">
+
+    <a href="#" class="top-link">Top</a>
+
+  </span>
+</footer>
+
+
+</main>
+
+<footer class="site-footer" itemprop="hasPart" itemscope itemtype="http://schema.org/WPFooter">
+  <a href="#" class="top-link">Top</a>
+
+
+  <ul class="u-list-reset">
+    <li><span itemprop="version">v2.0</span> <span class="u-text-uppercase">Build Info</span></li>
+    <li itemprop="copyrightNotice">&copy; 2015-2026 <span itemprop="author copyrightHolder" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Ang&eacute;lique Weger</span></span></li>
+    <li>Site powered by <a href="https://www.11ty.dev/" target="_blank">Eleventy.js</a> [ <a href="https://github.com/angeliquejw/dev-blog" target="_blank">repo</a> ] [ <a href="https://angeliqueweger.com/feed/feed.xml" target="_blank">RSS</a> ]</li>
+    <li>Fonts used: Barlow, IBM Plex Mono, IBM Plex Sans</li>
+    <li class="bmore-luv">Made with <svg xmlns="http://www.w3.org/2000/svg" role="img" width="30" height="28" viewBox="0 0 30 26"><title>Love</title><path d="M25.964 4.036V0h-8.657v4.036h-4.614V0H4.036v4.036H0v8.657h4.036v4.614h4.62v4.039h4.037v4.618h4.614v-4.618h4.039v-4.039h4.618v-4.614H30V4.036z"/></svg>
+ by a human in Baltimore</li>
+  </ul>
+</footer>
+
+
+
+
+    
+    
+
+  </body>
+</html>

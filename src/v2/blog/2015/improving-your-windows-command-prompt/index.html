@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    Improving Your Windows command prompt
+     | 
+    Angélique Weger
+  </title>
+  <meta name="Description" content="Angélique Weger is a coder, designer, teacher, learner and overall enthusiast. This is her blog.">
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Improving Your Windows command prompt">
+  <meta property="og:description" content="Angélique Weger is a coder, designer, teacher, learner and overall enthusiast. This is her blog.">
+  <meta property="og:site_name" content="[ Personal site of Angelique Weger ]">
+  <meta name="robots" content="noai, noimageai">
+  
+  
+  
+  <script data-goatcounter="https://ajw.goatcounter.com/count"
+    async src="//gc.zgo.at/count.js"></script>
+  
+  <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Angélique Weger">
+  <link rel="stylesheet" href="/v2/assets/styles/styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=IBM+Plex+Mono:ital,wght@0,100;0,300;0,400;0,600;0,700;1,400;1,600&family=IBM+Plex+Sans:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="/v2/favicon.ico?v=2">
+
+<link rel="apple-touch-icon" sizes="180x180" href="/v2/assets/img/favicons/apple-touch-icon.png?v=2">
+<link rel="icon" type="image/png" sizes="32x32" href="/v2/assets/img/favicons/favicon-32x32.png?v=2">
+<link rel="icon" type="image/png" sizes="16x16" href="/v2/assets/img/favicons/favicon-16x16.png?v=2">
+
+<meta name="msapplication-TileColor" content="#5b9a95">
+
+<link rel="manifest" href="/web.manifest">
+<meta name="theme-color" content="#372839">
+
+</head>
+
+  <body id="top" class="tmpl-post">
+
+    
+<header class="site-header" itemprop="hasPart" itemscope itemtype="http://schema.org/WPHeader">
+
+  <div class="mobile-row" itemscope itemtype="https://schema.org/Person">
+    <div class="site-name">
+  <meta itemprop="name" content="Angélique Weger">
+  <a href="/v2/" class="home-link u-flex">
+    <span class="u-sr-only">Angélique Weger</span>
+    <span class="site-logo u-block" aria-hidden="true" title="Angélique Weger">a</span>
+  </a>
+</div>
+
+    
+    <ul class="social-list u-list-reset">
+  <li>
+    <a href="https://github.com/angeliquejw" target="_blank" itemprop="sameAs" rel="me">
+    <svg xmlns="http://www.w3.org/2000/svg" role="img" width="28" height="23" viewBox="0 0 28 23"><title>GitHub</title><path d="M25.725 5.717c.228-.548.963-2.722-.227-5.667 0 0-1.838-.565-6.02 2.226-1.75-.48-3.623-.548-5.478-.548-1.855 0-3.727.068-5.477.548C4.34-.532 2.503.05 2.503.05c-1.19 2.945-.455 5.12-.228 5.667C.858 7.207 0 9.124 0 11.453c0 8.817 5.828 10.803 13.965 10.803C22.103 22.256 28 20.27 28 11.453c0-2.329-.857-4.246-2.275-5.736zM14 20.58c-5.775 0-10.465-.257-10.465-5.736 0-1.301.665-2.534 1.785-3.544 1.873-1.678 5.075-.788 8.68-.788 3.623 0 6.79-.89 8.68.788 1.138 1.01 1.785 2.226 1.785 3.544 0 5.462-4.69 5.736-10.465 5.736zM9.608 12c-1.155 0-2.1 1.37-2.1 3.047 0 1.678.945 3.065 2.1 3.065 1.155 0 2.1-1.37 2.1-3.065 0-1.695-.945-3.047-2.1-3.047zm8.785 0c-1.155 0-2.1 1.352-2.1 3.047s.945 3.065 2.1 3.065c1.155 0 2.1-1.37 2.1-3.065 0-1.695-.928-3.047-2.1-3.047z"/></svg>
+
+    <span class="u-sr-only">github</span>
+    </a></<li>
+  <li>
+    <a href="https://www.linkedin.com/in/angeliqueweger" target="_blank" itemprop="sameAs" rel="me">
+    <svg xmlns="http://www.w3.org/2000/svg" role="img" width="28" height="28" viewBox="0 0 28 28"><title>LinkedIn</title><path d="M6.125 9.619v18.375H0V9.619h6.125zm14.813-.875c5.964 0 7.062 3.887 7.062 8.933v10.315h-.007v.002H22.11V18.69c-.004-2.153-.119-4.812-3.065-4.812-3.064 0-3.533 2.367-3.533 4.815v9.298H9.625V9.215h5.654v2.56h.083c.786-1.475 2.71-3.031 5.576-3.031zM3.5-.006A3.494 3.494 0 017 3.477C7 5.4 5.432 6.994 3.5 6.994S0 5.4 0 3.477A3.493 3.493 0 013.5-.006z"/></svg>
+
+    <span class="u-sr-only">linkedin</span>
+    </a></<li>
+  <li>
+    <a href="mailto:hello@angeliqueweger.com" target="_blank" itemprop="email">
+    <svg xmlns="http://www.w3.org/2000/svg" role="img" width="28" height="19" viewBox="0 0 28 19"><title>Email</title><path d="M2 .794c-1.108 0-2 .89-2 1.994v13.96c0 1.105.892 1.995 2 1.995h24c1.108 0 2-.89 2-1.994V2.789a1.993 1.993 0 00-2-1.995H2zm1.5 3.314a.68.68 0 01.531.176l8.99 8.092a1.422 1.422 0 001.937 0l9.01-8.092a.695.695 0 01.943.047.69.69 0 01-.046.94L19.77 9.85l5.083 4.394c.266.228.3.678.07.942a.696.696 0 01-.945.066l-5.208-4.508-2.917 2.628a2.797 2.797 0 01-3.729-.01l-2.906-2.618-5.198 4.508a.696.696 0 01-.945-.066.691.691 0 01.07-.942l5.073-4.393L3.135 5.27a.68.68 0 01-.2-.7.682.682 0 01.565-.463z"/></svg>
+
+    <span class="u-sr-only">email</span>
+    </a></<li>
+</ul>
+
+  </div>
+
+    <nav class="page-list-nav" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
+  <ul class="page-list u-list-reset">
+    <li class=" --active"><a href="/v2/blog" class="u-block" itemprop="url"><span itemprop="name">Blog</span></a></li>
+    <li class=""><a href="/v2/bits" class="u-block" itemprop="url"><span itemprop="name">Bits</span></a></li>      <li class=""><a href="/v2/" class="u-block" itemprop="url"><span itemprop="name">About</span></a></li>
+  </ul>
+</nav>
+
+</header>
+
+
+<main itemprop="mainEntity" itemscope itemtype="http://schema.org/Blog">
+  <meta itemprop="name" content="Angelique Weger's blog">
+  
+<p class="notice--out-of-date">
+  <strong>Head's Up</strong> Any technical info in this post is now several years out of date.
+</p>
+
+
+<div itemscope="itemscope" itemtype="http://schema.org/blogPost">
+  <article class="blog-post">
+    <header class="post-header u-flex">
+      <h1 itemprop="headline">Improving Your Windows command prompt</h1>
+      <time datetime="2015-07-15" itemprop="datePublished">July 15, 2015</time>
+    </header>
+
+    <div class="content" itemprop="text">
+      <p>When I started using Git and later learning Ruby, the command line became a place I hung out regularly. Being a Windows user, there were some early frustrations because many of the commands referred to in tutorials and walkthroughs weren’t available to me, e.g. <code>pwd</code>, <code>touch</code>, <code>sudo</code>. Since OSX, the Apple OS has been built on top of Unix, Mac users are able to open up Terminal and use the same commands as Unix users, but the same is not true of a basic Windows install.</p>
+<p><img src="/v2/assets/img/blog/2015/no-dice.png" alt="Denied"></p>
+<div class="embed-container giphy">
+    <iframe src="//giphy.com/embed/hQY7rPlW3Vc3K?html5=true" width="480" height="281" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
+<p>I overcame those frustrations in a variety of ways, which I’ll outline below.</p>
+<p class="note">I’m using and writing about Windows 7, and specifics of this post may or may not be relevant to earlier and later versions of the Windows OS.</p>
+<h2 id="google-that-shit" tabindex="-1">Google that shit <a class="direct-link" href="#google-that-shit" aria-label="Link to this heading">#</a></h2>
+<p>My first instinct was to ask the Google bot this very obvious question:</p>
+<div class="embed-container giphy">
+    <iframe src="//giphy.com/embed/FRRK3vMJ4no52?html5=true" width="480" height="269" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
+<p>This will give you <a href="http://www.covingtoninnovations.com/mc/winforunix.html">some</a> <a href="http://www.lemoda.net/windows/windows2unix/windows2unix.html">glossaries</a> of Windows equivalents to Unix commands. Which works fairly well, especially if you’re not on the command line a lot or relying on tutorials and docs that assume a *nix-based system.</p>
+<h2 id="switch-to-powershell" tabindex="-1">Switch to PowerShell <a class="direct-link" href="#switch-to-powershell" aria-label="Link to this heading">#</a></h2>
+<p>Starting with Windows 7, there’s a more powerful option to the default command prompt: PowerShell. PowerShell exposes some Windows admin stuff that you can’t get to via the command prompt and also includes some of the *nix shell commands, like <code>pwd</code> and <code>ls</code>.</p>
+<p><img src="/v2/assets/img/blog/2015/ps-pwd-yay.png" alt="PWD works in PowerShell"></p>
+<p>Of course, I did say <em>some</em>…</p>
+<p><img src="/v2/assets/img/blog/2015/ps-touch-boo.png" alt="Touch doesn't work in PowerShell"></p>
+<p>I actually discovered PowerShell after I already dove into some other solutions, so I haven’t spent a lot of time using it. If you think PowerShell may be for you or just want to learn more, How to Geek has a good post outlining <a href="http://www.howtogeek.com/163127/how-powershell-differs-from-the-windows-command-prompt/">how PowerShell differs from the command prompt</a> and a <a href="http://www.howtogeek.com/137803/geek-school-learn-how-to-automate-windows-with-powershell/">GeekSchool series devoted to PowerShell</a>.</p>
+<h2 id="install-an-alternative-command-line" tabindex="-1">Install an alternative command line <a class="direct-link" href="#install-an-alternative-command-line" aria-label="Link to this heading">#</a></h2>
+<p>Give up on the Windows default and go rogue with an app like <a href="https://www.cygwin.com/">Cygwin</a> or <a href="http://gooseberrycreative.com/cmder/">Cmder</a>.</p>
+<div class="embed-container giphy">
+    <iframe src="//giphy.com/embed/Aq6GD5Sa6uuuk?html5=true" width="480" height="297" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
+<h3 id="cygwin" tabindex="-1">Cygwin <a class="direct-link" href="#cygwin" aria-label="Link to this heading">#</a></h3>
+<p>Cygwin is free and open source software that provides a command-line shell that is compatible with *nix commands. I used this solution first as it was both recommended and described very well on Lifehacker:</p>
+<ul>
+<li><a href="http://lifehacker.com/5834755/how-can-i-make-the-windows-command-prompt-better">How can I make the Windows command prompt better?</a></li>
+<li><a href="http://lifehacker.com/179514/geek-to-live--introduction-to-cygwin-part-i">Introduction to Cygwin</a></li>
+</ul>
+<p>As noted by those articles, it’s also worthwhile to install an alternate terminal as Cygwin replaces commands but doesn’t actually improve the interface of the windows command prompt. <a href="https://code.google.com/p/mintty/">Mintty</a> and <a href="http://sourceforge.net/projects/console/">Console</a> are two popular options and Lifehacker also has articles about them, too.</p>
+<p>If you’re using Cygwin, you can actually install Mintty as a package. Cygwin has <a href="https://cygwin.com/packages/package_list.html">a lot of packages</a>, which extend Cygwin in a variety of ways. This is awesome but, to start, it’s also a bit overwhelming. Also, the way to install new packages is a bit wonky (you open the Cygwin install software, connect to servers and select packages).</p>
+<p>Definitely definitely <em>definitely</em> read all the way through a guide to installing Cygwin before jumping in. Things that seem innocuous (like choosing an <a href="https://cygwin.com/faq.html#faq.setup.c">install directory</a>) actually have import, so you want to know that in advance.</p>
+<h3 id="cmder" tabindex="-1">Cmder <a class="direct-link" href="#cmder" aria-label="Link to this heading">#</a></h3>
+<p>After abandoning the command line for awhile, I had reason to jump back in when I went to <a href="http://bmoreonrails.org">Bmore on Rails</a> workshop for women. I realized my Cygwin install was out of date at that time and it felt like a pain to get everything up and running properly again, so I decided to look for a command prompt replacement that didn’t have the overhead and wonkiness of Cygwin.</p>
+<p class="note">It’s worth noting here that I’m sure Cygwin does things Cmder does not; in fact, it’s this sense that Cygwin is a bit overpowered and complicated for my needs that, to me, is a downside.</p>
+<p>Cmder is built on top of <a href="http://conemu.github.io/">ConEmu</a> and is a quick and painless install (I recommend the full vs the mini install, as it gets you Git, too). Compared to Cygwin, it is much easier to get up and running, with fewer complications and choices. The full version of Cmder gives you all Unix commands, including <code>pwd</code> and <code>touch</code>.</p>
+<p><img src="/v2/assets/img/blog/2015/cmder-yay.png" alt="Cmder is rad"></p>
+<p>After all these changes, you should have a fairly awesome Windows command line that won’t frustrate you, won’t let you down and will, in fact, empower you to code better.</p>
+<div class="embed-container giphy">
+    <iframe src="//giphy.com/embed/137EaR4vAOCn1S?html5=true" width="480" height="270" frameBorder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
+<p>I’ll be back on Monday with even more ways to improve your Windows command prompt experience!</p>
+
+    </div>
+
+    
+      <p><strike>As always, feel free to send comments to me via Twitter</strike>. (NB: As of 2025, I am no longer using Twitter.) I'd love to know if you use an alternative program for the Windows command prompt and what your favorite tips are for improving your command prompt!</p>
+
+    
+
+    
+  </article>
+
+  <div class="meta-wrapper">
+    <div class="blog-meta">
+      <p>Reading time: <em>4 min</em></p>
+      <p>Written in <em itemprop="locationCreated">Baltimore</em> and tagged as:</p>
+      <ul class="u-list-reset" itemprop="keywords">
+      
+        <li><a href="/v2/tags/windows/">windows</a></li>
+        <li><a href="/v2/tags/command-line/">command line</a></li>
+        <li><a href="/v2/tags/command-prompt/">command prompt</a></li>
+        <li><a href="/v2/tags/terminal/">terminal</a></li>
+        <li><a href="/v2/tags/cmder/">cmder</a></li>
+        <li><a href="/v2/tags/cygwin/">cygwin</a></li>
+        <li><a href="/v2/tags/powershell/">powershell</a></li>
+      </ul>
+    </div>
+
+    <nav class="post-nav" aria-label="Pagination links">
+      <ol class="u-list-reset u-flex">
+      
+        <li>
+          <a class="post-nav--link post-nav--link__old u-block" href="/v2/blog/2015/review-of-code-debugging-the-gender-gap/"><em>Older</em> Post</a>
+        </li>
+      
+      
+        <li>
+          <a class="post-nav--link post-nav--link__new u-block" href="/v2/blog/2015/customizing-your-windows-command-prompt/"><em>Newer</em> Post</a>
+        </li>
+      
+      </ol>
+    </nav>
+  </div>
+
+  
+
+
+</div>
+
+<footer class="bio-footer" itemscope itemtype="https://schema.org/Person">
+  <p>I’m <span itemprop="name">Angélique Weger</span>, and I’m an enthusiastic crafter—of the code, user experiences, and teams I write about here, but also of hands-on DIY projects, like making yoghurt, paper, and yarn.</p>
+
+<p>See what I'm up to <span class="link-wrapper u-inline-block"><a href="/v2/now" class="u-block">now.</a></span></p>
+
+  <span class="photo-wrapper">
+    
+<img src="/v2/assets/img/ajw-photo.png" alt="Black and white headshot of Angélique glancing upward." itemprop="image">
+
+    <a href="#" class="top-link">Top</a>
+
+  </span>
+</footer>
+
+
+</main>
+
+<footer class="site-footer" itemprop="hasPart" itemscope itemtype="http://schema.org/WPFooter">
+  <a href="#" class="top-link">Top</a>
+
+
+  <ul class="u-list-reset">
+    <li><span itemprop="version">v2.0</span> <span class="u-text-uppercase">Build Info</span></li>
+    <li itemprop="copyrightNotice">&copy; 2015-2026 <span itemprop="author copyrightHolder" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Ang&eacute;lique Weger</span></span></li>
+    <li>Site powered by <a href="https://www.11ty.dev/" target="_blank">Eleventy.js</a> [ <a href="https://github.com/angeliquejw/dev-blog" target="_blank">repo</a> ] [ <a href="https://angeliqueweger.com/feed/feed.xml" target="_blank">RSS</a> ]</li>
+    <li>Fonts used: Barlow, IBM Plex Mono, IBM Plex Sans</li>
+    <li class="bmore-luv">Made with <svg xmlns="http://www.w3.org/2000/svg" role="img" width="30" height="28" viewBox="0 0 30 26"><title>Love</title><path d="M25.964 4.036V0h-8.657v4.036h-4.614V0H4.036v4.036H0v8.657h4.036v4.614h4.62v4.039h4.037v4.618h4.614v-4.618h4.039v-4.039h4.618v-4.614H30V4.036z"/></svg>
+ by a human in Baltimore</li>
+  </ul>
+</footer>
+
+
+
+
+    
+    
+
+  </body>
+</html>
