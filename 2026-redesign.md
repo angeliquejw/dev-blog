@@ -47,13 +47,40 @@
     [ ] Business as usual? Or keep on old version of site
 [ ] Identify color palette
     - https://coolors.co/user/collections/69e7162f6306fe000f7f7869 
-[ ] Decide on fonts (am I really going to leave IBM Plex behind?)
 [ ] Strategy for archiving the current version of the site, including a banner identifying that it's an archived version
     - REGEX for finding links to add `/v3/` to: `(href="\/(?!.*(v3).*$)([^\n]*)")`
 
 
 ## In progress
 [ ] Use modern CSS instead of Sass
+[ ] Decide on fonts (am I really going to leave IBM Plex behind?)
+    Some initial thinking here
+
+    Body font possibilities
+    - https://www.cdnfonts.com/consola-mono.font
+    - https://www.cdnfonts.com/schibsted-grotesk.font
+    - https://www.cdnfonts.com/literal.font
+    - https://www.cdnfonts.com/polt.font
+    - https://fontesk.com/md-io-typeface/
+    - https://fontesk.com/ovelion-font/
+    - https://fontesk.com/informe-font/
+    - https://github.com/rainbowunicornstudio/healtheweb-typeface (version A)
+
+
+
+    Display font (likely for my name only)
+    - https://www.cdnfonts.com/magical-childhood.font
+
+    Pixel/mono display fonts
+    - https://www.cdnfonts.com/narpassword00000.font
+    - https://www.cdnfonts.com/xg-pixo.font
+    - https://www.cdnfonts.com/homespun-brk.font
+    - https://fontlibrary.org/en/font/pixel-operator
+
+
+
+
+
 
 
 ## Done
