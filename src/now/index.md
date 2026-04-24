@@ -16,7 +16,9 @@ layout: layouts/page.njk
 
 <div class="now-currently">
 
-I'm living in Baltimore and taking a pause from work, enjoying a short personal reset.
+👀 I'm currently looking for my next opportunity; see more about my expeience on my [resume](/resume/) or read about what I'm looking for in [this LinkedIn post](https://www.linkedin.com/posts/angeliqueweger_hello-linkedin-scroller-you-may-know-share-7453119655298322432-bX5k).
+
+I'm also in the process of updating this site, including switching the templating language from [Nunjucks](https://mozilla.github.io/nunjucks/) to [Vento](https://vento.js.org/), as well as some other modernization/upgrades since I started this version of the site and moved over to [Eleventy](https://www.11ty.dev/) in 2020. You can follow along with the redesign efforts on [this branch](https://github.com/angeliquejw/dev-blog/commits/2026-redesign).
 
 {% include "latest-sky.njk" %}
 
@@ -28,7 +30,7 @@ I'm living in Baltimore and taking a pause from work, enjoying a short personal 
 
 ### I am enjoying{: .now-heading}
 
-- 🐶 Teaching my pupper new tricks
+- ⚔️ Playing and building in [Hytale](https://hytale.com/)
 - 🪡 Designing and stitching cross-stitch patterns
 - 🧘🏻‍♀️ Building back up my meditation and journaling practice
 
