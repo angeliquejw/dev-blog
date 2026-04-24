@@ -1,6 +1,3 @@
 # Ignore vendor files
-src/assets/styles/02_tools/_v_modularscale.scss
-src/assets/styles/02_tools/modularscale/*.scss
-src/assets/styles/02_tools/_v_prism.scss
 # Ignore compiled CSS
 _dev/assets/styles/styles.css
