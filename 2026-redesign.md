@@ -54,8 +54,13 @@
 
 ## In progress
 [ ] Use modern CSS instead of Sass
-[ ] Trade Nunjucks for Vento:
-    - https://vento.js.org
-    - https://chriskirknielsen.com/blog/from-nunjucks-to-vento-in-eleventy-migration-guide/
+
 
 ## Done
+[x] Trade Nunjucks for Vento:
+    - https://vento.js.org
+    - https://chriskirknielsen.com/blog/from-nunjucks-to-vento-in-eleventy-migration-guide/
+    1. W/ Nunjucks, had been getting away with calling page.title instead of page.data.title 🤷🏻‍♀️
+    2. The previous way I had been listing and calling tags did not play nice, so I refactored it.
+    3. Also ended up being an opportunity to just do some tidying up; my eleventy.js file was almost 150 lines long and now I've broken up things into individual files which I then import.
+    
