@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    Lessons learned working remotely for over a decade
+     | 
+    Angélique Weger
+  </title>
+  <meta name="Description" content="Angélique Weger is a coder, designer, teacher, learner and overall enthusiast. This is her blog.">
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Lessons learned working remotely for over a decade">
+  <meta property="og:description" content="Real talk about my life and happiness as a remote worker.">
+  <meta property="og:site_name" content="[ Personal site of Angelique Weger ]">
+  <meta name="robots" content="noai, noimageai">
+  
+  
+  
+  <script data-goatcounter="https://ajw.goatcounter.com/count"
+    async src="//gc.zgo.at/count.js"></script>
+  
+  <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Angélique Weger">
+  <link rel="stylesheet" href="/v3/assets/styles/styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=IBM+Plex+Mono:ital,wght@0,100;0,300;0,400;0,600;0,700;1,400;1,600&family=IBM+Plex+Sans:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="/v3/favicon.ico?v=2">
+
+<link rel="apple-touch-icon" sizes="180x180" href="/v3/assets/img/favicons/apple-touch-icon.png?v=2">
+<link rel="icon" type="image/png" sizes="32x32" href="/v3/assets/img/favicons/favicon-32x32.png?v=2">
+<link rel="icon" type="image/png" sizes="16x16" href="/v3/assets/img/favicons/favicon-16x16.png?v=2">
+
+<meta name="msapplication-TileColor" content="#5b9a95">
+
+<link rel="manifest" href="/web.manifest">
+<meta name="theme-color" content="#372839">
+
+</head>
+
+  <body id="top" class="tmpl-post">
+
+<style>
+  .archive-notice {
+    background-color:#fcfaf3;
+    padding: 16px;
+    position: sticky;
+    opacity: 0.8;
+    text-align: center;
+    top: 0;
+    z-index: 100;
+  }
+</style>
+
+<div class="archive-notice">
+  <span aria-hidden="true">>> </span>
+  <span class="u-caps">NOTICE:</span> You are viewing an archived design of my site. <a href="/">Return to the current version</a>.
+  <span aria-hidden="true"> <<</span>
+</div>
+
+    
+<header class="site-header" itemprop="hasPart" itemscope itemtype="http://schema.org/WPHeader">
+
+  <div class="mobile-row" itemscope itemtype="https://schema.org/Person">
+    <div class="site-name">
+  <meta itemprop="name" content="Angélique Weger">
+  <a href="/v3/" class="home-link u-flex">
+    <span class="u-sr-only">Angélique Weger</span>
+    <span class="site-logo u-block" aria-hidden="true" title="Angélique Weger">a</span>
+  </a>
+</div>
+
+    
+    <ul class="social-list u-list-reset">
+  <li>
+    <a href="https://github.com/angeliquejw" target="_blank" itemprop="sameAs" rel="me">
+    <svg xmlns="http://www.w3.org/2000/svg" role="img" width="28" height="23" viewBox="0 0 28 23"><title>GitHub</title><path d="M25.725 5.717c.228-.548.963-2.722-.227-5.667 0 0-1.838-.565-6.02 2.226-1.75-.48-3.623-.548-5.478-.548-1.855 0-3.727.068-5.477.548C4.34-.532 2.503.05 2.503.05c-1.19 2.945-.455 5.12-.228 5.667C.858 7.207 0 9.124 0 11.453c0 8.817 5.828 10.803 13.965 10.803C22.103 22.256 28 20.27 28 11.453c0-2.329-.857-4.246-2.275-5.736zM14 20.58c-5.775 0-10.465-.257-10.465-5.736 0-1.301.665-2.534 1.785-3.544 1.873-1.678 5.075-.788 8.68-.788 3.623 0 6.79-.89 8.68.788 1.138 1.01 1.785 2.226 1.785 3.544 0 5.462-4.69 5.736-10.465 5.736zM9.608 12c-1.155 0-2.1 1.37-2.1 3.047 0 1.678.945 3.065 2.1 3.065 1.155 0 2.1-1.37 2.1-3.065 0-1.695-.945-3.047-2.1-3.047zm8.785 0c-1.155 0-2.1 1.352-2.1 3.047s.945 3.065 2.1 3.065c1.155 0 2.1-1.37 2.1-3.065 0-1.695-.928-3.047-2.1-3.047z"/></svg>
+
+    <span class="u-sr-only">github</span>
+    </a></<li>
+  <li>
+    <a href="https://www.linkedin.com/in/angeliqueweger" target="_blank" itemprop="sameAs" rel="me">
+    <svg xmlns="http://www.w3.org/2000/svg" role="img" width="28" height="28" viewBox="0 0 28 28"><title>LinkedIn</title><path d="M6.125 9.619v18.375H0V9.619h6.125zm14.813-.875c5.964 0 7.062 3.887 7.062 8.933v10.315h-.007v.002H22.11V18.69c-.004-2.153-.119-4.812-3.065-4.812-3.064 0-3.533 2.367-3.533 4.815v9.298H9.625V9.215h5.654v2.56h.083c.786-1.475 2.71-3.031 5.576-3.031zM3.5-.006A3.494 3.494 0 017 3.477C7 5.4 5.432 6.994 3.5 6.994S0 5.4 0 3.477A3.493 3.493 0 013.5-.006z"/></svg>
+
+    <span class="u-sr-only">linkedin</span>
+    </a></<li>
+  <li>
+    <a href="mailto:hello@angeliqueweger.com" target="_blank" itemprop="email">
+    <svg xmlns="http://www.w3.org/2000/svg" role="img" width="28" height="19" viewBox="0 0 28 19"><title>Email</title><path d="M2 .794c-1.108 0-2 .89-2 1.994v13.96c0 1.105.892 1.995 2 1.995h24c1.108 0 2-.89 2-1.994V2.789a1.993 1.993 0 00-2-1.995H2zm1.5 3.314a.68.68 0 01.531.176l8.99 8.092a1.422 1.422 0 001.937 0l9.01-8.092a.695.695 0 01.943.047.69.69 0 01-.046.94L19.77 9.85l5.083 4.394c.266.228.3.678.07.942a.696.696 0 01-.945.066l-5.208-4.508-2.917 2.628a2.797 2.797 0 01-3.729-.01l-2.906-2.618-5.198 4.508a.696.696 0 01-.945-.066.691.691 0 01.07-.942l5.073-4.393L3.135 5.27a.68.68 0 01-.2-.7.682.682 0 01.565-.463z"/></svg>
+
+    <span class="u-sr-only">email</span>
+    </a></<li>
+</ul>
+
+  </div>
+
+    <nav class="page-list-nav" itemprop="hasPart" itemscope itemtype="http://schema.org/SiteNavigationElement">
+  <ul class="page-list u-list-reset">
+    <li class=" --active"><a href="/v3/blog" class="u-block" itemprop="url"><span itemprop="name">Blog</span></a></li>
+    <li class=""><a href="/v3/bits" class="u-block" itemprop="url"><span itemprop="name">Bits</span></a></li>      <li class=""><a href="/v3/" class="u-block" itemprop="url"><span itemprop="name">About</span></a></li>
+  </ul>
+</nav>
+
+</header>
+
+
+<main itemprop="mainEntity" itemscope itemtype="http://schema.org/Blog">
+  <meta itemprop="name" content="Angelique Weger's blog">
+  
+<p class="notice--out-of-date">
+  <strong>Head's Up</strong> Any technical info in this post is now several years out of date.
+</p>
+
+
+<div itemscope="itemscope" itemtype="http://schema.org/blogPost">
+  <article class="blog-post">
+    <header class="post-header u-flex">
+      <h1 itemprop="headline">Lessons learned working remotely for over a decade</h1>
+      <time datetime="2021-05-16" itemprop="datePublished">May 16, 2021</time>
+    </header>
+
+    <div class="content" itemprop="text">
+      <p>To wrap up this series on <a href="/v3/tags/remote/">remote work</a>, I’m going to focus on the things that improve a remote worker’s life. In this article, I’ll share what has worked for me on an individual level and, in a later post, tackle what can be done and offered at the company/team level.</p>
+<p>First, a reality check about what working remotely has looked like for me.</p>
+<figure>
+<p><img src="/v3/assets/img/blog/2021/digital-nomad.jpg" alt="Closed MacBook in the foreground, beach in Thailand in the background"></p>
+  <figcaption>Photo by <a href="https://pixabay.com/users/adrienbe-4716569/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2113685">AdrienBe</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2113685">Pixabay</a>
+</figcaption>
+</figure>
+<p>Pre-COVID, your social media streams may have been filled with images of folx with their laptops at airports, on beaches, in coffeeshops, in Airstream trailers. Remote work was seen as a means into a ✨ digital nomad ✨ lifestyle.</p>
+<figure class="img-right">
+<p><img src="/v3/assets/img/blog/2021/wfh.jpg" alt="Open Asus laptop covered with baby toys, a calendar, a cellphone. In the foreground is a coffee mug with the words &quot;Sparkle wherever you go&quot;"></p>
+  <figcaption>Photo by <a href="https://pixabay.com/users/anrita1705-11109462/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5333802">Anrita1705</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5333802">Pixabay</a></figcaption>
+</figure>
+<p>Since March 2020, the imagery used to describe remote work has changed <strong>a lot</strong>. The serenity and, let’s admit it, aspirational nature has been replaced mostly by chaos: partners working side-by-side on the couch, a kitchen table that is an office and a classroom, the <a href="https://www.instagram.com/p/B9-l99cpxyu/">WFH mullet</a>.</p>
+<p>Neither of these pictures represent my experience or ideal as a remote worker. When I’m showing up for work as a remote employee, that usually means I’m at my standing desk in my home office. Not only do I know where the nearest electrical outlet is, all my gear is plugged in and ready to go. I have speakers and headphones, external monitors and other peripherals. Being in a different location when I’m traveling, going to conferences or making an appearance at our headquarters, is novel, but it’s far from ideal for me.</p>
+<figure>
+<p><img src="/v3/assets/img/blog/2021/home-office.jpeg" alt="My standing desk with its accoutrements: a MacBook and peripherals, like an external monitor, keyboard, vertical mouse and speakers. The walls are painted a soothing blue grey and are decorated with artwork and a corkboard, also covered in art and postcards."></p>
+<figcaption>My workspace, circa 2019.</figcaption>
+</figure>
+<p>Ben Halpern of <a href="http://Dev.to">Dev.to</a> has written something about this as well:</p>
+<blockquote>
+<p>I have been able to dramatically optimize for the 95% of the time I get to be sitting at the same desk with the same peripherals all hooked up. […] The 5% of the time I find myself away from this setup and still fully in work mode is a rather unideal scenario.
+<cite>–Ben Halpern, <a href="https://dev.to/ben/the-best-remote-work-is-delightfully-unglamorous-4h5f">The Best Remote Work is Delightfully Unglamorous</a></cite></p>
+</blockquote>
+<p>This isn’t to say I don’t unplug and roam at times (I’m writing this blog post from my couch with a snoring pitbull at my feet), but the vast majority of my work — both coding and interacting with my team — is done at my desk.</p>
+<p>While we’re talking about my desk, let’s dive into some specifics about what keeps me happy as a remote worker:</p>
+<h2 id="standing-desk-%3D%3D%3D-dancing-desk" tabindex="-1">Standing Desk === Dancing Desk <a class="direct-link" href="#standing-desk-%3D%3D%3D-dancing-desk" aria-label="Link to this heading">#</a></h2>
+<p>I started using a standing desk around 2011, in part inspired by <a href="https://lifehacker.com/why-and-how-i-switched-to-a-standing-desk-5735528">Gina Trapani’s blog about their benefits</a>. I find it’s pretty key to my happiness as a developer, keeping my mind engaged and my body flexible and moving. It’s easy for me to move about, including the not-infrequent dance break.</p>
+<p>My set up is fairly simple: a wooden IKEA countertop and a set of telescoping legs. I’ve considered getting something fancier, but this has really worked for the last decade. 🤷🏻‍♀️</p>
+<p class="callout">💡 You can read more about my desk and other details about my set up on my <a href="/v3/uses">/uses</a> page.</p>
+<h2 id="consistency" tabindex="-1">Consistency <a class="direct-link" href="#consistency" aria-label="Link to this heading">#</a></h2>
+<p>While remote work is often lauded for its flexibility, what I appreciate is the flexibility to create a consistent schedule that works <em>for me</em>. The structure of my workdays is very consistent — including when I start and stop — while the content of those days and what the work itself looks like is quite changeable.</p>
+<p>I start each workday by running a Ruby script that pulls data from my Google calendar and our team’s Jira board, presenting me with a list of scheduled events and tickets assigned to me. Reviewing this means I’m ready for meetings and can set reasonable expectations for myself about how much head’s-down time I’ll have for coding. I organize all this info in Markdown files, a hybrid system inspired by Coraline Ada’s <a href="https://github.com/CoralineAda/lftm">lftm (low-friction task management) system</a> and bullet journaling.</p>
+<p>During the day, I check back in on this list, marking off things as they’re handled and adding notes about the tickets I’m working on. If I’m working solo, I usually have <a href="https://www.focusatwill.com/">Focus@Will</a> going in 20- or 35-minute intervals, which is like a supercharged Pomodoro.</p>
+<p>I take regular breaks and make sure some of those, like lunch, are marked on my calendar and respected by my coworkers. Since a majority of my team is on the West coast, I also use their lunch break as an opportunity to get away from my desk and, weather permitting, enjoy some sunshine.</p>
+<p>Finally, how I disconnect at the end of the day is just as important as the energy I bring to starting my workday. For this, I once again return to my daily agenda and review what I completed, noting what I’ll have to pick up tomorrow. Additionally, I’ve started to rely on the “5pm questions” from the free <a href="https://shop.beplucky.com/products/my-plucky-path-a-free-career-planning-guide-for-2021">“Your Plucky Path” career planning guide</a> created by Jen Dary. Revisiting why I’m working in the first place and acknowledging I’ve met those needs or goals is a great way to wrap up my workday.</p>
+<p><img src="/v3/assets/img/blog/2021/works-purpose.png" alt="Screenshot from the worksheet. Text says, &quot;Once you name the purpose of work in your life, you're able to measure its success at 5pm. For example: Purpose of work: learning from smart people and having a regular income. 5pm questions: Did I learn from smart people today? Did I get paid this month?"></p>
+<h2 id="extroverts-can-do-this%2C-too" tabindex="-1">Extroverts can do this, too <a class="direct-link" href="#extroverts-can-do-this%2C-too" aria-label="Link to this heading">#</a></h2>
+<p>As a generally friendly and outgoing person, I often encountered some level of surprise that I am happier as a remote worker than in an office setting. Honestly, I think the key is that I usually have <em>plenty</em> social outlets, both in person and digital, with coworkers and with friends. Whatever interaction I’m missing out on at work, I’m instead able to gain in going to meetups or book club.</p>
+<p>If work is your <em>primary</em> place of social engagement, I definitely understand how this might feel different. But, also: join a book club or schedule a movie night with friends!</p>
+<h2 id="it%E2%80%99s-not-always-rosy" tabindex="-1">It’s not always rosy <a class="direct-link" href="#it%E2%80%99s-not-always-rosy" aria-label="Link to this heading">#</a></h2>
+<p>I used to say that in any month of working remotely, there’s always one garbage day, where the inconvenience of being in my house versus an office or coworking space was really obvious. Maybe my dog made a mess or the folx I share my house with have an unreasonable case of <em>interruptitis</em>. That day is irritating, but it’s not like that all the time, and the benefits definitely outweigh the frustrations.</p>
+<hr>
+<p>Finally, it’s worth reiterating that these are the things that have made being remote work for me. These are <em>my</em> lessons and not hard-and-fast rules for anyone looking to be happy as a remote employee. A lot of articles about remote work are like that; full of DOs and DON’Ts, but not everyone needs the same things to be happy at work. Some folx, like me, need an office with a door, others are happy on the couch. What’s important is to know yourself well enough to establish those wants and the fine tune your work day for them.</p>
+
+    </div>
+
+    
+      <p><strike>As always, feel free to send comments to me via Twitter</strike>. (NB: As of 2025, I am no longer using Twitter.) Happy to hear what your needs are as a remote worker or which standard DO or DON'T doesn't apply to your experiences.</p>
+
+    
+
+    
+  </article>
+
+  <div class="meta-wrapper">
+    <div class="blog-meta">
+      <p>Reading time: <em>6 min</em></p>
+      <p>Written in <em itemprop="locationCreated">Baltimore</em> and tagged as:</p>
+      <ul class="u-list-reset" itemprop="keywords">
+      
+        <li><a href="/v3/tags/remote/">remote</a></li>
+        <li><a href="/v3/tags/productivity/">productivity</a></li>
+        <li><a href="/v3/tags/lftm/">lftm</a></li>
+        <li><a href="/v3/tags/standing-desk/">standing desk</a></li>
+      </ul>
+    </div>
+
+    <nav class="post-nav" aria-label="Pagination links">
+      <ol class="u-list-reset u-flex">
+      
+        <li>
+          <a class="post-nav--link post-nav--link__old u-block" href="/v3/blog/2021/working-through-a-pandemic/"><em>Older</em> Post</a>
+        </li>
+      
+      
+        <li>
+          <a class="post-nav--link post-nav--link__new u-block" href="/v3/blog/2021/better-remote-teams/"><em>Newer</em> Post</a>
+        </li>
+      
+      </ol>
+    </nav>
+  </div>
+
+  
+
+    <section class="webmentions-container">
+        <h2 class="webmentions-heading"><em>5</em> Responses</h2>
+
+        
+
+        <div id="comments" class="webmentions--likes">
+            <h3 class="u-margin-top-none webmentions-heading--likes">3 Likes</h3>
+            <ol class="u-list-reset">
+            
+                <li class="webmention u-margin-horizontal-xs u-margin-bottom-xs">
+                    <a href="https://twitter.com/messypixels/status/1394275999551037441#favorited-by-16922531" target="_blank" rel="noopener noreferrer" title="Aditya from kaapi.team" class="avatar-link">
+    
+        <img src="https://webmention.io/avatar/pbs.twimg.com/fcabacbcc136eb15c83a1a28b06f935921462cb7530cafb3d3e3c44c9b252c71.jpg" alt="Aditya from kaapi.team" loading="lazy">
+    
+</a>
+
+                </li>
+            
+                <li class="webmention u-margin-horizontal-xs u-margin-bottom-xs">
+                    <a href="https://twitter.com/messypixels/status/1410976369119535107#favorited-by-194479949" target="_blank" rel="noopener noreferrer" title="Brian Holt" class="avatar-link">
+    
+        <img src="https://webmention.io/avatar/pbs.twimg.com/6aca8aeca264af63f0cd324f34f813a7c6a501dd35b0c443e1221c2b1847cd54.jpg" alt="Brian Holt" loading="lazy">
+    
+</a>
+
+                </li>
+            
+                <li class="webmention u-margin-horizontal-xs u-margin-bottom-xs">
+                    <a href="https://twitter.com/messypixels/status/1410976369119535107#favorited-by-1108" target="_blank" rel="noopener noreferrer" title="Dave Knapik" class="avatar-link">
+    
+        <img src="https://webmention.io/avatar/pbs.twimg.com/fa19c13791e8a2bc60073aa2ebdf99136ab8fca94b137a2d6d385782d1452459.jpg" alt="Dave Knapik" loading="lazy">
+    
+</a>
+
+                </li>
+            
+            </ol>
+        </div>
+
+        
+
+        
+
+        
+        <div class="webmentions--comments">
+            <h3 class="webmentions-heading--comments">2 Comments</h3>
+            <ol class="u-list-reset">
+            
+                <li class="webmention u-margin-bottom">
+                    <header class="u-margin-bottom-xs webmention-header">
+                        <a href="https://twitter.com/adityarao310/status/1394276935455318019" target="_blank" rel="noopener noreferrer" title="Aditya from kaapi.team" class="avatar-link">
+    
+        <img src="https://webmention.io/avatar/pbs.twimg.com/fcabacbcc136eb15c83a1a28b06f935921462cb7530cafb3d3e3c44c9b252c71.jpg" alt="Aditya from kaapi.team" loading="lazy">
+    
+</a>
+
+                        <a href="https://twitter.com/adityarao310/status/1394276935455318019" target="_blank" rel="noopener noreferrer" title="Aditya from kaapi.team">Aditya from kaapi.team</a>
+                        <time datetime="2021-05-17T13:01:40+00:00">May 17 2021</time>
+                    </header>
+                    <p class="u-margin-none">Loved it. Especially the standing desk section! I need to do something like that too. Simple and DIY
+<a href="http://my.pronoun.is/she"></a>
+<a href="http://www.angeliqueweger.com/"></a>
+<a href="https://twitter.com/messypixels"></a></p>
+                </li>
+            
+                <li class="webmention webmention--mine u-margin-bottom">
+                    <header class="u-margin-bottom-xs webmention-header">
+                        <a href="https://twitter.com/messypixels/status/1395034351549751306" target="_blank" rel="noopener noreferrer" title="feminism &amp; sharks" class="avatar-link">
+    
+        <img src="https://webmention.io/avatar/pbs.twimg.com/0c9765ae096b4fc4cbf09ac171d0d9c03ec3f226c12e01b9fb47aa001a43fde3.jpg" alt="feminism &amp; sharks" loading="lazy">
+    
+</a>
+
+                        <a href="https://twitter.com/messypixels/status/1395034351549751306" target="_blank" rel="noopener noreferrer" title="feminism &amp; sharks">feminism &amp; sharks</a>
+                        <time datetime="2021-05-19T15:11:22+00:00">May 19 2021</time>
+                    </header>
+                    <p class="u-margin-none">It truly has made being at my desk better. Also, thanks for reading! :D
+<a href="https://twitter.com/adityarao310"></a></p>
+                </li>
+            
+            </ol>
+        </div>
+        
+
+    </section>
+
+
+
+
+</div>
+
+<footer class="bio-footer" itemscope itemtype="https://schema.org/Person">
+  <p>I’m <span itemprop="name">Angélique Weger</span>, and I’m an enthusiastic crafter—of the code, user experiences, and teams I write about here, but also of hands-on DIY projects, like making yoghurt, paper, and yarn.</p>
+
+<p>See what I'm up to <span class="link-wrapper u-inline-block"><a href="/v3/now" class="u-block">now.</a></span></p>
+
+  <span class="photo-wrapper">
+    
+<img src="/v3/assets/img/ajw-photo.png" alt="Black and white headshot of Angélique glancing upward." itemprop="image">
+
+    <a href="#" class="top-link">Top</a>
+
+  </span>
+</footer>
+
+
+</main>
+
+<footer class="site-footer" itemprop="hasPart" itemscope itemtype="http://schema.org/WPFooter">
+  <a href="#" class="top-link">Top</a>
+
+
+  <ul class="u-list-reset">
+    <li><span itemprop="version">v3.0</span> <span class="u-text-uppercase">Build Info</span></li>
+    <li itemprop="copyrightNotice">&copy; 2015-2026 <span itemprop="author copyrightHolder" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Ang&eacute;lique Weger</span></span></li>
+    <li>Site powered by <a href="https://www.11ty.dev/" target="_blank">Eleventy.js</a> [ <a href="https://github.com/angeliquejw/dev-blog" target="_blank">repo</a> ] [ <a href="https://angeliqueweger.com/feed/feed.xml" target="_blank">RSS</a> ]</li>
+    <li>Fonts used: Barlow, IBM Plex Mono, IBM Plex Sans</li>
+    <li class="bmore-luv">Made with <svg xmlns="http://www.w3.org/2000/svg" role="img" width="30" height="28" viewBox="0 0 30 26"><title>Love</title><path d="M25.964 4.036V0h-8.657v4.036h-4.614V0H4.036v4.036H0v8.657h4.036v4.614h4.62v4.039h4.037v4.618h4.614v-4.618h4.039v-4.039h4.618v-4.614H30V4.036z"/></svg>
+ by a human in Baltimore</li>
+  </ul>
+</footer>
+
+
+
+
+    
+    
+
+  </body>
+</html>

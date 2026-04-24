@@ -49,7 +49,7 @@
     - https://coolors.co/user/collections/69e7162f6306fe000f7f7869 
 [ ] Decide on fonts (am I really going to leave IBM Plex behind?)
 [ ] Strategy for archiving the current version of the site, including a banner identifying that it's an archived version
-    - REGEX for finding links to add `/v2/` to: `(href="\/(?!.*(v2).*$)([^\n]*)")`
+    - REGEX for finding links to add `/v3/` to: `(href="\/(?!.*(v3).*$)([^\n]*)")`
 
 
 ## In progress

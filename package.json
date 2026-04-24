@@ -8,10 +8,10 @@
 		"get-books": "node src/assets/scripts/bookList.js",
 		"start": "npm-run-all --parallel dev:*",
 		"dev:eleventy": "ELEVENTY_ENV=development eleventy --quiet --serve --output=./_dev",
-		"dev:v2": "cp ./src/v2/assets/ ./_dev/v2/ -r",
+		"dev:v3": "cp ./src/v3/assets/ ./_dev/v3/ -r",
 		"build": "run-s clean prod:*",
 		"prod:eleventy": "ELEVENTY_ENV=production eleventy",
-		"prod:v2": "cp ./src/v2/assets/ ./_site/v2/ -r",
+		"prod:v3": "cp ./src/v3/assets/ ./_site/v3/ -r",
 		"prod:proof": "cp ./src/keybase.txt ./_site/",
 		"lint": "npx stylelint 'src/assets/styles/*.css'",
 		"debug": "run-s clean && DEBUG=* eleventy"
