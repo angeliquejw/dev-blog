@@ -34,6 +34,8 @@
         ! DroP
             - Lose the "written in" as I'm not traveling as much
             - Lose the responses from 2021 and earlier
+    [] Later fixes: Update the NJK template links in this post to be to NOT main branch: src/blog/2026/adventures-in-parsing-html-learning-github-actions.md
+    [] Later fixes: Did the tag list need to be reversed? src/tag.vto:23
 
 
 
@@ -51,5 +53,9 @@
 
 
 ## In progress
+[ ] Use modern CSS instead of Sass
+[ ] Trade Nunjucks for Vento:
+    - https://vento.js.org
+    - https://chriskirknielsen.com/blog/from-nunjucks-to-vento-in-eleventy-migration-guide/
 
 ## Done
