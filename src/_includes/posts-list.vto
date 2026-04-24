@@ -1,0 +1,23 @@
+<div>
+  {{- if (title == "Blog") && pagination.href.previous }}
+    <nav>
+      <a href="{{ pagination.href.previous }}">Previous</a>
+    </nav>
+  {{- /if }}
+  <ol class="u-list-reset">
+    {{ for post of postslist }}
+    <li>{{ post.title }} - <time datetime="{{ post.date |> htmlDateString }}" class="u-block">{{ post.date |> readableDate }}</time>
+      <a href="{{ post.url }}" class="u-block">Read More</a>
+    </li>
+    {{ /for }}
+  </ol>
+  {{- if (templateClass == "tmpl-home") }}
+    <nav>
+      <a href="/blog/">View All</a>
+    </nav>
+  {{- else if (title == "Blog") && pagination.href.next }}
+    <nav>
+      <a href="{{ pagination.href.next }}">Next</a>
+    </nav>
+  {{- /if }}
+ </div>

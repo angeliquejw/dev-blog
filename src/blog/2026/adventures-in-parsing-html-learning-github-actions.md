@@ -93,7 +93,7 @@ In order to run my script independent of my overall 11ty site, I first needed to
 With that in place, I could set in motion a few steps in my GitHub Action to complete part one of my plan:
 
 ```yml
-{% raw %}
+{{ echo }}
 name: Scheduled check for new sky photo
 on:
   # Run the workflow manually from the Actions tab
@@ -121,7 +121,7 @@ jobs:
           run: node skies.js
         - name: Check output
           run: echo "Missing photos -> ${{ steps.run-script.outputs.missing-photos }}"
-{% endraw %}
+{{ /echo }}
 ```
 
 The last `echo` provides an output capturing the result of running the script that's helpful for debugging _and_ will be used in the next step: figuring out whether there are changes to commit and, if there are, making a commit. For that last bit, I'm relying on an existing GitHub Action [`stefanzweifel/git-auto-commit-action`](https://github.com/stefanzweifel/git-auto-commit-action). And, as noted, the following steps also depend on if the `missing-photos` output is not zero.

@@ -1,10 +1,10 @@
 ---
-layout: layouts/base.njk
+layout: layouts/base.vto
 templateClass: tmpl-home
 ---
 
 <main itemprop="mainEntity" itemscope itemtype="http://schema.org/CreativeWork">
-  {{ content | safe }}
+  {{ content }}
 </main>
 
-{% include "site-footer.njk" %}
+{{ include "site-footer.vto" }}

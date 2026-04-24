@@ -2,7 +2,7 @@
 title: My drafts folder
 permalink: /blog/drafts/
 pageClass: pg-drafts
-layout: layouts/page.njk
+layout: layouts/page.vto
 eleventyExcludeFromCollections: true
 ---
 
@@ -10,34 +10,34 @@ eleventyExcludeFromCollections: true
 <p>Any of these topics meaningful to you? Feel free to <a href="https://github.com/angeliquejw/dev-blog/issues/new?template=drafts.md" target="_blank">open an issue on GitHub</a> give me a shout on <a href="https://twitter.com/messypixels" target="_blank">Twitter</a>, as I'd love to hear your thoughts and could use the inspirational kick in the tush to move the post out of the purgatory that is my drafts folder.</p>
 
 <ul>
-{%- for post in drafts | sort(attribute="topic") %}
+{{- for post of drafts |> sortBy(attribute="topic") }}
 
 <li>
   <strong>{{ post.topic }}</strong>
 
-  {%- if post.notes %}
+  {{- if post.notes }}
   <p>{{ post.notes }}</p>
-  {%- endif %}
+  {{- /if }}
 
-  {%- if post.published %}
+  {{- if post.published }}
     <p>Now published &rarr; <a href="/blog/{{ post.published }}">{{ metadata.url }}/blog/{{ post.published }}</a></p>
-  {%- endif %}
+  {{- /if }}
 
-  {%- if post.links %}
-  {%- set linksSize = post.links | length %}
-    {%- if linksSize > 1 %}
+  {{- if post.links }}
+  {{- set linksSize = post.links.length }}
+    {{- if linksSize > 1 }}
       <ul class="u-list-reset">
-        {%- for link in post.links %}
+        {{- for link of post.links }}
           <li><a href="{{ link.url }}">{{ link.url }}</a></li>
-        {%- endfor %}
+        {{- /for }}
       </ul>
-    {%- else %}
+    {{- else }}
     <p><a href="{{ post.links.url }}">{{ post.links.url }}</a></p>
-    {%- endif %}
-  {%- endif %}
+    {{- /if }}
+  {{- /if }}
 </li>
 
-{%- endfor %}
+{{- /for }}
 
 </ul>
 

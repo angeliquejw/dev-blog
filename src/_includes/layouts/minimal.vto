@@ -1,0 +1,14 @@
+---
+layout: layouts/base.vto
+templateClass: tmpl-minimal
+---
+
+<div class="container{{ if pageClass }} {{ pageClass }}{{ /if }}">
+  {{ include "site-nav.vto" }}
+
+  <main itemprop="mainEntity" itemscope itemtype="http://schema.org/CreativeWork">
+    {{ content }}
+  </main>
+</div>
+
+{{ include "site-footer.vto" }}

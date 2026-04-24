@@ -1,0 +1,103 @@
+---
+title: "/uses"
+custom_title: What I use
+summary: "My tech and tools. Inspired by <a href='https://uses.tech/'>Uses.Tech</a>."
+tags: [bits]
+date: Last Modified
+pageClass: pg-uses
+layout: layouts/page.vto
+---
+
+{{- function link(name, url) }}
+<a href="{{ url }} ">{{ name }}</a>
+{{- /function }}
+
+{{- function pluginlink(name, url) }}
+<a href="https://marketplace.visualstudio.com/items?itemName={{ url }}">{{ name }}</a>
+{{- /function }}
+
+<h1>{{custom_title}}</h1>
+<p>Some details about the tech and tools I use at work, teaching and when building personal projects, like this site.
+  This list was last updated on <time datetime="{{ page.date |> htmlDateString }}" itemprop="datePublished">{{ page.date
+    |> readableDate }}</time>, and includes <em>zero</em> affiliate links.</p>
+
+{{- for use of uses }}
+<section>
+  <h2>{{ use.section }}</h2>
+
+  {{- if use.notes }}
+  <p>{{ use.notes }}</p>
+  {{- /if }}
+
+  <ul class="u-list-reset">
+    {{- for item of use.items }}
+    {{- if item.subsection }}
+    <li>
+
+      {{- set pluginslist = (item.subsection === "plugins") }}
+      <h3>{{ item.subsection }}</h3>
+      <ul class="u-list-reset">
+        {{- for listitem of item.items }}
+        <li>
+          {{- if pluginslist }}
+          {{ pluginlink(listitem.name, listitem.itemName) }}
+          {{- else }}
+          {{ listitem.description }}
+          {{- /if }}
+          {{- if listitem.notes }}
+          {{ listitem.notes }}
+          {{- /if }}
+          {{- if listitem.subitems }}
+          {{> let listsubitemsIndex = 0 }}
+          {{> let listsubitemsLoopLength = Array.isArray(listitem.subitems) ? listitem.subitems.length :
+          Object.keys(listitem.subitems).length }}
+          {{- for listitem of listitem.subitems }}
+          {{> listsubitemsIndex++ }}
+          {{ set listsubitemsLoopLast = listsubitemsIndex === listsubitemsLoopLength }}
+          {{- if listsubitemsLoopLast }}
+          and {{ link(listitem.name, listitem.url) }}
+          {{- else }}
+          {{ link(listitem.name, listitem.url) }}
+          {{- /if }}
+          {{- /for }}
+          {{- /if }}
+        </li>
+        {{- /for }}
+      </ul>
+    </li>
+    {{- else }}
+    <li>
+      {{ item.description }}
+      {{- if item.notes }}
+      {{ item.notes }}
+      {{- /if }}
+      {{- if item.subitems }}
+      {{> let subitemsIndex = 0 }}
+      {{> let subitemsLoopLength = Array.isArray(item.subitems) ? item.subitems.length :
+      Object.keys(listitem.subitems).length }}
+      {{- for listitem of item.subitems }}
+      {{> subitemsIndex++ }}
+      {{ set subitemsLoopLast = subitemsIndex === subitemsLoopLength }}
+      {{- if subitemsLoopLast }}
+      and {{ link(listitem.name, listitem.url) }}
+      {{- else }}
+      {{ link(listitem.name, listitem.url) }}
+      {{- /if }}
+      {{- /for }}
+      {{ /if }}
+      {{ if item.url}}
+      {{ link(item.name, item.url) }}
+      {{ /if }}
+      {{ if item.details}}
+      {{ item.details }}
+      {{ /if }}
+    </li>
+    {{- /if }}
+    {{- /for }}
+  </ul>
+</section>
+{{- /for }}
+
+<footer>
+  <p>This 'uses' page is part of the bigger project <a href="https://uses.tech/">Uses.Tech</a> by Wes Bos.</p>
+</footer>

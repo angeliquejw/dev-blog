@@ -1,0 +1,65 @@
+---
+layout: layouts/default.vto
+templateClass: tmpl-post
+---
+
+{{- if date |> outOfDate }}
+{{ include "out-of-date.vto" }}
+{{- /if }}
+
+<div itemscope="itemscope" itemtype="http://schema.org/blogPost">
+  <article>
+    <header>
+      <h1 itemprop="headline">{{ title }}</h1>
+      <time datetime="{{ date |> htmlDateString }}" itemprop="datePublished">{{ date |> readableDate }}</time>
+    </header>
+
+    <div itemprop="text">
+      {{ content }}
+    </div>
+
+    {{ if comments != false }}
+      {{ include "post-close.vto" }}
+    {{ /if }}
+
+    {{ if footnotes }}
+      <ol class="footnotes">
+        {{> let loopIndex = 0 }}
+        {{ for note of footnotes }}
+          {{> loopIndex++ }}
+          {{ set noteId = "fn" + loopIndex }}
+          <li id="{{ noteId }}">{{ note }} <a href="#return-{{ noteId }}">&#x2934;</a></li>
+        {{ /for }}
+      </ol>
+    {{ /if }}
+  </article>
+
+      <p>Reading time: <em>{{ content |> readingtime }}</em></p>
+      <p>Tagged as:</p>
+      <ul class="u-list-reset" itemprop="keywords">
+      {{ for tag of tags }}
+        {{ set tagUrl }}/tags/{{ tag |> slugify }}/{{ /set }}
+        {{ if tag != "posts" }}
+        <li><a href="{{ tagUrl }}">{{ tag }}</a></li>
+        {{ /if }}
+      {{ /for }}
+      </ul>
+
+    <nav aria-label="Pagination links">
+      <ol class="u-list-reset">
+      {{ if prevPost }}
+        <li>
+          <a class="u-block" href="{{ prevPost.url }}">Older Post</a>
+        </li>
+      {{ /if }}
+      {{ if nextPost }}
+        <li>
+          <a class="u-block" href="{{ nextPost.url }}">Newer Post</a>
+        </li>
+      {{ /if }}
+      </ol>
+    </nav>
+
+</div>
+
+{{ include "post-footer.vto" }}

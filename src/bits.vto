@@ -1,0 +1,35 @@
+---
+title: Bits and bobs
+pageClass: pg-bits
+layout: layouts/page.vto
+---
+
+<p>Pages and projects separate from my blog posts.</p>
+
+{{ set itemlist = [] }}
+
+{{# Combines content in /bits directory and of _data/bits.json 🙌🏻 #}}
+{{ for item of collections.bits }}
+  {{ set itemlist = (itemlist.push({
+      title: item.data.title,
+      description: item.data.bits_description || item.data.summary,
+      url: item.url
+    }), itemlist) }}
+{{ /for }}
+
+{{ for item of bits }}
+  {{ set itemlist = (itemlist.push(item), itemlist) }}
+{{ /for }}
+
+<ul class="u-list-reset">
+  {{ for item of itemlist |> sortBy(attribute="title") }}
+
+    <li>
+      <h2><a href="{{ item.url }}">{{ item.title }}</a></h2>
+      <p>{{ item.description }}</p>
+    </li>
+
+  {{ /for }}
+</ul>
+
+

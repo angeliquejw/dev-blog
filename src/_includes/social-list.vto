@@ -1,12 +1,12 @@
 <ul class="u-list-reset">
-	{%- for item in metadata.author.social %}
+	{{- for item of metadata.author.social }}
   <li>
-    {%- if item.type == "email" %}
+    {{- if item.type == "email" }}
     <a href="mailto:{{ item.mailto }}" target="_blank" itemprop="email">
-    {%- else %}
+    {{- else }}
     <a href="{{ item.url }}" target="_blank" itemprop="sameAs" rel="me">
-    {%- endif %}
+    {{- /if }}
     <span class="u-sr-only">{{ item.type }}</span>
     </a></li>
-	{%- endfor %}
+	{{- /for }}
 </ul>

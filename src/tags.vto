@@ -1,0 +1,20 @@
+---
+title: Tags
+permalink: /tags/
+pageClass: pg-tags
+layout: layouts/page.vto
+---
+
+<ul class="u-list-reset">
+  {{# {{ for tagKey, tagVal of collections.tagCount }} #}}
+  {{# {{ set tagUrl }}/tags/{{ tagKey |> slugify }}/{{ /set }} #}}
+  {{# <li><a href="{{ tagUrl }}">{{ tagKey }} <span>{{ tagVal }}</span></a></li> #}}
+  {{# <li>key: {{ tagKey }}, value: {{ tagVal }}</li> #}}
+  {{# {{ /for }} #}}
+  {{ for tag of collections.tags }}
+  {{ set tagCount = collections.posts |> filterByTag(tag) |> itemCount}}
+  {{ if tag != "posts" }}
+  <li><a href="/tags/{{ tag |> slugify }}/">{{ tag }} - {{ tagCount }}</a></li>
+  {{ /if }}
+  {{ /for }}
+</ul>

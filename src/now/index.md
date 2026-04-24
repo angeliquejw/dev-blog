@@ -5,7 +5,7 @@ summary: "Current status. Inspired by <a href='https://nownownow.com/about'>http
 tags: [bits]
 date: Last Modified
 pageClass: pg-now
-layout: layouts/page.njk
+layout: layouts/page.vto
 ---
 
 <h1>What I'm Doing Now</h1>
@@ -16,7 +16,7 @@ layout: layouts/page.njk
 
 I'm living in Baltimore and taking a pause from work, enjoying a short personal reset.
 
-{% include "latest-sky.njk" %}
+{{ include "latest-sky.vto" }}
 
 </section>
 
@@ -34,7 +34,7 @@ I'm living in Baltimore and taking a pause from work, enjoying a short personal 
 
 ### I am reading
 
-{% include "reads.njk" %}
+{{ include "reads.vto" }}
 
 </section>
 

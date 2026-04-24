@@ -1,0 +1,34 @@
+---
+eleventyComputed:
+  custom_title: Tagged “{{ tag }}”
+permalink: /tags/{{ tag |> slugify }}/
+pageClass: pg-tagged
+layout: layouts/page.vto
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filter:
+    - all
+    - nav
+    - post
+    - posts
+    - tagList
+  addAllPagesToCollections: true
+---
+
+
+<h1>Tagged as <em>{{ tag }}</em></h1>
+
+{{# {{ set postslist = collections[ tag ] |> reverse }} #}}
+{{# {{ set postslist = collections[ tag ] }} #}}
+{{# {{ include "posts-list.vto" }} #}}
+<ol class="u-list-reset">
+  {{ for post of collections[ tag ] }}
+  <li>{{ post.data ? post.data.title : '<code>' + post.url + '<code>' }} - <time datetime="{{ post.date |> htmlDateString }}" class="u-block">{{ post.date |> readableDate }}</time>
+    <a href="{{ post.url }}" class="u-block">Read More</a>
+  </li>
+  {{ /for }}
+
+
+<p>See <a href="/tags/" class="u-block">all tags</a></p>

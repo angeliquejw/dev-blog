@@ -1,0 +1,12 @@
+---
+layout: layouts/base.vto
+---
+
+{{ include "site-header.vto" }}
+
+<main{{ if pageClass }} class="{{ pageClass }}"{{ /if }} itemprop="mainEntity" itemscope itemtype="http://schema.org/Blog">
+  <meta itemprop="name" content="Angelique Weger's blog">
+  {{ content }}
+</main>
+
+{{ include "site-footer.vto" }}

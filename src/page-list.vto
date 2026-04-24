@@ -1,6 +1,7 @@
 ---
-permalink: /page-list/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber }}/{% endif %}
-layout: layouts/base.njk
+title: Site pages
+permalink: /page-list/{{ if pagination.pageNumber > 0 }}{{ pagination.pageNumber }}/{{ /if }}
+layout: layouts/base.vto
 pagination:
   data: collections.all
   size: 100
@@ -13,11 +14,11 @@ pagination:
     <th>Page Title</th>
   </thead>
   <tbody>
-{%- for page in pages %}
+{{- for page of pages }}
   <tr>
     <td><a href="{{ page.url }}"><code>{{ page.url }}</code></a></td>
     <td>{{ page.data.title }}</td>
   </tr>
-{%- endfor %}
+{{- /for }}
   </tbody>
 </table>

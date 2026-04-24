@@ -10,11 +10,12 @@ eleventyConfig.addCollection("tagCount", function(collectionsApi) {
 		
 				tags = tags.filter(function(item) {
 				switch(item) {
-					// this list should match the `filter` list in tags.njk
+					// this list should match the `filter` list in tags.vto
 					case "all":
 					case "nav":
 					case "post":
 					case "posts":
+					// case "tagList":
 					return false;
 				}
 		

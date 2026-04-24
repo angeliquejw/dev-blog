@@ -1,6 +1,6 @@
-{%- if reading -%}
+{{- if reading -}}
 <ul class="u-list-reset">
-  {%- for book in reading -%}
+  {{- for book of reading -}}
 
     <li>
       <a href="{{ book.url }}">
@@ -12,11 +12,11 @@
       by {{ book.author }}
     </li>
 
-  {%- endfor -%}
+  {{- /for -}}
 </ul>
-{%- else -%}
+{{- else -}}
 
 <p>Sorry, my <a href="https://app.thestorygraph.com/currently-reading/angeliquejw">current reads list</a> isn't loading properly. 👎🏻  If you have a GitHub account, you can report this as an <a href="https://github.com/angeliquejw/dev-blog/issues/">Issue</a>.</p>
-{%- endif -%}
+{{- /if -}}
 
 <p>📚 I share my current and past reads on <a href="https://app.thestorygraph.com/profile/angeliquejw/">The StoryGraph</a>.</p>

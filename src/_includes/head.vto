@@ -1,0 +1,53 @@
+{{ set pageTitle }}
+  {{ if eleventyComputed && eleventyComputed.custom_title }}
+    {{ eleventyComputed.custom_title }}
+  {{ else if custom_title }}
+    {{ custom_title }}
+  {{ else }}
+    {{ title }}
+  {{ /if }}
+{{ /set }}
+
+{{ set pageDescription }}
+  {{ if summary }}
+    {{ summary }}
+  {{ else if description }}
+    {{ description }}
+  {{ else }}
+    {{ metadata.description }}
+  {{ /if }}
+{{ /set }}
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    {{ if pageTitle }}
+    {{ pageTitle}}
+    {{ " | " }}
+    {{ /if }}
+    {{ metadata.title }}
+  </title>
+  <meta name="Description" content="{{ pageDescription }}">
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{ pageTitle }}">
+  <meta property="og:description" content="{{ pageDescription }}">
+  <meta property="og:site_name" content="[ Personal site of Angelique Weger ]">
+  <meta name="robots" content="noai, noimageai">
+  {{#
+  <meta property="og:image" content="" /> #}}
+  {{#
+  <meta property="og:image:alt" content="" /> #}}
+  {{ if site.environment == "production" }}
+  <script data-goatcounter="https://ajw.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+  {{ /if }}
+  <link rel="alternate" href="{{ metadata.feed.path |> url }}" type="application/atom+xml" title="{{ metadata.title }}">
+  <link rel="webmention" href="https://webmention.io/{{ metadata.domain }}/webmention" />
+  <link rel="pingback" href="https://webmention.io/{{ metadata.domain }}/xmlrpc" />
+  <link rel="stylesheet" href="/assets/styles/styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow&family=IBM+Plex+Mono:ital,wght@0,100;0,300;0,400;0,600;0,700;1,400;1,600&family=IBM+Plex+Sans:wght@600;700&display=swap"
+    rel="stylesheet">
+  {{ include "favicons.vto" }}
+</head>
