@@ -9,7 +9,7 @@ layout: layouts/minimal.njk
 
 <header class="resume__header">
   <h1 class="resume__name"><span>{{ metadata.title }}</span></h1>
-  <p class="resume__headline">Engineering Leader</p>
+  <p class="resume__headline">{{resume_strategy.headline}}</p>
   
   <ul class="u-list-reset resume__contact-list">
   	{%- for item in metadata.author.social %}
@@ -22,7 +22,7 @@ layout: layouts/minimal.njk
 </header>
 <nav class="resume__nav">
   <ol class="u-list-reset resume__nav-list">
-    {%- for section in resume %}
+    {%- for section in resume_strategy.content %}
     {%- if section.slug %}
     <li class="resume__nav-list-item">
       {%- set short_name = section.short_name or section.mid_name or section.section %}
@@ -38,7 +38,8 @@ layout: layouts/minimal.njk
 
 {% include "symbols-resume.svg" %}
 
-{%- for section in resume %}
+{%- for section in resume_strategy.content %}
+{%- if section.section != "Header" %}
 <section {%- if section.slug %} id="{{ section.slug }}"{%- endif %} class="resume__section{%- if not section.slug %} resume__section--alt{%- endif %}">
   <h2 class="resume__section-heading">{{ section.section }}</h2>
   <ul class="u-list-reset resume__section-list">
@@ -81,6 +82,14 @@ layout: layouts/minimal.njk
         {%- endfor %}
       </ul>
       {%- endif %}
+      {%- if item.delivery %}
+      <h4 class="work__resp-heading">Delivery</h4>
+      <ul class="work__resp-list">
+        {%- for resp in item.delivery %}
+        <li class="work__resp-list-item">{{ resp| safe  }}</li>
+        {%- endfor %}
+      </ul>
+      {%- endif %}
       {%- if item.culture %}
       <h4 class="work__resp-heading">Culture</h4>
       <ul class="work__resp-list">
@@ -119,4 +128,5 @@ layout: layouts/minimal.njk
   {%- endif %}
 </section>
 
+{%- endif %}
 {%- endfor %}
