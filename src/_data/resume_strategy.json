@@ -1,0 +1,186 @@
+{
+    "headline": "Cross-functional Leader | Technical Operations & Delivery",
+    "content": [
+        {
+            "section": "Work + Experience",
+            "slug": "work",
+            "short_name": "Work",
+            "mid_name": "Work + Exp",
+            "items": [
+                {
+                    "title": "Chief of Digital Services",
+                    "org": "Family & Medical Leave Insurance (FAMLI), Maryland Department of Labor",
+                    "start": "2024-03",
+                    "end": "2026-02",
+                    "tech": [
+                        "Ruby on Rails",
+                        "USWDS",
+                        "Git + GitHub",
+                        "Jira"
+                    ],
+                    "description": "Third hire to the Digital Service team building out a greenfield digital-first service to support Maryland workers and employers in the rollout of paid family and medical leave for the state. Promoted in first year to lead the overall team of 17 state employees with expertise in product leadership, service design, content strategy, engineering, accessibility, and devops and oversee our agile vendor contracts worth $15.6 million annually.",
+                    "leadership": [
+                        "Shaped program strategy for a complex, multi-year initiative and led inclusive, consultative processes that built shared understanding across technical, policy, and leadership stakeholders",
+                        "Served as strategic partner to executive leadership, designed and owned the planning cadence, tracked open decisions and commitments across teams, and ensured senior stakeholders had consistent, transparent progress updates",
+                        "Scaled team of product, engineering, and design professionals from 3 to 17, including developing hiring strategy and processes and onboarding systems",
+                        "Coached and managed 9 senior members of the Digital Services team, including other managers",
+                        "Led build vs. buy strategy and oversaw $15.6M in annual vendor contracts, coordinating cross-functional alignment and partnering with state cybersecurity governance on foundational decisions around tech stack, tooling, and third-party tools/services"
+                    ],
+                    "culture": [
+                        "Built team operating processes for a fully remote, cross-functional team, including meeting structure and async documentation practices that supported team health as we scaled"
+                    ]
+                },
+                {
+                    "title": "Engineering Manager",
+                    "org": "Panorama Education",
+                    "start": "2021-10",
+                    "end": "2024-02",
+                    "tech": [
+                        "Vue",
+                        "Ruby on Rails",
+                        "Git + GitHub",
+                        "Jira"
+                    ],
+                    "description": "Founded in 2012, Panorama Education helps students achieve academic success and well-being and gives schools and school districts a platform to hear what families, students, and teachers need in the classroom.",
+                    "leadership": [
+                        "Led change management for significant organizational shifts, including new team structures and revised processes — communicating proactively and adjusting course based on team feedback",
+						"Developed new strategy and processes for how the engineering team prioritized and resolved customer support requests that improved cross-functional communication and overall efficiency",
+                        "Refined the promotion process for all engineers and led the collaborative biannual review process",
+                        "Coached and developed mainly senior engineers, including facilitating promotions for 4 engineers over 3 quarters"
+                    ],
+                    "delivery": [
+                        "Led strategy and delivery for 3 separate cross-functional teams in partnership with product and design, setting clear goals, maintaining delivery health, and ensuring impact for users in 1,500+ school systems nationwide"
+                    ],
+                    "culture": [
+                        "Rebooted a dormant affinity group for women, gender-nonconforming and nonbinary employees, providing a point of connection and support for team members"
+                    ]
+                },
+                {
+                    "title": "Engineering Manager, Front-end",
+                    "org": "Lumen Learning",
+                    "start": "2019-10",
+                    "end": "2021-09",
+                    "tech": [
+                        "React",
+                        "Vue",
+                        "TypeScript",
+                        "Sass",
+                        "HTML5",
+                        "JavaScript",
+                        "Ruby on Rails",
+                        "Git + GitHub",
+                        "Jira"
+                    ],
+                    "description": "Founded in 2012, Lumen Learning uses open educational resources (OER) to provide affordable course materials that improve learning and replace expensive textbooks in high-enrollment college courses. Over 400 institutions across the U.S. use Lumen's award-winning digital courseware for in-person, online, and blended courses.",
+                    "leadership": [
+                        "Designed the engineering career framework from scratch — defining leveling criteria, role expectations, and growth pathways to provide the team clarity and the organization a foundation for equitable performance management",
+                        "Scaled front-end team from 2 to 4 engineers, building hiring and onboarding processes rigorous and successful enough that the broader engineering org adopted them as standard practice",
+                        "Improving and reconciling fragmented team workflows",
+                        "Collaborating closely with product managers, developers, and designer to scope and estimate work to achieve our product roadmap",
+                        "Coaching 5 team members from junior to senior levels",
+                        "Organizing and running team meetings, including sprint planning and retrospectives"
+                    ],
+                    "delivery": [
+                        "Planning and implementing front-end features and bug fixes across our products",
+                        "Providing guidelines to developers and content team for creating inclusive and accessible markup and about testing with screen readers"
+                    ],
+                    "culture": [
+                        "Conducting company-wide workshop on accessibility and inclusive design principles",
+                        "Establishing and modeling engineering team norms, specifically around learning,professional development, and employee wellness"
+                    ]
+                },
+                {
+                    "title": "Adjunct Professor",
+                    "org": "MICA",
+                    "start": "2018-08",
+                    "end": "2021-02",
+                    "tech": [
+                        "Sass",
+                        "HTML5",
+                        "JavaScript",
+                        "Eleventy",
+                        "Git + GitHub"
+                    ],
+                    "responsibilities": [
+                        "Instructing undergraduate students in GD 220 (Graphic Design 2) and GD 431 (Front End Web development)",
+                        "Developing <a href='https://mica-web.github.io/'>curriculum</a> and assignments for each 16-week course",
+                        "Working 1:1 with students and providing detailed code review in response to assignments"
+                    ]
+                },
+                {
+                    "title": "Front-end Lead + Manager",
+                    "org": "Fractured Atlas",
+                    "start": "2017-05",
+                    "end": "2019-10",
+                    "tech": [
+                        "Sass",
+                        "HTML5",
+                        "JavaScript",
+                        "Ruby on Rails",
+                        "Elm",
+                        "Git + GitHub",
+                        "Google Analytics",
+                        "Mixpanel"
+                    ],
+                    "description": "Fractured Atlas builds software and provides services to help over 500,000 artists and arts organizations handle the business side of their work, like raising money, tracking donors, and selling event tickets.",
+                    "leadership": [
+                        "Served as project lead for crowdfunding and fundraising tool (over $25 million annually)",
+                        "Managed UX engineering team, including holding 1:1s and setting team priorities"
+                    ],
+                    "delivery": [
+                        "Provided coding guidelines for writing maintainable Sass and inclusive and accessible markup",
+                        "Built and deployed design system to establish a consistent look and feel across a variety of applications",
+                        "Created site wireframes and prototypes to improve internal discussions and planning about site features and organization"
+                    ],
+                    "culture": [
+                        "Developed and presented all-staff training on accessibility testing and best practices",
+                        "Provided guidance on the organization's transition to being wholly virtual/remote (including <a href='https://blog.fracturedatlas.org/how-we-work-virtually-featuring-angelique-weger-ded335653265'>being featured on our blog</a>)"
+                    ]
+                },
+                {
+                    "title": "Senior Front-end Developer",
+                    "org": "Detroit Trading",
+                    "start": "2014-06",
+                    "end": "2017-04",
+                    "tech": [
+                        "Sass",
+                        "HTML5",
+                        "JavaScript",
+                        "Visual Studio + TFS",
+                        "Google Analytics",
+                        "Optimizely",
+                        "Zeplin",
+                        "Bootstrap"
+                    ]
+                },
+                {
+                    "title": "Freelance Web Designer + Developer",
+                    "start": "2004-09",
+                    "end": "2014-06",
+                    "tech": [
+                        "CSS",
+                        "PHP",
+                        "WordPress",
+                        "HTML5",
+                        "JavaScript",
+                        "Google Analytics"
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "Honors",
+            "slug": "honors",
+            "items": [
+                {
+                    "title": "Spirited Woman Giving Back",
+                    "description": "2017 Baltimore Spirited Woman Awards"
+                },
+                {
+                    "title": "Technologist of the Year",
+                    "description": "2015 Baltimore Innovation Awards"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,334 @@
+{
+  "headline": "Product & Delivery Leader",
+  "content": [
+    {
+      "section": "Work + Experience",
+      "slug": "work",
+      "short_name": "Work",
+      "mid_name": "Work + Exp",
+      "items": [
+        {
+          "title": "Chief of Digital Services",
+          "org": "Family & Medical Leave Insurance (FAMLI), Maryland Department of Labor",
+          "start": "2024-03",
+          "end": "2026-02",
+          "tech": [
+            "Ruby on Rails",
+            "USWDS",
+            "Git + GitHub",
+            "Jira"
+          ],
+          "description": "Third hire to the Digital Service team building out a greenfield digital-first service to support Maryland workers and employers in the rollout of paid family and medical leave for the state. Promoted in first year to lead the overall team of 17 state employees with expertise in product leadership, service design, content strategy, engineering, accessibility, and devops.",
+          "leadership": [
+            "Led a cross-functional digital services team embedded in state government — navigating complex program requirements, facilitating inclusive, consultative processes that developed shared understanding across policy and technology stakeholders, and shaping strategy for modern service delivery",
+            "Designed and owned program governance for a complex multi-year initiative, including tracking interdependencies across teams, surfacing risks early, and delivering regular executive-ready status communications to senior leadership",
+            "Scaled team of product, engineering, and design professionals from 3 to 17, including developing hiring strategy and processes and onboarding systems",
+            "Coached and managed 9 senior members of the Digital Services team, including entire product team and other managers"
+          ],
+          "delivery": [
+            "Led build vs. buy strategy and oversaw $15.6M in annual vendor contracts, coordinating cross-functional alignment and partnering with state cybersecurity governance on foundational decisions around tech stack, tooling, and third-party tools/services",
+            "Coordinated cross-functional launch readiness for the program, including aligning communications,  outreach, customer support, and delivery teams ahead of key milestones and ensuring all stakeholders were consulted and informed",
+            "Established standards and documentation for the engineering team, specifically around accessibility"
+          ],
+          "culture": [
+            "Built team operating rhythms for a fully remote, cross-functional team, including meeting structure and async documentation practices that supported team health as we scaled"
+          ]
+        },
+        {
+          "title": "Engineering Manager, Data Integrations",
+          "org": "Panorama Education",
+          "start": "2021-10",
+          "end": "2024-02",
+          "tech": [
+            "Vue",
+            "Ruby on Rails",
+            "Git + GitHub",
+            "Jira"
+          ],
+          "description": "Founded in 2012, Panorama Education helps students achieve academic success and well-being and gives schools and school districts a platform to hear what families, students, and teachers need in the classroom.",
+          "leadership": [
+            "Led change management for significant organizational shifts (including new team structures and revised processes), communicating proactively and adjusting course based on team feedback",
+            "Refined the engineering career ladder and promotion process, creating a system that gave engineers clear, equitable paths to growth",
+            "Coached and developed mainly senior engineers, including facilitating promotions for 4 engineers over 3 quarters"
+          ],
+          "delivery": [
+            "Led strategy and delivery for 3 separate cross-functional teams in partnership with product and design, setting clear goals, maintaining delivery health, and ensuring impact for users in 1,500+ school systems nationwide",
+            "Developed new strategy and processes for how the engineering team prioritized and resolved customer support requests that improved cross-functional communication and overall efficiency"
+          ],
+          "culture": [
+            "Rebooted a dormant affinity group for women, gender-nonconforming and nonbinary employees, providing a point of connection and support for team members"
+          ]
+        },
+        {
+          "title": "Engineering Manager, Front-end",
+          "org": "Lumen Learning",
+          "start": "2019-10",
+          "end": "2021-09",
+          "tech": [
+            "React",
+            "Vue",
+            "TypeScript",
+            "Sass",
+            "HTML5",
+            "JavaScript",
+            "Ruby on Rails",
+            "Git + GitHub",
+            "Jira"
+          ],
+          "description": "Founded in 2012, Lumen Learning uses open educational resources (OER) to provide affordable course materials that improve learning and replace expensive textbooks in high-enrollment college courses. Over 400 institutions across the U.S. use Lumen's award-winning digital courseware for in-person, online, and blended courses.",
+          "leadership": [
+            "Designed the engineering career framework from scratch, including defining leveling criteria, role expectations, and growth pathways that gave the team clarity and the organization a foundation for equitable performance management",
+            "Scaled front-end team from 2 to 4 engineers, building hiring and onboarding processes rigorous and successful enough that the broader engineering org adopted them as standard practice",
+            "Collaborated closely with product managers, developers, and designer to scope and estimate work to achieve our product roadmap",
+            "Coached 5 team members from junior to senior levels"
+          ],
+          "delivery": [
+            "Provided guidelines to developers and content team for creating inclusive and accessible markup and about testing with screen readers",
+            "Writing documentation and participating in code review"
+          ],
+          "culture": [
+            "Conducted company-wide workshop on accessibility and inclusive design principles",
+            "Established and modeled engineering team norms, specifically around learning, professional development, and employee wellness"
+          ]
+        },
+        {
+          "title": "Adjunct Professor",
+          "org": "MICA",
+          "start": "2018-08",
+          "end": "2021-02",
+          "tech": [
+            "Sass",
+            "HTML5",
+            "JavaScript",
+            "Eleventy",
+            "Git + GitHub"
+          ],
+          "responsibilities": [
+            "Instructing undergraduate students in GD 220 (Graphic Design 2) and GD 431 (Front End Web development)",
+            "Developing <a href='https://mica-web.github.io/'>curriculum</a> and assignments for each 16-week course",
+            "Working 1:1 with students and providing detailed code review in response to assignments"
+          ]
+        },
+        {
+          "title": "Front-end Lead + Manager",
+          "org": "Fractured Atlas",
+          "start": "2017-05",
+          "end": "2019-10",
+          "tech": [
+            "Sass",
+            "HTML5",
+            "JavaScript",
+            "Ruby on Rails",
+            "Elm",
+            "Git + GitHub",
+            "Google Analytics",
+            "Mixpanel"
+          ],
+          "description": "Fractured Atlas builds software and provides services to help over 500,000 artists and arts organizations handle the business side of their work, like raising money, tracking donors, and selling event tickets.",
+          "leadership": [
+            "Served as project lead for crowdfunding and fundraising tool (over $25 million annually)",
+            "Managed UX engineering team, including holding 1:1s and setting team priorities"
+          ],
+          "delivery": [
+            "Built and deployed design system to establish a consistent look and feel across a variety of applications",
+            "Created site wireframes and prototypes to improve internal discussions and planning about site features and organization"
+          ],
+          "culture": [
+            "Developed and presented all-staff training on accessibility testing and best practices",
+            "Provided guidance on the organization's transition to being wholly virtual/remote (including <a href='https://blog.fracturedatlas.org/how-we-work-virtually-featuring-angelique-weger-ded335653265'>being featured on our blog</a>)"
+          ]
+        },
+        {
+          "title": "Senior Front-end Developer",
+          "org": "Detroit Trading",
+          "start": "2014-06",
+          "end": "2017-04",
+          "tech": [
+            "Sass",
+            "HTML5",
+            "JavaScript",
+            "Visual Studio + TFS",
+            "Google Analytics",
+            "Optimizely",
+            "Zeplin",
+            "Bootstrap"
+          ],
+          "description": "Detroit Trading Company aggregates in-market automotive shopper intelligence, providing data that is responsible for more than $1 billion in monthly car sales."
+        },
+        {
+          "title": "Freelance Web Designer + Developer",
+          "start": "2004-09",
+          "end": "2014-06",
+          "tech": [
+            "CSS",
+            "PHP",
+            "WordPress",
+            "HTML5",
+            "JavaScript",
+            "Google Analytics"
+          ],
+          "description": "Designed and coded web sites for clients, including small and mid-size businesses, nonprofits, educational institutions, and individuals. Majority of projects were bespoke WordPress sites, including custom themes, custom content types and custom plugin development. Handled lead generation, client relations, and education/training."
+        }
+      ]
+    },
+    {
+      "section": "More Information",
+      "items": [
+        {
+          "title": "LinkedIn",
+          "url": "http://www.linkedin.com/in/angeliqueweger"
+        },
+        {
+          "title": "GitHub",
+          "url": "http://github.com/angeliquejw"
+        }
+      ]
+    },
+    {
+      "section": "Technical Expertise",
+      "slug": "skills",
+      "short_name": "Skills",
+      "mid_name": "Tech Expertise",
+      "items": [
+        {
+          "title": "Languages",
+          "details": [
+            "Sass/CSS",
+            "JavaScript",
+            "HTML",
+            "PHP",
+            "Ruby"
+          ]
+        },
+        {
+          "title": "Frameworks + Libraries",
+          "details": [
+            "Vue.js",
+            "React",
+            "Ruby on Rails"
+          ]
+        },
+        {
+          "title": "Tools",
+          "details": [
+            "Version control",
+            "Screen readers",
+            "Jira"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "Talks + Workshops",
+      "slug": "talks",
+      "short_name": "Talks",
+      "items": [
+        {
+          "title": "Intro to Sass",
+          "details": [
+            {
+              "venue": "MICA",
+              "date": "2016"
+            },
+            {
+              "venue": "Baltimore Innovation Week",
+              "date": "2015"
+            }
+          ]
+        },
+        {
+          "title": "Superpowered Front-end Theming with Sass & SMACSS Workshop",
+          "details": [
+            {
+              "venue": "Baltimore Innovation Week",
+              "date": "2015"
+            }
+          ]
+        },
+        {
+          "title": "Static Site Generators",
+          "details": [
+            {
+              "venue": "Bmore on Rails",
+              "date": "2015"
+            }
+          ]
+        },
+        {
+          "title": "30 Tech Concepts in 30 Mins",
+          "details": [
+            {
+              "venue": "AIGA Baltimore Ink & Pixels",
+              "date": "2015"
+            }
+          ]
+        },
+        {
+          "title": "HTML 101 Workshop",
+          "details": [
+            {
+              "venue": "National Women In Tech Nonprofit",
+              "date": "2014"
+            }
+          ]
+        },
+        {
+          "title": "WordPress 101 Workshop",
+          "details": [
+            {
+              "venue": "Baltimore Innovation Week",
+              "date": "2013"
+            },
+            {
+              "venue": "Mesh Baltimore",
+              "date": "2013"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "Community",
+      "slug": "community",
+      "items": [
+        {
+          "title": "National Women In Tech Nonprofit",
+          "description": "Baltimore chapter leader and teacher from 2013–2017. Organized and presented hands-on workshops for women to learn web and software development. Coordinated teachers and volunteer teaching assistants across a wide variety of tech subjects. Built relationships with local companies and nonprofits who can provide space for our classes or other sponsorship opportunities. At the time I stepped down, the chapter had 1500+ members and had hosted 60+ events."
+        },
+        {
+          "title": "Creative Mixtape",
+          "description": "Collaborative events between 7 Baltimore professional design associations. Participated in event and sponsorship logistics, including development of the one-page event site for our kickoff December 2016 event."
+        },
+        {
+          "title": "Bmore on Rails, AIGA, Mesh Baltimore",
+          "description": "speaker and member"
+        },
+        {
+          "title": "ChangeEngine",
+          "description": "Wrote a column on the intersection of art and measurable impact from 2012–2014 (<a href='http://changingmediagroup.com/category/art-social-change/art-that-counts/'>archive of articles</a>)"
+        }
+      ]
+    },
+    {
+      "section": "Honors",
+      "slug": "honors",
+      "items": [
+        {
+          "title": "Spirited Woman Giving Back",
+          "description": "2017 Baltimore Spirited Woman Awards"
+        },
+        {
+          "title": "Technologist of the Year",
+          "description": "2015 Baltimore Innovation Awards"
+        },
+        {
+          "title": "Tech Mission Org of the Year",
+          "description": "2015 Baltimore Innovation Awards"
+        },
+        {
+          "title": "PASSHE Women's Consortium Annual Undergraduate Women's Leadership Institution Scholarship"
+        }
+      ]
+    }
+  ]
+}
