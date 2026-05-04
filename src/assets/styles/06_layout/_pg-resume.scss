@@ -14,7 +14,8 @@ $icon-size: 32px;
 	}
 
 	/* stylelint-disable selector-max-class */
-	+ .site-footer .top-link {
+	+.site-footer .top-link {
+
 		/* stylelint-enable */
 		@media (min-width: 990px) {
 			filter: #{"invert(100%)"};
@@ -39,6 +40,7 @@ $icon-size: 32px;
 }
 
 .resume {
+
 	&__header,
 	&__nav {
 		margin-left: (-$spacing-unit);
@@ -120,6 +122,7 @@ $icon-size: 32px;
 							content: attr(data-long);
 							font-size: 0.9rem;
 						}
+
 						/* stylelint-enable */
 					}
 				}
@@ -140,13 +143,11 @@ $icon-size: 32px;
 			@media screen and (min-width: 1000px) {
 				background: $color-valentino;
 				/* stylelint-disable */
-				background: linear-gradient(
-					to top,
-					rgba($color-valentino, 0.1),
-					rgba($color-valentino, 0.6) 5%,
-					rgba($color-valentino, 0.9) 32%,
-					$color-valentino 80%
-				);
+				background: linear-gradient(to top,
+						rgba($color-valentino, 0.1),
+						rgba($color-valentino, 0.6) 5%,
+						rgba($color-valentino, 0.9) 32%,
+						$color-valentino 80%);
 				/* stylelint-enable */
 				content: "";
 				display: block;
@@ -365,6 +366,7 @@ $icon-size: 32px;
 }
 
 .work {
+
 	&__org-name,
 	&__dates {
 		display: inline;
@@ -374,7 +376,7 @@ $icon-size: 32px;
 	}
 
 	&__org-name {
-		+ .work__dates {
+		+.work__dates {
 			&::before {
 				color: $color-patina;
 				content: " | ";
@@ -449,7 +451,7 @@ $icon-size: 32px;
 		&-subheading {
 			font-size: 1rem;
 
-			+ .resume__section-description {
+			+.resume__section-description {
 				&::before {
 					color: $color-patina;
 					content: "■";
@@ -467,25 +469,35 @@ $icon-size: 32px;
 @media print {
 	@page {
 		margin: 1.25cm 1.5cm 1.25cm;
+
+		// @top-left {
+		// 	content: "Resume of Angélique Weger";
+		// 	color: black;
+		// }
+
+		// @top-right {
+		// 	content: "Page " counter(pageNumber);
+		// 	color: black;
+		// }
 	}
 
 	body {
 		background-color: white;
-		font-size: 13pt;
+		font-size: 12pt;
 	}
 
 	.pg-resume {
 		background-color: white;
 
 		.page-list-nav,
-		+ .site-footer {
+		+.site-footer {
 			display: none !important;
 		}
 
 		main {
 			background-color: white;
 			color: black;
-			max-width: 100%;
+			padding: 0;
 		}
 
 		p,
@@ -495,52 +507,63 @@ $icon-size: 32px;
 	}
 
 	.resume {
+
 		&__nav,
 		&__section-icon,
+		&__section::before,
 		&__section--alt,
 		&__name::before {
 			display: none !important;
 		}
 
 		&__header {
-			background-color: $color-offblack;
-			color: white;
-			padding: 11pt;
-			print-color-adjust: exact;
+			background-color: unset;
+			border-bottom: 4px solid black;
+			color: black;
+			margin: 0 0 8pt;
+			padding: 0 0 4pt;
+			// print-color-adjust: exact;
 		}
 
 		&__name {
-			font-size: 36pt;
+			font-size: 28pt;
+			margin-top: 8pt;
 		}
 
 		&__headline {
-			margin-bottom: 8pt;
-			margin-top: 8pt;
+			margin-bottom: 0;
+			margin-top: 4pt;
 		}
 
 		&__contact-list {
 			display: flex;
 			font-size: 14pt;
 
-			&-item + .resume__contact-list-item {
+			a {
+				color: black;
+			}
+
+			&-item+.resume__contact-list-item {
 				margin-left: 32pt;
 			}
 		}
 
 		&__section {
-			&:not(.resume__section--alt) {
-				&::before {
-					background-color: $color-offblack;
-					height: 13pt;
-					top: 2pt;
-					width: 32pt;
-					width: 22pt;
-				}
-			}
+			margin: 0;
+			// &:not(.resume__section--alt) {
+			// 	&::before {
+			// 		background-color: mix($color-offblack, $color-offwhite, 70%);
+			// 		height: 13pt;
+			// 		top: 2pt;
+			// 		width: 32pt;
+			// 		width: 22pt;
+			// 	}
+			// }
 
 			&-heading {
-				font-size: 16pt;
-				margin-top: $spacing-unit;
+				font-size: 15pt;
+				margin-bottom: 6pt;
+				margin-top: 0;
 			}
 
 			&-subheading {
@@ -552,9 +575,11 @@ $icon-size: 32px;
 
 	.work {
 		&__description {
-			display: none !important;
+			// display: none !important;
+			margin-bottom: 0;
+			margin-top: 4pt;
 
-			+ .work__resp-list {
+			+.work__resp-list {
 				margin-top: 8pt;
 			}
 		}
@@ -562,14 +587,14 @@ $icon-size: 32px;
 		// &__org-name, &__dates, &__tech-heading {
 		&__org-name,
 		&__dates {
-			font-size: 15pt;
+			font-size: 13pt;
 			font-weight: unset;
 			margin-bottom: 4pt;
 			margin-top: 0;
 			opacity: 1;
 		}
 
-		&__org-name + .work__dates {
+		&__org-name+.work__dates {
 			&::before {
 				color: $color-offblack;
 			}
@@ -591,7 +616,8 @@ $icon-size: 32px;
 		&__resp {
 			&-heading {
 				font-family: $font-barlow;
-				font-weight: unset;
+				margin-bottom: 4pt;
+				margin-top: 4pt;
 			}
 
 			&-list-item {
@@ -631,7 +657,7 @@ $icon-size: 32px;
 
 			&-subheading {
 				display: inline;
-				font-size: 15pt;
+				font-size: 13pt;
 
 				&::after {
 					color: $color-offblack;
@@ -643,7 +669,7 @@ $icon-size: 32px;
 			}
 
 			&-list-item {
-				margin-bottom: 24pt;
+				margin-bottom: 8pt;
 			}
 		}
 	}
@@ -657,7 +683,7 @@ $icon-size: 32px;
 		.resume__section-subheading {
 			font-size: 13pt;
 
-			+ .resume__section-description {
+			+.resume__section-description {
 				&::before {
 					color: $color-offblack;
 				}
@@ -670,4 +696,5 @@ $icon-size: 32px;
 		display: none !important;
 	}
 }
+
 /* stylelint-enable */
