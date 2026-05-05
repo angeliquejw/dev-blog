@@ -30,7 +30,8 @@
 						"Established standards and documentation for the engineering team, specifically around accessibility and front-end performance"
 					],
 					"culture": [
-						"Built team operating processes for a fully remote, cross-functional team, including meeting structure and async documentation practices that supported team health as we scaled"
+                        "Built team operating processes for a hybrid cross-functional team, including meeting structure, async documentation practices, and onboarding systems that kept 70+ people aligned and moving",
+                        "Cultivated team culture and organizational health as the team scaled rapidly, creating connection and trust across a distributed team of state employees, contractors, and vendors"
 					]
 				},
 				{
@@ -44,7 +45,7 @@
 						"Git + GitHub",
 						"Jira"
 					],
-					"description": "Founded in 2012, Panorama Education helps students achieve academic success and well-being, and gives schools and school districts a platform to hear what families, students and teachers need in the classroom.",
+					"description": "Founded in 2012, Panorama Education helps students achieve academic success and well-being, and gives K-12 schools and school districts a platform to hear what families, students and teachers need in the classroom.",
 					"leadership": [
 						"Led change management for significant organizational shifts, including new team structures and revised processes — communicating proactively and adjusting course based on team feedback",
 						"Refined the promotion process for all engineers and led the collaborative biannual review process",
@@ -76,21 +77,20 @@
 					],
 					"description": "Founded in 2012, Lumen Learning uses open educational resources (OER) to provide affordable course materials that improve learning and replace expensive textbooks in high-enrollment college courses. Over 400 institutions across the U.S. use Lumen's award-winning digital courseware for in-person, online, and blended courses.",
 					"leadership": [
-						"Designed the engineering career framework from scratch — defining leveling criteria, role expectations, and growth pathways to provide the team clarity and the organization a foundation for equitable performance management",
-						"Scaled front-end team from 2 to 4 engineers, building hiring and onboarding processes rigorous and successful enough that the broader engineering org adopted them as standard practice",
-						"Improving and reconciling fragmented team workflows",
-						"Collaborating closely with product managers, developers and designer to scope and estimate work to achieve our product roadmap",
-						"Coaching 5 team members at a variety of skill levels",
-						"Organizing and running team meetings, including sprint planning and retrospectives"
+                        "Designed the engineering career framework from scratch — defining leveling criteria, role expectations, and growth pathways to provide the team clarity and the organization a foundation for equitable performance management",
+                        "Scaled front-end team from 2 to 4 engineers, building hiring and onboarding processes rigorous and successful enough that the broader engineering org adopted them as standard practice",
+                        "Identified and reconciled fragmented team workflows, establishing consistent practices across the team",
+                        "Coached 5 team members from junior to senior levels",
+                        "Designed and facilitated team meeting rhythms, including sprint planning and retrospectives, to keep a distributed team aligned and moving"
 					],
 					"delivery": [
-						"Planning and implementing front-end features and bug fixes across our products",
-						"Providing guidelines to developers and content team for creating inclusive and accessible markup and about testing with screen readers",
-						"Writing documentation and participating in code review"
+                        "Partnered with product and design to scope and sequence the roadmap, balancing delivery commitments with team capacity",
+                        "Provided guidelines to developers and content team for creating inclusive and accessible markup and about testing with screen readers",
+						"Wrote documentation and participated in code review"
 					],
 					"culture": [
-						"Conducting company-wide workshop on accessibility and inclusive design principles",
-						"Establishing and modeling engineering team norms, specifically around learning/professional development and employee wellness"
+                        "Conducted company-wide workshop on accessibility and inclusive design principles",
+                        "Established and modeled engineering team norms, specifically around learning, professional development, and employee wellness"
 					]
 				},
 				{
@@ -126,14 +126,14 @@
 						"Google Analytics",
 						"Mixpanel"
 					],
-					"description": "Fractured Atlas builds software and provides services to help over 500,000 artists and arts organizations handle the business side of their work, like raising money, tracking donors and selling event tickets.",
+                    "description": "Fractured Atlas supports over 500,000 artists and arts organizations handle the business side of their work, like raising money, tracking donors, and selling event tickets.",
 					"leadership": [
 						"Served as project lead for crowdfunding and fundraising tool (over $25 million annually)",
 						"Managed UX engineering team, including holding 1:1s and setting team priorities"
 					],
 					"delivery": [
-						"Provided coding guidelines for writing maintainable Sass and inclusive and accessible markup",
 						"Built and deployed design system to establish a consistent look and feel across a variety of applications",
+						"Provided coding guidelines for writing maintainable Sass and inclusive and accessible markup",
 						"Created site wireframes and prototypes to improve internal discussions and planning about site features and organization"
 					],
 					"culture": [
@@ -162,7 +162,7 @@
 					],
 					"delivery": [
 						"Led A-B testing of lead-generation forms to increase engagement and conversion. Lead funnel conversion increased from ~5% to more than 10% through improvements to copy, design and mobile layout.",
-						"Responsible for front-end development of our brand sites, online automotive shopping tools (for brands such as Time, AutoGuide, CNET and Kmart) and data-driven dashboards for our clients",
+						"Wrote front-end code for our brand sites, online automotive shopping tools (for brands such as Time, AutoGuide, CNET and Kmart) and data-driven dashboards for our clients",
 						"Created brand style guide and built component-based Sass stylesheets to make development more efficient",
 						"Developed wireframes and prototypes to improve internal discussions and planning about site features and organization"
 					]
@@ -202,8 +202,7 @@
 			"items": [
 				{
 					"title": "National Women In Tech Nonprofit",
-					"description": "Baltimore chapter leader and teacher from 2013–2017. Organized and presented hands-on workshops for women to learn web and software development. Coordinated teachers and volunteer teaching assistants across a wide variety of tech subjects. Built relationships with local companies and nonprofits who can provide space for our classes or other sponsorship opportunities. At the time I stepped down, the chapter had 1500+ members and had hosted 60+ events.",
-					"inactive": true
+					"description": "Baltimore chapter leader and teacher from 2013–2017. Organized and presented hands-on workshops for women to learn web and software development. Coordinated teachers and volunteer teaching assistants across a wide variety of tech subjects. Built relationships with local companies and nonprofits who can provide space for our classes or other sponsorship opportunities. At the time I stepped down, the chapter had 1500+ members and had hosted 60+ events."
 				}
 			]
 		},
