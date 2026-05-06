@@ -30,8 +30,8 @@
 						"Established standards and documentation for the engineering team, specifically around accessibility and front-end performance"
 					],
 					"culture": [
-                        "Built team operating processes for a hybrid cross-functional team, including meeting structure, async documentation practices, and onboarding systems that kept 70+ people aligned and moving",
-                        "Cultivated team culture and organizational health as the team scaled rapidly, creating connection and trust across a distributed team of state employees, contractors, and vendors"
+						"Built team operating processes for a hybrid cross-functional team, including meeting structure, async documentation practices, and onboarding systems that kept 70+ people aligned and moving",
+						"Cultivated team culture and organizational health as the team scaled rapidly, creating connection and trust across a distributed team of state employees, contractors, and vendors"
 					]
 				},
 				{
@@ -77,20 +77,20 @@
 					],
 					"description": "Founded in 2012, Lumen Learning uses open educational resources (OER) to provide affordable course materials that improve learning and replace expensive textbooks in high-enrollment college courses. Over 400 institutions across the U.S. use Lumen's award-winning digital courseware for in-person, online, and blended courses.",
 					"leadership": [
-                        "Designed the engineering career framework from scratch — defining leveling criteria, role expectations, and growth pathways to provide the team clarity and the organization a foundation for equitable performance management",
-                        "Scaled front-end team from 2 to 4 engineers, building hiring and onboarding processes rigorous and successful enough that the broader engineering org adopted them as standard practice",
-                        "Identified and reconciled fragmented team workflows, establishing consistent practices across the team",
-                        "Coached 5 team members from junior to senior levels",
-                        "Designed and facilitated team meeting rhythms, including sprint planning and retrospectives, to keep a distributed team aligned and moving"
+						"Designed the engineering career framework from scratch — defining leveling criteria, role expectations, and growth pathways to provide the team clarity and the organization a foundation for equitable performance management",
+						"Scaled front-end team from 2 to 4 engineers, building hiring and onboarding processes rigorous and successful enough that the broader engineering org adopted them as standard practice",
+						"Identified and reconciled fragmented team workflows, establishing consistent practices across the team",
+						"Coached 5 team members from junior to senior levels",
+						"Designed and facilitated team meeting rhythms, including sprint planning and retrospectives, to keep a distributed team aligned and moving"
 					],
 					"delivery": [
-                        "Partnered with product and design to scope and sequence the roadmap, balancing delivery commitments with team capacity",
-                        "Provided guidelines to developers and content team for creating inclusive and accessible markup and about testing with screen readers",
+						"Partnered with product and design to scope and sequence the roadmap, balancing delivery commitments with team capacity",
+						"Provided guidelines to developers and content team for creating inclusive and accessible markup and about testing with screen readers",
 						"Wrote documentation and participated in code review"
 					],
 					"culture": [
-                        "Conducted company-wide workshop on accessibility and inclusive design principles",
-                        "Established and modeled engineering team norms, specifically around learning, professional development, and employee wellness"
+						"Conducted company-wide workshop on accessibility and inclusive design principles",
+						"Established and modeled engineering team norms, specifically around learning, professional development, and employee wellness"
 					]
 				},
 				{
@@ -126,7 +126,7 @@
 						"Google Analytics",
 						"Mixpanel"
 					],
-                    "description": "Fractured Atlas supports over 500,000 artists and arts organizations handle the business side of their work, like raising money, tracking donors, and selling event tickets.",
+					"description": "Fractured Atlas supports over 500,000 artists and arts organizations handle the business side of their work, like raising money, tracking donors, and selling event tickets.",
 					"leadership": [
 						"Served as project lead for crowdfunding and fundraising tool (over $25 million annually)",
 						"Managed UX engineering team, including holding 1:1s and setting team priorities"
