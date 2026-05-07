@@ -386,30 +386,32 @@ $icon-size: 32px;
 		}
 	}
 
-	// &__tech {
-	//   &-heading {
-	//     font-family: $font-barlow;
-	//     font-size: 1rem;
-	//     font-weight: $font-regular;
-	//     margin-bottom: 0;
-	//     margin-top: $spacing-unit-sm;
-	//   }
+	&__tech {
+	  &-heading {
+	    font-family: $font-barlow;
+	    font-size: 1rem;
+	    font-weight: $font-regular;
+		display:inline-block;
+	    margin-bottom: 0;
+	    margin-top: 0;
+	  }
 
-	//   &-list {
-	//     &-item {
-	//       display: inline;
+	  &-list {
+		display:inline;
+	    &-item {
+	      display: inline;
 
-	//       &::after {
-	//         content: ", ";
-	//         display: inline;
-	//       }
+	      &::after {
+	        content: ", ";
+	        display: inline;
+	      }
 
-	//       &:last-child::after {
-	//         content: unset;
-	//       }
-	//     }
-	//   }
-	// }
+	      &:last-child::after {
+	        content: unset;
+	      }
+	    }
+	  }
+	}
 
 	&__resp {
 		&-heading {

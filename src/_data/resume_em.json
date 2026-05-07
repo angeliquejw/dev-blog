@@ -40,7 +40,7 @@
                     "start": "2021-10",
                     "end": "2024-02",
                     "tech": [
-                        "Vue",
+                        "Vue.js",
                         "Ruby on Rails",
                         "Git + GitHub",
                         "Jira"
@@ -48,13 +48,13 @@
                     "description": "Founded in 2012, Panorama Education helps students achieve academic success and well-being and gives schools and school districts a platform to hear what families, students, and teachers need in the classroom.",
                     "leadership": [
                         "Led teams through significant organizational shifts, including new team structures and revised processes, treating team feedback as a primary signal for when and how to adjust",
-                        "Refined how the engineering team supported customer support requests, including improvements to our cross-functional communication and tools",
                         "Owned performance management for direct reports, including setting clear goals and expectations, conducting regular 1:1s and reviews, and creating conditions for engineers to do their best work",
                         "Refined the engineering career ladder and promotion process, creating a system that gave engineers clear, equitable paths to growth",
                         "Coached and developed mainly senior engineers, including facilitating promotions for 4 engineers over 3 quarters"
                     ],
                     "technical": [
-                        "Partnered with product and design leads to own strategy and delivery across 3 cross-functional teams, setting clear goals, maintaining delivery health, and ensuring impact for users in 1,500+ school systems nationwide"
+                        "Partnered with product and design leads to own strategy and delivery across 3 cross-functional teams, setting clear goals, maintaining delivery health, and ensuring impact for users in 1,500+ school systems nationwide",
+                        "Refined how the engineering team supported customer support requests, including improvements to our cross-functional communication and tools"
                     ],
                     "culture": [
                         "Rebooted a dormant affinity group for women, gender-nonconforming and nonbinary employees, providing a point of connection and support for team members"
@@ -67,23 +67,20 @@
                     "end": "2021-09",
                     "tech": [
                         "React",
-                        "Vue",
+                        "Vue.js",
                         "TypeScript",
                         "Sass",
-                        "HTML5",
-                        "JavaScript",
                         "Ruby on Rails",
                         "Git + GitHub",
                         "Jira"
                     ],
                     "description": "Founded in 2012, Lumen Learning uses open educational resources (OER) to provide affordable course materials that improve learning and replace expensive textbooks in high-enrollment college courses. Over 400 institutions across the U.S. use Lumen's award-winning digital courseware for in-person, online, and blended courses.",
                     "leadership": [
-                        "Designed the engineering career framework from scratch \u2014 defining leveling criteria, role expectations, and growth pathways to provide the team clarity and the organization a foundation for equitable performance management",
+                        "Collaborated closely with product managers, developers, and designer to scope and estimate work to achieve our product roadmap",
+                        "Designed the engineering career framework from scratch — defining leveling criteria, role expectations, and growth pathways to provide the team clarity and the organization a foundation for equitable performance management",
                         "Scaled front-end team from 2 to 4 engineers, building hiring and onboarding processes rigorous and successful enough that the broader engineering org adopted them as standard practice",
                         "Identified and reconciled fragmented team workflows, establishing consistent practices across the team",
-                        "Collaborated closely with product managers, developers, and designer to scope and estimate work to achieve our product roadmap",
-                        "Coached 5 team members from junior to senior levels",
-                        "Organized and ran team meetings, including sprint planning and retrospectives"
+                        "Coached 5 team members from junior to senior levels"
                     ],
                     "technical": [
                         "Provided guidelines to developers and content team for creating inclusive and accessible markup and about testing with screen readers",
@@ -101,7 +98,6 @@
                     "end": "2021-02",
                     "tech": [
                         "Sass",
-                        "HTML5",
                         "JavaScript",
                         "Eleventy",
                         "Git + GitHub"
@@ -119,13 +115,10 @@
                     "end": "2019-10",
                     "tech": [
                         "Sass",
-                        "HTML5",
                         "JavaScript",
                         "Ruby on Rails",
                         "Elm",
-                        "Git + GitHub",
-                        "Google Analytics",
-                        "Mixpanel"
+                        "Git + GitHub"
                     ],
                     "description": "Fractured Atlas builds software and provides services to help over 500,000 artists and arts organizations handle the business side of their work, like raising money, tracking donors and selling event tickets.",
                     "leadership": [
@@ -149,12 +142,8 @@
                     "end": "2017-04",
                     "tech": [
                         "Sass",
-                        "HTML5",
                         "JavaScript",
                         "Visual Studio + TFS",
-                        "Google Analytics",
-                        "Optimizely",
-                        "Zeplin",
                         "Bootstrap"
                     ]
                 },
@@ -163,12 +152,10 @@
                     "start": "2004-09",
                     "end": "2014-06",
                     "tech": [
-                        "CSS",
+                        "Sass/CSS",
                         "PHP",
                         "WordPress",
-                        "HTML5",
-                        "JavaScript",
-                        "Google Analytics"
+                        "JavaScript"
                     ]
                 }
             ]
@@ -183,40 +170,6 @@
                 {
                     "title": "GitHub",
                     "url": "http://github.com/angeliquejw"
-                }
-            ]
-        },
-        {
-            "section": "Technical Expertise",
-            "slug": "skills",
-            "short_name": "Skills",
-            "mid_name": "Tech Expertise",
-            "items": [
-                {
-                    "title": "Languages",
-                    "details": [
-                        "Sass/CSS",
-                        "JavaScript",
-                        "HTML",
-                        "PHP",
-                        "Ruby"
-                    ]
-                },
-                {
-                    "title": "Frameworks + Libraries",
-                    "details": [
-                        "Vue.js",
-                        "React",
-                        "Ruby on Rails"
-                    ]
-                },
-                {
-                    "title": "Tools",
-                    "details": [
-                        "Version control",
-                        "Screen readers",
-                        "Jira"
-                    ]
                 }
             ]
         },
