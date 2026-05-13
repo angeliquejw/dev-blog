@@ -1,9 +1,35 @@
-Angélique Weger
+This doc includes content for 2 pages: the site homepage and the new hire-me page.
 
-<+> buttons inspired by https://digtext.github.io/
+# Homepage
+## Structure
+The top-level bullets (intro, recent blog posts, etc.) are included in the expected layout order.
+Subbullets are not in a specific order and can be adjusted as needed for the design.
 
-# Opening
+- Intro
+    - My name: Angélique Weger
+    - Illustration of me (src/assets/img/avatar.svg)
+    - Tags for identities (technologist, leader, partner, enthusiast). Bold text treatment for the individual words, plus a preview of the text up to the first <+> symbol. That symbol is a button that, when clicked, will reveal more of the text. (<+> buttons inspired by https://digtext.github.io/)
+- Call to action to hire me
+- Recent blog posts
+    - Title
+    - Date published
+    - Optional: preview of blog text
+    - Optional: read more link; if not used, the title can be the link
+    - Link to all blog posts
+    - DO NOT INCLUDE CATEGORIES OR TAGS on the blog post list/previews.
+- Footer
+    - Site nav links
+    - Site metadata (version number, copyright, repo link)
+    - RSS link
+    - Made with love by a human in Baltimore
+    - Link back up to top of page
 
+Also included on the homepage:
+- Links to Github, linkedin, email address
+- Light/dark mode toggle
+
+## Content
+### Intro
 Technologist - I like to build, explore, and organize, and technology is the primary tool I use to do those things. Also, to me, there's some optimism in this label, a belief that we can create and our creations can make things better. <+> Embracing this title and being optimistic about tech doesn't mean ignoring harms or seeking growth at all costs; those things, in fact, diminish my optimism. "If we say we’re “techno-optimists,” we are not saying that we are blind to technology’s problems. Optimism is not fanaticism." - Jonny Thomson, https://bigthink.com/the-future/techno-optimism/ Some who use the moniker "techno-optimist" appear to use it as a cover for greed and grandeur; it gets used to make demands. As I hold it, my techno-optimism is a challenge to me to do good with my tools and resources. Thanks to philosopher/ethicist John Danaher for his [defense of a moderate techno-optimism](https://link.springer.com/article/10.1007/s13347-022-00550-2) which has informed and improved my thinking around this.
 
 Leader - I don't know that I ever was a 10x software engineer, but creating and moving into leadership roles made me understand what 10x looks like. I consistently show up as a a force multiplier for teams. <+> Understanding and assessing group dynamics and investing in relationships are core to my approach. I believe strongly in the core approach of [Radical Candor](https://app.thestorygraph.com/books/66acc64a-8455-47ca-a164-1de7b4360e9d): Caring personally while challenging directly. I have a decade worth of experience leading teams, including existing teams, struggling teams, and building teams from scratch.
@@ -16,8 +42,7 @@ Partner - I'm an engaged collaborator and believe that building services and pro
 
 Enthusiast - "I just like liking things." <+> I'm predisposed to enthusiasm: I'm an enthusiastic learner, hobbyist, friend, worker. This shows up as me being excited and interested, but not zealotry. Liking things isn't that extreme.
 
-# Call to action
-
+### Call to action
 My next opportunity
 
 I’m seeking a leadership role in Product, Technology, or Operations where I serve as the bridge for your organizational strategy, transforming vision and goals into actionable plans with clear deliverables, meaningful metrics, and timely reporting. <Learn more>
@@ -30,7 +55,8 @@ I’m seeking a leadership role in Product, Technology, or Operations where I se
 - Reverse job posting examples
 )
 
-## Secondary page
+# Hire-me page
+## Content
 After a short break at the start of 2026, I am recharted and excited for my next opportunity. 
 
 I’m seeking a leadership role in Product, Technology, or Operations where I serve as the bridge for your organizational strategy, transforming vision and goals into actionable plans with clear deliverables, meaningful metrics, and timely reporting.
@@ -46,11 +72,9 @@ I'm open to full-time roles or short-term consulting work based in the Baltimore
 I'm specifically **not** interested in the following industries: weapons/defense/military/policing, cryptocurrency, fintech that does _not_ have a social impact angle, adtech, gambling.</aside>
 
 ### About me
-
 I bring a decade of experience building, leading, and improving teams. The shape and focus of those teams has varied over time, starting with a tiny team of two and most recently leading a 70-person cross-fucntional team including product, design, research, engineering, and project management.
 
-_How I shine_
-
+#### How I shine
 - Strong collaborator and relationship builder. I’ve regularly acted as a bridge between teams and functions. I see connections and opportunities, facilitate conversations, and build understanding between groups.
 - Diving in and building expertise. I have not worked in a single industry and, as a result, have developed effective systems for learning about new topics and environments. I’ve successfully applied this to a variety of subjects: automotive sales, nonprofit fundraising, pedagogy, ETL data pipelines, paid leave.
 - Building and scaling teams, including the processes to hire and promote team members.
@@ -72,9 +96,3 @@ I'd appreciate it if your message was specific about the organization you're con
 If you're not hiring, but want to give me feedback about other types of roles to consider or want to connect me with someone who is hiring, please reach out.
 
 If you made it this far down the page, I appreciate you and hope you're having a good day.
-
-# Back to homepage
-- Journal
-- Recent sky photo?
-- /now
-
