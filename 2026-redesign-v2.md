@@ -45,7 +45,7 @@ Around 30/100 — present but never the loudest thing on the page.
 - Typography should be a strong design element on the page.
 - Maxiumum of three typefaces:
     - Sans serif for body text; some possibilities:
-        - https://www.cdnfonts.com/consola-mono.font
+        X https://www.cdnfonts.com/consola-mono.font
         - https://www.cdnfonts.com/schibsted-grotesk.font
         - https://www.cdnfonts.com/literal.font
         - https://www.cdnfonts.com/polt.font
@@ -65,6 +65,18 @@ Around 30/100 — present but never the loudest thing on the page.
 - **No trailing period** after the name.
 - **No special color** on the é — let the diacritic stand on its own.
 - **Use the name once** per page. Avoid repeating it as a watermark, in headers, in the footer signature, etc.
+
+### My text checklist for font previews
+éga1lsASWQ /blog
+Angélique ANGÉLIQUE W
+proj techs
+PROJ BLOG TECHS
+
+é /blog projects about
+BLOG PROJ ABOUT
+TECHNOLOGIST ENTHUSIAST
+
+The team from 18F I worked with was deeply caring — for our mission and goals, for the sustainability of our Maryland team and for me as a leader. They were strong experts and valuable teammates.
 
 ---
 
