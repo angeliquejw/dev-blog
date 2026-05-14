@@ -57,6 +57,7 @@
     [ ] Resume
     [ ] About
 [ ] Use modern CSS instead of Sass
+[ ] Figure out CSS reloading (read: https://bobmonsour.com/blog/the-evolution-of-my-CSS-pipeline-in-eleventy-part-1/)
 [ ] Decide on fonts (am I really going to leave IBM Plex behind?)
 
 ## Done
