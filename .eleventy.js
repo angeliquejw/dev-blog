@@ -22,6 +22,10 @@ export default async function (eleventyConfig) {
 	eleventyConfig.addPlugin(markdownConfig);
 	eleventyConfig.addPlugin(shortcodesConfig);
 
+	eleventyConfig.addPassthroughCopy("./src/assets/styles/");
+ 	eleventyConfig.addWatchTarget("./src/assets/styles/")
+ 	eleventyConfig.addWatchTarget("./src/assets/styles/*/*")
+
 	eleventyConfig.setDataDeepMerge(true);
 
 	eleventyConfig.addLayoutAlias("post", "layouts/post.vto");

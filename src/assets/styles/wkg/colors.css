@@ -1,0 +1,109 @@
+:root {
+    /* https://coolors.co/cae364ff-814eb5ff-3fa3b5ff-0a1552ff */
+    --lime-cream: #cae364ff;
+    --deep-lilac: #814eb5ff;
+    --pacific-blue: #3fa3b5ff;
+    --deep-navy: #0a1552ff;
+
+    /* https://coolors.co/9d96b8ff-282f44ff-99e1d9ff-c3f73aff */
+    --lavender-grey: #9d96b8ff;
+    --space-indigo: #282f44ff;
+    --pearl-aqua: #99e1d9ff;
+    --chartreuse: #c3f73aff;
+
+    /* https://coolors.co/93b7be-0d1821-344966-bab700-ff579f */
+    --light-blue: #93b7beff;
+    --faded-copper: #91785dff;
+    --vintage-grape: #45425aff;
+    --petal-frost: #f2cee6ff;
+    --lime-cream: #f5ff90ff;
+
+    /* https://coolors.co/93b7be-0d1821-344966-bab700-ff579f */
+    --light-blue: #93b7beff;
+    --ink-black: #0d1821ff;
+    --yale-blue: #344966ff;
+    --old-gold: #bab700ff;
+    --deep-pink: #ff579fff;
+
+    /* https://coolors.co/b4adeaff-343434ff-2f3061ff-0e34a0ff-fdfff7ff */
+    --periwinkle: #b4adeaff;
+    --graphite: #343434ff;
+    --twilight-indigo: #2f3061ff;
+    --egyptian-blue: #0e34a0ff;
+    --porcelain: #fdfff7ff;
+
+    /* https://coolors.co/ef476fff-ffc43dff-8baaadff-484a47ff-273e47ff */
+    --bubblegum-pink: #ef476fff;
+    --amber-gold: #ffc43dff;
+    --cool-steel: #8baaadff;
+    --iron-grey: #484a47ff;
+    --charcoal-blue: #273e47ff;
+
+    /* https://coolors.co/a5ffd6ff-b3b5bbff-40434eff-c5d9e2ff-cdfff9ff */
+    --aquamarine: #a5ffd6ff;
+    --pale-slate: #b3b5bbff;
+    --charcoal-blue: #40434eff;
+    --pale-sky: #c5d9e2ff;
+    --frozen-water: #cdfff9ff;
+
+    /* https://coolors.co/485965ff-d1c6adff-bbada0ff-a1869eff-58641dff */
+    --blue-slate: #485965ff;
+    --pale-oak: #d1c6adff;
+    --khaki-beige: #bbada0ff;
+    --dusty-mauve: #a1869eff;
+    --olive-leaf: #58641dff;
+
+    /* https://coolors.co/9699afff-343434ff-2f3061ff-0e34a0ff-49dcb1ff */
+    --lavender-grey: #9699afff;
+    --graphite: #343434ff;
+    --twilight-indigo: #2f3061ff;
+    --egyptian-blue: #0e34a0ff;
+    --turquoise: #49dcb1ff;
+
+    /* https://coolors.co/9699afff-54457fff-4c243bff-b84a62ff-00fddcff */
+    --lavender-grey: #9699afff;
+    --dusty-grape: #54457fff;
+    --blackberry-cream: #4c243bff;
+    --berry-crush: #b84a62ff;
+    --aquamarine: #00fddcff;
+
+    /* https://coolors.co/556270ff-4ecdc4ff-c7f464ff-d564f4ff */
+    --blue-slate: #556270ff;
+    --strong-cyan: #4ecdc4ff;
+    --lime-cream: #c7f464ff;
+    --mauve-magic: #d564f4ff;
+
+    /* https://coolors.co/3f6c87ff-9dcf60ff-827586ff */
+    --blue-slate: #3f6c87ff;
+    --yellow-green: #9dcf60ff;
+    --dusty-mauve: #827586ff;
+
+    /* https://coolors.co/011566ff-cfafffff-c4e974ff */
+    --deep-twilight: #011566ff;
+    --mauve: #cfafffff;
+    --lime-cream: #c4e974ff;
+
+    /* https://coolors.co/67527dff-96bd0aff-6b7ab0ff */
+    --dusty-grape: #67527dff;
+    --lime-moss: #96bd0aff;
+    --glaucous: #6b7ab0ff;
+
+    /* https://coolors.co/79749cff-273d62ff-1f2c3cff-1c202bff */
+    --vintage-lavender: #79749cff;
+    --twilight-indigo: #273d62ff;
+    --jet-black: #1f2c3cff;
+    --shadow-grey: #1c202bff;
+
+    /* https://coolors.co/061444ff-240c4cff-9a91bcff-a5c0d1ff-0e3354ff */
+    --deep-navy: #061444ff;
+    --dark-amethyst: #240c4cff;
+    --lavender-grey: #9a91bcff;
+    --powder-blue: #a5c0d1ff;
+    --deep-space-blue: #0e3354ff;
+
+    /* https://coolors.co/79749cff-273d62ff-1f2c3cff-1c202bff */
+    --vintage-lavender: #79749cff;
+    --twilight-indigo: #273d62ff;
+    --jet-black: #1f2c3cff;
+    --shadow-grey: #1c202bff;
+}
